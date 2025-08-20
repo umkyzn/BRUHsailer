@@ -1,5 +1,5 @@
 {
-  "updatedOn": "2025-06-19",
+  "updatedOn": "2025-08-20",
   "title": "BRUHsailer Complete Guide",
   "chapters": [
     {
@@ -1525,7 +1525,7 @@
                   }
                 },
                 {
-                  "text": "It is most efficient to do ‘hoptodt’ - hopping to a game where the wintertodt is around 60-70% energy, then fletching logs to get (just over) 500 points barely in time, getting the crate and xp bonus, then hopping to the next world. This is highest firemaking xp ",
+                  "text": "It is most efficient to do ‘hoptodt’ - hopping to a game where the wintertodt is around 60-70% energy, then fletching logs to get (just over) 500 points barely in time, getting the reward card and xp bonus, then hopping to the next world. This is highest firemaking xp ",
                   "formatting": {}
                 },
                 {
@@ -1751,7 +1751,7 @@
                       }
                     },
                     {
-                      "text": "Note that you can only get magic logs by opening crates after level 50 woodcutting, so don’t open any crates before that point! ",
+                      "text": "Note that you can only get magic logs by looting the reward cart after level 50 woodcutting, so don’t open any rewards before that point! ",
                       "formatting": {
                         "italic": true,
                         "color": {
@@ -1762,7 +1762,7 @@
                       }
                     },
                     {
-                      "text": "Furthermore, the chance of getting them massively increases at level 60 woodcutting. It is therefore recommended to only open crates at ",
+                      "text": "Furthermore, the chance of getting them massively increases at level 60 woodcutting. It is therefore recommended to only open the reward cart at ",
                       "formatting": {
                         "italic": true,
                         "color": {
@@ -2049,7 +2049,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Quite a few people worry about minmaxing the crate loot. It doesn’t matter that much, training skills up for better loot is ",
+                      "text": "Quite a few people worry about minmaxing the loot. It doesn’t matter that much, training skills up for better loot is ",
                       "formatting": {
                         "bold": true
                       }
@@ -2062,7 +2062,7 @@
                       }
                     },
                     {
-                      "text": " worth it. The optimal way to open crates is:\n",
+                      "text": " worth it. The optimal way to open reward carts is:\n",
                       "formatting": {
                         "bold": true
                       }
@@ -2073,7 +2073,7 @@
                   "level": 2,
                   "content": [
                     {
-                      "text": "Wait until 60 woodcutting to open any crates",
+                      "text": "Wait until 60 woodcutting to open any rewards",
                       "formatting": {
                         "underline": true
                       }
@@ -2088,7 +2088,7 @@
                   "level": 2,
                   "content": [
                     {
-                      "text": "If you have remaining crates after the above step, wait until you have completed the Digsite quest to open the rest.\n",
+                      "text": "If you have remaining reward cart pulls after the above step, wait until you have completed the Digsite quest to open the rest.\n",
                       "formatting": {}
                     }
                   ]
@@ -2097,11 +2097,11 @@
                   "level": 2,
                   "content": [
                     {
-                      "text": "Do not wait for other levels (herblore, farming, etc.) with opening the crates. If you have more crates open them ",
+                      "text": "Do not wait for other levels (herblore, farming, etc.) with collecting the rewards. If you have more rewards then collect them ",
                       "formatting": {}
                     },
                     {
-                      "text": "as soon as you can use the rewards",
+                      "text": "as soon as you can use the loot",
                       "formatting": {
                         "italic": true
                       }
@@ -2116,7 +2116,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "After opening all of the crates, we assume that you have exactly 128k GP as a baseline, as well as the money for 46 fletching. HCIM will need a bit more (get 200k to be safe).",
+                      "text": "After opening all of the rewards, we assume that you have exactly 128k GP as a baseline, as well as the money for 46 fletching. HCIM will need a bit more (get 200k to be safe).",
                       "formatting": {
                         "color": {
                           "r": 1,
@@ -4008,11 +4008,31 @@
                   }
                 },
                 {
-                  "text": " all raw fish from tempoross",
+                  "text": " all raw fish from Tempoross, but save at least one raw swordfish for making a swordchick at the Tower of Life later for the Ardougne medium diary",
                   "formatting": {}
                 },
                 {
-                  "text": ") between the games to replenish run energy (you can 2t cook it), make sure you have at least 10 trout for Death Plateau and 15 salmon for In Aid of the Myreque. Grab your GP, blackjack and a POH tab (equip full rogues), run south and complete Fishing Contest.",
+                  "text": ") between the games to replenish run energy (you can 2t cook it). ",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "M",
+                  "formatting": {}
+                },
+                {
+                  "text": "ake sure you have at least 10 trout for Death Plateau and 15 salmon for In Aid of the Myreque, and ",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "got to at least level 43 cooking",
+                  "formatting": {}
+                },
+                {
+                  "text": ". Grab your GP, blackjack and a POH tab (equip full rogues), run south and complete Fishing Contest.",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -4665,7 +4685,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Teleport to Varrock and run to the bank, grab coins, home and camelot teleport runes (air, earth, law), fire strikes, a spade, a steel axe and four soft clay (unnoted).\n",
+                      "text": "Teleport to Varrock and run to the bank, grab coins, home and camelot teleport runes (air, earth, law), wind strikes, a spade, a steel axe and four soft clay (unnoted).\n",
                       "formatting": {}
                     }
                   ]
@@ -4673,7 +4693,7 @@
               ],
               "metadata": {
                 "gp_stack": "775697 gp",
-                "items_needed": "4840 gp, desert clothes, air/earth runes, law runes, 4 soft clay, barcrawl card, trout, steel axe, small fishing net, staff of fire, spade, cakes",
+                "items_needed": "4840 gp, desert clothes, earth runes, law runes, mind runes, 4 soft clay, barcrawl card, trout, steel axe, small fishing net, staff of air, spade, cakes",
                 "skills_quests_met": "yes",
                 "total_time": "5d4h"
               }
@@ -6654,7 +6674,7 @@
                   "formatting": {}
                 },
                 {
-                  "text": "Teleport to Camelot, pay the estate agent to move your POH to Rellekka. ",
+                  "text": "Teleport to Camelot, pay the estate agent to move your POH to Rellekka. Grab",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -6665,11 +6685,37 @@
                   }
                 },
                 {
-                  "text": "B",
+                  "text": " premade gnome food/your best ",
                   "formatting": {}
                 },
                 {
-                  "text": "ring food along with the items needed below (check the list",
+                  "text": "food, a knife, a dramen branch",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": ", your recoil rings, a ring of dueling and POH teleport runes (no staff). House teleport, do the Thorvald/Koschei fight converting one of the dramen branches into a staff ",
+                  "formatting": {}
+                },
+                {
+                  "text": "during",
+                  "formatting": {
+                    "bold": true,
+                    "underline": true
+                  }
+                },
+                {
+                  "text": " the fight (using the aggressive style). Teleport to clan wars after. Grab Camelot teleport runes and the ",
+                  "formatting": {}
+                },
+                {
+                  "text": "items needed below (check the list",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -6684,7 +6730,7 @@
                   "formatting": {}
                 },
                 {
-                  "text": ". Run to Galahad’s house and obtain the holy table napkin (Holy Grail) and have him make you a cup of tea (diary). Cross the coal truck log shortcut and mine a coal for the diary. House teleport, buy a workshop and build a crafting table 2, make five clockworks. Drop your dramen branch, knife, recoil rings, dueling ring, food, have Peer the Seer bank the rest of your items, pick it all up, do the Thorvald/Koschei fight converting one of the dramen branches into a staff ",
+                  "text": ". ",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -6695,35 +6741,41 @@
                   }
                 },
                 {
-                  "text": "during",
-                  "formatting": {
-                    "bold": true,
-                    "underline": true,
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": " the fight (",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "using the aggressive style",
+                  "text": "Teleport to Camelot, r",
                   "formatting": {}
                 },
                 {
-                  "text": "), then do the Peer the Seer step (juggle dueling or home teleport after), teleport to castle wars with your dueling ring/Lumbridge, rebank and teleport to your house, complete The Fremennik Trials. Mine a coal and then a silver in the mine, smelt it into a bar and make it into a tiara for the diary. Browse Yrsa’s Shoe Store for the diary, steal from the fish stall, collect a pet rock, take the boat to Waterbirth Island and collect 5 snape grass for the diary (can pick up and re-drop one, but collect at least 2). ",
+                  "text": "un to Galahad’s house and obtain the holy table napkin (Holy Grail) and have him make you a cup of tea (diary). Cross the coal truck log shortcut and mine a coal for the diary. House teleport, buy a workshop and build a crafting table 2, make five clockworks. ",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "H",
+                  "formatting": {}
+                },
+                {
+                  "text": "ave Peer the Seer bank ",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "all your items except juggle a dueling ring for speed if you want, then ",
+                  "formatting": {}
+                },
+                {
+                  "text": "do the Peer the Seer step (juggle dueling or home teleport after), teleport to castle wars with your dueling ring/Lumbridge, rebank and teleport to your house, complete The Fremennik Trials. Mine a coal and then a silver in the mine, smelt it into a bar and make it into a tiara for the diary. Browse Yrsa’s Shoe Store for the diary, steal from the fish stall, collect a pet rock, take the boat to Waterbirth Island and collect 5 snape grass for the diary (can pick up and re-drop one, but collect at least 2). ",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -6741,7 +6793,7 @@
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "469246 gp",
-                "items_needed": "20000 gp, rune pickaxe, air runes, earth staff, law runes, saw, hammer, 4 oak planks, 1 molten glass, 5 steel bars, 1 raw shark, salmon, tiara mould, dramen branch, knife, lyre, tankard, talisman(?)",
+                "items_needed": "20000 gp, rune pickaxe, air runes, earth staff, law runes, saw, hammer, 4 oak planks, 1 molten glass, 5 steel bars, 1 raw shark, salmon, tiara mould, dramen branch, knife, premade gnome food, 2 sapphire rings, lyre, tankard, talisman(?)",
                 "skills_quests_met": "yes",
                 "total_time": "5d17h"
               }
@@ -8850,7 +8902,11 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Charter a ship to Brimhave",
+                      "text": "Run back to the Catherby docks, c",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "harter a ship to Brimhave",
                       "formatting": {
                         "color": {
                           "r": 0,
@@ -11827,7 +11883,21 @@
             {
               "content": [
                 {
-                  "text": "Buy cosmic runes at the mage arena (the usual clan wars/dueling teleport to Ferox to get to Edgeville) until you have 4900 total. Charge 1590 earth orbs (with corp suicide method. This costs ~33 tabs, 7 games necklaces and ",
+                  "text": "Teleport to Varrock, then run to the quetzal to travel to Civitas illa Fortis. Start and complete Twilight’s Promise - this requires two combat styles (mage and melee recommended). From this point on you can include the Kastori fruit tree and calquat tree patch in your tree runs (if you have the appropriate farming level and spare seeds). Travel to Tal Teklan by quetzal. If you have at least 37 construction, start and complete Scrambled!. ",
+                  "formatting": {}
+                },
+                {
+                  "text": "Buy cosmic runes at t",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "he Tal Teklan Rune Shop ",
+                  "formatting": {}
+                },
+                {
+                  "text": "until you have 4900 total. Charge 1590 earth orbs (with corp suicide method. This costs ~33 tabs, 7 games necklaces and ",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -12041,7 +12111,7 @@
               ],
               "metadata": {
                 "gp_stack": "5987 gp",
-                "items_needed": "247500 gp (to buy 4400 cosmics), knife, 1590 unpowered orbs, many Wizard Mind Bombs, 33 Paddewwa tabs (66 if HCIM), 7 games necklaces (0 if HCIM), 5 rings of dueling, earth staff, 4770 cosmic runes",
+                "items_needed": "Wind strikes, rune sword, food, 247500 gp (to buy 4400 cosmics), knife, 1590 unpowered orbs, many Wizard Mind Bombs, 33 Paddewwa tabs (66 if HCIM), 7 games necklaces (0 if HCIM), 5 rings of dueling, earth staff, 4770 cosmic runes",
                 "skills_quests_met": "yes",
                 "total_time": "8d17h"
               }
@@ -12737,7 +12807,7 @@
               "formatting": {}
             },
             {
-              "text": "20250614Chapter1",
+              "text": "20250820Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -12760,7 +12830,7 @@
               "formatting": {}
             },
             {
-              "text": "20250614Chapter2",
+              "text": "20250820Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -12781,7 +12851,7 @@
               "formatting": {}
             },
             {
-              "text": "20250614Chapter3",
+              "text": "20250820Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -12802,7 +12872,7 @@
               "formatting": {}
             },
             {
-              "text": "20250309DetailedStepsGuide",
+              "text": "20250820DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -13056,8 +13126,24 @@
         {
           "content": [
             {
+              "text": "20250820ChangelogBRUHsailer.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/1todnvJCMupQ5UkmeQ1WBNkLHf99GKt3b/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
               "text": "\n",
-              "formatting": {}
+              "formatting": {
+                "fontSize": 13
+              }
             }
           ],
           "type": "chapter_footnote"
@@ -13177,7 +13263,17 @@
                   "formatting": {}
                 }
               ],
-              "nestedContent": [],
+              "nestedContent": [
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "To clarify: at first you need to do smaller inventories where you bring charged orbs with you to make the staves in the shop to get started, and alch the staves on the spot. Repeat this a few times until you have enough of a cash stack to buy 1-2 inventories of battlestaves at once, then transition to a method where you make the staves during artefacts instead.\n",
+                      "formatting": {}
+                    }
+                  ]
+                }
+              ],
               "metadata": {
                 "gp_stack": "162k gp",
                 "items_needed": "cash stack, 100 earth orbs,",
@@ -14357,7 +14453,32 @@
                   "formatting": {}
                 },
                 {
-                  "text": "ank, do Spirits of the Elid (use your necklace of passage to Eagle’s Eyrie to save some time). On the run back south to Nardah catch an orange salamander, make a combat potion",
+                  "text": "ank, do Spirits of the Elid (use your necklace of passage to Eagle’s Eyrie to save some time - note that the",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": " costume needle ",
+                  "formatting": {}
+                },
+                {
+                  "text": "does not work",
+                  "formatting": {
+                    "italic": true
+                  }
+                },
+                {
+                  "text": " for this quest",
+                  "formatting": {}
+                },
+                {
+                  "text": "). On the run back south to Nardah catch an orange salamander, make a combat potion",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -14416,7 +14537,7 @@
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "1.5m gp",
-                "items_needed": "cash stack, rune sword, swordfish, waterskins, yew logs, grimy harralander, vial of water, pestle+mortar, necklace of passage, small fishing net, rope, law runes, air staff, light source, knife, rune pickaxe, yew longbow, steel arrows, needle, 2 thread, desert clothing, prayer potions",
+                "items_needed": "cash stack, rune sword, swordfish, waterskins, yew logs, grimy harralander, vial of water, pestle+mortar, necklace of passage, small fishing net, rope, law runes, air staff, light source, knife, rune pickaxe, yew longbow, steel arrows, regular needle, 2 thread, desert clothing, prayer potions",
                 "skills_quests_met": "yes",
                 "total_time": "10d10h"
               }
@@ -15231,7 +15352,17 @@
             {
               "content": [
                 {
-                  "text": "Minigame teleport to Shades of Mort’ton, buy a limestone (if you already have this from wintertodt skip it), a plank and 8 limestone bricks from Razmire (or do this after the quest), do Haunted Mine. Collect ",
+                  "text": "Minigame teleport to Shades of Mort’ton, buy a limestone (if you already have this from wintertodt skip it), a plank and 8 limestone bricks from Razmire (or do this after the quest), do Haunted Mine. If you have any poisoned weapon (or ammunition), use that to inflict poison on Treus Dayth to speed up the fight and make it much easier.",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": " ",
+                  "formatting": {}
+                },
+                {
+                  "text": "Collect ",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -15254,7 +15385,7 @@
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "1.5m gp",
-                "items_needed": "Iban staff, death runes, fire runes, ball of wool, chisel, energy potions, prayer potions, swordfish, premade choc bombs",
+                "items_needed": "Iban staff, death runes, fire runes, ball of wool, chisel, energy potions, prayer potions, swordfish, premade choc bombs, any poisoned weapon or ammunition",
                 "skills_quests_met": "yes",
                 "total_time": "10d21h"
               }
@@ -15458,7 +15589,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "720k gp",
+                "gp_stack": "700k gp",
                 "items_needed": "780k gp, energy potions, gold gauntlets, ring of charos (a)",
                 "skills_quests_met": "yes",
                 "total_time": "11d9h"
@@ -15547,7 +15678,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "640k gp",
+                "gp_stack": "620k gp",
                 "items_needed": "cash stack, dramen staff, nature runes, fire runes, gold bars, rune sword, amulet of strength, berserker helm, etc.",
                 "skills_quests_met": "yes",
                 "total_time": "11d10h"
@@ -15591,7 +15722,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "545k gp",
+                "gp_stack": "525k gp",
                 "items_needed": "rune sword, amulet of strength, berserker helm, etc. (henceforth ‘melee gear’)",
                 "skills_quests_met": "yes",
                 "total_time": "11d12h"
@@ -15771,7 +15902,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "790k gp",
+                "gp_stack": "720k gp",
                 "items_needed": "1.1k gold bars, nature runes, granite body, rune platelegs, Iban staff, death runes, fire runes, berserker helm, amulet of magic, antipoisons, premade chocolate bombs(/other high healing food, if you have any), etc. (standard Rex gear), air staff, earth runes, water runes, fire runes, chaos runes, bronze sword, steel arrow, molten glass, tinderbox, hammer, 60 steel nails, 1 swamp tar, scorpion cage",
                 "skills_quests_met": "yes",
                 "total_time": "11d20h"
@@ -15780,7 +15911,7 @@
             {
               "content": [
                 {
-                  "text": " Optional and recommended: go to the PVP Arena and imbue your berserker ring. The PVP Arena method involves either an alt/friend to boost points (go at off-peak hours, hope to get matched with each other, quickly die to the other/kill the other for points, repeat) or just suiciding to randoms for quick points ",
+                  "text": "Optional and recommended: go to the PVP Arena and imbue your berserker ring. The PVP Arena method involves either an alt/friend to boost points (go at off-peak hours, hope to get matched with each other, quickly die to the other/kill the other for points, repeat) or just suiciding to randoms for quick points ",
                   "formatting": {}
                 },
                 {
@@ -15853,7 +15984,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "650k gp",
+                "gp_stack": "720k gp",
                 "items_needed": "cash stack, melee gear (incl. torso/ring now), Commorb, swamp paste, 20 pure essence, chisel, necklace of passage, law runes, water runes, air runes, ardougne cloak 1, bird snare, rune pickaxe",
                 "skills_quests_met": "yes",
                 "total_time": "12d9h"
@@ -16034,7 +16165,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "80k",
+                "gp_stack": "150k",
                 "items_needed": "cash stack, dramen staff, iron bar, rune pickaxe, rune axe, gold ring (BH runs), cake or oak shortbow (your choice), energy potions, melee gear, prayer potions, swordfish",
                 "skills_quests_met": "yes",
                 "total_time": "12d10h"
@@ -16096,7 +16227,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "80k",
+                "gp_stack": "150k",
                 "items_needed": "cash stack, melee gear, swordfish, prayer potions, energy potions, rune pickaxe, mine key",
                 "skills_quests_met": "yes",
                 "total_time": "12d11h"
@@ -16230,7 +16361,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "0 gp",
+                "gp_stack": "60k gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "15d10h"
@@ -16325,7 +16456,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "42k gp",
+                "gp_stack": "105k gp",
                 "items_needed": "cash stack, Fremennik boots 1, 7 coal, 9 ropes, knife, rune axe, hammer, bronze nail, needle, 2 thread, melee gear, swordfish/premade choc bombs, prayer potions, cut sapphire, mithril bar, silver bar, rod mould, cosmic rune, water runes",
                 "skills_quests_met": "yes",
                 "total_time": "15d10h"
@@ -16346,7 +16477,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "42k gp",
+                "gp_stack": "105k gp",
                 "items_needed": "tinderbox, bullseye lantern (might still be a sapphire lantern from Tears of Guthix, just swap it out), melee gear, swordfish, energy potions, prayer potions, clean guam, clean marrentill, pestle and mortar, dramen staff",
                 "skills_quests_met": "yes",
                 "total_time": "15d11h"
@@ -16371,7 +16502,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "42k gp",
+                "gp_stack": "105k gp",
                 "items_needed": "cat, 9 stews, tiara, mind talisman, 10 pure essence, binding necklace, earth talisman, earth runes, dramen staff, blank air rune, blank water rune, blank earth rune, blank fire rune, blank mind rune",
                 "skills_quests_met": "yes",
                 "total_time": "15d12h"
@@ -16416,7 +16547,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "12k gp",
+                "gp_stack": "75k gp",
                 "items_needed": "law runes, air runes, earth runes, water runes, seal of passage, cash stack, bowl of water, rune pickaxe, hammer, needle, 2 thread, 4 suqah hide, tinderbox, spade, energy potions, prayer potions, swordfish, small pouch, medium pouch, large pouch, cosmic runes, astral runes, staff of air, chisel, abyssal book.",
                 "skills_quests_met": "yes",
                 "total_time": "15d13h"
@@ -16470,7 +16601,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "12k gp",
+                "gp_stack": "75k gp",
                 "items_needed": "bowl of hot water, 1 harralander, 2 guam, 2 marrentill, energy potions, prayer potions, air staff, law runes, water runes, scorpion cage",
                 "skills_quests_met": "yes"
               }
@@ -16531,7 +16662,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "12k gp",
+                "gp_stack": "75k gp",
                 "items_needed": "cash stack, emerald lantern, lantern lens, tinderbox, 10 oak planks, 10 steel nails, hammer, spade, dramen staff, butterfly net, butterfly jar, teasing stick, knife, any log, water staff, law runes, cat, ardougne cloak 1",
                 "skills_quests_met": "yes",
                 "total_time": "15d14h"
@@ -16612,7 +16743,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "12k gp",
+                "gp_stack": "75k gp",
                 "items_needed": "cash stack, rune axe, earth runes (or staff), air runes (or staff), death runes, raw karambwanji, anti-dragon shield, melee gear, swordfish, energy potions, prayer potions, antipoison, steel spear, small fishing net, 4-dose agility potion, tinderbox, necklace of passage (for two sections ahead)",
                 "skills_quests_met": "yes",
                 "total_time": "15d15h"
@@ -16659,7 +16790,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "14k gp",
+                "gp_stack": "77k gp",
                 "items_needed": "cash stack, karambwan vessel, Iban staff, death runes, fire runes, 2+ logs, tinderbox, noted semi-precious gems (sell to Gabooty for trading sticks), banana-rum, seaweed, monkey skin, jogre bones, raw karambwanji, pestle and mortar, teasing stick, knife, necklace of passage (next)",
                 "skills_quests_met": "yes",
                 "total_time": "15d16h"
@@ -16706,7 +16837,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "14k gp",
+                "gp_stack": "77k gp",
                 "items_needed": "necklace of passage",
                 "skills_quests_met": "yes",
                 "total_time": "15d16h"
@@ -16753,7 +16884,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "14k gp",
+                "gp_stack": "77k gp",
                 "items_needed": "Dueling ring (next section)",
                 "skills_quests_met": "yes",
                 "total_time": "15d16h"
@@ -16830,7 +16961,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "14k gp",
+                "gp_stack": "77k gp",
                 "items_needed": "cash stack, waterskins, dueling ring, Camulet, stone scarab, air runes (or staff), death runes, fire runes (or staff), swordfish, prayer potions, antipoison, light source, catspeak amulet",
                 "skills_quests_met": "yes",
                 "total_time": "15d17h"
@@ -16881,7 +17012,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "12k gp",
+                "gp_stack": "75k gp",
                 "items_needed": "cash stack, stodgy mattress, semi-precious gems, sapphires, Ardy Cloak 1, dramen staff, teasing stick, knife, regular logs, hammer, chisel, melee gear, dueling ring, energy potions, games necklace (next)",
                 "skills_quests_met": "yes (follow wiki steps to obtain the remaining items during the quest)",
                 "total_time": "15d18h"
@@ -16943,7 +17074,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "12k gp",
+                "gp_stack": "75k gp",
                 "items_needed": "stodgy mattress, games necklace, catspeak amulet, hellcat, 4 cheese, empty vial, 2 red spider’s eggs, kwuarm, marrentill, unicorn horn dust, bucket of milk, karambwanji or other fish (for cat), limpwurt root, law runes, air runes, fire runes",
                 "skills_quests_met": "yes",
                 "total_time": "15d18h"
@@ -16975,7 +17106,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "12k gp",
+                "gp_stack": "75k gp",
                 "items_needed": "law runes, earth runes, air runes, two molten glass, plank, silk, steel bar, hellcat, catspeak amulet, pot, weeds, tinderbox, golden cannonball, dwarven lore book (for the third page)",
                 "skills_quests_met": "yes",
                 "total_time": "15d19h"
@@ -17039,7 +17170,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "12k gp",
+                "gp_stack": "75k gp",
                 "items_needed": "doctor’s hat, desert shirt/robe, vial of water, law runes, water staff, melee gear + rune pickaxe, prayer potions, hammer, ring of charos(a), Ardy Cloak 1, penguin suit",
                 "skills_quests_met": "yes",
                 "total_time": "15d19h"
@@ -17048,7 +17179,7 @@
             {
               "content": [
                 {
-                  "text": "Continue One Small Favour, all the way from Seers’ Village to Horvik in Varrock. When at the White Wolf Mountain take the gnome glider to Feldip Hills and back for the diary, speak with Khorvak under White Wolf Mountain for Between a Rock…, when in Barbarian Village make a second pot lid for Swan Song, enter the Stronghold of Security and collect an imbued skull sceptre and spend one charge to teleport for the diary",
+                  "text": "Continue One Small Favour, all the way from Seers’ Village to Horvik in Varrock. When at the White Wolf Mountain speak with Khorvak under White Wolf Mountain for Between a Rock…, when in Barbarian Village make a second pot lid for Swan Song, enter the Stronghold of Security and collect an imbued skull sceptre and spend one charge to teleport for the diary",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -17075,7 +17206,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "12k gp",
+                "gp_stack": "75k gp",
                 "items_needed": "law runes, air staff, hammer, dueling ring, melee gear, swordfish, prayer potions, energy potions, dwarven stout (on table), 2 soft clay, fire runes, herbal tincture (reclaim from Apothecary instead), 5 pigeon cages, fancy/fighter boots (to imbue the sceptre).",
                 "skills_quests_met": "yes (listen to the wiki when it tells you to pick up items to save time later)",
                 "total_time": "15d20h"
@@ -17137,7 +17268,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "12k gp",
+                "gp_stack": "75k gp",
                 "items_needed": "catspeak amulet, law runes, air staff, earth runes (all for next section)",
                 "skills_quests_met": "yes",
                 "total_time": "15d20h"
@@ -17201,7 +17332,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "11k gp",
+                "gp_stack": "74k gp",
                 "items_needed": "penguin suit, evil stew, air runes, water rune, law rune",
                 "skills_quests_met": "yes (listen to the wiki when it tells you to steal a bell and grab items)",
                 "total_time": "15d20h"
@@ -17263,7 +17394,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "11k gp",
+                "gp_stack": "74k gp",
                 "items_needed": "cash stack, chicken cages, blunt axe, hellcat, catspeak amulet, snake charm, charos(a), bucket of milk, egg, pot of flour, cake tin",
                 "skills_quests_met": "yes",
                 "total_time": "15d20h"
@@ -17320,7 +17451,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "12k gp",
+                "gp_stack": "74k gp",
                 "items_needed": "cash stack, ring of charos(a), sharpened axe, penguin suit, swamp tar, 5 feathers, mission report, mahogany plank, soft leather, cowbell (stolen in Step 57), swordfish, melee gear, prayer potions, spade, Ectophial, ghostspeak amulet, sapphire amulet, Fremennik boots 1, necklace of passage, law runes, water staff, enchanted key, dueling ring (to get to Castle Wars for the first step in Making History, but also rebank at Ferox), air runes, earth rune",
                 "skills_quests_met": "no (earlier items only)",
                 "total_time": "15d21h"
@@ -17378,7 +17509,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "12k gp",
+                "gp_stack": "74k gp",
                 "items_needed": "Ardy Cloak 1, dramen staff, energy pots, rope, waterskins, Camulet, hellcat, catspeak amulet",
                 "skills_quests_met": "yes",
                 "total_time": "15d21h"
@@ -17414,7 +17545,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "31k gp",
+                "gp_stack": "93k gp",
                 "items_needed": "cash stack (only take 7.5k into Wildy), 3 gold bars, slash item/weapon, hammer, pickaxe (for Wildy med diary, so addy instead of rune for example), melee gear, prayer pots, swordfish",
                 "skills_quests_met": "yes",
                 "total_time": "15d21h"
@@ -17708,7 +17839,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "200k gp",
+                "gp_stack": "280k gp",
                 "skills_quests_met": "yes",
                 "total_time": "16d22h"
               }
@@ -17852,7 +17983,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "225k gp",
+                "gp_stack": "305k gp",
                 "items_needed": "cash stack, 10 mist runes, 10 lava runes, 5 blood runes, airtight pot, rune pickaxe, rune axe, tinderbox, hammer, ring of charos(a), dramen staff, Ardy Cloak 1, melee gear, prayer pots, swordfish, yellow dye, swamp tar, necklace of passage, rope, energy pots, teasing stick, box trap, rabbit snare, law runes, soul runes",
                 "skills_quests_met": "yes",
                 "total_time": "17d1h"
@@ -18013,7 +18144,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "225k",
+                "gp_stack": "305k gp",
                 "items_needed": "knife, teak log, barbarian rod, feathers, 2-dose potions",
                 "skills_quests_met": "yes",
                 "total_time": "22d4h"
@@ -18024,9 +18155,6 @@
                 {
                   "text": "Swap to the regular spellbook. Complete Recipe for Disaster by following the steps below:\n",
                   "formatting": {}
-                },
-                {
-                  "text": "GP stack:"
                 }
               ],
               "nestedContent": [
@@ -18077,6 +18205,7 @@
                 }
               ],
               "metadata": {
+                "gp_stack": "180k gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "22d9h"
@@ -18327,7 +18456,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "215k gp",
+                "gp_stack": "173k gp",
                 "items_needed": "cash stack, cut diamond, melee gear (now incl. dscim/DDS), mithril armour set, prayer potions, stat-boosting potions, cheese potatoes (buy in guild)",
                 "skills_quests_met": "yes",
                 "total_time": "22d17h"
@@ -18414,7 +18543,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "215k",
+                "gp_stack": "173k gp",
                 "items_needed": "melee gear, cheese potatoes, stat-boosting potions, prayer potions, a defence potion (3 dose), volcanic sulphur, molten glass, dark essence block, an axe, fire bolt runes",
                 "skills_quests_met": "yes",
                 "total_time": "22d20h"
@@ -18514,7 +18643,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "215k gp",
+                "gp_stack": "173k gp",
                 "items_needed": "melee gear (as mentioned), looting bag, cheese potatoes, stat-boosting pots, runes for thralls",
                 "skills_quests_met": "yes",
                 "total_time": "23d12h"
@@ -18577,7 +18706,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "215k gp",
+                "gp_stack": "173k gp",
                 "items_needed": "1.4k bones, melee gear (for PC)",
                 "skills_quests_met": "yes",
                 "total_time": "23d12h"
@@ -18599,7 +18728,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "1.9m gp",
+                "gp_stack": "1.8m gp",
                 "items_needed": "green dragonhides, coins, nature runes, staff of fire, maple logs, knife, steel nails, feathers, Kharedst’s memoirs, log basket",
                 "total_time": "23d16h"
               }
@@ -18607,7 +18736,7 @@
             {
               "content": [
                 {
-                  "text": "You should be level 51 (or higher) slayer. Make sure you have finished the Curse of the Empty Lord miniquest (if you haven’t, do it now, putting the lamp on slayer). Teleport to Varrock, make sure to grab the Dragon’hai history book from the Varrock Palace library if you don’t already have it, pray at the altar in the palace with smite active. Run east to the quatzel to go to Varlamore and do Twilight’s Promise, Meat and Greet and At First Light (note: the hunter rumours are currently not efficient, but if you want the rewards you can go for them at any time after this quest). During At First Light catch a Sunlight antelope (east end of the island, requires level 72 hunter, a teasing stick, knife and logs - grab a Trapper’s tipple or two at the hunter’s guild for a +2 boost if needed) and kill a jaguar for their fur. At the hunter’s guild buy two mixed hide bases, and either pay Pellem to have the furs made into mixed hide boots (your best ranged boots for now) and a mixed hide cape (your best melee cape for now) or boost your crafting level if you have a spare mushroom pie to do it yourself. After this start and complete Perilous Moons (for the fights your dragon scimitar is fine, even for ice. Use the moss lizards and moonlight potions for supplies) and The Heart of Darkness. Slay a Brine rat to complete the Fremennik medium diary, putting the lamp on herblore. Grab a rope, salve teleport, dip your enchanted silvthrill rod in the well to make the Rod of Ivandis and complete In Aid of the Myreque, Darkness of Hallowvale, A Taste of Hope and Sins of the Father (all lamps on herblore). Use the Efaritay’s aid during the Vanstrom Klause fight in Sins of the Father - you should only need one ring, the second is spare in case you die or run out of charges.\n",
+                  "text": "You should be level 51 (or higher) slayer. Make sure you have finished the Curse of the Empty Lord miniquest (if you haven’t, do it now, putting the lamp on slayer). Teleport to Varrock, make sure to grab the Dragon’hai history book from the Varrock Palace library if you don’t already have it, pray at the altar in the palace with smite active. Run east to the quetzal to go to Varlamore and do At First Light (note: the hunter rumours are currently not efficient, but if you want the rewards you can go for them at any time after this quest). During At First Light catch a Sunlight antelope (east end of the island, requires level 72 hunter, a teasing stick, knife and logs - grab a Trapper’s tipple or two at the hunter’s guild for a +2 boost if needed) and kill a jaguar for their fur. At the hunter’s guild buy two mixed hide bases, and either pay Pellem to have the furs made into mixed hide boots (your best ranged boots for now) and a mixed hide cape (your best melee cape for now) or boost your crafting level if you have a spare mushroom pie to do it yourself. After this start and complete Perilous Moons (for the fights your dragon scimitar is fine, even for ice. Use the moss lizards and moonlight potions for supplies) and The Heart of Darkness. At the end of the quest travel to Tal Teklan (e.g. with the quetzal system). Buy four willow longbows at Arcuani’s Archery Supplies. If you haven’t done Scrambled! yet, do it now. Travel to Auburnvale (e.g. using the boat system). Start and complete Shadows of Custodia. Teleport out. Slay a Brine rat to complete the Fremennik medium diary, putting the lamp on herblore. Grab a rope, salve teleport, dip your enchanted silvthrill rod in the well to make the Rod of Ivandis and complete In Aid of the Myreque, Darkness of Hallowvale, A Taste of Hope and Sins of the Father (all lamps on herblore). Use the Efaritay’s aid during the Vanstrom Klause fight in Sins of the Father - you should only need one ring, the second is spare in case you die or run out of charges.\n",
                   "formatting": {}
                 }
               ],
@@ -18645,7 +18774,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "1.9m gp",
+                "gp_stack": "1.8m gp",
                 "items_needed": "law runes, soul runes, silvthrill rod, rope, dramen staff, plank, 8 nails, hammer",
                 "skills_quests_met": "yes",
                 "total_time": "24d3h"
@@ -18970,10 +19099,19 @@
                   ]
                 },
                 {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "The recommended way to make planks is the Aubunvale sawmill, running between bank and sawmill using a log basket and a plank sack to make two inventories at a time. This consumes (super) energy potions or stamina potions. Alternatively, you can use the PVP world POH butler method.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
                   "level": 1,
                   "content": [
                     {
-                      "text": "After Misc is up and running, buy arrow shafts and headless feathers (in smaller chunks) to get to a total of 1 million headless arrows through fletchpalchre.\n",
+                      "text": "After Misc is up and running, buy arrow shafts and headless arrows (in smaller chunks) to get to a total of 1 million headless arrows through fletchpalchre.\n",
                       "formatting": {}
                     }
                   ]
@@ -19050,7 +19188,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "3.6m gp",
+                "gp_stack": "3.9m gp",
                 "items_needed": "green/blue d’hides, box traps, knife, teak log, salve amulet(ei), whatever other ranged gear you can scrounge up, crossbow, Sara items, hammer, fire staff, nature runes, a lot of money (obtained during the step, spent during the step).",
                 "skills_quests_met": "yes",
                 "total_time": "25d4h"
@@ -19154,7 +19292,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "1.9m gp",
+                "gp_stack": "2.5m gp",
                 "items_needed": "tbd",
                 "total_time": "25d22h"
               }
@@ -19382,7 +19520,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "After Misc is up and running, buy arrow shafts and headless feathers (in smaller chunks) to get to a total of 1 million headless arrows through fletchpalchre.\n",
+                      "text": "After Misc is up and running, buy arrow shafts and headless arrows (in smaller chunks) to get to a total of 1 million headless arrows through fletchpalchre.\n",
                       "formatting": {}
                     }
                   ]
@@ -19881,7 +20019,7 @@
             {
               "content": [
                 {
-                  "text": "(POH) teleport to Rellekka, start The General’s Shadow miniquest. Teleport to Seers and speak with Sin Seer, then teleport to Rellekka and speak with the general again. Make your way to Lunar Isle. Start and complete Dream Mentor (lamp on ranged). Swap to the Lunar spellbook, teleport to Waterbirth, visit Jatizso and mine 5 adamantite ores after this step for two diary steps. POH teleport, make a super defence potion in Rellekka and collect the Fremennik hard diary, putting the lamp on slayer. Swap to Arceuus spellbook. Teleport to Draynor Manor and run out west for a scout for The General’s Shadow.\n",
+                  "text": "(POH) teleport to Rellekka, start The General’s Shadow miniquest. Teleport to Seers and speak with Sin Seer, then teleport to Rellekka and speak with the general again. Make your way to Lunar Isle. Start and complete Dream Mentor (lamp on ranged). Swap to the Lunar spellbook, teleport to Waterbirth, visit Jatizso and mine 5 adamantite ores after this step for two diary steps. POH teleport, make a super defence potion in Rellekka and collect the Fremennik hard diary, putting the lamp on herblore. Swap to Arceuus spellbook. Teleport to Draynor Manor and run out west for a scout for The General’s Shadow.\n",
                   "formatting": {}
                 }
               ],
@@ -19905,7 +20043,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Collect the Western Provinces easy and medium diaries at your own convenience, putting the lamps on slayer.\n",
+                      "text": "Collect the Western Provinces easy and medium diaries at your own convenience, putting the lamps on herblore.\n",
                       "formatting": {}
                     }
                   ]
@@ -20090,7 +20228,7 @@
                   }
                 },
                 {
-                  "text": ", speak with the Emblem Trader. Collect the easy and medium wilderness diary rewards, putting the easy lamp on slayer (level 58 without the kandarin hard diary!) and the medium lamp on herblore.",
+                  "text": ", speak with the Emblem Trader. Collect the easy and medium wilderness diary rewards, putting the lamps on herblore.",
                   "formatting": {}
                 },
                 {
@@ -20127,7 +20265,7 @@
                   }
                 },
                 {
-                  "text": "quest, at some point enter the Falador mines, equip your dwarven helmet for the diary. Alch it after.",
+                  "text": "quest, at some point enter the Falador mines, equip your dwarven helmet for the diary. Alch it after. Also collect the Falador medium diary rewards, putting the lamp on herblore.",
                   "formatting": {}
                 },
                 {
@@ -21394,7 +21532,7 @@
               "formatting": {}
             },
             {
-              "text": "20250614Chapter1",
+              "text": "20250820Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -21415,7 +21553,7 @@
               "formatting": {}
             },
             {
-              "text": "20250614Chapter2",
+              "text": "20250820Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -21436,7 +21574,7 @@
               "formatting": {}
             },
             {
-              "text": "20250614Chapter3",
+              "text": "20250820Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -21457,7 +21595,7 @@
               "formatting": {}
             },
             {
-              "text": "20250309DetailedStepsGuide",
+              "text": "20250820DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -21707,6 +21845,29 @@
             }
           ],
           "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20250820ChangelogBRUHsailer.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/1todnvJCMupQ5UkmeQ1WBNkLHf99GKt3b/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
         }
       ],
       "titleFormatted": [
@@ -21892,7 +22053,7 @@
                   }
                 },
                 {
-                  "text": " unlocked, mine 28k daeyalt essence (you can also just afk mine this). Make 275 binding necklaces, 175 rings of dueling, a fire tiara, buy 28k earth runes (if needed). Swap to the Lunar spellbook. Using magic imbue, your binding necklaces and hallowed crystal shards (teleports) for banking, lava runecraft to level 65.\n",
+                  "text": " unlocked, mine 28k daeyalt essence (you can also just afk mine this). Make 275 binding necklaces, 175 rings of dueling, a fire tiara, buy 28k earth runes (if needed). Swap to the Lunar spellbook. Using magic imbue, your binding necklaces and hallowed crystal shards (teleports) for banking, lava runecraft to 445,000 xp (level 64, midway to level 65). After this, start and complete The Final Dawn, putting the xp on prayer. The Arkan blade is now your default special attack weapon when meleeing. It is stronger than the dragon dagger.\n",
                   "formatting": {}
                 }
               ],
@@ -21930,7 +22091,7 @@
             {
               "content": [
                 {
-                  "text": "Camp Cave Horrors off-task for a black mask (protect melee allows an amulet of strength, so use your regular slayer gear, proselyte hauberk versus torso is fine either way, use thralls, take your herb sack). Start and complete the Morytania Hard diary (lamp on herblore). Visit Robin twice a day with 13 bones each time to collect 130 ectotokens for bonecrusher charges (3250 charges per day - you will need 24k charges to complete step 10 of this chapter) – collect the bones on any slayer task (for example regular/big/baby dragon). Imbue your black mask at the PVP Arena (",
+                  "text": "Camp Cave Horrors off-task for a black mask (protect melee allows an amulet of strength, so use your regular slayer gear, proselyte hauberk versus torso is fine either way, use thralls, take your herb sack). Start and complete the Morytania Hard diary (lamp on herblore). Visit Robin twice a day with 13 bones each time to collect 130 ectotokens for bonecrusher charges (3250 charges per day - you will need 24k charges to complete step 12 of this chapter) – collect the bones on any slayer task (for example regular/big/baby dragon). Imbue your black mask at the PVP Arena (",
                   "formatting": {}
                 },
                 {
@@ -22387,7 +22548,7 @@
             {
               "content": [
                 {
-                  "text": "Buy broad arrowhead packs with most of your money (leave ~500k in reserve, buy the broad arrowtip packs at any slayer master, if you are opening fast enough the stock will slowly deplete. Hop worlds if the stock ever hits 700 or lower). Do Pest Control, veteran i.e. 100+ cb boat, for enough points for full elite void range (other two helmets optional) while fletching – 1250 points for just ranging, 1650 points for a full set, fletching during the games and only contributing as much as necessary to get points. You can optionally get the other two helmets as well, or ignore them(/consider getting them later).",
+                  "text": "Optional but recommended: collect buckets of sand and giant seaweed to train your crafting level to 80 (or 75, boosting after) using SGM and arteglass. Make an amulet of glory. Regardless of whether you include the above: buy broad arrowhead packs with most of your money (leave ~500k in reserve, buy the broad arrowtip packs at any slayer master, if you are opening fast enough the stock will slowly deplete. Hop worlds if the stock ever hits 700 or lower). Do Pest Control, veteran i.e. 100+ cb boat, for enough points for full elite void range (other two helmets optional) while fletching – 1250 points for just ranging, 1650 points for a full set, fletching during the games and only contributing as much as necessary to get points. You can optionally get the other two helmets as well, or ignore them(/consider getting them later).",
                   "formatting": {}
                 },
                 {
@@ -22444,7 +22605,7 @@
                   }
                 },
                 {
-                  "text": "), banking the uncut gems using the deposit box. With multiskill cutting the gems (see below) this is more efficient than 3t4g. This requires a charged amulet of glory! If you make one here you won’t have to make one next step. ",
+                  "text": "), banking the uncut gems using the deposit box. This requires a charged amulet of glory. With multiskill cutting the gems (see below) this is more efficient than 3t4g. This requires a charged amulet of glory! If you make one here you won’t have to make one next step. ",
                   "formatting": {
                     "fontFamily": "Arial"
                   }
@@ -22526,7 +22687,19 @@
             {
               "content": [
                 {
-                  "text": "Catch 20k red chinchompas behind Prif or 16k black chinchompas (for 92 ranged, if you have extras then can consider throwing for more Ranged XP or using them for your first fire cape if you’re good at speed strats) in the wilderness. Throw the chins in the cave to get to 70 ranging, complete the Western Provinces Hard Diary (this involves getting one Zulrah kill), upgrade your void to Elite, (optionally: grab an offtask fire cape at some point along the way), return and throw the chins to get to level 92 ranging.\n",
+                  "text": "Catch 20k red chinchompas between Tal Teklan and Kastori ",
+                  "formatting": {}
+                },
+                {
+                  "text": "TalTeklanChinSpot.png",
+                  "url": "https://drive.google.com/file/d/1g2hPbPsetvSMkeEf0YuPG8n8bRJnniM8/view?usp=sharing",
+                  "isLink": true,
+                  "formatting": {
+                    "underline": true
+                  }
+                },
+                {
+                  "text": " or 16k black chinchompas (for 92 ranged, if you have extras then can consider throwing for more Ranged XP or using them for your first fire cape if you’re good at speed strats) in the wilderness. If you want to catch red chinchompas but the Varlamore spot is too competitive, e.g. with bots, the second best option is catching them northeast of Prifddinas. Throw the chins in the cave to get to 70 ranging, complete the Western Provinces Hard Diary (this involves getting one Zulrah kill), upgrade your void to Elite, (optionally: grab an offtask fire cape at some point along the way), return and throw the chins to get to level 92 ranging.\n",
                   "formatting": {}
                 }
               ],
@@ -22535,7 +22708,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Make sure to use ranging potions and a bonecrusher (with at least 24k charges), your elite void ranged, an amulet of glory, shayzien boots 5, make a red d’hide shield (optional). ",
+                      "text": "Make sure to use ranging potions and a bonecrusher (with at least 24k charges), your elite void ranged, mixed hide boots, a berserker ring (i), an amulet of strength, a crystal halberd for speccing, a mixed hide cape and carry death charge runes. Also note that chins are not lost in death, so you could carry more and extend the trip.",
                       "formatting": {}
                     },
                     {
@@ -22545,17 +22718,7 @@
                       }
                     },
                     {
-                      "text": "Use protect melee and eagle eye, the regular potion drops will maintain your prayer (but bring a few to be safe, along with a teleport out). ",
-                      "formatting": {}
-                    },
-                    {
-                      "text": "If you die your chins will be lost",
-                      "formatting": {
-                        "underline": true
-                      }
-                    },
-                    {
-                      "text": ", so be careful and/or only bring a few thousand at a time.\n",
+                      "text": "Use protect melee and eagle eye, the regular potion drops will maintain your prayer (but bring a few to be safe, along with a teleport out). Also note that chins are not lost in death, so you could carry more and extend the trip.\n",
                       "formatting": {}
                     }
                   ]
@@ -22599,11 +22762,7 @@
                       }
                     },
                     {
-                      "text": " Make a blue d’hide shield (optional but recommended).",
-                      "formatting": {}
-                    },
-                    {
-                      "text": "\n",
+                      "text": " However, this gear is outdated - use mixed hide boots, a berserker ring (i), an amulet of strength, a crystal halberd for speccing, a mixed hide cape and carry death charge runes.\n",
                       "formatting": {}
                     }
                   ]
@@ -22643,11 +22802,7 @@
                       }
                     },
                     {
-                      "text": " example kill.",
-                      "formatting": {}
-                    },
-                    {
-                      "text": "\n",
+                      "text": " example kill.\n",
                       "formatting": {}
                     }
                   ]
@@ -22656,11 +22811,12 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Red chinchompa calculator",
-                      "url": "https://docs.google.com/spreadsheets/d/122rSf8dpivoZBG5tFNcS7B2DZAdYfi95bt2TJ4N6zPU/edit?usp=sharing",
+                      "text": "Pre-99 Chinchompa Calculator",
+                      "url": "https://docs.google.com/spreadsheets/d/1SL6Oupd3fI6JOhfgqBnEP4CunjnyfKkH4cGr7xdti1s",
                       "isLink": true,
                       "formatting": {
-                        "underline": true
+                        "underline": true,
+                        "fontFamily": "Arial"
                       }
                     },
                     {
@@ -23129,6 +23285,15 @@
                       "formatting": {}
                     }
                   ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "After completing the full outfit and the colossal pouch, consider going for full bloodbark to help with future slayer. It is the most convenient to obtain +1% magic damage gear.\n",
+                      "formatting": {}
+                    }
+                  ]
                 }
               ],
               "metadata": {
@@ -23563,21 +23728,23 @@
             {
               "content": [
                 {
-                  "text": "3s1g mine 30k sand (for level 93 crafting) or 80k sand (for level 99 crafting), buying all the sand (buy bucket packs first to match the amount required). Super glassmake all the sand with previously farmed giant seaweed. Arteglass blow molten glass into light orbs for crafting xp to 91 thieving (this won’t nearly use all your glass).\n",
+                  "text": "3t4s mine 20k sand (for level 93 crafting) or 70k sand (for level 99 crafting), buying all the sand (buy bucket packs first to match the amount required) ",
+                  "formatting": {}
+                },
+                {
+                  "text": "3 tick sandstone mining at new spot (easier method)",
+                  "url": "https://www.youtube.com/watch?v=hPQ-6aZdydI",
+                  "isLink": true,
+                  "formatting": {
+                    "underline": true
+                  }
+                },
+                {
+                  "text": ". Super glassmake all the sand with previously farmed giant seaweed. If you aen’t 91 thieving yet, arteglass the molten glass until you are.\n",
                   "formatting": {}
                 }
               ],
-              "nestedContent": [
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "3s1g mining 80k sand will almost get you to level 99 mining, finish off 99 mining using whatever method you prefer.\n",
-                      "formatting": {}
-                    }
-                  ]
-                }
-              ],
+              "nestedContent": [],
               "metadata": {
                 "gp_stack": "77m",
                 "items_needed": "tbd",
@@ -24901,7 +25068,7 @@
               "formatting": {}
             },
             {
-              "text": "20250614Chapter1",
+              "text": "20250820Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -24922,7 +25089,7 @@
               "formatting": {}
             },
             {
-              "text": "20250614Chapter2",
+              "text": "20250820Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -24943,7 +25110,7 @@
               "formatting": {}
             },
             {
-              "text": "20250614Chapter3",
+              "text": "20250820Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -24964,7 +25131,7 @@
               "formatting": {}
             },
             {
-              "text": "20250309DetailedStepsGuide",
+              "text": "20250820DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -25205,6 +25372,31 @@
                   "b": 0.8
                 },
                 "url": "https://drive.google.com/file/d/1-SVYpmuSexvNBz_0IVeIWFASDCQN3ptI/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "fontSize": 13
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20250820ChangelogBRUHsailer.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/1todnvJCMupQ5UkmeQ1WBNkLHf99GKt3b/view?usp=sharing",
                 "isLink": true
               }
             },
