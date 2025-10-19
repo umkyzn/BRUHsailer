@@ -1,5 +1,5 @@
 {
-  "updatedOn": "2025-08-20",
+  "updatedOn": "2025-10-19",
   "title": "BRUHsailer Complete Guide",
   "chapters": [
     {
@@ -1322,7 +1322,7 @@
                   }
                 },
                 {
-                  "text": "me teleport to Clan Wars, take the portal to Soul Wars. Chop teak logs on a f",
+                  "text": "me teleport to Soul Wars. Chop teak logs on a f",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -3072,7 +3072,11 @@
             {
               "content": [
                 {
-                  "text": "Clan wars minigame teleport, take the portal to Castle Wars. Withdraw 3 planks, 1 bronze bar and one molten glass. Run north, grab an inventory of superantipoisons (8",
+                  "text": "Castle Wars",
+                  "formatting": {}
+                },
+                {
+                  "text": " minigame teleport. Withdraw 3 planks, 1 bronze bar and one molten glass. Run north, grab an inventory of superantipoisons (8",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -3493,11 +3497,11 @@
             {
               "content": [
                 {
-                  "text": "Fishing trawler teleport, do the fishing trawler minigame for a complete Angler’s outfit (48 games average, you can use an axe+hammer instead of needing swamp paste, bailing bucket optional for more activity. Chopping at tentacles/repairing railings is usually competitive so stay close to the railing and spam click). Make sure to collect a rusty sword along the way, and have the Tindel Marchant identify it. Also save polished buttons (if you get them). Note that once you hit 50 activity inside the minigame it will not go back down, so you can afk for the rest of the game and you will get the reward rolls. Buy two swamp paste, a hammer and four tinderboxes at the general store. ",
+                  "text": "Fishing trawler teleport, do the fishing trawler minigame for a complete Angler’s outfit (48 games average, you can use an axe+hammer instead of needing swamp paste, bailing bucket optional for more activity. Chopping at tentacles/repairing railings is usually competitive so stay close to the railing and spam click). Make sure to collect a rusty sword along the way, and have the Tindel Marchant identify it. Also save polished buttons (if you get them). Note that once you hit 50 activity inside the minigame it will not go back down, so you can afk for the rest of the game and you will get the reward rolls. Buy two swamp paste, a hammer and four tinderboxes at the general store. Soul",
                   "formatting": {}
                 },
                 {
-                  "text": "Clan wars minigame teleport to get to Edgeville, speak with Marley for Below Ice Mountain. Cut 8 sapphires. Make a sapphire necklace and a silver sickle. Bring a knife and go to the Mage Arena, buy 200 cosmic runes (you won’t need these until later, so if it is very crowded you can stop at just 20). Enchant the sapphire necklace into a games necklace.",
+                  "text": " wars minigame teleport to get to Edgeville, speak with Marley for Below Ice Mountain. Cut 8 sapphires. Make a sapphire necklace and a silver sickle. Bring a knife and go to the Mage Arena, buy 200 cosmic runes (you won’t need these until later, so if it is very crowded you can stop at just 20). Enchant the sapphire necklace into a games necklace.",
                   "formatting": {}
                 },
                 {
@@ -4395,7 +4399,21 @@
             {
               "content": [
                 {
-                  "text": "Clan Wars teleport to Soul Wars to Edgeville, bank your money. Grab a knife and go to the Mage Arena. Buy ",
+                  "text": "Soul",
+                  "formatting": {}
+                },
+                {
+                  "text": " Wars teleport t",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "o get to",
+                  "formatting": {}
+                },
+                {
+                  "text": " Edgeville, bank your money. Grab a knife and go to the Mage Arena. Buy ",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -6160,15 +6178,11 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Setting up gravestone with waterskins for low-level sandstone mining",
-                      "url": "https://www.youtube.com/watch?v=rb5BKbVXuBo",
-                      "isLink": true,
-                      "formatting": {
-                        "underline": true
-                      }
+                      "text": "You need to carry some waterskins for the mining, refilling them at Unkah as necessary. Previously there was a gravestone method, but currently it does not work.",
+                      "formatting": {}
                     },
                     {
-                      "text": " shows how to use a gravestone method to have access to more waterskins during mining. By keeping the gravestone interface open the timer doesn’t run down. This method shouldn’t be necessary for just 1600 sand though.\n",
+                      "text": "\n",
                       "formatting": {}
                     }
                   ]
@@ -7367,53 +7381,7 @@
             {
               "content": [
                 {
-                  "text": "Grab your scrying orb and a pickaxe. Use your necklace of passage to teleport to the Wizards’ Tower. Have Wizard Sedridor send you to the rune essence mine (second scrying orb charge) and leave again. Run to Draynor and continue Fairytale I (and enter Zanaris) up to the step where you need to visit Zandar Horfyre. Teleport to Lumbridge and finish The Lost Tribe. Give Mistag the brooch for a mining helmet. Start Death to the Dorgeshuun (also Mistag), only the very very first step. Buy a bone crossbow and 2000",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": " ",
-                  "formatting": {
-                    "bold": true,
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "bone bolts (from Nardok, in packs) ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "(buy 3000 if HCIM)",
-                  "formatting": {
-                    "italic": true,
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": ".",
+                  "text": "Grab your scrying orb and a pickaxe. Use your necklace of passage to teleport to the Wizards’ Tower. Have Wizard Sedridor send you to the rune essence mine (second scrying orb charge) and leave again. Run to Draynor and continue Fairytale I (and enter Zanaris) up to the step where you need to visit Zandar Horfyre. Teleport to Lumbridge and finish The Lost Tribe. Give Mistag the brooch for a mining helmet. Start Death to the Dorgeshuun (also Mistag), only the very very first step.",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -7436,8 +7404,8 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "434986 gp",
-                "items_needed": "10400 gp, necklace of passage, dramen staff, air runes, earth staff, law runes, brooch",
+                "gp_stack": "445386 gp",
+                "items_needed": "necklace of passage, dramen staff, air runes, earth staff, law runes, brooch",
                 "skills_quests_met": "yes",
                 "total_time": "5d22h"
               }
@@ -7572,7 +7540,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "434981 gp",
+                "gp_stack": "445381 gp",
                 "items_needed": "5 gp, water runes, air staff, law runes, rune pickaxe, brown apron, maze key, wind strike runes, rune sword, salmon/trout, secateurs (from Step 11), symptoms list, Draynor skull, amulet of ghostspeak, three cowhides",
                 "skills_quests_met": "yes",
                 "total_time": "5d23h"
@@ -7712,7 +7680,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "434981 gp",
+                "gp_stack": "445381 gp",
                 "items_needed": "rune sword, Silverlight, “evil gear” (Step 50), air runes, earth staff, law runes, trout, demonic sigil, demonic tome",
                 "skills_quests_met": "yes",
                 "total_time": "5d23h"
@@ -7897,7 +7865,22 @@
                   "formatting": {}
                 },
                 {
-                  "text": "), fairy ring to Hazelmere for The Grand Tree (CLS), fairy ring DKS to start Olaf’s Quest, kill 5 rock crabs for the diary, catch a cerulean twitch for the diary",
+                  "text": "), fairy ring to Hazelmere for The Grand Tree (CLS), ",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "fairy ring BLS and start The Garden of Death, exploring the cave below until you have enough words to be sent to Lake Molch, ",
+                  "formatting": {}
+                },
+                {
+                  "text": "fairy ring DKS to start Olaf’s Quest, kill 5 rock crabs for the diary, catch a cerulean twitch for the diary",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -7914,7 +7897,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "432461 gp",
+                "gp_stack": "444615 gp",
                 "items_needed": "7500 gp, air runes, earth staff, law runes, dramen staff, pink skirt, paste, wig, 3 beers\u000bAfter banking: 3 jute seeds, seed dibber, rake, ultracompost, magic secateurs, trout, 2 ropes, knife, rune sword, steel axe, bronze key, magic whistle, bark sample, bird snare",
                 "skills_quests_met": "yes",
                 "total_time": "6d0h"
@@ -7933,7 +7916,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "432461 gp",
+                "gp_stack": "444615 gp",
                 "items_needed": "4 kelda seeds, rake, seed dibber, spade, the Forgettable Tale… item (if not delivered yet), white pearl seed, a cake tin, iron bar, swamp tar, a bucket of wax, rope, maple logs, a plank, climbing boots, games necklace, steel axe, leather, needle, thread, air runes, fire staff, law runes, chronicle, at least 6693 gp, earth runes, mind runes",
                 "skills_quests_met": "yes",
                 "total_time": "6d2h"
@@ -8025,7 +8008,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "416061 gp",
+                "gp_stack": "428215 gp",
                 "items_needed": "6693 gp, Chronicle, spade, leather, needle, thread, air runes, earth runes, fire staff, law runes",
                 "skills_quests_met": "yes",
                 "total_time": "6d2h"
@@ -8050,11 +8033,17 @@
                   "level": 1,
                   "content": [
                     {
+                      "text": "Whenever you are about to take a minecart or go to an area where you need one, consider using a games necklace to teleport to Wintertodt instead. This has access to a bank and the minecart system. ",
+                      "formatting": {
+                        "italic": true
+                      }
+                    },
+                    {
                       "text": "Take the minecart",
                       "formatting": {}
                     },
                     {
-                      "text": " to Shayzien",
+                      "text": " to Shayzien. ",
                       "formatting": {
                         "color": {
                           "r": 0,
@@ -8065,11 +8054,11 @@
                       }
                     },
                     {
-                      "text": " and ",
+                      "text": "Buy 20 Lizardkickers in the Cloak and Stagger and bank them. Start the Tale",
                       "formatting": {}
                     },
                     {
-                      "text": "start Tale of the Righteous. Buy 20 Lizardkickers in the Cloak and Stagger. Run on to Lovakengj, sniping a lizardman kill along the way (just tag one that’s in combat, be careful with poison and health). Speak with Lady Vulvana Lovakengj to star the Forsaken Tower.",
+                      "text": " of the Righteous. Run on to Lovakengj, sniping a lizardman kill along the way (just tag one that’s in combat, be careful with poison and health). Speak with Lady Vulvana Lovakengj to start the Forsaken Tower.",
                       "formatting": {
                         "color": {
                           "r": 0,
@@ -8263,7 +8252,7 @@
                       }
                     },
                     {
-                      "text": "k in the Shayzien Encampment and grab food and an antipoison (along with the quest items you were carrying). Progress Tale of the Righteous by speaking with Lord Shayzien until he gives permission for the Mount Quidamortem expedition. Go to the campsite south of the lizardman settlement to start The Garden of Death, exploring the cave below until you have enough words to be sent to Lake Molch. Instead keep going to Mount Quidamortem and resume Tale of the Righteous ",
+                      "text": "k in the Shayzien Encampment and grab food and an antipoison (along with the quest items you were carrying). Progress Tale of the Righteous by speaking with Lord Shayzien until he gives permission for the Mount Quidamortem expedition. Go to Mount Quidamortem and resume Tale of the Righteous ",
                       "formatting": {}
                     },
                     {
@@ -8313,6 +8302,10 @@
                 {
                   "level": 1,
                   "content": [
+                    {
+                      "text": "Hop worlds to leave the cave (or teleport to Wintertodt). ",
+                      "formatting": {}
+                    },
                     {
                       "text": "Take the cart back to Shayzien, complete Tale of the Righteous. ",
                       "formatting": {
@@ -8448,7 +8441,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "293361 gp",
+                "gp_stack": "305515 gp",
                 "items_needed": "Each segment has its own item requirements, bank as needed. 202224 gp, rune pickaxe, ranged gear plus arrows, wind strikes, rope, tinderbox, law runes, earth runes, fire runes, games necklace, dramen staff, face mask, 3 planks, 100 steel nails, Getting Ahead items can all be found in the region.",
                 "skills_quests_met": "yes",
                 "total_time": "6d10h"
@@ -8489,7 +8482,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "293136 gp",
+                "gp_stack": "305290 gp",
                 "items_needed": "225 gp, 2 barley malt, 2 buckets of water, holy grail, air runes, law rune",
                 "skills_quests_met": "yes",
                 "total_time": "6d10h"
@@ -8675,7 +8668,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "293136 gp",
+                "gp_stack": "305290 gp",
                 "items_needed": "rune axe, forestry kit",
                 "skills_quests_met": "yes",
                 "total_time": "6d13h"
@@ -8730,7 +8723,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "293136 gp",
+                "gp_stack": "305290 gp",
                 "items_needed": "lumber order, rune sword, scrying orb, kharedst’s memoirs, rune pickaxe, chisel, (rune axe), wind strike runes",
                 "skills_quests_met": "yes",
                 "total_time": "6d14h"
@@ -8781,7 +8774,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "293136 gp",
+                "gp_stack": "305290 gp",
                 "items_needed": "3 gp, Chronicle, beer glass (blow one molten glass?), 1 kebab (buy), 1 beer (buy), cadava potion, scrying orb",
                 "skills_quests_met": "yes",
                 "total_time": "6d14h"
@@ -9099,7 +9092,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "290836 gp",
+                "gp_stack": "302990 gp",
                 "items_needed": "11716 gp, earth runes, water staff, law runes, soul runes, ring of charos, seaweed, fishbowl (with water), 1 marigold seed, 3 harralander seeds, seed dibber, rake, fly fishing rod, 20 feathers, 2 soft clay, 1 cabbage, rune axe, magic secateurs, 1 gardening trowel, 1 plant pot, 6 cabbage seeds, 6 onion seeds, compost, spade, iron chainbody, watering can, raw swordfish, raw chicken",
                 "skills_quests_met": "yes",
                 "total_time": "6d16h"
@@ -9184,7 +9177,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "300808 gp",
+                "gp_stack": "312926 gp",
                 "items_needed": "1454 gp, fly fishing rod, feathers, bronze bar, hammer, iron chainbody, 1 cabbage, salmon, magic secateurs, plant pot, watering can, rune sword, earth runes, water staff, law runes, 2 soft clay, lobster pot, silk, wizard’s mind bomb",
                 "skills_quests_met": "yes",
                 "total_time": "6d17h"
@@ -9276,7 +9269,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "300808 gp",
+                "gp_stack": "312296 gp",
                 "items_needed": "ring of charos(a), fishing rod, games necklace, pure essence, pestle/mortar, 2 plant cures, hammer",
                 "skills_quests_met": "yes",
                 "total_time": "6d17h"
@@ -9325,7 +9318,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "260808 gp",
+                "gp_stack": "272962 gp",
                 "items_needed": "40000 gp, rune axe, tinderbox, spade, drunk parrot, earth staff, law runes, soul runes, rune sword, salmon, dramen staff, climbing boots, good food, pickaxe, secateurs, water runes",
                 "skills_quests_met": "yes",
                 "total_time": "6d17h"
@@ -9377,7 +9370,7 @@
                   }
                 },
                 {
-                  "text": "), chop dense jungle to get a gout tuber for the medium diary, when you get your first sticks repair the fence and speak to Murcaily then resume chopping. If you get a gout tuber before you reached 100% favour kill jungle spiders (north of the calquat farming patch) to get to 100%. Also prepare and cook a spider on a stick along the way for the diary. If you are taking too much damage, buy more bread from the general store.\n",
+                  "text": "), chop light jungle to get a gout tuber for the medium diary, when you get your first sticks repair the fence and speak to Murcaily then resume chopping. If you get a gout tuber before you reached 100% favour kill jungle spiders (north of the calquat farming patch) to get to 100%. Also prepare and cook a spider on a stick along the way for the diary. If you are taking too much damage, buy more bread from the general store.\n",
                   "formatting": {}
                 }
               ],
@@ -9465,7 +9458,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "260138 gp",
+                "gp_stack": "272296 gp",
                 "items_needed": "5203 gp, earth staff, law runes, soul runes, axe, tinderbox, knife, pickaxe, gnome amulet, mithril armour, seed dibber, spade, 5 compost, 3 harralander seeds, watering can, fire staff, air runes, water runes, rake, plague sample, touch paper",
                 "skills_quests_met": "yes",
                 "total_time": "6d23h"
@@ -9596,7 +9589,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "237988 gp",
+                "gp_stack": "250142 gp",
                 "items_needed": "22150 GP (10k for the foreman plus gold ore costs, estimated), 27 iron ore, 27 coal, silver ores, 108 gold ores, ring of charos(a), more GP if you actually need to buy ores (but maybe WT covers it all)",
                 "skills_quests_met": "yes",
                 "total_time": "7d0h"
@@ -9783,7 +9776,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "237988 gp",
+                "gp_stack": "250142 gp",
                 "items_needed": "41 emeralds, 51 rubies, 16 sapphires, air/earth runes, water staff, fire staff, 108 cosmics, law runes, half a mushroom pie",
                 "skills_quests_met": "yes",
                 "total_time": "7d1h"
@@ -9819,7 +9812,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "237888 gp",
+                "gp_stack": "250042 gp",
                 "items_needed": "100 gp, ring of charos(a), fire staff, air runes, law runes, bucket of sap, mud rune, maple log, oak log, hammer, saw, pestle/mortar",
                 "skills_quests_met": "yes",
                 "total_time": "7d1h"
@@ -9828,7 +9821,32 @@
             {
               "content": [
                 {
-                  "text": "Plant willow saplings in at least two places (three for insurance is better. Varrock, Falador and Lumbridge are recommended). Pick a white tree fruit from the white tree for the diary. Games necklace teleport to Burthorpe, run south and complete Eadgar’s Ruse. Buy 25 water-filled vial packs.",
+                  "text": "Plant willow saplings in at least two places (three for insurance is better. Varrock, Falador and Lumbridge are recommended). Pick a white tree fruit from the white tree for the diary. Games necklace teleport to Burthorpe, visit the Rogues Den and buy 1200 knives (15 bron",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "ze, 10 iron, 5 steel) per world from Martin Thwait ",
+                  "formatting": {}
+                },
+                {
+                  "text": "(optional but not recommended: you can buy about 3x as many so you don’t have to pick them up later, but it’s more world hopping)",
+                  "formatting": {
+                    "italic": true
+                  }
+                },
+                {
+                  "text": ". Exit the Rogues Den and ",
+                  "formatting": {}
+                },
+                {
+                  "text": "run south and complete Eadgar’s Ruse. Buy 25 water-filled vial packs.",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -9855,7 +9873,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "231054 gp",
+                "gp_stack": "239208 gp",
                 "items_needed": "6834 gp, 3 willow seeds, 3 plant pots, watering can, 3 compost, air runes, earth staff, water staff, fire staff, law runes, spade, seed dibber",
                 "skills_quests_met": "yes",
                 "total_time": "7d1h"
@@ -9969,7 +9987,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "231004 gp",
+                "gp_stack": "239158 gp",
                 "items_needed": "‘perfect’ necklace, ‘perfect’ ring, 50 gp, bronze axe (Step 2), bronze pickaxe (Step 43), ring of dueling, 25 pure essence, rune sword, salmon",
                 "skills_quests_met": "yes",
                 "total_time": "7d2h"
@@ -9978,100 +9996,13 @@
             {
               "content": [
                 {
-                  "text": "Use the willow shortbow to get 28 ranged on imps outside the Tower of Life (Fishing trawler minigame teleport, use a Lizardkicker) to collect beads. At 28 range swap to a bone crossbow and keep training until you have all ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "beads",
-                  "formatting": {}
-                },
-                {
-                  "text": ". After killing the imps use the fairy ring to Zanaris to buy jars from Elnock if you haven’t yet, then fairy ring DIS to start and complete Imp Catcher. After that use the bone crossbow to get 37 ranged at sand crabs or on whatever slayer task you got earlier",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": " if it’s convenient",
-                  "formatting": {
-                    "color": {
-                      "r": 1,
-                      "g": 0.21960784,
-                      "b": 0.21960784
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": " (use ",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "more Lizardkickers to stay boosted by +2 or more while training)",
-                  "formatting": {}
-                },
-                {
-                  "text": ".",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": " ",
-                  "formatting": {
-                    "color": {
-                      "r": 1,
-                      "g": 0.21960784,
-                      "b": 0.21960784
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "If you are killing enemies that drop any form of bones, bank at least 8 to save a bit of time later. ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "If you are a HCIM leave as soon as you have the imp items, you will get all your ranging XP from the extra dragons in the next step.",
-                  "formatting": {
-                    "italic": true,
-                    "color": {
-                      "r": 1,
-                      "g": 0.21960784,
-                      "b": 0.21960784
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "\n",
+                  "text": "Equip your best ranging gear, a ring of dueling, and your knives. Grab your lizardkickers and food. Go to the Tower of Life (Fishing Trawler minigame teleport) and kill imps outside there to collect all required beads for Imp Catcher. After killing the imps use the fairy ring to Zanaris to buy jars from Elnock if you haven’t yet, then fairy ring DIS to start and complete Imp Catcher. Minigame teleport to Shades of Mort’ton. Kill Loar Shades until at least 51,012 ranged xp (level 43). You can safespot them on obstacles in the village itself. Make sure to pick up your knives to throw them multiple times. Prioritise using the steel knives first, then iron, then bronze. \n",
                   "formatting": {}
                 }
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "231004 gp",
+                "gp_stack": "239158 gp",
                 "items_needed": "willow shortbow, mithril/steel arrows, bone crossbow, bone bolts, dramen staff,",
                 "skills_quests_met": "yes",
                 "total_time": "7d3h"
@@ -10092,7 +10023,7 @@
                   }
                 },
                 {
-                  "text": " Kill green dragons with ranged for 43 prayer (70 green dragons, games necklace to Corporeal Beast then run east, bank the hides with a looting bag. Alternatively, use a safespot in the green dragon room in the w",
+                  "text": " Kill green dragons with ",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -10103,11 +10034,40 @@
                   }
                 },
                 {
-                  "text": "ilderness slayer cave, in the northeast of the room. ",
+                  "text": "water bolt",
                   "formatting": {}
                 },
                 {
-                  "text": "It’s probably smart to finish 80 dragons instead in case of bad RNG at the Wilderness altar. ",
+                  "text": " for 43 prayer",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": ". ",
+                  "formatting": {}
+                },
+                {
+                  "text": "Do not use your last 100 chaos runes",
+                  "formatting": {
+                    "bold": true
+                  }
+                },
+                {
+                  "text": " - if your runes are depleting, swap over to water strike instead.",
+                  "formatting": {}
+                },
+                {
+                  "text": " This requires killing ",
+                  "formatting": {}
+                },
+                {
+                  "text": "70 green dragons, games necklace to Corporeal Beast then run east, bank the hides with a looting bag. It’s probably smart to finish 80 dragons instead in case of bad RNG at the Wilderness altar. ",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -10128,21 +10088,6 @@
                     },
                     "fontSize": 12
                   }
-                },
-                {
-                  "text": "This should give you level 43 ranged (51,012 xp). ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "Use your remaining Lizardkickers for a slight dps increase. ",
-                  "formatting": {}
                 },
                 {
                   "text": "For using the bones up, run from Ferox Enclave). ",
@@ -10172,26 +10117,6 @@
                 }
               ],
               "nestedContent": [
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "Optional: train melee with organised crime and other activities. Kill a lizardman for the diary during/after the organised crime if you haven’t already.",
-                      "formatting": {
-                        "color": {
-                          "r": 0,
-                          "g": 0,
-                          "b": 0
-                        },
-                        "fontSize": 12
-                      }
-                    },
-                    {
-                      "text": "\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
                 {
                   "level": 1,
                   "content": [
@@ -10240,7 +10165,7 @@
                   "level": 2,
                   "content": [
                     {
-                      "text": "Instead of killing green dragons, you can safespot blue dragons in the Isle of Souls. They are way tankier and this takes considerably more time, but it means you don’t have to go into the wilderness. Taverley Dungeon is not viable right now with 51 agility. The extra bone bolts you bought previously were for the extra tanky blue dragons.\n",
+                      "text": "Instead of killing green dragons, you can safespot blue dragons in the Isle of Souls. They are way tankier and this takes considerably more time, but it means you don’t have to go into the wilderness. Taverley Dungeon is not viable right now with 51 agility.\n",
                       "formatting": {
                         "italic": true,
                         "color": {
@@ -10276,44 +10201,6 @@
                           "b": 0.21960784
                         }
                       }
-                    },
-                    {
-                      "text": "\n",
-                      "formatting": {
-                        "italic": true,
-                        "color": {
-                          "r": 1,
-                          "g": 0.21960784,
-                          "b": 0.21960784
-                        },
-                        "fontSize": 12
-                      }
-                    }
-                  ]
-                },
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "You can find an ",
-                      "formatting": {}
-                    },
-                    {
-                      "text": "example setup here",
-                      "formatting": {
-                        "underline": true,
-                        "color": {
-                          "r": 0.06666667,
-                          "g": 0.33333334,
-                          "b": 0.8
-                        },
-                        "url": "https://drive.google.com/file/d/185mln9zPD6VOIi8ksJ3oVVGaEGBkul4C/view?usp=drive_link",
-                        "isLink": true
-                      }
-                    },
-                    {
-                      "text": ".",
-                      "formatting": {}
                     },
                     {
                       "text": "\n",
@@ -12807,7 +12694,7 @@
               "formatting": {}
             },
             {
-              "text": "20250820Chapter1",
+              "text": "20251019Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -12830,7 +12717,7 @@
               "formatting": {}
             },
             {
-              "text": "20250820Chapter2",
+              "text": "20251019Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -12851,7 +12738,7 @@
               "formatting": {}
             },
             {
-              "text": "20250820Chapter3",
+              "text": "20251019Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -12872,7 +12759,7 @@
               "formatting": {}
             },
             {
-              "text": "20250820DetailedStepsGuide",
+              "text": "20251019DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -13136,6 +13023,33 @@
                 },
                 "fontFamily": "Arial",
                 "url": "https://drive.google.com/file/d/1todnvJCMupQ5UkmeQ1WBNkLHf99GKt3b/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "italic": true,
+                "fontSize": 11,
+                "fontFamily": "Arial"
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20251019BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/1z7H1lJ7-nyksd_GymY7BO8uABI7jYdL4/view?usp=sharing",
                 "isLink": true
               }
             },
@@ -14283,6 +14197,51 @@
                   "level": 1,
                   "content": [
                     {
+                      "text": "You can do Enakhra’s Lament ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "before",
+                      "formatting": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "text": " mining the sandstone, so you can refill your pouches at the fountain inside the temple (camulet teleport). This is faster and also gives you a good opportunity to do hourlies. Keep in mind you now have to go to 3k xp from level 60 with mining sandstone.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "You need to carry some waterskins for the mining, refilling them at Unkah as necessary. Previously there was a gravestone method, but currently it does not work.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "3 tick sandstone mining at new spot (easier method)",
+                      "url": "https://www.youtube.com/watch?v=hPQ-6aZdydI",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": "shows the 3t4s method (also linked above).\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
                       "text": "https://www.youtube.com/watch?v=KwLJm_Zu0ro",
                       "formatting": {
                         "underline": true,
@@ -14307,64 +14266,6 @@
                     },
                     {
                       "text": " shows how to do 3s1g - an older high xp tick manipulation sandstone mining method that does not require stamina potions, increasing mining xp/hr but getting less sand.\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "You can also do Enakhra’s Lament ",
-                      "formatting": {}
-                    },
-                    {
-                      "text": "before",
-                      "formatting": {
-                        "italic": true
-                      }
-                    },
-                    {
-                      "text": " mining the sandstone, so you can refill your pouches at the fountain inside the temple (camulet teleport). This is faster and also gives you a good opportunity to do hourlies. Keep in mind you now have to go to 3k xp from level 60 with mining sandstone.\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "https://www.youtube.com/watch?v=rb5BKbVXuBo",
-                      "formatting": {
-                        "underline": true,
-                        "color": {
-                          "r": 0.06666667,
-                          "g": 0.33333334,
-                          "b": 0.8
-                        },
-                        "url": "https://www.youtube.com/watch?v=rb5BKbVXuBo",
-                        "isLink": true
-                      }
-                    },
-                    {
-                      "text": " shows how to use a gravestone method to have access to more waterskins during mining. By keeping the gravestone interface open the timer doesn’t run down.\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "3 tick sandstone mining at new spot (easier method)",
-                      "url": "https://www.youtube.com/watch?v=hPQ-6aZdydI",
-                      "isLink": true,
-                      "formatting": {
-                        "underline": true
-                      }
-                    },
-                    {
-                      "text": "shows the 3t4s method (also linked above).\n",
                       "formatting": {}
                     }
                   ]
@@ -15807,13 +15708,44 @@
                   "level": 2,
                   "content": [
                     {
-                      "text": "You pray mage when entering the room. If Prime is on you, go back up. If Prime is not on you, regardless of whether Supreme is on you, run south immediately and swap to pray range. Run along the south edge with protect range up until you're all the way east Then, once east (pray range still up), trap Rex in the safespot, sip a prayer potion so you're at least 40 prayer points or so, and click x to close the client. Wait up to a minute for Supreme to walk away, log back on (or try a different world but there's a risk you're crashing someone). You're now on the east side and can deal with Rex only, you're out of range of Prime and Supreme\n",
+                      "text": "You pray mage when entering the room. If Prime is on you, go back up. If Prime is not on you, regardless of whether Supreme is on you, run south immediately and swap to pray range. Run along the south edge with protect range up until you're all the way east Then, once east (pray range still up), trap Rex in the safespot, sip a prayer potion so you're at least 40 prayer points or so, and click x to close the client. Wait up to a minute for Supreme to walk away, log back on (or try a different world but there's a risk you're crashing someone). You're now on the east side and can deal with Rex only, you're out of range of Prime and Supreme",
                       "formatting": {
                         "color": {
                           "r": 1,
                           "g": 0,
                           "b": 0
                         },
+                        "fontFamily": "Arial"
+                      }
+                    },
+                    {
+                      "text": "\n",
+                      "formatting": {
+                        "fontFamily": "Arial"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "https://www.youtube.com/watch?v=cecFJzonMjg",
+                      "formatting": {
+                        "underline": true,
+                        "color": {
+                          "r": 0.06666667,
+                          "g": 0.33333334,
+                          "b": 0.8
+                        },
+                        "fontFamily": "Arial",
+                        "url": "https://www.youtube.com/watch?v=cecFJzonMjg",
+                        "isLink": true
+                      }
+                    },
+                    {
+                      "text": " this video shows how to xlog\n",
+                      "formatting": {
                         "fontFamily": "Arial"
                       }
                     }
@@ -18787,7 +18719,11 @@
                   "formatting": {}
                 },
                 {
-                  "text": "~1.5k red chins ",
+                  "text": "~1.5k red chins",
+                  "formatting": {}
+                },
+                {
+                  "text": " ",
                   "formatting": {
                     "bold": true,
                     "italic": true,
@@ -18799,17 +18735,35 @@
                   }
                 },
                 {
-                  "text": "in the Feldip Hills. Train your ranging in the MM1 tunnels (short fuse) to level 62 (55 with grey, 55-62 with red). Make sure to equip a salve amulet (ei) ",
+                  "text": "between Kastori and Tal Teklan (",
                   "formatting": {}
                 },
                 {
-                  "text": "(glory is better if you have it)",
+                  "text": "TalTeklanChinSpot.png",
+                  "url": "https://drive.google.com/file/d/1g2hPbPsetvSMkeEf0YuPG8n8bRJnniM8/view?usp=sharing",
+                  "isLink": true,
                   "formatting": {
-                    "italic": true
+                    "underline": true
                   }
                 },
                 {
-                  "text": ".\n",
+                  "text": ")",
+                  "formatting": {}
+                },
+                {
+                  "text": ". Follow this guide for catching chins: ",
+                  "formatting": {}
+                },
+                {
+                  "text": "OSRS Easy 1t Hunter Guide (In-Depth)",
+                  "url": "https://www.youtube.com/watch?v=7XXH5HTrpCw",
+                  "isLink": true,
+                  "formatting": {
+                    "underline": true
+                  }
+                },
+                {
+                  "text": " for the methods (regardless of location and chin type). Train your ranging in the MM1 tunnels (short fuse) to level 62 (55 with grey, 55-62 with red). Make sure to equip a salve amulet (ei).\n",
                   "formatting": {}
                 }
               ],
@@ -19400,17 +19354,7 @@
                       }
                     },
                     {
-                      "text": " so on 50% of all runs). If you have (and continue to be) tick perfect this is ",
-                      "formatting": {}
-                    },
-                    {
-                      "text": "not",
-                      "formatting": {
-                        "underline": true
-                      }
-                    },
-                    {
-                      "text": " worth looting, as it means you will lose the timing for ‘sword skip’ (and the 1:20-1:23 lap time) on the next section. If you are not tick perfect up to this floor the enchantment obstacle is efficient to loot, and works identically to that on floor 3.\n",
+                      "text": " so on 50% of all runs). This is efficient to loot barring exceptionally lucky circumstances - in practice this is always worth looting. The enchant works identically to that on floor 3.\n",
                       "formatting": {}
                     }
                   ]
@@ -19488,7 +19432,7 @@
                       }
                     },
                     {
-                      "text": ") but not to cross it.\n",
+                      "text": ") but not to cross it. The enchant on f3 is the best of the technically inefficient looting options, so if you want to increase your loot a little this is the one to include in your runs.\n",
                       "formatting": {}
                     }
                   ]
@@ -21532,7 +21476,7 @@
               "formatting": {}
             },
             {
-              "text": "20250820Chapter1",
+              "text": "20251019Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -21553,7 +21497,7 @@
               "formatting": {}
             },
             {
-              "text": "20250820Chapter2",
+              "text": "20251019Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -21574,7 +21518,7 @@
               "formatting": {}
             },
             {
-              "text": "20250820Chapter3",
+              "text": "20251019Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -21595,7 +21539,7 @@
               "formatting": {}
             },
             {
-              "text": "20250820DetailedStepsGuide",
+              "text": "20251019DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -21864,6 +21808,33 @@
             },
             {
               "text": "\n",
+              "formatting": {
+                "italic": true,
+                "fontSize": 11,
+                "fontFamily": "Arial"
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20251019BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/1z7H1lJ7-nyksd_GymY7BO8uABI7jYdL4/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
               "formatting": {}
             }
           ],
@@ -22053,7 +22024,7 @@
                   }
                 },
                 {
-                  "text": " unlocked, mine 28k daeyalt essence (you can also just afk mine this). Make 275 binding necklaces, 175 rings of dueling, a fire tiara, buy 28k earth runes (if needed). Swap to the Lunar spellbook. Using magic imbue, your binding necklaces and hallowed crystal shards (teleports) for banking, lava runecraft to 445,000 xp (level 64, midway to level 65). After this, start and complete The Final Dawn, putting the xp on prayer. The Arkan blade is now your default special attack weapon when meleeing. It is stronger than the dragon dagger.\n",
+                  "text": " unlocked, mine 28k daeyalt essence (you can also just afk mine this). Make 275 binding necklaces, 175 rings of dueling, a fire tiara, buy 28k earth runes (if needed). Swap to the Lunar spellbook. Using magic imbue, your binding necklaces and hallowed crystal shards (teleports) for banking, lava runecraft to 425,000 xp (level 64, midway to level 65). After this, start and complete The Final Dawn, putting the xp on prayer. The Arkan blade is now your default special attack weapon when meleeing. It is stronger than the dragon dagger. The Arkan blade is also sometimes better (typically against stab weak enemies) than the Dragon scimitar as a mainhand weapon.\n",
                   "formatting": {}
                 }
               ],
@@ -22265,7 +22236,7 @@
                       "formatting": {}
                     },
                     {
-                      "text": "20241231SlayerGuide",
+                      "text": "20251019SlayerGuide",
                       "url": "https://docs.google.com/document/d/1kBMW2uRI8b4NBcYn9PmsedTnZ3yW7fuGwdzsRQSCNkk/edit?usp=sharing",
                       "isLink": true,
                       "formatting": {
@@ -22300,7 +22271,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "At your own convenience, complete the quest While Guthix Sleeps along the way. Grab the 100 magic logs during the quest. Alternatively, postpone the quest until after the Corrupted Gauntlet.\n",
+                      "text": "At your own convenience, complete the quest While Guthix Sleeps along the way. Grab the 100 magic logs during the quest for Shades of Mort’ton (for bloodbark) later. Alternatively, postpone the quest until after the Corrupted Gauntlet.\n",
                       "formatting": {}
                     }
                   ]
@@ -22626,7 +22597,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "52m",
+                "gp_stack": "500k",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -22671,6 +22642,15 @@
                   "level": 1,
                   "content": [
                     {
+                      "text": "An important strategy to increase your points per game (and per hour) at guardians of the rift is ‘empty cell running’. When out of essence, grab a cell from the table and enter an altar (higher tier is better) to charge the cell. Then deposit it for points, ideally on a golem but on a barrier is also fine. You can combine this with multiskilling for efficiency.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
                       "text": "Make an amulet of glory when you have the crafting level (75+5) to make one.\n",
                       "formatting": {}
                     }
@@ -22678,7 +22658,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "52m",
+                "gp_stack": "500k",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -22699,7 +22679,19 @@
                   }
                 },
                 {
-                  "text": " or 16k black chinchompas (for 92 ranged, if you have extras then can consider throwing for more Ranged XP or using them for your first fire cape if you’re good at speed strats) in the wilderness. If you want to catch red chinchompas but the Varlamore spot is too competitive, e.g. with bots, the second best option is catching them northeast of Prifddinas. Throw the chins in the cave to get to 70 ranging, complete the Western Provinces Hard Diary (this involves getting one Zulrah kill), upgrade your void to Elite, (optionally: grab an offtask fire cape at some point along the way), return and throw the chins to get to level 92 ranging.\n",
+                  "text": " or 16k black chinchompas (for 92 ranged, if you have extras then can consider throwing for more Ranged XP or using them for your first fire cape if you’re good at speed strats) in the wilderness. Follow this guide for catching chins: ",
+                  "formatting": {}
+                },
+                {
+                  "text": "OSRS Easy 1t Hunter Guide (In-Depth)",
+                  "url": "https://www.youtube.com/watch?v=7XXH5HTrpCw",
+                  "isLink": true,
+                  "formatting": {
+                    "underline": true
+                  }
+                },
+                {
+                  "text": ". If you want to catch red chinchompas but the Varlamore spot is too competitive, e.g. with bots, the second best option is catching them northeast of Prifddinas. Throw the chins in the cave to get to 70 ranging, complete the Western Provinces Hard Diary (this involves getting one Zulrah kill), upgrade your void to Elite, (optionally: grab an offtask fire cape at some point along the way), return and throw the chins to get to level 92 ranging.\n",
                   "formatting": {}
                 }
               ],
@@ -23281,6 +23273,15 @@
                   "level": 1,
                   "content": [
                     {
+                      "text": "An important strategy to increase your points per game (and per hour) at guardians of the rift is ‘empty cell running’. When out of essence, grab a cell from the table and enter an altar (higher tier is better) to charge the cell. Then deposit it for points, ideally on a golem but on a barrier is also fine. You can combine this with multiskilling for efficiency.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
                       "text": "At 65 runecrafting complete the Ardougne Hard diary (also requires a shield left half).\n",
                       "formatting": {}
                     }
@@ -23343,7 +23344,7 @@
                   "level": 2,
                   "content": [
                     {
-                      "text": "Vardorvis: Dragon scimitar (this is going to be rough)\n",
+                      "text": "Vardorvis: Arkan blade (this is going to be rough)\n",
                       "formatting": {}
                     }
                   ]
@@ -23370,7 +23371,7 @@
                   "level": 2,
                   "content": [
                     {
-                      "text": "Whisperer: Charged god spells (just don’t stand in the wave bro)\n",
+                      "text": "Whisperer: The strongest Earth spell you can cast (just don’t stand in the wave bro)\n",
                       "formatting": {}
                     }
                   ]
@@ -23740,7 +23741,7 @@
                   }
                 },
                 {
-                  "text": ". Super glassmake all the sand with previously farmed giant seaweed. If you aen’t 91 thieving yet, arteglass the molten glass until you are.\n",
+                  "text": ". Super glassmake all the sand with previously farmed giant seaweed. If you aren’t 91 thieving yet, arteglass the molten glass until you are.\n",
                   "formatting": {}
                 }
               ],
@@ -23772,7 +23773,7 @@
                   }
                 },
                 {
-                  "text": " unlocked and the full raiments of the eye set, there is almost nothing holding you back from training runecrafting, e.g. with spellbook swap Vile Vigour fletching (multiskill) ZMI runecrafting (or non-spellbook swap stamina potions). It is macroefficient to complete level 95 runecrafting sooner rather than later, to have access to ample wrath runes for offering spells during slayer. Weave in the runecrafting grind at your own convenience, immediately is recommended. Blow glass while ZMI crafting, then when out of glass swap over to fletching instead (buy broad arrowhead packs and arrow shafts as needed).\n",
+                  "text": " unlocked and the full raiments of the eye set, there is almost nothing holding you back from training runecrafting, e.g. with spellbook swap Vile Vigour fletching (multiskill) ZMI runecrafting (or non-spellbook swap stamina potions). It is macroefficient to complete level 90 or 95 runecrafting sooner rather than later, to have access to ample wrath runes for offering spells during slayer. Weave in the runecrafting grind at your own convenience, immediately is recommended. Blow glass while ZMI crafting, then when out of glass swap over to fletching instead (buy broad arrowhead packs and arrow shafts as needed).\n",
                   "formatting": {}
                 }
               ],
@@ -23782,6 +23783,15 @@
                   "content": [
                     {
                       "text": "It is meta to sell some of the runes you craft. Sell laws past the first 10,000 and nature runes past the first 30,000 (note: you may wish to keep more runes for your own purposes) to Ali Morissane. Optionally also sell chaos runes for tokkul to TzHaar-Mej-Roh, buying onyx bolt tips and uncut gems with the tokkul (this requires a fire cape).\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "You can multiskill barbarian mixes with ZMI by teleporting to a bank (sepulchre recommended) after crafting the runes, filling your inv with a 50/50 mix of caviar and 2-dose potions, teleporting to Ourania, then making them as you run to the ladder. Then bank again at Eniola to grab the essence and fletching/crafting materials for your next inventory of ZMI.\n",
                       "formatting": {}
                     }
                   ]
@@ -25068,7 +25078,7 @@
               "formatting": {}
             },
             {
-              "text": "20250820Chapter1",
+              "text": "20251019Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -25089,7 +25099,7 @@
               "formatting": {}
             },
             {
-              "text": "20250820Chapter2",
+              "text": "20251019Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -25110,7 +25120,7 @@
               "formatting": {}
             },
             {
-              "text": "20250820Chapter3",
+              "text": "20251019Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -25131,7 +25141,7 @@
               "formatting": {}
             },
             {
-              "text": "20250820DetailedStepsGuide",
+              "text": "20251019DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -25403,7 +25413,35 @@
             {
               "text": "\n",
               "formatting": {
-                "fontSize": 13
+                "italic": true,
+                "fontSize": 11,
+                "fontFamily": "Arial"
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20251019BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/1z7H1lJ7-nyksd_GymY7BO8uABI7jYdL4/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "underline": true,
+                "fontSize": 14
               }
             }
           ],
