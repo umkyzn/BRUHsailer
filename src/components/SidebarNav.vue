@@ -1,125 +1,190 @@
 <template>
-  <aside :class="['sidebar-nav', { collapsed: uiStore.sidebarCollapsed }]">
+  <aside
+    :class="['sidebar-nav', { collapsed: uiStore.sidebarCollapsed, pinned: uiStore.sidebarPinned }]"
+    @mouseenter="handleMouseEnter"
+    @mouseleave="handleMouseLeave"
+  >
     <div class="sidebar-header">
-      <button class="sidebar-toggle" @click="uiStore.toggleSidebar" aria-label="Toggle sidebar">
-        <svg v-if="!uiStore.sidebarCollapsed" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M3 12h18M3 6h18M3 18h18"/>
-        </svg>
-        <svg v-else width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M9 18l6-6-6-6"/>
-        </svg>
+      <h2 v-if="!uiStore.sidebarCollapsed" class="osrs-text">Guide</h2>
+      <button
+        class="pin-button osrs-button"
+        @click="uiStore.toggleSidebarPin"
+        :title="uiStore.sidebarPinned ? 'Unpin sidebar' : 'Pin sidebar'"
+      >
+        <span v-if="!uiStore.sidebarCollapsed">{{ uiStore.sidebarPinned ? '📌' : '📍' }}</span>
       </button>
-      <h2 v-if="!uiStore.sidebarCollapsed" class="sidebar-title">Contents</h2>
     </div>
 
-    <div v-if="!uiStore.sidebarCollapsed" class="sidebar-content">
-      <!-- Show chapter list -->
-      <Transition name="slide" mode="out-in">
-        <nav v-if="selectedChapter === null" key="chapters" class="chapter-list">
+    <nav class="chapters-nav">
+      <div
+        v-for="(chapter, index) in guideStore.guideData?.chapters"
+        :key="`chapter-${index}`"
+        class="chapter-item"
+        :class="{ active: isChapterActive(index) }"
+      >
+        <button
+          class="chapter-button"
+          @click="handleChapterClick(index)"
+        >
+          <div class="chapter-icon-wrapper">
+            <ProgressRing
+              :percentage="getChapterProgress(index)"
+              :size="40"
+            />
+            <span class="chapter-number osrs-text">{{ index + 1 }}</span>
+          </div>
+          <span v-if="!uiStore.sidebarCollapsed" class="chapter-title">
+            {{ chapter.title }}
+          </span>
+        </button>
+
+        <div
+          v-if="!uiStore.sidebarCollapsed && isChapterExpanded(index)"
+          class="sections-list"
+        >
           <button
-            v-for="(chapter, chapterIndex) in guideStore.guideData?.chapters"
-            :key="chapterIndex"
-            :class="['chapter-button', {
-              active: uiStore.currentChapterId === chapterIndex
-            }]"
-            @click="selectChapter(chapterIndex)"
+            v-for="(section, sectionIndex) in chapter.sections"
+            :key="`section-${index}-${sectionIndex}`"
+            class="section-button"
+            :class="{ active: isSectionActive(index, sectionIndex) }"
+            @click="handleSectionClick(index, sectionIndex)"
           >
-            <span class="chapter-name" :title="chapter.title">{{ chapter.title }}</span>
-            <div class="chapter-meta">
-              <CircularProgress :percentage="getChapterProgress(chapterIndex)" />
-              <svg class="chevron-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M9 18l6-6-6-6"/>
-              </svg>
-            </div>
+            <span class="section-title">{{ section.title }}</span>
+            <span class="section-progress">
+              {{ getSectionProgress(index, sectionIndex) }}
+            </span>
           </button>
-        </nav>
+        </div>
+      </div>
+    </nav>
 
-        <!-- Show section list for selected chapter -->
-        <nav v-else key="sections" class="section-view">
-          <button class="back-button" @click="selectedChapter = null">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M15 18l-6-6 6-6"/>
-            </svg>
-            <span>All Chapters</span>
-          </button>
-
-          <div class="chapter-title-display">
-            <h3>{{ guideStore.guideData?.chapters[selectedChapter]?.title }}</h3>
-            <CircularProgress :percentage="getChapterProgress(selectedChapter)" />
-          </div>
-
-          <div class="section-list">
-            <router-link
-              v-for="(section, sectionIndex) in guideStore.guideData?.chapters[selectedChapter]?.sections"
-              :key="`${selectedChapter}-${sectionIndex}`"
-              :to="`/c/${selectedChapter}/s/${selectedChapter}-${sectionIndex}`"
-              :class="['section-item', {
-                active: uiStore.currentSectionId === `${selectedChapter}-${sectionIndex}`
-              }]"
-              @click="setCurrentSection(selectedChapter, `${selectedChapter}-${sectionIndex}`)"
-            >
-              <span class="section-name" :title="section.title">{{ section.title }}</span>
-              <div class="section-meta">
-                <span v-if="getSectionResultCount(selectedChapter, `${selectedChapter}-${sectionIndex}`) > 0" class="result-badge">
-                  {{ getSectionResultCount(selectedChapter, `${selectedChapter}-${sectionIndex}`) }}
-                </span>
-                <span class="completion-text">{{ getSectionProgress(selectedChapter, `${selectedChapter}-${sectionIndex}`) }}%</span>
-              </div>
-            </router-link>
-          </div>
-        </nav>
-      </Transition>
-    </div>
+    <button
+      class="collapse-toggle osrs-button"
+      @click="uiStore.toggleSidebar"
+      :title="uiStore.sidebarCollapsed ? 'Expand sidebar' : 'Collapse sidebar'"
+    >
+      {{ uiStore.sidebarCollapsed ? '→' : '←' }}
+    </button>
   </aside>
 </template>
 
 <script setup lang="ts">
-import { ref, watch } from 'vue';
-import { useRoute } from 'vue-router';
-import { useUiStore } from '@/stores/ui';
-import { useGuideStore } from '@/stores/guide';
-import { useFilterStore } from '@/stores/filter';
-import CircularProgress from './CircularProgress.vue';
+import { useRouter } from 'vue-router'
+import { useGuideStore } from '@/stores/guide'
+import { useProgressStore } from '@/stores/progress'
+import { useUiStore } from '@/stores/ui'
+import ProgressRing from './ProgressRing.vue'
 
-const uiStore = useUiStore();
-const guideStore = useGuideStore();
-const filterStore = useFilterStore();
-const route = useRoute();
+const router = useRouter()
+const guideStore = useGuideStore()
+const progressStore = useProgressStore()
+const uiStore = useUiStore()
 
-const selectedChapter = ref<number | null>(null);
+let hoverTimeout: number | null = null
 
-function selectChapter(chapterIndex: number) {
-  selectedChapter.value = chapterIndex;
-}
-
-function setCurrentSection(chapterId: number, sectionId: string) {
-  uiStore.setCurrentLocation(chapterId, sectionId);
-}
-
-function getChapterProgress(chapterId: number): number {
-  return guideStore.getChapterProgress(chapterId).percentage;
-}
-
-function getSectionProgress(chapterId: number, sectionId: string): number {
-  return guideStore.getSectionProgress(chapterId, sectionId).percentage;
-}
-
-function getSectionResultCount(chapterId: number, sectionId: string): number {
-  return filterStore.searchResults.filter(
-    (r: any) => r.chapterId === chapterId && r.sectionId === sectionId
-  ).length;
-}
-
-// Auto-select chapter based on route
-watch(() => route.params, (params) => {
-  if (params.chapterId) {
-    const chapterId = Number(params.chapterId);
-    selectedChapter.value = chapterId;
-    if (params.sectionId) {
-      uiStore.setCurrentLocation(chapterId, params.sectionId as string);
-    }
+function handleMouseEnter() {
+  if (!uiStore.sidebarPinned) {
+    hoverTimeout = window.setTimeout(() => {
+      uiStore.setSidebarCollapsed(false)
+    }, 200)
   }
-}, { immediate: true });
+}
+
+function handleMouseLeave() {
+  if (hoverTimeout) {
+    clearTimeout(hoverTimeout)
+  }
+  if (!uiStore.sidebarPinned) {
+    uiStore.setSidebarCollapsed(true)
+  }
+}
+
+function isChapterActive(chapterIndex: number): boolean {
+  return uiStore.currentChapterId === chapterIndex
+}
+
+function isChapterExpanded(chapterIndex: number): boolean {
+  return uiStore.expandedChapters.has(chapterIndex)
+}
+
+function isSectionActive(chapterIndex: number, sectionIndex: number): boolean {
+  const sectionId = `section-${chapterIndex}-${sectionIndex}`
+  return uiStore.currentSectionId === sectionId
+}
+
+function getChapterProgress(chapterIndex: number): number {
+  const chapters = guideStore.guideData?.chapters
+  if (!chapters) return 0
+  const chapter = chapters[chapterIndex]
+  if (!chapter) return 0
+
+  let total = 0
+  let completed = 0
+
+  chapter.sections.forEach((section: any, sectionIndex: number) => {
+    section.steps.forEach((_: any, stepIndex: number) => {
+      total++
+      const stepKey = `check-${chapterIndex}-${sectionIndex}-${stepIndex}`
+      if (progressStore.checkboxStates[stepKey]) {
+        completed++
+      }
+    })
+  })
+
+  return total > 0 ? Math.round((completed / total) * 100) : 0
+}
+
+function getSectionProgress(chapterIndex: number, sectionIndex: number): string {
+  const chapters = guideStore.guideData?.chapters
+  if (!chapters) return '0/0'
+  const chapter = chapters[chapterIndex]
+  if (!chapter) return '0/0'
+
+  const section = chapter.sections[sectionIndex]
+  if (!section) return '0/0'
+
+  let completed = 0
+  section.steps.forEach((_: any, stepIndex: number) => {
+    const stepKey = `check-${chapterIndex}-${sectionIndex}-${stepIndex}`
+    if (progressStore.checkboxStates[stepKey]) {
+      completed++
+    }
+  })
+
+  return `${completed}/${section.steps.length}`
+}
+
+function handleChapterClick(chapterIndex: number) {
+  uiStore.toggleChapter(chapterIndex)
+
+  // Navigate to first incomplete section or first section
+  const chapters = guideStore.guideData?.chapters
+  if (!chapters) return
+  const chapter = chapters[chapterIndex]
+  if (chapter && chapter.sections.length > 0) {
+    const firstIncompleteSection = chapter.sections.findIndex((section: any, sectionIndex: number) => {
+      return section.steps.some((_: any, stepIndex: number) => {
+        const stepKey = `check-${chapterIndex}-${sectionIndex}-${stepIndex}`
+        return !progressStore.checkboxStates[stepKey]
+      })
+    })
+
+    const targetSection = firstIncompleteSection >= 0 ? firstIncompleteSection : 0
+    const sectionId = `section-${chapterIndex}-${targetSection}`
+    router.push(`/c/${chapterIndex}/s/${sectionId}`)
+  }
+}
+
+function handleSectionClick(chapterIndex: number, sectionIndex: number) {
+  const sectionId = `section-${chapterIndex}-${sectionIndex}`
+  router.push(`/c/${chapterIndex}/s/${sectionId}`)
+
+  if (!uiStore.sidebarPinned) {
+    setTimeout(() => {
+      uiStore.setSidebarCollapsed(true)
+    }, 300)
+  }
+}
 </script>
 
 <style scoped>
@@ -127,15 +192,15 @@ watch(() => route.params, (params) => {
   position: fixed;
   left: 0;
   top: 0;
-  bottom: 0;
-  width: 320px;
-  background: var(--card-bg);
-  border-right: 1px solid var(--section-border);
+  height: 100vh;
+  width: 280px;
+  background: var(--osrs-panel-bg);
+  border-right: 3px solid var(--osrs-border);
   display: flex;
   flex-direction: column;
+  transition: width 200ms ease-out, transform 200ms ease-out;
   z-index: 100;
-  transition: width 0.25s cubic-bezier(0.4, 0, 0.2, 1), transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
 }
 
 .sidebar-nav.collapsed {
@@ -143,429 +208,156 @@ watch(() => route.params, (params) => {
 }
 
 .sidebar-header {
+  padding: var(--spacing-lg);
+  border-bottom: 2px solid var(--osrs-border);
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 12px;
-  padding: 16px 20px;
-  border-bottom: 1px solid var(--section-border);
-  min-height: 64px;
-  background: var(--card-bg);
 }
 
-.sidebar-toggle {
-  background: transparent;
-  border: none;
-  color: var(--foreground-muted, var(--text-muted));
-  cursor: pointer;
-  padding: 8px;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
-}
-
-.sidebar-toggle::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: 8px;
-  background: var(--primary);
-  opacity: 0;
-  transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.sidebar-toggle:hover::before {
-  opacity: 0.08;
-}
-
-.sidebar-toggle:active::before {
-  opacity: 0.12;
-}
-
-.sidebar-toggle:hover {
-  color: var(--foreground, var(--text-color));
-}
-
-.sidebar-toggle svg {
-  position: relative;
-  z-index: 1;
-}
-
-.sidebar-title {
-  font-size: 20px;
-  font-weight: 600;
-  color: var(--foreground, var(--text-color));
+.sidebar-header h2 {
   margin: 0;
-  letter-spacing: -0.01em;
+  font-size: var(--font-size-xl);
 }
 
-.sidebar-content {
+.chapters-nav {
   flex: 1;
   overflow-y: auto;
-  overflow-x: hidden;
-  padding: 8px 0;
+  padding: var(--spacing-md);
 }
 
-.chapter-list {
-  padding: 4px 12px;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
+.chapter-item {
+  margin-bottom: var(--spacing-md);
 }
 
 .chapter-button {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 12px 16px;
   background: transparent;
   border: none;
-  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-sm);
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 150ms ease;
+}
+
+.chapter-button:hover {
+  background: var(--osrs-stone-medium);
+}
+
+.chapter-item.active .chapter-button {
+  background: var(--osrs-button-active);
+}
+
+.chapter-icon-wrapper {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.chapter-number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: var(--font-size-lg);
+  pointer-events: none;
+}
+
+.chapter-title {
+  font-family: var(--font-osrs);
+  color: var(--osrs-gold);
+  font-size: var(--font-size-sm);
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sections-list {
+  margin-top: var(--spacing-sm);
+  margin-left: var(--spacing-2xl);
+  border-left: 2px solid var(--osrs-stone-dark);
+  padding-left: var(--spacing-md);
+}
+
+.section-button {
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: var(--spacing-xs) var(--spacing-sm);
   cursor: pointer;
   text-align: left;
-  color: var(--foreground, var(--text-color));
-  font-size: 14px;
-  font-weight: 500;
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
-  overflow: hidden;
-}
-
-.chapter-button::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: 8px;
-  background: var(--primary);
-  opacity: 0;
-  transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.chapter-button:hover::before {
-  opacity: 0.08;
-}
-
-.chapter-button:active::before {
-  opacity: 0.12;
-}
-
-.chapter-button.active {
-  background: var(--primary);
-  color: white;
-  font-weight: 600;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-.chapter-button.active::before {
-  opacity: 0;
-}
-
-.chapter-name {
-  flex: 1;
-  min-width: 0;
-  line-height: 1.5;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  position: relative;
-  z-index: 1;
-}
-
-.chapter-meta {
   display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-shrink: 0;
-  position: relative;
-  z-index: 1;
-}
-
-.chevron-icon {
-  flex-shrink: 0;
-  opacity: 0.5;
-  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s;
-}
-
-.chapter-button:hover .chevron-icon {
-  opacity: 0.7;
-  transform: translateX(2px);
-}
-
-.chapter-button.active .chevron-icon {
-  opacity: 0.9;
-}
-
-.back-button {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 16px;
-  margin: 0 12px 12px;
-  background: transparent;
-  border: 1px solid var(--section-border);
-  border-radius: 8px;
-  cursor: pointer;
-  color: var(--foreground, var(--text-color));
-  font-size: 14px;
-  font-weight: 500;
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
-  overflow: hidden;
-}
-
-.back-button::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: 8px;
-  background: var(--primary);
-  opacity: 0;
-  transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.back-button:hover {
-  border-color: var(--primary);
-  color: var(--primary);
-}
-
-.back-button:hover::before {
-  opacity: 0.04;
-}
-
-.back-button svg {
-  flex-shrink: 0;
-  position: relative;
-  z-index: 1;
-  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.back-button:hover svg {
-  transform: translateX(-2px);
-}
-
-.back-button span {
-  position: relative;
-  z-index: 1;
-}
-
-.chapter-title-display {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  padding: 16px 20px;
-  margin: 0 12px 12px;
-  background: linear-gradient(135deg, var(--primary) 0%, rgba(var(--primary-rgb, 59, 130, 246), 0.85) 100%);
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.chapter-title-display h3 {
-  flex: 1;
-  margin: 0;
-  font-size: 15px;
-  font-weight: 600;
-  color: white;
-  line-height: 1.4;
-  letter-spacing: -0.01em;
-}
-
-.section-view {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.section-list {
-  padding: 0 12px 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  overflow-y: auto;
-}
-
-.section-item {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 10px 16px;
-  border-radius: 8px;
-  text-decoration: none;
-  color: var(--foreground-muted, var(--text-muted));
-  font-size: 13px;
-  font-weight: 500;
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
+  border-radius: 4px;
+  transition: background 150ms ease;
+  margin-bottom: var(--spacing-xs);
+}
+
+.section-button:hover {
+  background: var(--osrs-stone-dark);
+}
+
+.section-button.active {
+  background: var(--osrs-gold);
+  color: var(--osrs-stone-dark);
+}
+
+.section-title {
+  font-family: var(--font-osrs);
+  font-size: var(--font-size-xs);
+  color: var(--osrs-parchment);
+  white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.section-item::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: 8px;
-  background: var(--primary);
-  opacity: 0;
-  transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+.section-button.active .section-title {
+  color: var(--osrs-stone-dark);
 }
 
-.section-item:hover {
-  color: var(--foreground, var(--text-color));
-}
-
-.section-item:hover::before {
-  opacity: 0.06;
-}
-
-.section-item:active::before {
-  opacity: 0.1;
-}
-
-.section-item.active {
-  background: var(--primary);
-  color: white;
-  font-weight: 600;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
-}
-
-.section-item.active::before {
-  opacity: 0;
-}
-
-.section-name {
-  flex: 1;
-  min-width: 0;
-  line-height: 1.4;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  position: relative;
-  z-index: 1;
-}
-
-.section-meta {
-  display: flex;
-  align-items: center;
-  gap: 6px;
+.section-progress {
+  font-family: var(--font-osrs);
+  font-size: var(--font-size-xs);
+  color: var(--osrs-gold-dark);
   flex-shrink: 0;
-  position: relative;
-  z-index: 1;
+  margin-left: var(--spacing-sm);
 }
 
-.result-badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 22px;
-  height: 22px;
-  padding: 0 6px;
-  background: var(--active-btn);
-  color: white;
-  border-radius: 11px;
-  font-size: 11px;
-  font-weight: 700;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+.collapse-toggle {
+  margin: var(--spacing-md);
+  padding: var(--spacing-sm);
 }
 
-.section-item.active .result-badge {
-  background: white;
-  color: var(--primary);
+.pin-button {
+  padding: var(--spacing-xs) var(--spacing-sm);
 }
 
-.completion-text {
-  font-size: 12px;
-  opacity: 0.7;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
+.sidebar-nav.collapsed .sidebar-header h2,
+.sidebar-nav.collapsed .chapter-title,
+.sidebar-nav.collapsed .sections-list,
+.sidebar-nav.collapsed .pin-button span {
+  display: none;
 }
 
-/* Transitions */
-.slide-enter-active,
-.slide-leave-active {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.slide-enter-from {
-  opacity: 0;
-  transform: translateX(-20px);
-}
-
-.slide-leave-to {
-  opacity: 0;
-  transform: translateX(20px);
-}
-
-/* Expand transition - kept for compatibility */
-.expand-enter-active,
-.expand-leave-active {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: hidden;
-}
-
-.expand-enter-from,
-.expand-leave-to {
-  opacity: 0;
-  max-height: 0;
-}
-
-.expand-enter-to,
-.expand-leave-from {
-  opacity: 1;
-  max-height: 1000px;
-}
-
-/* Mobile responsive */
+/* Mobile */
 @media (max-width: 768px) {
   .sidebar-nav {
     transform: translateX(-100%);
-    width: 280px;
   }
 
-  .sidebar-nav:not(.collapsed) {
+  .sidebar-nav.collapsed:not(.pinned) {
+    transform: translateX(-100%);
+  }
+
+  .sidebar-nav:not(.collapsed),
+  .sidebar-nav.pinned {
     transform: translateX(0);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12), 0 4px 16px rgba(0, 0, 0, 0.08);
   }
-}
-
-/* Custom scrollbar with Material Design style */
-.sidebar-content::-webkit-scrollbar {
-  width: 8px;
-}
-
-.sidebar-content::-webkit-scrollbar-track {
-  background: transparent;
-  margin: 4px 0;
-}
-
-.sidebar-content::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  transition: background 0.2s;
-}
-
-.sidebar-content::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.3);
-}
-
-.section-list::-webkit-scrollbar {
-  width: 8px;
-}
-
-.section-list::-webkit-scrollbar-track {
-  background: transparent;
-  margin: 4px 0;
-}
-
-.section-list::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  transition: background 0.2s;
-}
-
-.section-list::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.3);
 }
 </style>
