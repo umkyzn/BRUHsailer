@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'RuneScape';
+  src: url('/assets/osrs/fonts/runescape.woff2') format('woff2'),
+       url('/assets/osrs/fonts/runescape.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   /* Design Tokens - Spacing Scale (4px base) */
   --spacing-xs: 4px;
@@ -28,6 +37,9 @@
   --font-medium: 500;
   --font-semibold: 600;
   --font-bold: 700;
+
+  /* OSRS Font */
+  --font-osrs: 'RuneScape', 'Courier New', Courier, monospace;
 
   /* Line Heights */
   --line-height-none: 1;
@@ -91,6 +103,28 @@
   --active-btn: #a88c6c;
   --step-header-bg: #f5efe8;
   --hover-bg: #f5f5f5;
+
+  /* OSRS Theme Colors */
+  --osrs-gold: #FFD700;
+  --osrs-gold-dark: #DAA520;
+  --osrs-stone-light: #8B7355;
+  --osrs-stone-medium: #6B5A47;
+  --osrs-stone-dark: #4A3F35;
+  --osrs-parchment: #F5E6D3;
+  --osrs-border: #3E2A1F;
+
+  /* OSRS Skill Colors */
+  --osrs-attack: #CC3300;
+  --osrs-strength: #009900;
+  --osrs-defence: #3399FF;
+  --osrs-hitpoints: #FF0000;
+  --osrs-magic: #3366FF;
+  --osrs-ranged: #669900;
+
+  /* OSRS UI Elements */
+  --osrs-text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+  --osrs-panel-bg: linear-gradient(135deg, #8B7355 0%, #6B5A47 100%);
+  --osrs-button-active: #5A4A35;
 }
 
 body.dark-mode {
@@ -129,6 +163,14 @@ body.dark-mode {
   --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
   --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.5);
   --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.6);
+
+  /* OSRS Dark Mode Overrides */
+  --osrs-gold: #FFE55C;
+  --osrs-stone-light: #3A4A5A;
+  --osrs-stone-medium: #2A3545;
+  --osrs-stone-dark: #1A2530;
+  --osrs-parchment: #2C3542;
+  --osrs-panel-bg: linear-gradient(135deg, #3A4A5A 0%, #2A3545 100%);
 }
 
 body {
