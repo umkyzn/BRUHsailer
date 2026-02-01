@@ -66,7 +66,7 @@
   --accent-coins: #f59e0b;       /* Amber for GP */
   --accent-items: #10b981;       /* Emerald for items */
   --accent-skills: #3b82f6;      /* Blue for skills/quests */
-  
+
   /* Colors - Light Mode */
   --primary: #c0a080;
   --primary-dark: #605443;
@@ -103,13 +103,13 @@ body.dark-mode {
   --foreground: #fafafa;           /* Primary text */
   --foreground-muted: #a1a1aa;     /* Secondary/muted text */
   --foreground-subtle: #71717a;    /* Tertiary/subtle text */
-  
+
   /* Accent Colors for Dark Mode */
   --accent-time: #a78bfa;          /* Lighter purple */
   --accent-coins: #fbbf24;         /* Lighter amber */
   --accent-items: #34d399;         /* Lighter emerald */
   --accent-skills: #60a5fa;        /* Lighter blue */
-  
+
   /* Legacy compatibility */
   --text-color: var(--foreground);
   --text-muted: var(--foreground-muted);
