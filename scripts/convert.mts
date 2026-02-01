@@ -1,11 +1,191 @@
-const fs = require("fs");
-const { url } = require("inspector");
-const path = require("path");
+import fs from "fs";
+import path from "path";
 
-function extractTextWithFormatting(element) {
+// ====================================
+// Type Definitions
+// ====================================
+
+interface RGBColor {
+  red?: number;
+  green?: number;
+  blue?: number;
+}
+
+interface Color {
+  rgbColor?: RGBColor;
+}
+
+interface ForegroundColor {
+  color?: Color;
+}
+
+interface FontSize {
+  magnitude?: number;
+}
+
+interface WeightedFontFamily {
+  fontFamily?: string;
+}
+
+interface Link {
+  url?: string;
+}
+
+interface TextStyle {
+  bold?: boolean;
+  italic?: boolean;
+  underline?: boolean;
+  strikethrough?: boolean;
+  foregroundColor?: ForegroundColor;
+  fontSize?: FontSize;
+  weightedFontFamily?: WeightedFontFamily;
+  link?: Link;
+}
+
+interface TextRun {
+  content: string;
+  textStyle?: TextStyle;
+}
+
+interface RichLinkProperties {
+  title?: string;
+  uri?: string;
+}
+
+interface RichLink {
+  richLinkProperties: RichLinkProperties;
+  textStyle?: TextStyle;
+}
+
+interface ParagraphElement {
+  textRun?: TextRun;
+  richLink?: RichLink;
+}
+
+interface Bullet {
+  listId: string;
+  nestingLevel: number;
+}
+
+interface ParagraphStyle {
+  alignment?: string;
+}
+
+interface Paragraph {
+  elements?: ParagraphElement[];
+  bullet?: Bullet;
+  paragraphStyle?: ParagraphStyle;
+}
+
+interface ContentItem {
+  paragraph?: Paragraph;
+}
+
+interface DocumentBody {
+  content: ContentItem[];
+}
+
+interface DocumentTab {
+  body: DocumentBody;
+}
+
+interface Tab {
+  documentTab: DocumentTab;
+}
+
+interface GoogleDocsData {
+  tabs: Tab[];
+}
+
+// Guide data structure types
+interface TextFormatting {
+  bold?: boolean;
+  italic?: boolean;
+  underline?: boolean;
+  strikethrough?: boolean;
+  color?: {
+    r: number;
+    g: number;
+    b: number;
+  };
+  fontSize?: number;
+  fontFamily?: string;
+  url?: string;
+  isLink?: boolean;
+}
+
+interface FormattedText {
+  text: string;
+  formatting?: TextFormatting;
+  url?: string;
+  isLink?: boolean;
+}
+
+interface StepMetadata {
+  gp_stack?: string;
+  items_needed?: string;
+  skills_quests_met?: string;
+  total_time?: string;
+  "Skills/quests met to do step?:"?: string;
+}
+
+interface NestedContent {
+  level: number;
+  content: FormattedText[];
+}
+
+interface GuideStep {
+  content: FormattedText[] | FormattedText;
+  nestedContent: NestedContent[];
+  metadata: StepMetadata;
+  additionalContent?: FormattedText[][];
+}
+
+interface Footnote {
+  content: FormattedText[];
+  type: string;
+  level?: number;
+}
+
+interface GuideSection {
+  title: string;
+  steps: GuideStep[];
+  footnotes: Footnote[];
+}
+
+interface GuideChapter {
+  title: string;
+  sections: GuideSection[];
+  footnotes: Footnote[];
+  titleFormatted?: FormattedText[];
+}
+
+interface GuideStructure {
+  title: string;
+  chapters: GuideChapter[];
+}
+
+interface CombinedGuide {
+  title: string;
+  chapters: GuideChapter[];
+  updatedOn?: string;
+}
+
+interface MetadataPattern {
+  regex: RegExp;
+  key: string;
+}
+
+// ====================================
+// Core Functions
+// ====================================
+
+function extractTextWithFormatting(
+  element: ParagraphElement
+): FormattedText | null {
   if (element.textRun) {
     const text = element.textRun.content;
-    const formatting = {};
+    const formatting: TextFormatting = {};
 
     if (element.textRun.textStyle) {
       const style = element.textRun.textStyle;
@@ -61,7 +241,7 @@ function extractTextWithFormatting(element) {
 
   if (element.richLink) {
     const richLink = element.richLink;
-    const formatting = {};
+    const formatting: TextFormatting = {};
 
     if (richLink.textStyle) {
       const style = richLink.textStyle;
@@ -99,8 +279,8 @@ function extractTextWithFormatting(element) {
   return null;
 }
 
-function combineFormattedText(elements) {
-  const result = [];
+function combineFormattedText(elements: ParagraphElement[]): FormattedText[] {
+  const result: FormattedText[] = [];
 
   for (const element of elements) {
     const formattedText = extractTextWithFormatting(element);
@@ -112,8 +292,8 @@ function combineFormattedText(elements) {
   return result;
 }
 
-function parseMetadataString(combinedMetadata) {
-  const metadataFields = {};
+function parseMetadataString(combinedMetadata: string): StepMetadata {
+  const metadataFields: StepMetadata = {};
 
   const skillsQuestsRegex =
     /Skills\/quests met to do step\?:\s*(.*?)(?=(\n|$|GP stack|Items needed|Total time))/is;
@@ -123,7 +303,7 @@ function parseMetadataString(combinedMetadata) {
       skillsQuestsMatch[1].trim();
   }
 
-  const patterns = [
+  const patterns: MetadataPattern[] = [
     {
       regex:
         /GP stack( after step)?:\s*(.*?)(?=(\n|$|Items needed|Skills\/quests|Total time))/is,
@@ -149,26 +329,26 @@ function parseMetadataString(combinedMetadata) {
   patterns.forEach((pattern) => {
     const match = combinedMetadata.match(pattern.regex);
     if (match && match[2]) {
-      metadataFields[pattern.key] = match[2].trim();
+      metadataFields[pattern.key as keyof StepMetadata] = match[2].trim();
     }
   });
 
   return metadataFields;
 }
 
-function parseGuideData(data) {
+function parseGuideData(data: GoogleDocsData): GuideStructure {
   const content = data.tabs[0].documentTab.body.content;
 
-  const guideStructure = {
+  const guideStructure: GuideStructure = {
     title: "",
     chapters: [],
   };
 
-  let currentChapter = null;
-  let currentSection = null;
-  let currentStep = null;
+  let currentChapter: GuideChapter | null = null;
+  let currentSection: GuideSection | null = null;
+  let currentStep: GuideStep | null = null;
   let processingNestedBullets = false;
-  let currentStepListId = null;
+  let currentStepListId: string | null = null;
   let lastStepCompleted = false;
   let inChapterFootnotes = false;
 
@@ -187,7 +367,7 @@ function parseGuideData(data) {
 
     const combinedText = elements
       .filter((e) => e.textRun)
-      .map((e) => e.textRun.content)
+      .map((e) => e.textRun!.content)
       .join("")
       .trim();
 
@@ -334,7 +514,7 @@ function parseGuideData(data) {
           currentStepListId = listId;
         }
 
-        const nestedItem = {
+        const nestedItem: NestedContent = {
           level: bulletInfo.nestingLevel,
           content: combineFormattedText(elements),
         };
@@ -420,10 +600,13 @@ function parseGuideData(data) {
         if (Object.keys(metadataFields).length > 0) {
           Object.assign(currentStep.metadata, metadataFields);
         } else {
-          currentStep.content.push({
-            text: combinedText,
-            formatting: elements[0].formatting,
-          });
+          if (Array.isArray(currentStep.content)) {
+            const firstFormatted = elements[0] ? extractTextWithFormatting(elements[0]) : null;
+            currentStep.content.push({
+              text: combinedText,
+              formatting: firstFormatted?.formatting,
+            });
+          }
         }
       } else {
         if (processingNestedBullets) {
@@ -497,7 +680,7 @@ function parseGuideData(data) {
           });
 
           sectionToConvert.steps.forEach((step) => {
-            if (step.content && step.content.length > 0) {
+            if (step.content && Array.isArray(step.content) && step.content.length > 0) {
               chapter.footnotes.push({
                 content: step.content,
                 type: "chapter_footnote",
@@ -528,7 +711,7 @@ function parseGuideData(data) {
       if (section.steps.length > 0) {
         const lastStep = section.steps[section.steps.length - 1];
 
-        if (lastStep.content && lastStep.content.length > 1) {
+        if (lastStep.content && Array.isArray(lastStep.content) && lastStep.content.length > 1) {
           const lastStepText = lastStep.content[0].text || "";
 
           if (
@@ -573,11 +756,11 @@ function parseGuideData(data) {
       const stepsToCheck = lastSection.steps.slice(1);
       const lastRealStepIndex = stepsToCheck.findIndex((step) => {
         const stepText =
-          (step.content && step.content[0] && step.content[0].text) || "";
+          (Array.isArray(step.content) && step.content[0] && step.content[0].text) || "";
         return (
           stepText.includes("Stats") ||
           /^(Atk|Str|Def|HP|Range|Pray|Magic|RC):/.test(stepText) ||
-          stepText.match(/^\d+:\d+$/)
+          stepText.match(/^\d+:\d+$/) !== null
         );
       });
 
@@ -585,7 +768,7 @@ function parseGuideData(data) {
         const footnotesSteps = lastSection.steps.splice(lastRealStepIndex + 1);
 
         footnotesSteps.forEach((step) => {
-          if (step.content && step.content.length > 0) {
+          if (step.content && Array.isArray(step.content) && step.content.length > 0) {
             chapter.footnotes.push({
               content: step.content,
               type: "chapter_footnote",
@@ -599,19 +782,20 @@ function parseGuideData(data) {
   return guideStructure;
 }
 
-function processOSRSGuideFile(inputFilePath) {
+function processOSRSGuideFile(inputFilePath: string): GuideStructure | null {
   try {
     const fileData = fs.readFileSync(inputFilePath, "utf8");
-    const jsonData = JSON.parse(fileData);
+    const jsonData: GoogleDocsData = JSON.parse(fileData);
     return parseGuideData(jsonData);
   } catch (error) {
-    console.error(`Error processing guide ${inputFilePath}: ${error.message}`);
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    console.error(`Error processing guide ${inputFilePath}: ${errorMessage}`);
     return null;
   }
 }
 
-function combineChapters(chapterData) {
-  const combinedGuide = {
+function combineChapters(chapterData: (GuideStructure | null)[]): CombinedGuide {
+  const combinedGuide: CombinedGuide = {
     title: "BRUHsailer Complete Guide",
     chapters: [],
   };
@@ -645,7 +829,10 @@ function combineChapters(chapterData) {
   return combinedGuide;
 }
 
-function processAndCombineGuideFiles(inputFilePaths, outputFilePath) {
+function processAndCombineGuideFiles(
+  inputFilePaths: string[],
+  outputFilePath: string
+): void {
   try {
     const chapterData = inputFilePaths.map((filePath) =>
       processOSRSGuideFile(filePath)
@@ -665,7 +852,7 @@ function processAndCombineGuideFiles(inputFilePaths, outputFilePath) {
     const day = String(today.getDate()).padStart(2, "0");
     const formattedDate = `${year}-${month}-${day}`;
 
-    const finalOutput = {
+    const finalOutput: CombinedGuide = {
       updatedOn: formattedDate,
       ...combinedData,
     };
@@ -679,13 +866,16 @@ function processAndCombineGuideFiles(inputFilePaths, outputFilePath) {
     console.log(`Successfully processed and combined guide data.`);
     console.log(`Output saved to: ${outputFilePath}`);
   } catch (error) {
-    console.error(`Error processing and combining guides: ${error.message}`);
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    console.error(`Error processing and combining guides: ${errorMessage}`);
     process.exit(1);
   }
 }
 
-function extractSkillsQuestsMetFromSteps(guideData) {
-  let skillsQuestsMet = null;
+export function extractSkillsQuestsMetFromSteps(
+  guideData: GuideStructure
+): string | null {
+  let skillsQuestsMet: string | null = null;
 
   guideData.chapters.forEach((chapter) => {
     chapter.sections.forEach((section) => {
@@ -700,13 +890,13 @@ function extractSkillsQuestsMetFromSteps(guideData) {
   return skillsQuestsMet;
 }
 
-function main() {
+function main(): void {
   const args = process.argv.slice(2);
   const currentDir = process.cwd();
   const dataDir = path.join(currentDir, "data");
   const defaultOutputDir = currentDir;
 
-  let defaultInputFiles = [];
+  let defaultInputFiles: string[] = [];
   try {
     if (fs.existsSync(dataDir)) {
       defaultInputFiles = fs
@@ -719,7 +909,8 @@ function main() {
       );
     }
   } catch (error) {
-    console.error(`Error reading data directory ${dataDir}: ${error.message}`);
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    console.error(`Error reading data directory ${dataDir}: ${errorMessage}`);
   }
 
   const defaultOutputFile = path.join(

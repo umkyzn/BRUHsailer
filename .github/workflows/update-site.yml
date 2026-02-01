@@ -21,22 +21,39 @@ jobs:
           node-version: "20"
 
       - name: Install dependencies
-        run: npm install googleapis fs-extra
+        run: npm install
 
       - name: Download source JSON files from Drive
-        run: node .github/scripts/download-files.js
+        run: npm run download
         env:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
           FOLDER_ID: ${{ github.event.client_payload.folder_id }}
 
       - name: Transform and merge JSON to final data.json
-        run: node conversion-script.js
+        run: npm run convert
+
+      - name: Create public directory with data symlink
+        run: |
+          mkdir -p public
+          ln -s ../data public/data
+
+      - name: Build Vue application
+        run: npm run build
+
+      - name: Copy built files to root for GitHub Pages
+        run: |
+          cp dist/index.html ./
+          mkdir -p assets
+          cp -r dist/assets/* assets/
 
       - name: Commit and push
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
           git add data/guide_data.json
+          git add dist/
+          git add index.html
+          git add assets/
           git commit -m "Update website data" || echo "No changes to commit"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git push origin HEAD:main

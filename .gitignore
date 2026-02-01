@@ -1,4 +1,21 @@
 /node_modules/
-/testing/
-/package-lock.json
-/package.json
+# Keep dist/ and assets/ for GitHub Pages deployment
+# (assets/ is copied from dist/assets/ by the build workflow)
+
+# Environment variables
+.env
+
+# Intermediate JSON files (exclude all JSON files in data/ except guide_data.json)
+data/*.json
+!data/guide_data.json
+
+# Old JavaScript files (migrated to TypeScript)
+js/*.js
+scripts/*.js
+
+# Public directory (contains symlinks)
+/public/
+
+dist
+
+assets

@@ -1,0 +1,42 @@
+{
+  "name": "babs-bruhsailer",
+  "version": "1.0.0",
+  "description": "**Web version for the BRUHsailer guide.**   Keep track of your progress easier with this interactive web version.",
+  "type": "module",
+  "main": "scripts/convert.mts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "download": "npx tsx scripts/download.mts",
+    "convert": "npx tsx scripts/convert.mts",
+    "update": "npm run download && npm run convert"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^6.0.3",
+    "@vueuse/core": "^14.2.0",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "googleapis": "^134.0.0",
+    "motion": "^12.29.2",
+    "pinia": "^2.3.1",
+    "pinia-plugin-persistedstate": "^3.2.3",
+    "vue": "^3.5.27",
+    "vue-router": "^4.6.4",
+    "vue-tsc": "^2.2.12",
+    "vue-virtual-scroller": "^2.0.0-beta.8"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.19",
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/google-apps-script": "^2.0.8",
+    "@types/node": "^25.1.0",
+    "tailwindcss": "^4.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}

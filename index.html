@@ -4,114 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BRUHsailer</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
   </head>
-  <!-- Google tag (gtag.js) -->
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-CD7NXW27XT"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-CD7NXW27XT");
-  </script>
   <body>
-    <div class="top-right-controls">
-      <div class="highlight-control-wrapper">
-        <button class="highlight-toggle" id="highlightToggle">🖍️</button>
-        <div class="highlight-color-picker" id="highlightColorPicker">
-          <button
-            class="color-picker-btn"
-            data-color="green"
-            style="background-color: greenyellow"
-          ></button>
-          <button
-            class="color-picker-btn"
-            data-color="yellow"
-            style="background-color: yellow"
-          ></button>
-          <button
-            class="color-picker-btn"
-            data-color="blue"
-            style="background-color: lightblue"
-          ></button>
-          <button
-            class="color-picker-btn"
-            data-color="pink"
-            style="background-color: lightpink"
-          ></button>
-        </div>
-      </div>
-      <button class="dark-mode-toggle" id="darkModeToggle">🌓</button>
-    </div>
-    <header>
-      <h1>BRUHsailer</h1>
-      <h3 class="subtitle">
-        An ironman guide by So Iron BRUH and ParasailerOSRS
-      </h3>
-      <p class="byline">Web adaptation by kyyznn</p>
-    </header>
-    <nav>
-      <div class="nav-content">
-        <a
-          href="https://docs.google.com/document/d/1CBkFM70SnrW4hJXvHM2F1fYCuBF_fRnEXnTYgRnRkAE"
-          >Guide Docs</a
-        >
-        <div id="lastUpdated"></div>
-        <a href="#" id="resetProgressBtn">Reset Progress</a>
-      </div>
-    </nav>
-    <div class="container">
-      <div class="progress-bar">
-        <div class="progress" id="progressBar">
-          <span class="progress-text">0%</span>
-        </div>
-      </div>
-
-      <div class="utility-buttons">
-        <button class="utility-btn" id="jumpToLastBtn">
-          Jump to Last Completed Step
-        </button>
-        <button class="utility-btn" id="minimizeCompletedToggle">
-          Minimize Completed
-        </button>
-        <button class="utility-btn" id="removeAllHighlightsBtn">
-          Remove All Highlights
-        </button>
-      </div>
-
-      <div class="filter-container">
-        <div class="filter-buttons">
-          <button class="filter-btn active" data-filter="all">All Steps</button>
-          <button class="filter-btn" data-filter="completed">
-            Completed Steps
-          </button>
-          <button class="filter-btn" data-filter="incomplete">
-            Incomplete Steps
-          </button>
-        </div>
-        <div class="search-container">
-          <input type="text" id="searchInput" placeholder="Search steps..." />
-        </div>
-      </div>
-
-      <div id="guideContent">
-        <!-- Guide content will be loaded here -->
-      </div>
-    </div>
-
-    <div class="save-toast" id="saveToast">Progress saved</div>
-
-    <script src="js/utils.js"></script>
-    <script src="js/uiManager.js"></script>
-    <script src="js/progressManager.js"></script>
-    <script src="js/filterManager.js"></script>
-    <script src="js/guideDataLoader.js"></script>
-    <script src="js/main.js"></script>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

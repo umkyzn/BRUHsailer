@@ -1,23 +1,31 @@
-const { google } = require("googleapis");
-const fs = require("fs-extra");
-const path = require("path");
+import dotenv from 'dotenv';
+import { google } from 'googleapis';
+import fs from 'fs-extra';
+import path from 'path';
 
-const credentials = JSON.parse(process.env.GOOGLE_CREDENTIALS);
+dotenv.config();
+
+const credentials = JSON.parse(process.env.GOOGLE_CREDENTIALS || '{}');
 const auth = new google.auth.GoogleAuth({
   credentials,
   scopes: ["https://www.googleapis.com/auth/drive"],
 });
 
-async function downloadFiles() {
-  const drive = google.drive({ version: "v3", auth: await auth.getClient() });
+async function downloadFiles(): Promise<void> {
+  const client = await auth.getClient();
+  const drive = google.drive({ version: "v3", auth: client as any });
   const folderId = process.env.FOLDER_ID;
+
+  if (!folderId) {
+    throw new Error("FOLDER_ID not set in environment variables");
+  }
 
   const response = await drive.files.list({
     q: `'${folderId}' in parents and mimeType='application/json' and trashed = false`,
     fields: "files(id, name, mimeType)",
   });
 
-  const files = response.data.files;
+  const files = (response.data as any).files;
 
   if (!files || files.length === 0) {
     console.log(
@@ -29,28 +37,35 @@ async function downloadFiles() {
   const dataDir = path.join(process.cwd(), "data");
   await fs.ensureDir(dataDir);
 
-  let archivedFolderId;
+  let archivedFolderId: string;
   const archivedFolderName = "archived";
   const archivedSearch = await drive.files.list({
     q: `'${folderId}' in parents and name='${archivedFolderName}' and mimeType='application/vnd.google-apps.folder' and trashed = false`,
     fields: "files(id, name)",
   });
-  if (archivedSearch.data.files && archivedSearch.data.files.length > 0) {
-    archivedFolderId = archivedSearch.data.files[0].id;
+
+  const archivedFiles = (archivedSearch.data as any).files;
+  if (archivedFiles && archivedFiles.length > 0 && archivedFiles[0].id) {
+    archivedFolderId = archivedFiles[0].id;
   } else {
     const createFolderRes = await drive.files.create({
-      resource: {
+      requestBody: {
         name: archivedFolderName,
         mimeType: "application/vnd.google-apps.folder",
         parents: [folderId],
       },
       fields: "id",
     });
+    if (!createFolderRes.data.id) {
+      throw new Error("Failed to create archived folder");
+    }
     archivedFolderId = createFolderRes.data.id;
     console.log(`Created archived folder with ID: ${archivedFolderId}`);
   }
 
   for (const file of files) {
+    if (!file.id || !file.name) continue;
+
     console.log(`Downloading ${file.name}`);
 
     const dest = path.join(dataDir, file.name);
@@ -65,13 +80,13 @@ async function downloadFiles() {
 
     const destStream = fs.createWriteStream(dest);
 
-    await new Promise((resolve, reject) => {
+    await new Promise<void>((resolve, reject) => {
       res.data
-        .on("error", (err) => {
+        .on("error", (err: Error) => {
           reject(err);
         })
         .pipe(destStream)
-        .on("error", (err) => {
+        .on("error", (err: Error) => {
           reject(err);
         })
         .on("finish", () => {
@@ -89,7 +104,8 @@ async function downloadFiles() {
       });
       console.log(`Archived ${file.name} to the 'archived' folder in Google Drive.`);
     } catch (archiveErr) {
-      console.error(`Failed to archive ${file.name}:`, archiveErr.message);
+      const errorMessage = archiveErr instanceof Error ? archiveErr.message : String(archiveErr);
+      console.error(`Failed to archive ${file.name}:`, errorMessage);
     }
   }
 
