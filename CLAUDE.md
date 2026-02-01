@@ -4,21 +4,37 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-BRUHsailer is a static web app that tracks progress through the "BRUHsailer Ironman Guide" for Old School RuneScape. It's vanilla HTML/CSS/JS with no build tools or frameworks. Data originates from Google Docs, is transformed into JSON, and rendered client-side.
+BRUHsailer is a Vue 3 progressive web app that tracks progress through the "BRUHsailer Ironman Guide" for Old School RuneScape. Built with Vue 3 Composition API, TypeScript, Pinia for state management, and styled with OSRS-themed custom CSS. Data originates from Google Docs, is transformed into JSON, and rendered client-side.
 
 Live site: https://umkyzn.github.io/BRUHsailer/
 
+## Features
+
+- **OSRS-Themed UI**: Pixel fonts, skill icons, and game-inspired aesthetics
+- **Compact Navigation**: Collapsible sidebar with progress indicators
+- **Interactive Step Cards**: OSRS-styled cards with particle effects
+- **Progress Tracking**: Visual orbs showing section completion, time, and GP
+- **Keyboard Shortcuts**: Vim-style navigation and quick actions
+- **Responsive Design**: Works on desktop, tablet, and mobile
+- **Dark Mode**: OSRS night theme
+
 ## Development
 
-No build step is needed for local development—open `index.html` in a browser or use any static file server.
+Run the dev server:
+```bash
+npm run dev
+```
+
+Build for production:
+```bash
+npm run build
+```
 
 The project includes Node.js scripts for the data pipeline:
-- `scripts/download.js` — downloads JSON exports from Google Drive
-- `scripts/convert.js` — transforms Google Docs API format into `data/guide_data.json`
+- `scripts/download.mts` — downloads JSON exports from Google Drive
+- `scripts/convert.mts` — transforms Google Docs API format into `data/guide_data.json`
 
 These require `googleapis`, `fs-extra`, and `dotenv` (installed via `npm install`).
-
-There are no tests, no linter, and no build command.
 
 ## Local Setup
 
@@ -61,18 +77,19 @@ The same pipeline can be run locally using `npm run update` (see Local Setup sec
 
 ## Architecture
 
-**Frontend modules** (all in `js/`):
+**Frontend** (Vue 3 + TypeScript):
+- **Components** in `src/components/` - modular Vue SFCs (GuideStep, SidebarNav, ProgressRing, OSRSCheckbox, etc.)
+- **Stores** in `src/stores/` - Pinia state management (progress, filter, guide, ui, keyboard)
+- **Styles** in `src/styles/` - OSRS theme CSS and design tokens
+- **Composables** in `src/composables/` - reusable logic (useToast, useKeyboard, etc.)
 
-| Module | Responsibility |
-|---|---|
-| `main.js` | Entry point, DOMContentLoaded setup, wires event listeners |
-| `guideDataLoader.js` | Fetches `data/guide_data.json`, parses chapters/sections/steps, renders DOM with rich text formatting |
-| `uiManager.js` | All UI interactions: highlight mode, dark mode, search, keyboard nav, smooth scrolling. Largest module (~700 lines) |
-| `progressManager.js` | Checkbox state → localStorage (`guideProgress`), progress bar updates |
-| `filterManager.js` | Filters steps by completion state, minimize-completed toggle, persists to localStorage (`guideFilter`) |
-| `utils.js` | `showToast()` helper |
+**Build System:**
+- Vite for dev server and production builds
+- TypeScript for type safety
+- Motion One for animations
+- Vue Router for navigation
 
-**Data transformation** (`scripts/convert.js`, 749 lines):
+**Data transformation** (`scripts/convert.mts`, TypeScript):
 - Parses Google Docs API structural elements (paragraphs, lists, textRuns, richLinks)
 - Identifies chapters (centered "Chapter" text), sections (`X.X:` pattern), steps (level-0 bullets), nested content (level > 0 bullets), and metadata fields
 - Extracts rich formatting (bold, italic, color, links, font) into structured JSON
