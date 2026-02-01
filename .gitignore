@@ -13,12 +13,11 @@ data/*.json
 js/*.js
 scripts/*.js
 
-# Public directory (contains symlinks)
-/public/
-
 dist
 
-assets
+# Ignore root-level assets but allow public/assets/
+/assets
+!public/assets/
 
 # Git worktrees
 .worktrees/
