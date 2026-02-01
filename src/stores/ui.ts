@@ -3,15 +3,18 @@ import { ref, computed } from 'vue';
 
 export const useUiStore = defineStore('ui', () => {
   const darkMode = ref(false);
-  const sidebarCollapsed = ref(false);
+  const sidebarCollapsed = ref(true);
+  const sidebarPinned = ref(false);
   const currentChapterId = ref<number | null>(null);
   const currentSectionId = ref<string | null>(null);
   const expandedChapters = ref<Set<number>>(new Set());
   const expandedSections = ref<Set<string>>(new Set());
+  const expandedSteps = ref<Set<string>>(new Set());
 
   // Computed properties to expose the Set values for reactivity
   const expandedChaptersSet = computed(() => expandedChapters.value);
   const expandedSectionsSet = computed(() => expandedSections.value);
+  const expandedStepsSet = computed(() => expandedSteps.value);
 
   function toggleDarkMode() {
     darkMode.value = !darkMode.value;
@@ -70,6 +73,31 @@ export const useUiStore = defineStore('ui', () => {
     sidebarCollapsed.value = !sidebarCollapsed.value;
   }
 
+  function setSidebarCollapsed(collapsed: boolean) {
+    sidebarCollapsed.value = collapsed;
+  }
+
+  function toggleSidebarPin() {
+    sidebarPinned.value = !sidebarPinned.value;
+    if (sidebarPinned.value) {
+      sidebarCollapsed.value = false;
+    }
+  }
+
+  function toggleStepExpanded(stepId: string) {
+    const newSet = new Set(expandedSteps.value);
+    if (newSet.has(stepId)) {
+      newSet.delete(stepId);
+    } else {
+      newSet.add(stepId);
+    }
+    expandedSteps.value = newSet;
+  }
+
+  function isStepExpanded(stepId: string): boolean {
+    return expandedSteps.value.has(stepId);
+  }
+
   function setCurrentLocation(chapterId: number | null, sectionId: string | null) {
     currentChapterId.value = chapterId;
     currentSectionId.value = sectionId;
@@ -78,10 +106,12 @@ export const useUiStore = defineStore('ui', () => {
   return {
     darkMode,
     sidebarCollapsed,
+    sidebarPinned,
     currentChapterId,
     currentSectionId,
     expandedChapters: expandedChaptersSet,
     expandedSections: expandedSectionsSet,
+    expandedSteps: expandedStepsSet,
     toggleDarkMode,
     applyDarkMode,
     toggleChapter,
@@ -89,12 +119,16 @@ export const useUiStore = defineStore('ui', () => {
     expandSection,
     collapseSection,
     toggleSidebar,
+    setSidebarCollapsed,
+    toggleSidebarPin,
+    toggleStepExpanded,
+    isStepExpanded,
     setCurrentLocation
   };
 }, {
   persist: {
     key: 'guideUi',
     storage: localStorage,
-    paths: ['darkMode', 'sidebarCollapsed'], // Persist darkMode and sidebar state
+    paths: ['darkMode', 'sidebarCollapsed', 'sidebarPinned'], // Persist darkMode and sidebar state
   }
 });
