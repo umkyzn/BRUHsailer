@@ -4,6 +4,7 @@ import piniaPluginPersistedstate from 'pinia-plugin-persistedstate';
 import router from './router';
 import App from './App.vue';
 import '../styles.css';
+import './styles/osrs-theme.css';
 import 'vue-virtual-scroller/dist/vue-virtual-scroller.css';
 
 const app = createApp(App);
