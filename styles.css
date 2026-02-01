@@ -61,6 +61,12 @@
   --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
   --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.15);
 
+  /* Accent Colors for Metadata Icons & Badges */
+  --accent-time: #8b5cf6;        /* Purple for time */
+  --accent-coins: #f59e0b;       /* Amber for GP */
+  --accent-items: #10b981;       /* Emerald for items */
+  --accent-skills: #3b82f6;      /* Blue for skills/quests */
+  
   /* Colors - Light Mode */
   --primary: #c0a080;
   --primary-dark: #605443;
@@ -97,6 +103,13 @@ body.dark-mode {
   --foreground: #fafafa;           /* Primary text */
   --foreground-muted: #a1a1aa;     /* Secondary/muted text */
   --foreground-subtle: #71717a;    /* Tertiary/subtle text */
+  
+  /* Accent Colors for Dark Mode */
+  --accent-time: #a78bfa;          /* Lighter purple */
+  --accent-coins: #fbbf24;         /* Lighter amber */
+  --accent-items: #34d399;         /* Lighter emerald */
+  --accent-skills: #60a5fa;        /* Lighter blue */
+  
   /* Legacy compatibility */
   --text-color: var(--foreground);
   --text-muted: var(--foreground-muted);
@@ -430,15 +443,18 @@ nav div {
   padding: 0;
   margin-bottom: var(--spacing-xl);
   overflow: hidden;
+  box-shadow: var(--shadow-sm);
   transition: background-color var(--transition-base),
               border-color var(--transition-base),
               opacity var(--transition-base),
-              transform var(--transition-fast);
+              transform var(--transition-fast),
+              box-shadow var(--transition-base);
 }
 
 .step:hover {
-  box-shadow: var(--shadow-md);
-  transform: translateY(-1px);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+  border-color: var(--primary);
 }
 
 .step:last-child {
@@ -478,7 +494,7 @@ nav div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 16px;
+  padding: var(--spacing-lg) var(--spacing-lg);
   cursor: pointer;
   border-bottom: 1px solid var(--section-border);
   min-height: 30px;
@@ -568,20 +584,24 @@ body.dark-mode .custom-checkbox:hover {
 .step-number {
   font-weight: var(--font-semibold);
   color: var(--foreground);
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-lg);
+  letter-spacing: var(--tracking-tight);
 }
 
 .step-time {
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-xs);
   color: var(--foreground-muted);
-  padding-right: 3px;
   font-weight: var(--font-medium);
+  background-color: var(--meta-bg);
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--section-border);
 }
 
 .step-content {
   background-color: var(--card-bg);
   font-size: var(--font-size-sm);
-  padding: 10px;
+  padding: var(--spacing-lg);
   transition: background-color 0.3s ease;
 }
 
@@ -615,32 +635,43 @@ body.dark-mode .custom-checkbox:hover {
   display: inline;
 }
 
-.step-meta {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 12px;
-  margin-top: 12px;
-  padding: 10px;
-  border: 1px solid var(--meta-border);
-  border-radius: 5px;
-  background-color: var(--meta-bg);
-  transition: background-color 0.3s ease, border-color 0.3s ease;
-}
-
-.meta-item {
+.step-metadata {
   display: flex;
-  flex-direction: column;
-  padding: 4px;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-lg);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--section-border);
 }
 
-.meta-item strong {
-  margin-bottom: 4px;
+.metadata-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background-color: var(--meta-bg);
+  border: 1px solid var(--meta-border);
+  border-radius: var(--radius-md);
   font-size: var(--font-size-sm);
-  font-weight: var(--font-semibold);
+  font-weight: var(--font-medium);
+  color: var(--foreground);
+  transition: all var(--transition-base);
 }
 
-.meta-item span {
-  line-height: 1.1;
+.metadata-item:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+.metadata-item .icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.metadata-item strong {
+  font-weight: var(--font-semibold);
+  margin-right: 4px;
 }
 
 .filter-container {

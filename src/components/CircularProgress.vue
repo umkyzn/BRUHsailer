@@ -55,27 +55,49 @@ const dashOffset = computed(() => {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.circular-progress svg {
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
 }
 
 .progress-bg {
-  stroke: var(--section-border);
-  opacity: 0.3;
+  stroke: currentColor;
+  opacity: 0.15;
 }
 
 .progress-bar {
   stroke: var(--active-btn);
-  transition: stroke-dashoffset var(--transition-base);
+  transition: stroke-dashoffset 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  stroke-linecap: round;
 }
 
 .check-mark {
   fill: var(--active-btn);
-  font-weight: var(--font-bold);
+  font-weight: 700;
+  animation: checkIn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes checkIn {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 /* Active state colors */
 .chapter-button.active .progress-bg,
 .section-item.active .progress-bg {
-  stroke: rgba(255, 255, 255, 0.3);
+  stroke: white;
+  opacity: 0.25;
 }
 
 .chapter-button.active .progress-bar,
@@ -86,5 +108,11 @@ const dashOffset = computed(() => {
 .chapter-button.active .check-mark,
 .section-item.active .check-mark {
   fill: white;
+}
+
+/* Hover effect for parent items */
+.chapter-button:hover:not(.active) .progress-bar,
+.section-item:hover:not(.active) .progress-bar {
+  stroke: var(--primary);
 }
 </style>

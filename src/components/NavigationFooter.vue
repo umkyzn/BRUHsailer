@@ -54,3 +54,117 @@ const adjacentSections = computed(() => {
 });
 </script>
 
+<style scoped>
+.navigation-footer {
+  background: var(--card-bg);
+  border-top: 1px solid var(--section-border);
+  padding: var(--spacing-xl);
+  margin-top: var(--spacing-3xl);
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-lg);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-lg);
+  background: var(--bg-color);
+  border: 1px solid var(--section-border);
+  border-radius: var(--radius-lg);
+  text-decoration: none;
+  color: var(--foreground, var(--text-color));
+  transition: all var(--transition-fast);
+  min-height: 80px;
+}
+
+.nav-link:hover {
+  background: var(--hover-bg);
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.nav-link.prev {
+  justify-content: flex-start;
+}
+
+.nav-link.next {
+  justify-content: flex-end;
+  grid-column: 2;
+}
+
+.nav-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.nav-link.next .nav-text {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.nav-label {
+  font-size: var(--font-size-xs);
+  color: var(--foreground-muted, var(--text-muted));
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  font-weight: var(--font-semibold);
+}
+
+.nav-title {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-medium);
+  color: var(--foreground, var(--text-color));
+}
+
+.nav-link svg {
+  flex-shrink: 0;
+  color: var(--foreground-muted, var(--text-muted));
+  transition: all var(--transition-fast);
+}
+
+.nav-link:hover svg {
+  color: var(--primary);
+}
+
+.nav-link.prev:hover svg {
+  transform: translateX(-4px);
+}
+
+.nav-link.next:hover svg {
+  transform: translateX(4px);
+}
+
+.nav-placeholder {
+  /* Empty space for alignment when prev/next doesn't exist */
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+
+  .nav-link {
+    padding: var(--spacing-md);
+    min-height: 60px;
+  }
+
+  .nav-link.next {
+    grid-column: 1;
+  }
+
+  .nav-title {
+    font-size: var(--font-size-sm);
+  }
+}
+</style>

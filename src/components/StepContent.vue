@@ -1,5 +1,5 @@
 <template>
-  <div class="px-4 py-4 bg-card">
+  <div class="step-content">
     <div class="prose prose-sm max-w-none text-foreground">
       <FormattedContent :content="step.content" />
     </div>
