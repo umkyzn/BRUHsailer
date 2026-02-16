@@ -1,7 +1,20 @@
+const getGuideDataPath = () => {
+  if (window.GUIDE_DATA_PATH) {
+    return window.GUIDE_DATA_PATH;
+  }
+
+  const path = window.location.pathname.toLowerCase();
+  if (path.includes("/landlubber")) {
+    return "../data/guide_data_landlubber.json";
+  }
+
+  return "data/guide_data.json";
+};
+
 const GuideDataLoader = {
   async loadGuideData() {
     try {
-      const response = await fetch("data/guide_data.json");
+      const response = await fetch(getGuideDataPath());
       if (!response.ok) {
         throw new Error("Failed to load guide data");
       }
