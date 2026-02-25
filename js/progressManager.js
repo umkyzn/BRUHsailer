@@ -4,12 +4,12 @@ const ProgressManager = {
     document.querySelectorAll(".checkbox").forEach((checkbox) => {
       progress[checkbox.id] = checkbox.checked;
     });
-    localStorage.setItem("guideProgress", JSON.stringify(progress));
+    Utils.setStorageItem("guideProgress", JSON.stringify(progress));
     UIManager.showSaveToast();
   },
 
   loadProgress: function () {
-    const savedProgress = localStorage.getItem("guideProgress");
+    const savedProgress = Utils.getStorageItem("guideProgress", "guideProgress");
     if (savedProgress) {
       const progress = JSON.parse(savedProgress);
       for (const id in progress) {
@@ -29,7 +29,7 @@ const ProgressManager = {
   },
 
   resetProgress: function () {
-    localStorage.removeItem("guideProgress");
+    Utils.removeStorageItem("guideProgress");
     document.querySelectorAll(".checkbox").forEach((checkbox) => {
       checkbox.checked = false;
     });

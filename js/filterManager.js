@@ -1,6 +1,6 @@
 const FilterManager = {
   loadFilterState: function () {
-    const savedFilter = localStorage.getItem("guideFilter");
+    const savedFilter = Utils.getStorageItem("guideFilter", "guideFilter");
     if (savedFilter) {
       const { filter, minimized } = JSON.parse(savedFilter);
 
@@ -33,7 +33,7 @@ const FilterManager = {
     const isMinimized = document
       .getElementById("minimizeCompletedToggle")
       .classList.contains("active");
-    localStorage.setItem(
+    Utils.setStorageItem(
       "guideFilter",
       JSON.stringify({ filter: filter, minimized: isMinimized })
     );

@@ -392,7 +392,7 @@ const UIManager = {
   },
 
   getHighlightStorageKey: function () {
-    return "userHighlights";
+    return Utils.getStorageKey("userHighlights");
   },
   saveHighlights: function () {
     const highlights = [];
