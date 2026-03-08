@@ -20691,7 +20691,17 @@
                   "formatting": {}
                 }
               ],
-              "nestedContent": [],
+              "nestedContent": [
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "You now have access to Deepfin Point, which contains the best method for ironmenn to obtain blue dragon scales (using the general store in the mine), even beating out harvesting potato cactus.\n",
+                      "formatting": {}
+                    }
+                  ]
+                }
+              ],
               "metadata": {
                 "gp_stack": "2.5m gp",
                 "items_needed": "tbd",
@@ -24095,7 +24105,16 @@
                   "level": 2,
                   "content": [
                     {
-                      "text": "Narwhal - 1 narwhal horn for a chum spreader (for deepsea trawling). Kill them southwest of Miscellania (dock at Etceteria). Make sure to collect tasks for both tusks and blubber.",
+                      "text": "Narwhal - 1 narwhal horn for a chum spreader (for deepsea trawling). Kill them southwest of Miscellania (dock at Etceteria). Make sure to collect tasks for both tusks and blubber.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "The bottled storm (dropped by vampyre krakens) and some high tier dragon upgrades are currently not included in the guide. Likely these will be higher level content, even after the upcoming ship combat rework. If you want to go for these it is likely best to do so after finishing the charting.",
                       "formatting": {}
                     },
                     {
@@ -24688,7 +24707,34 @@
                   "level": 1,
                   "content": [
                     {
+                      "text": "The crystal extractor(s) will give you a significant amount of crystal shards while going for 99 sailing. They are always worth using during your sailing activities.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "With 78 slayer you gain access to Aquanites, and with 80 slayer you gain access to Nechryaels. Both have interesting sailing locations (Aquanites on Ynysdail drop a lot of herb seeds, the Nechryaels on the Charred Isle drop herb seeds and can be barraged).\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
                       "text": "At this point you are still missing two schematics: the rosewood & cotton sails and the dragon keel. Collect these at your own convenience when you have the levels.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "If you want the Sailor’s Amulet and haven’t gotten one yet, it is worth considering building rune salvaging hooks and salvaging for a bit. You can store the hooks in facility bottles after.\n",
                       "formatting": {}
                     }
                   ]
