@@ -15778,15 +15778,6 @@
                 {
                   "text": "Keep wearing your ring of charos (a). Teleport to Falador. Run south to Port Sarim. Start and complete the Pandemonium quest. Whenever sailing you get some XP and a speed boost for trimming sails, so try to consistently click the sail when there’s a burst of wind. Do port courier tasks (between Pandemonium and Port Sarim) until level 13 sailing, aiming to finish the level at Port Sarim. Complete the following charting tasks along the way:\n",
                   "formatting": {}
-                },
-                {
-                  "text": "GP stack:"
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [
@@ -15864,7 +15855,10 @@
                 }
               ],
               "metadata": {
-                "skills_quests_met": "yes"
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
               }
             },
             {
@@ -15872,20 +15866,14 @@
                 {
                   "text": "If you were at Port Sarim, charter to the Pandemonium. Start Prying Times (bank to grab the items necessary on Pandemonium). Charter or sail back (if you’re sailing, complete another port task as well). Pick up the crate of looty and return to the Pandemonium, grabbing and completing a second courier task as well along the way. Charter to Port Sarim, run to Thurgo, get the crowbar, return to the Pandemonium. Board your raft and head to the sealed crate, also chart the wreck of the Pandemonium II and the crashed gnome glider to the west. Open the crate, sail to the Pandemonium docks and drink the drink. You can either kill the troll or just disembark your ship, complete Prying Times. Search a nearby crate for the waterlogged journal and read it to unlock the ability to make the Medallion of the Deep.\n",
                   "formatting": {}
-                },
-                {
-                  "text": "GP stack:"
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [],
               "metadata": {
-                "skills_quests_met": "yes"
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
               }
             },
             {
@@ -15922,20 +15910,14 @@
                 {
                   "text": " tells you which drinks have negative effects.\n",
                   "formatting": {}
-                },
-                {
-                  "text": "GP stack:"
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [],
               "metadata": {
-                "skills_quests_met": "yes"
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
               }
             },
             {
@@ -15943,20 +15925,14 @@
                 {
                   "text": "Start and complete Current Affairs in full. Note: for the current duck charting you do not have to follow the duck, you only need to set it loose and pick it up at the endpoint before it despawns, which is quite a generous timer. You can therefore combine this activity with other sailing in the area.\n",
                   "formatting": {}
-                },
-                {
-                  "text": "GP stack:"
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [],
               "metadata": {
-                "skills_quests_met": "yes"
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
               }
             },
             {
@@ -15976,20 +15952,14 @@
                 {
                   "text": ". The starting point is near Catherby. After reaching the Ruins of Unkah, teleport to Camelot, run to Catherby docks, charter a ship to Musa Point and recover your skiff. Then sail the orange route, visiting current duck spots. Dock at the Pandemonium.\n",
                   "formatting": {}
-                },
-                {
-                  "text": "GP stack:"
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [],
               "metadata": {
-                "skills_quests_met": "yes"
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
               }
             },
             {
@@ -15997,20 +15967,14 @@
                 {
                   "text": "If you are already level 31 sailing, upgrade your skiff with a teak hull. If not, sail south and complete the swordfish rank of the Tempor Tantrum to get the level, then return and upgrade the hull. Continue doing laps of Tempor Tantrum (unlock all difficulties, then do Marlin rank for xp) until at least 35,000 xp (level 39). Make sure to collect the stormy key, barrel stand and the Whirlpool surprises.\n",
                   "formatting": {}
-                },
-                {
-                  "text": "GP stack:"
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [],
               "metadata": {
-                "skills_quests_met": "yes"
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
               }
             },
             {
@@ -16030,20 +15994,24 @@
                 {
                   "text": "(starting at the Tempor Tantrum), chart a good portion of the Unquiet Ocean. Once you reach the end of this trek, minigame teleport to Port Khazard, recover your skiff and complete the mermaid diving charts in the Strait of Khazard and Gu’tanoth Bay. This completes the charting for the Ardent Ocean. Teleport to your POH and charter a ship to the Pandemonium, then collect the Ardent Ocean xp reward and the kraken ink stout (buy 25 of them) from Chartin’ Charles McAtless. Buy 48 whirlpool surprises from the Pandemonium pub. Build a keg on your skiff and fill it with whirlpool surprise.\n",
                   "formatting": {}
-                },
-                {
-                  "text": "GP stack:"
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
-              "nestedContent": [],
+              "nestedContent": [
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "When at Dognose Island, dock there and open the rusty chest to get a medallion fragment.\n",
+                      "formatting": {}
+                    }
+                  ]
+                }
+              ],
               "metadata": {
-                "skills_quests_met": "yes"
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
               }
             },
             {
@@ -19298,7 +19266,7 @@
             {
               "content": [
                 {
-                  "text": "Explorer’s ring teleport and run to Port Sarim to recruit Jobless Jim. Charter to the Pandemonium. Take your skiff to the starting point of Troubled Tortugans and start and complete the quest in full. Next do port courier tasks to Summer Shore until level 50 sailing (",
+                  "text": "Explorer’s ring teleport and run to Port Sarim to recruit Jobless Jim. Charter to the Pandemonium. Take your skiff to the starting point of Troubled Tortugans and start and complete the quest in full. While on the Great Conch collect the spyglass and strange apple tree charter on the isle. Next do port courier tasks to Summer Shore until level 50 sailing (",
                   "formatting": {}
                 },
                 {
@@ -19315,46 +19283,68 @@
                   }
                 },
                 {
-                  "text": "), completing the charting of the Unquiet Ocean in the process (the Sea of Shells after level 47). You can pick up the ocean completion xp bonus (6k xp) to get to level 50. You can set Jim to man the ship and trim the sails, reducing the xp from trimming by 50% but allowing you to multiskill (e.g. fletching headless arrows or alching) while sailing. Once you hit level 50 (optional: keep going to level 51/52/53 instead, to reduce or eliminate the need for boosting while salvaging), use a dueling ring and run south all the way to the desert mining camp, then run out and recruit Ex-Captain Siad (don’t forget the key to the camp). Next, book of the dead teleport to Piscarillius (or charter if you were at Pandemonium for the xp bonus), recover your skiff here and sail south to Chinchompa Island. Chart the charred remains of a table and open the lockbox to get (and read) the salvaging station schematic. Sail to Port Roberts and dock there.\n",
+                  "text": "), completing the charting of the Unquiet Ocean in the process (the Sea of Shells after level 47). You can collect the ocean completion xp bonus (6k xp) to get to level 50. You can set Jim to man the ship and trim the sails, reducing the xp from trimming by 50% but allowing you to multiskill (e.g. fletching headless arrows or alching) while sailing. Once you hit level 50 (optional: keep going to level 51/52/53 instead, to reduce or eliminate the need for boosting while salvaging), use a dueling ring and run south all the way to the desert mining camp, then run out and recruit Ex-Captain Siad (don’t forget the key to the camp). Next, book of the dead teleport to Piscarillius (or charter if you were at Pandemonium for the xp bonus), recover your skiff here and sail south to Chinchompa Island. Chart the charred remains of a table and open the lockbox to get (and read) the salvaging station schematic. Sail to Port Roberts and dock there.\n",
                   "formatting": {}
-                },
-                {
-                  "text": "GP stack:"
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Skills/quests met?:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
-              "nestedContent": [],
-              "metadata": {}
+              "nestedContent": [
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "When at the Onyx Crest, dock there and dig to find the small key for the ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Lost schematics - OSRS Wiki",
+                      "formatting": {
+                        "underline": true,
+                        "color": {
+                          "r": 0.06666667,
+                          "g": 0.33333334,
+                          "b": 0.8
+                        },
+                        "url": "https://oldschool.runescape.wiki/w/Lost_schematics",
+                        "isLink": true
+                      }
+                    },
+                    {
+                      "text": " and kill pirates to get a medallion fragment.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Coral farming starts here. This is a worthwhile activity, creating super hunter potions and/or armadyl brews for herblore xp. From here on include coral in your farm runs, but only with attas active and 99 farming! Paying for protection is allegedly not worth it. You can visit the location by chartering to The Summer Shore, then taking the small boat to the northeast side of the island, then diving down. The first time you are down there search the coral on the west side to find a medallion fragment.\n",
+                      "formatting": {}
+                    }
+                  ]
+                }
+              ],
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
             },
             {
               "content": [
                 {
-                  "text": "Buy 62 lead ore. Buy a sloop and build two kegs (fill one with whirlpool surprise and one with kraken ink stout), a salvaging station and two mithril salvaging hooks. Assign your two crewmembers to your boat. Sail your sloop to the large shipwrecks far south - do not go out of your way for charting with your slow sloop - north of the Isle of Serpents. Bring four empty beer glasses, a log basket and seed box (if you have them), and optionally methods to 1.5t the salvaging. Salvage until level 55 sailing, boosting sailing where necessary (it’s technically good to boost even if you have level 53 already). Your goal is to collect several hemp and cotton seeds for farming. Plant the hemp at your earliest convenience, making sure to have Attas up and using ultracompost to harvest at least 40 hemp in total.\n",
+                  "text": "Buy 62 lead ore. Steal from the silver stall to get a medallion fragment. Buy a sloop and build two kegs (fill one with whirlpool surprise and one with kraken ink stout), a salvaging station and two mithril salvaging hooks. Assign your two crewmembers to your boat. Sail your sloop to the large shipwrecks far south - do not go out of your way for charting with your slow sloop - north of the Isle of Serpents. Bring four empty beer glasses, a log basket and seed box (if you have them), and optionally methods to 1.5t the salvaging. Salvage until level 55 sailing, boosting sailing where necessary (it’s technically good to boost even if you have level 53 already). Your goal is to collect several hemp and cotton seeds for farming. Plant the hemp at your earliest convenience, making sure to have Attas up and using ultracompost to harvest at least 40 hemp in total.\n",
                   "formatting": {}
-                },
-                {
-                  "text": "GP stack:"
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Skills/quests met?:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [],
-              "metadata": {}
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
             },
             {
               "content": [
@@ -19409,18 +19399,6 @@
                 {
                   "text": " for the methods (regardless of location and chin type). Train your ranging in the MM1 tunnels (short fuse) to level 62 (55 with grey, 55-62 with red). Make sure to equip a salve amulet (ei).\n",
                   "formatting": {}
-                },
-                {
-                  "text": "GP stack:"
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Skills/quests met?:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [
@@ -19529,7 +19507,12 @@
                   ]
                 }
               ],
-              "metadata": {}
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
             },
             {
               "content": [
@@ -19870,9 +19853,6 @@
                 {
                   "text": ") to train your smithing to level 70, getting permission from the foreman to use the blast furnace for free at level 60. Turn 5 mithril bars into 75 nails, then convert the rest into platebodies (Varrock west anvils, make 10 bars into 150 nails, make a mithril 2h sword for Devious Minds and ~5 bars into grapples along the way), then alch them (similar to before). Hybrid ore uim smelt your addy (buy coal as needed) into bars. Use UIM gold to train your smithing to (15,000 xp away from) level 74. Make sure to equip your ring of charos (a) until level 60 for reduced foreman costs.  Start and complete Defender of Varrock (there’s a free 5k xp lamp after the quest at Historian Minas in the Varrock Museum, put it on slayer if you aren’t level 58 yet and herblore otherwise). Make 4950 adamant nails (make sure to save an adamantite bar) with your bars at Varrock west anvils.\n",
                   "formatting": {}
-                },
-                {
-                  "text": "Skills/quests met?:"
                 }
               ],
               "nestedContent": [
@@ -19907,6 +19887,7 @@
               "metadata": {
                 "gp_stack": "2.5m gp",
                 "items_needed": "tbd",
+                "skills_quests_met": "yes",
                 "total_time": "25d22h"
               }
             },
@@ -20689,7 +20670,7 @@
                   }
                 },
                 {
-                  "text": ". Optional but not recommended: if you prefer alternative training methods you can choose between Rellekka courier tasks (",
+                  "text": ". At your convenience, return to the Ardent Ocean meteorologists for those charting tasks. Optional but not recommended: if you prefer alternative training methods you can choose between Rellekka courier tasks (",
                   "formatting": {}
                 },
                 {
@@ -20706,17 +20687,15 @@
                   }
                 },
                 {
-                  "text": ") or salvaging as well.\n",
+                  "text": ") or salvaging over Jubbly Jive.\n",
                   "formatting": {}
-                },
-                {
-                  "text": "Skills/quests met?:"
                 }
               ],
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "2.5m gp",
                 "items_needed": "tbd",
+                "skills_quests_met": "yes",
                 "total_time": "25d22h"
               }
             },
@@ -23777,18 +23756,6 @@
                 {
                   "text": "Make sure you have at least 75 mining (if not, do some gem mining first). Sail to Deepfin Point, mine 24 nickel ore. Do blast mining (as before) to obtain 551 addy ore - you may have to convert some of the gems into alchs (cut sapphires, emeralds and even rubies are fine, or make ruby and diamond bracelets) for dynamite. Make sure you get at least 15 runite ore along the way. Smelt all the addy into bars, all the nickel into cupronickel bars, then convert 71 addy bars into 1065 addy nails. Teleport to The Great Conch (fairy ring CJQ) and chop and bank up to 498 camphor logs. The fastest method is using a log basket and teleporting out to a bank, then using the fairy ring to get back. If you have (or plan to get) sawmill vouchers you can reduce the number of logs needed by 1 for each voucher for up to 233 vouchers (and 265 logs), saving 2,500 gp each (582,500 gp total). Make 466 camphor planks. Build the following ship upgrades:\n",
                   "formatting": {}
-                },
-                {
-                  "text": "GP stack:"
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Skills/quests met?:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [
@@ -23869,7 +23836,12 @@
                   ]
                 }
               ],
-              "metadata": {}
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
             },
             {
               "content": [
@@ -23920,23 +23892,189 @@
                 {
                   "text": " for more info.\n",
                   "formatting": {}
-                },
-                {
-                  "text": "GP stack:"
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Skills/quests met?:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [
                 {
                   "level": 1,
+                  "content": [
+                    {
+                      "text": "Charting:\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "First do part of the Shrouded Ocean ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Shrouded Ocean, partial.png",
+                      "url": "https://drive.google.com/file/d/1nhfMHSenwO-IiB_Fg029qHTIoO84fi3H/view?usp=sharing",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": ", starting at Corsair Cove (teleport there and recover your boat). Make sure to visit the Isle of Bones to collect the small key (",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Lost schematics - OSRS Wiki",
+                      "formatting": {
+                        "underline": true,
+                        "color": {
+                          "r": 0.06666667,
+                          "g": 0.33333334,
+                          "b": 0.8
+                        },
+                        "url": "https://oldschool.runescape.wiki/w/Lost_schematics",
+                        "isLink": true
+                      }
+                    },
+                    {
+                      "text": ") and investigate the cauldron to get a medallion fragment, include the additional south step of visiting the Charred Island for another key, dock at Tear of the Soul for a third key, and later still collect the gale catcher schematic on Angler’s retreat.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "Then the Western Ocean, continuing where the previous part ended. ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Western Ocean, part 1.png",
+                      "url": "https://drive.google.com/file/d/1CNcutFW-IcyESB94Fn6SeMK8vzbscE5r/view?usp=sharing",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": ". Dock on Minotaur’s Rest to collect the small key, dock at Vatrachos Island and give the raccoon a berry (",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Raccoon (Vatrachos Island) - OSRS Wiki",
+                      "formatting": {
+                        "underline": true,
+                        "color": {
+                          "r": 0.06666667,
+                          "g": 0.33333334,
+                          "b": 0.8
+                        },
+                        "url": "https://oldschool.runescape.wiki/w/Raccoon_(Vatrachos_Island)",
+                        "isLink": true
+                      }
+                    },
+                    {
+                      "text": ") to get a medallion fragment, dock at Wintumber Island to chart the crab monument and collect a medallion piece, then later dock at the Crown Jewel to collect the rosewood cargo hold schematic.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "Then chart the Sunset Ocean, starting from Aldarin twice: first with your raft (pink), then with your skiff (red). ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Sunset Ocean.png",
+                      "url": "https://drive.google.com/file/d/1-wpT9W-att5BwD8nUaeJwvUmBrYrby9G/view?usp=sharing",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": " It is possible to only use the skiff, if you prefer, but the raft is easier. Dock at the Laguna Aurorae to collect a small key and at the Shimmering Atoll to obtain the rosewood hull schematic and chop a teak tree to obtain a medallion fragment.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "Then more Western Ocean, starting at Land’s End",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Western Ocean, part 2.png",
+                      "url": "https://drive.google.com/file/d/1Nk25uRTcRd3KBTXUsxZKxL0cT5Il8GLp/view?usp=sharing",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": "\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "Then more Western Ocean, continuing where the previous part ended. ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Western Ocean, part 3.png",
+                      "url": "https://drive.google.com/file/d/1OQhVEegf7bwle9iKF27cLiWzTi9gwIDK/view?usp=sharing",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": "\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "Then more Western Ocean, continuing where the previous part ended. ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Western Ocean, part 4.png",
+                      "url": "https://drive.google.com/file/d/1SB9JlvSfYBRZn0aNtYHaC2_RmQ65JNCA/view?usp=sharing",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": ". Dock at Ynysdail to collect the small key, then dock at Lledrith to collect the dragon salvaging hook schematic.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Bounty tasks:\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
                   "content": [
                     {
                       "text": "Stingray - 16 ray barbs for 2x cotton trawling net (best net for deepsea trawling). Kill them east off the coast of Aldarin, make sure to collect tasks for both fins and skins.\n",
@@ -23945,7 +24083,7 @@
                   ]
                 },
                 {
-                  "level": 1,
+                  "level": 2,
                   "content": [
                     {
                       "text": "Albatross - 5 swift albatross feathers for a gale catcher on your skiff. Kill them southeast of Etceteria, make sure to collect tasks for both beaks and feathers (which are different from swift feathers). Watch out, these require repair kits to stave off the damage.\n",
@@ -23954,7 +24092,7 @@
                   ]
                 },
                 {
-                  "level": 1,
+                  "level": 2,
                   "content": [
                     {
                       "text": "Narwhal - 1 narwhal horn for a chum spreader (for deepsea trawling). Kill them southwest of Miscellania (dock at Etceteria). Make sure to collect tasks for both tusks and blubber.",
@@ -23967,29 +24105,27 @@
                   ]
                 }
               ],
-              "metadata": {}
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
             },
             {
               "content": [
                 {
-                  "text": "If you have at least 825,000 sailing XP, boost to build an adamant helm on both your sloop and your skiff, then complete charting the Shrouded Ocean (if you do not, choose a training method between Jubbly Jive, courier tasks, bounty tasks or salvaging and get enough xp). Train your woodcutting to level 80 (e.g. at teaks or sulliusceps), then travel (back) to Sunbleak Island, build the bank chest there if you want to (if you intend to afk woodcut, ironwood trees are a very good option - take lunar Plank Make to produce 4 planks on the island) and chop enough logs for 20 ironwood planks, taking into account plank vouchers if you have them. Take your skiff to the Gwenith Glide and complete at least up to the shark rank, unlocking the Heart of ithell, and to 1,225,000 xp (level 75) - whichever comes later, you need both.\n",
+                  "text": "If you have at least 825,000 sailing XP, boost to build an adamant helm on both your sloop and your skiff, then complete charting the Shrouded Ocean (if you do not, choose a training method between Jubbly Jive, courier tasks, bounty tasks or salvaging and get enough xp). Train your woodcutting to level 80 (e.g. at teaks or sulliusceps), then travel (back) to Sunbleak Island, collect the dragon helm schematic and build the bank chest there if you want to (if you intend to afk woodcut, ironwood trees are a very good option - take lunar Plank Make to produce 4 planks on the island) and chop enough logs for 20 ironwood planks, taking into account plank vouchers if you have them. Take your skiff to the Gwenith Glide and complete at least up to the shark rank, unlocking the Heart of ithell, and to 1,225,000 xp (level 75) - whichever comes later, you need both.\n",
                   "formatting": {}
-                },
-                {
-                  "text": "GP stack:"
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Skills/quests met?:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [],
-              "metadata": {}
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
             },
             {
               "content": [
@@ -24515,22 +24651,55 @@
                 {
                   "text": "Boost to smith 3 runite bars into 45 rune nails (if you did not go to 86 smithing earlier this step is out of reach). Buy 4 magic stones at the Keldagrim stonemason. Build a crystal extractor on your sloop and on your skiff - make sure to put the skiff extractor next to the helm, but the sloop extractor on the port side next to your front facility hotspot. Boost to build an eternal brazier on your sloop and on your skiff. Boosting where necessary, chart the Northern ocean in full. This completes your charting, go to Chartin’ Charles McAtless to collect your XP bonuses and the Horizon’s lure - buy 50 of the drink and put it in a keg on both ships. If you did ship combat earlier you have the resources to build the gale catcher on your skiff, and the key ingredients (but not the level) to build a chum spreader and two cotton trawling nets for your sloop later.\n",
                   "formatting": {}
-                },
-                {
-                  "text": "GP stack:"
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Skills/quests met?:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
-              "nestedContent": [],
-              "metadata": {}
+              "nestedContent": [
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Charting: follow this route in the Northern Ocean. First follow the pink route with a raft, then follow the red route with your skiff, both starting from Rellekka",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Northern Ocean.png",
+                      "url": "https://drive.google.com/file/d/1WnYENWBNvxHZNplULc2ubvXVOdzLDHvG/view?usp=sharing",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": ". At Buccanneer’s Haven collect the eternal brazier schematic and the small key for the dragon cannon schematic, to be collected at your leisure.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "If, at this point, there are any charting tasks incomplete (and it’s not the meteorologists in Ardent, which you revisit at your own convenience) please inform us on discord.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "At this point you are still missing two schematics: the rosewood & cotton sails and the dragon keel. Collect these at your own convenience when you have the levels.\n",
+                      "formatting": {}
+                    }
+                  ]
+                }
+              ],
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
             },
             {
               "content": [
