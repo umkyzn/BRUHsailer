@@ -1,5 +1,5 @@
 {
-  "updatedOn": "2026-03-08",
+  "updatedOn": "2026-03-10",
   "title": "BRUHsailer Complete Guide",
   "chapters": [
     {
@@ -12821,7 +12821,7 @@
               "formatting": {}
             },
             {
-              "text": "20260308Chapter1",
+              "text": "20260310Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -12844,7 +12844,7 @@
               "formatting": {}
             },
             {
-              "text": "20260308Chapter2",
+              "text": "20260310Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -12865,7 +12865,7 @@
               "formatting": {}
             },
             {
-              "text": "20260308Chapter3",
+              "text": "20260310Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -13310,6 +13310,17 @@
               "text": "\n",
               "formatting": {
                 "fontSize": 13
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260310: Moved Zogre Flesh Eaters for early inoculation station, finished Shrouded Ocean\n",
+              "formatting": {
+                "italic": true
               }
             }
           ],
@@ -15655,6 +15666,10 @@
                   }
                 },
                 {
+                  "text": "Do Big Chompy Bird Hunting, save a raw chompy for later. Do Zogre Flesh Eaters (use dueling rings for speeding up the quest), killing Zogres along the way for Rag and Bone Man II. Make sure to unlock Uglug’s Stuffsies and buy 16 relicym’s balm (3), decant them into 12 4-dose potions. Use Crumble Undead for the Slash Bash fight. ",
+                  "formatting": {}
+                },
+                {
                   "text": "Buy and smelt ",
                   "formatting": {
                     "color": {
@@ -15950,7 +15965,7 @@
                   }
                 },
                 {
-                  "text": ". The starting point is near Catherby. After reaching the Ruins of Unkah, teleport to Camelot, run to Catherby docks, charter a ship to Musa Point and recover your skiff. Then sail the orange route, visiting current duck spots. Dock at the Pandemonium.\n",
+                  "text": ". The starting point is near Catherby. After reaching the Ruins of Unkah, drink the Bottle of slug’s mind balm last (it teleports you to Witchhaven), then run to Ardougne docks, charter a ship to Musa Point and recover your skiff. Then sail the orange route, visiting current duck spots. Dock at the Pandemonium.\n",
                   "formatting": {}
                 }
               ],
@@ -15992,7 +16007,7 @@
                   }
                 },
                 {
-                  "text": "(starting at the Tempor Tantrum), chart a good portion of the Unquiet Ocean. Once you reach the end of this trek, minigame teleport to Port Khazard, recover your skiff and complete the mermaid diving charts in the Strait of Khazard and Gu’tanoth Bay. This completes the charting for the Ardent Ocean. Teleport to your POH and charter a ship to the Pandemonium, then collect the Ardent Ocean xp reward and the kraken ink stout (buy 25 of them) from Chartin’ Charles McAtless. Buy 48 whirlpool surprises from the Pandemonium pub. Build a keg on your skiff and fill it with whirlpool surprise.\n",
+                  "text": "(starting at the Tempor Tantrum), chart a good portion of the Unquiet Ocean. Once you reach the end of this trek, make sure your ship is stationary before drinking the bottle of alone at sea (a 75 second cutscene will play while your ship keeps moving if it’s not stationary!), then drink the bottle of the way home (which will teleport you to your POH and your ship to Port Sarim), then minigame teleport to Port Khazard, recover your skiff, build an inoculation station and complete the mermaid diving charts in the Strait of Khazard and Gu’tanoth Bay. This completes the charting for the Ardent Ocean. Teleport to your POH and charter a ship to the Pandemonium, then collect the Ardent Ocean xp reward and the kraken ink stout (buy 25 of them) from Chartin’ Charles McAtless. Buy 48 whirlpool surprises from the Pandemonium pub. Build a keg on your skiff and fill it with whirlpool surprise.\n",
                   "formatting": {}
                 }
               ],
@@ -17464,7 +17479,7 @@
                   "formatting": {}
                 },
                 {
-                  "text": "Do Big Chompy Bird Hunting, save a raw chompy for later. Catch a spined larupia for the diary. Kill ",
+                  "text": "Catch a spined larupia for the diary. Kill ",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -20628,7 +20643,7 @@
             {
               "content": [
                 {
-                  "text": "Do Zogre Flesh Eaters (on Arceuus spellbook, use dueling rings and fairy rings for speeding up the quest), killing Zogres along the way for Rag and Bone Man II. Make sure to unlock Uglug’s Stuffsies and buy 16 relicym’s balm (3), decant them into 12 4-dose potions. Swap to the normal spellbook for the Slash Bash fight to use Crumble Undead. Make a composite ogre bow (comp ogre bow) and 150 mithril brutal nails, kill 125 chompies for the diary. Speak with Rantz to collect a (handful of) Chompy bird hat(s).\n",
+                  "text": "Make a composite ogre bow (comp ogre bow) and 150 mithril brutal nails, kill 125 chompies for the diary. Speak with Rantz to collect a (handful of) Chompy bird hat(s).\n",
                   "formatting": {}
                 }
               ],
@@ -20653,7 +20668,7 @@
             {
               "content": [
                 {
-                  "text": "Make 20 bolts of linen. Build the mahogany mast and canvas sails using the hemp you farmed, build the mithril helm on your skiff (not sloop) and the inoculation station on both your skiff and your sloop. Do the Jubbly Jive barracuda trial and complete up to the shark rank. Build a wind catcher on both your skiff and your sloop, then return to the Jubbly Jive and keep training sailing to level 67 sailing using the following method for Marlin rank: ",
+                  "text": "Make 20 bolts of linen. Build the mahogany mast and canvas sails using the hemp you farmed, build the mithril helm on your skiff (not sloop) and the inoculation station on both your sloop. Do the Jubbly Jive barracuda trial and complete up to the shark rank. Build a wind catcher on both your skiff and your sloop, then return to the Jubbly Jive and keep training sailing to level 67 sailing using the following method for Marlin rank: ",
                   "formatting": {}
                 },
                 {
@@ -22189,7 +22204,7 @@
               "formatting": {}
             },
             {
-              "text": "20260308Chapter1",
+              "text": "20260310Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -22212,7 +22227,7 @@
               "formatting": {}
             },
             {
-              "text": "20260308Chapter2",
+              "text": "20260310Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -22233,7 +22248,7 @@
               "formatting": {}
             },
             {
-              "text": "20260308Chapter3",
+              "text": "20260310Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -22672,6 +22687,21 @@
                 "fontFamily": "Arial",
                 "url": "https://drive.google.com/file/d/1sj648WdEj8dXS-kJm5xyKZFxa-APM5CX/view?usp=sharing",
                 "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260310: Moved Zogre Flesh Eaters for early inoculation station, finished Shrouded Ocean",
+              "formatting": {
+                "italic": true
               }
             },
             {
@@ -23968,7 +23998,7 @@
                       }
                     },
                     {
-                      "text": ". Dock on Minotaur’s Rest to collect the small key, dock at Vatrachos Island and give the raccoon a berry (",
+                      "text": ". Warning: the crates in the Backwater will poison, disease and venom you (two different crates total) so bring an antipoison. Dock on Minotaur’s Rest to collect the small key, dock at Vatrachos Island and give the raccoon a berry (",
                       "formatting": {}
                     },
                     {
@@ -23985,7 +24015,7 @@
                       }
                     },
                     {
-                      "text": ") to get a medallion fragment, dock at Wintumber Island to chart the crab monument and collect a medallion piece, then later dock at the Crown Jewel to collect the rosewood cargo hold schematic.\n",
+                      "text": ") to get a medallion fragment, dock at Wintumber Island to chart the crab monument and collect a medallion piece, then later dock at the Crown Jewel to collect the rosewood cargo hold schematic. The bottle of portal nexus perry will teleport you to the Abyss so drink it last.\n",
                       "formatting": {}
                     }
                   ]
@@ -24027,7 +24057,7 @@
                       }
                     },
                     {
-                      "text": "\n",
+                      "text": ". The bottle of sea shandy 2 will teleport you and your ship to Port Sarim, so dock at Port Piscarilius before drinking it and charter back (and recover your ship).\n",
                       "formatting": {}
                     }
                   ]
@@ -24048,7 +24078,7 @@
                       }
                     },
                     {
-                      "text": "\n",
+                      "text": ". Watch out, the bottle of banker’s draught (south Port Poscarilius) will bank your items - drink this last.\n",
                       "formatting": {}
                     }
                   ]
@@ -24069,7 +24099,7 @@
                       }
                     },
                     {
-                      "text": ". Dock at Ynysdail to collect the small key, then dock at Lledrith to collect the dragon salvaging hook schematic.\n",
+                      "text": ". Dock at Ynysdail to collect the small key, then dock at Lledrith to collect the dragon salvaging hook schematic. Drinking the bottle of delicate elven wine will knock you out and put you at Isafdar (with your boat at Port Tyras), so dock at Port Tyras before drinking it.\n",
                       "formatting": {}
                     }
                   ]
@@ -24134,7 +24164,19 @@
             {
               "content": [
                 {
-                  "text": "If you have at least 825,000 sailing XP, boost to build an adamant helm on both your sloop and your skiff, then complete charting the Shrouded Ocean (if you do not, choose a training method between Jubbly Jive, courier tasks, bounty tasks or salvaging and get enough xp). Train your woodcutting to level 80 (e.g. at teaks or sulliusceps), then travel (back) to Sunbleak Island, collect the dragon helm schematic and build the bank chest there if you want to (if you intend to afk woodcut, ironwood trees are a very good option - take lunar Plank Make to produce 4 planks on the island) and chop enough logs for 20 ironwood planks, taking into account plank vouchers if you have them. Take your skiff to the Gwenith Glide and complete at least up to the shark rank, unlocking the Heart of ithell, and to 1,225,000 xp (level 75) - whichever comes later, you need both.\n",
+                  "text": "If you have at least 825,000 sailing XP, boost to build an adamant helm on both your sloop and your skiff, then complete charting the Shrouded Ocean (if you do not, choose a training method between Jubbly Jive, courier tasks, bounty tasks or salvaging and get enough xp) by charting to Deepfin Point and following the following route ",
+                  "formatting": {}
+                },
+                {
+                  "text": "Shrouded Ocean, part 2.png",
+                  "url": "https://drive.google.com/file/d/18KCtyaTWPL_l-Z_zBpDAafxBMAB_XMT1/view?usp=sharing",
+                  "isLink": true,
+                  "formatting": {
+                    "underline": true
+                  }
+                },
+                {
+                  "text": ". Train your woodcutting to level 80 (e.g. at teaks or sulliusceps), then travel (back) to Sunbleak Island, collect the dragon helm schematic and build the bank chest there if you want to (if you intend to afk woodcut, ironwood trees are a very good option - take lunar Plank Make to produce 4 planks on the island) and chop enough logs for 20 ironwood planks, taking into account plank vouchers if you have them. Take your skiff to the Gwenith Glide and complete at least up to the shark rank, unlocking the Heart of ithell, and to 1,225,000 xp (level 75) - whichever comes later, you need both.\n",
                   "formatting": {}
                 }
               ],
@@ -24689,7 +24731,70 @@
                       }
                     },
                     {
-                      "text": ". At Buccanneer’s Haven collect the eternal brazier schematic and the small key for the dragon cannon schematic, to be collected at your leisure.\n",
+                      "text": ". Drink the bottle of fishier bladderier stout shortly after getting it (complete the meteorologist first), you will be teleported to the troll arena with your ship docked at Rellekka again (just teleport out and resume the route). At Buccanneer’s Haven collect the eternal brazier schematic and the small key for the dragon cannon schematic, to be collected at your leisure.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "You can get the bottle of exile’s welcome (crate in Lunar port) on a skiff by reversing and getting the player tile as close as possible to the crate. This bottle will teleport you to a random lunar teleport.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "The bottle of kgp standard issue martini will teleport you to the Rellekka Hunter area.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "The bottle of the winter sun will teleport you to the sand dune near Pollnivneach and your boat to the Ruins of Unkah.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "It is recommended to finish the last three potions in this order:\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 3,
+                  "content": [
+                    {
+                      "text": "Drink the kgp standard issue martini, make your way back to Rellekka port\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 3,
+                  "content": [
+                    {
+                      "text": "Drink the winter sun, dueling ring to Al Kharid and make your way to Unkah.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 3,
+                  "content": [
+                    {
+                      "text": "Drink the exile’s welcome last.\n",
                       "formatting": {}
                     }
                   ]
@@ -26417,7 +26522,7 @@
               "formatting": {}
             },
             {
-              "text": "20260308Chapter1",
+              "text": "20260310Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -26440,7 +26545,7 @@
               "formatting": {}
             },
             {
-              "text": "20260308Chapter2",
+              "text": "20260310Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -26461,7 +26566,7 @@
               "formatting": {}
             },
             {
-              "text": "20260308Chapter3",
+              "text": "20260310Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -26482,7 +26587,7 @@
               "formatting": {}
             },
             {
-              "text": "20260308DetailedStepsGuide",
+              "text": "20260310DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -26902,6 +27007,24 @@
                 "fontFamily": "Arial",
                 "url": "https://drive.google.com/file/d/1sj648WdEj8dXS-kJm5xyKZFxa-APM5CX/view?usp=sharing",
                 "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "underline": true,
+                "fontSize": 15
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260310: Moved Zogre Flesh Eaters for early inoculation station, finished Shrouded Ocean",
+              "formatting": {
+                "italic": true
               }
             },
             {
