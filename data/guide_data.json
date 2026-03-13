@@ -1,5 +1,5 @@
 {
-  "updatedOn": "2026-03-10",
+  "updatedOn": "2026-03-13",
   "title": "BRUHsailer Complete Guide",
   "chapters": [
     {
@@ -12921,6 +12921,37 @@
             },
             {
               "text": "\n",
+              "formatting": {
+                "fontFamily": "Arial"
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Tool for comparing Landlubber to current: ",
+              "formatting": {
+                "fontFamily": "Arial"
+              }
+            },
+            {
+              "text": "https://pobblesbe.github.io/bruhsailer-transition-tool/",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://pobblesbe.github.io/bruhsailer-transition-tool/",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
               "formatting": {}
             }
           ],
@@ -15953,7 +15984,7 @@
             {
               "content": [
                 {
-                  "text": "Buy a skiff, build an iron helm and an oak mast and linen sails on it. Chart most of the Ardent Ocean using the route in red in ",
+                  "text": "Buy a skiff, build an iron helm and an oak mast and linen sails on it. Buy 25 repair kits and put them in your cargo hold, using them whenever appropriate (keep in mind you can also repair your ship every time you are at a shipwright, which is recommended). Chart most of the Ardent Ocean using the route in red in ",
                   "formatting": {}
                 },
                 {
@@ -22304,6 +22335,37 @@
             },
             {
               "text": "\n",
+              "formatting": {
+                "fontFamily": "Arial"
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Tool for comparing Landlubber to current: ",
+              "formatting": {
+                "fontFamily": "Arial"
+              }
+            },
+            {
+              "text": "https://pobblesbe.github.io/bruhsailer-transition-tool/",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://pobblesbe.github.io/bruhsailer-transition-tool/",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
               "formatting": {}
             }
           ],
@@ -26617,6 +26679,37 @@
                   "b": 0.8
                 },
                 "url": "https://drive.google.com/drive/folders/1mqirlAU0Pk5OGI5V8NN9BhHKIeGwG1Ea",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "fontFamily": "Arial"
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Tool for comparing Landlubber to current: ",
+              "formatting": {
+                "fontFamily": "Arial"
+              }
+            },
+            {
+              "text": "https://pobblesbe.github.io/bruhsailer-transition-tool/",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://pobblesbe.github.io/bruhsailer-transition-tool/",
                 "isLink": true
               }
             },
