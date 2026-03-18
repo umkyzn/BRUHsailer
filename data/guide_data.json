@@ -1,5 +1,5 @@
 {
-  "updatedOn": "2026-03-17",
+  "updatedOn": "2026-03-18",
   "title": "BRUHsailer Complete Guide",
   "chapters": [
     {
@@ -12821,7 +12821,7 @@
               "formatting": {}
             },
             {
-              "text": "20260317Chapter1",
+              "text": "20260318Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -12844,7 +12844,7 @@
               "formatting": {}
             },
             {
-              "text": "20260317Chapter2",
+              "text": "20260318Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -12865,7 +12865,7 @@
               "formatting": {}
             },
             {
-              "text": "20260317Chapter3",
+              "text": "20260318Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -12886,7 +12886,7 @@
               "formatting": {}
             },
             {
-              "text": "20260317DetailedStepsGuide",
+              "text": "20260318DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -22235,7 +22235,7 @@
               "formatting": {}
             },
             {
-              "text": "20260317Chapter1",
+              "text": "20260318Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -22258,7 +22258,7 @@
               "formatting": {}
             },
             {
-              "text": "20260317Chapter2",
+              "text": "20260318Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -22279,7 +22279,7 @@
               "formatting": {}
             },
             {
-              "text": "20260317Chapter3",
+              "text": "20260318Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -22300,7 +22300,7 @@
               "formatting": {}
             },
             {
-              "text": "20260317DetailedStepsGuide",
+              "text": "20260318DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -23948,66 +23948,29 @@
             {
               "content": [
                 {
-                  "text": "Optional: recruit Cabin Boy Jenkins (and Adventurer Ada while you’re at it) so you can get most xp out of multiskilling while charting. Use your skiff to chart the Sunset Ocean and Western Ocean in full, the lower level seas in the Shrouded Ocean along with all Miscellaneous charts in the same areas. Buy ",
+                  "text": "Recruit Cabin Boy Jenkins (and Adventurer Ada while you’re at it) so you can get most xp out of multiskilling while charting. Use your skiff to chart the Sunset Ocean and Western Ocean in full, the lower level seas in the Shrouded Ocean along with all Miscellaneous charts in the ",
                   "formatting": {}
                 },
                 {
-                  "text": "5k??",
-                  "formatting": {
-                    "bold": true,
-                    "italic": true,
-                    "color": {
-                      "r": 1,
-                      "g": 0.6,
-                      "b": 0
-                    }
-                  }
-                },
-                {
-                  "text": " mithril cannonballs at Port Roberts. Collect your charting xp bonuses from Chartin’ Charles McAtless. Optional and recommended, if you care for the rewards below from ship combat: also buy 25 Perildance bitters. Swap your kraken ink stout barrel on the sloop for perildance bitter. Recruit Oarswoman Olga and Jittery Jim (boost to recruit him) and assign them to your sloop. Collect port bounty tasks for the following activities. Note that bounty tasks are ",
+                  "text": "same areas. Buy ",
                   "formatting": {}
                 },
                 {
-                  "text": "not",
-                  "formatting": {
-                    "bold": true,
-                    "italic": true
-                  }
-                },
-                {
-                  "text": " bound to a specific location - you should teleport around to check all boards that can assign your desired target, regardless of where you want to do the task. Also most creatures drop two different bounty task items, so you can double dip on the xp by collecting both. See ",
+                  "text": "5k",
                   "formatting": {}
                 },
                 {
-                  "text": "Bounty tasks - OSRS Wiki",
-                  "formatting": {
-                    "underline": true,
-                    "color": {
-                      "r": 0.06666667,
-                      "g": 0.33333334,
-                      "b": 0.8
-                    },
-                    "url": "https://oldschool.runescape.wiki/w/Bounty_tasks",
-                    "isLink": true
-                  }
+                  "text": " mithril c",
+                  "formatting": {}
                 },
                 {
-                  "text": " for more info.\n",
+                  "text": "annonballs at Port Roberts. Collect your charting xp bonuses from Chartin’ Charles McAtless. Optional and recommended, if you care for the rewards below from ship combat: also buy 25 Perildance bitters. Recruit Oarswoman Olga and Jittery Jim (boost to recruit him) and assign them to your sloop.\n",
                   "formatting": {}
                 }
               ],
               "nestedContent": [
                 {
                   "level": 1,
-                  "content": [
-                    {
-                      "text": "Charting:\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 2,
                   "content": [
                     {
                       "text": "First do part of the Shrouded Ocean ",
@@ -24045,7 +24008,7 @@
                   ]
                 },
                 {
-                  "level": 2,
+                  "level": 1,
                   "content": [
                     {
                       "text": "Then the Western Ocean, continuing where the previous part ended. ",
@@ -24083,7 +24046,7 @@
                   ]
                 },
                 {
-                  "level": 2,
+                  "level": 1,
                   "content": [
                     {
                       "text": "Then chart the Sunset Ocean, starting from Aldarin twice: first with your raft (pink), then with your skiff (red). ",
@@ -24104,7 +24067,7 @@
                   ]
                 },
                 {
-                  "level": 2,
+                  "level": 1,
                   "content": [
                     {
                       "text": "Then more Western Ocean, starting at Land’s End",
@@ -24125,7 +24088,7 @@
                   ]
                 },
                 {
-                  "level": 2,
+                  "level": 1,
                   "content": [
                     {
                       "text": "Then more Western Ocean, continuing where the previous part ended. ",
@@ -24146,7 +24109,7 @@
                   ]
                 },
                 {
-                  "level": 2,
+                  "level": 1,
                   "content": [
                     {
                       "text": "Then more Western Ocean, continuing where the previous part ended. ",
@@ -24161,52 +24124,7 @@
                       }
                     },
                     {
-                      "text": ". Dock at Ynysdail to collect the small key, then dock at Lledrith to collect the dragon salvaging hook schematic. Drinking the bottle of delicate elven wine will knock you out and put you at Isafdar (with your boat at Port Tyras), so dock at Port Tyras before drinking it.\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "Bounty tasks:\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 2,
-                  "content": [
-                    {
-                      "text": "Stingray - 16 ray barbs for 2x cotton trawling net (best net for deepsea trawling). Kill them east off the coast of Aldarin, make sure to collect tasks for both fins and skins.\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 2,
-                  "content": [
-                    {
-                      "text": "Albatross - 5 swift albatross feathers for a gale catcher on your skiff. Kill them southeast of Etceteria, make sure to collect tasks for both beaks and feathers (which are different from swift feathers). Watch out, these require repair kits to stave off the damage.\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 2,
-                  "content": [
-                    {
-                      "text": "Narwhal - 1 narwhal horn for a chum spreader (for deepsea trawling). Kill them southwest of Miscellania (dock at Etceteria). Make sure to collect tasks for both tusks and blubber.\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 2,
-                  "content": [
-                    {
-                      "text": "The bottled storm (dropped by vampyre krakens) and some high tier dragon upgrades are currently not included in the guide. Likely these will be higher level content, even after the upcoming ship combat rework. If you want to go for these it is likely best to do so after finishing the charting.",
+                      "text": ". Dock at Ynysdail to collect the small key, then dock at Lledrith to collect the dragon salvaging hook schematic. Drinking the bottle of delicate elven wine will knock you out and put you at Isafdar (with your boat at Port Tyras), so dock at Port Tyras before drinking it.",
                       "formatting": {}
                     },
                     {
@@ -24238,7 +24156,7 @@
                   }
                 },
                 {
-                  "text": ". Train your woodcutting to level 80 (e.g. at teaks or sulliusceps), then travel (back) to Sunbleak Island, collect the dragon helm schematic and build the bank chest there if you want to (if you intend to afk woodcut, ironwood trees are a very good option - take lunar Plank Make to produce 4 planks on the island) and chop enough logs for 20 ironwood planks, taking into account plank vouchers if you have them. Take your skiff to the Gwenith Glide and complete at least up to the shark rank, unlocking the Heart of ithell, and to 1,225,000 xp (level 75) - whichever comes later, you need both.\n",
+                  "text": ". Train your woodcutting to level 80 (e.g. at teaks or sulliusceps), then travel (back) to Sunbleak Island, collect the dragon helm schematic and build the bank chest there if you want to (if you intend to afk woodcut, ironwood trees are a very good option - take lunar Plank Make to produce 4 planks on the island) and chop enough logs for 20 ironwood planks, taking into account plank vouchers if you have them.\n",
                   "formatting": {}
                 }
               ],
@@ -24772,11 +24690,138 @@
             {
               "content": [
                 {
-                  "text": "Boost to smith 3 runite bars into 45 rune nails (if you did not go to 86 smithing earlier this step is out of reach). Buy 4 magic stones at the Keldagrim stonemason. Build a crystal extractor on your sloop and on your skiff - make sure to put the skiff extractor next to the helm, but the sloop extractor on the port side next to your front facility hotspot. Boost to build an eternal brazier on your sloop and on your skiff. Boosting where necessary, chart the Northern ocean in full. This completes your charting, go to Chartin’ Charles McAtless to collect your XP bonuses and the Horizon’s lure - buy 50 of the drink and put it in a keg on both ships. If you did ship combat earlier you have the resources to build the gale catcher on your skiff, and the key ingredients (but not the level) to build a chum spreader and two cotton trawling nets for your sloop later.\n",
+                  "text": "Swap your kraken ink stout barrel on the sloop for perildance bitter. Collect port bounty tasks for the following activities. Note that bounty tasks are ",
+                  "formatting": {}
+                },
+                {
+                  "text": "not",
+                  "formatting": {
+                    "bold": true,
+                    "italic": true
+                  }
+                },
+                {
+                  "text": " bound to a specific location - you should teleport around to check all boards that can assign your desired target, regardless of where you want to do the task. Also most creatures drop two different bounty task items, so you can double dip on the xp by collecting both. See ",
+                  "formatting": {}
+                },
+                {
+                  "text": "Bounty tasks - OSRS Wiki",
+                  "formatting": {
+                    "underline": true,
+                    "color": {
+                      "r": 0.06666667,
+                      "g": 0.33333334,
+                      "b": 0.8
+                    },
+                    "url": "https://oldschool.runescape.wiki/w/Bounty_tasks",
+                    "isLink": true
+                  }
+                },
+                {
+                  "text": " for more info. Once you have completed the bounty tasks, or gotten enough xp for level 72 through other means, take your skiff to the Gwenith Glide and complete at least up to the shark rank, unlocking the Heart of ithell, and to 1,225,000 xp (level 75) - whichever comes later, you need both. Boost to smith 3 runite bars into 45 rune nails (if you did not go to 86 smithing earlier this step is out of reach). Buy 4 magic stones at the Keldagrim stonemason. Build a crystal extractor on your sloop and on your skiff - make sure to put the skiff extractor next to the helm, but the sloop extractor on the port side next to your front facility hotspot. Boost to build an eternal brazier on your sloop and on your skiff. Boosting where necessary, chart the Northern ocean in full. This completes your charting, go to Chartin’ Charles McAtless to collect your XP bonuses and the Horizon’s lure - buy 50 of the drink and put it in a keg on both ships. If you did ship combat earlier you have the resources to build the gale catcher on your skiff, and the key ingredients (but not the level) to build a chum spreader and two cotton trawling nets for your sloop later.\n",
                   "formatting": {}
                 }
               ],
               "nestedContent": [
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Bounty tasks. Currently the main method of doing bounty tasks is just shooting the creatures with your bowfa, assigning your crew to deal a rounding error of support damage with your cannons.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "Here’s how to do bounty tasks:\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 3,
+                  "content": [
+                    {
+                      "text": "Travel (teleport/charter) around all places the tasks for one creature might be offered\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 3,
+                  "content": [
+                    {
+                      "text": "Travel (teleport/charter) to a dock closest to the creature and sail there\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 3,
+                  "content": [
+                    {
+                      "text": "Kill it until you complete one (or both, if it's close) of your two tasks\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 3,
+                  "content": [
+                    {
+                      "text": "Sail back, cash it in, go back to 1)\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "These are the tasks to do:\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 3,
+                  "content": [
+                    {
+                      "text": "Stingray - 16 ray barbs for 2x cotton trawling net (best net for deepsea trawling). Kill them east off the coast of Aldarin, make sure to collect tasks for both fins and skins.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 3,
+                  "content": [
+                    {
+                      "text": "Albatross - 5 swift albatross feathers for a gale catcher on your skiff. Kill them southeast of Etceteria, make sure to collect tasks for both beaks and feathers (which are different from swift feathers). Watch out, these require repair kits to stave off the damage.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 3,
+                  "content": [
+                    {
+                      "text": "Narwhal - 1 narwhal horn for a chum spreader (for deepsea trawling). Kill them southwest of Miscellania (dock at Etceteria). Make sure to collect tasks for both tusks and blubber.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 3,
+                  "content": [
+                    {
+                      "text": "The bottled storm (dropped by vampyre krakens) and some high tier dragon upgrades are currently not included in the guide. Likely these will be higher level content. If you want to go for these it is likely best to do so after finishing the charting.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
                 {
                   "level": 1,
                   "content": [
@@ -26584,7 +26629,7 @@
               "formatting": {}
             },
             {
-              "text": "20260317Chapter1",
+              "text": "20260318Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -26607,7 +26652,7 @@
               "formatting": {}
             },
             {
-              "text": "20260317Chapter2",
+              "text": "20260318Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -26628,7 +26673,7 @@
               "formatting": {}
             },
             {
-              "text": "20260317Chapter3",
+              "text": "20260318Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -26649,7 +26694,7 @@
               "formatting": {}
             },
             {
-              "text": "20260317DetailedStepsGuide",
+              "text": "20260318DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
