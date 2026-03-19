@@ -5,14 +5,16 @@ import FormattedText from './FormattedText';
 
 interface ChapterProps {
   chapterData: ChapterWithSections;
+  /** Index of the section that should start open, or null if this chapter starts collapsed */
+  initialOpenSectionIndex: number | null;
 }
 
-function Chapter({ chapterData }: ChapterProps) {
+function Chapter({ chapterData, initialOpenSectionIndex }: ChapterProps) {
   const { chapter, sections, chapterIndex } = chapterData;
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(initialOpenSectionIndex !== null);
 
   return (
-    <div className="guide-chapter">
+    <div className="guide-chapter" data-chapter={chapterIndex}>
       <h2
         className={`chapter-title${isOpen ? ' active' : ''}`}
         onClick={() => setIsOpen((o) => !o)}
@@ -30,6 +32,7 @@ function Chapter({ chapterData }: ChapterProps) {
             section={section}
             steps={steps}
             sectionId={`${chapterIndex + 1}.${si + 1}`}
+            initiallyOpen={si === initialOpenSectionIndex}
           />
         ))}
         {chapter.footnotes && chapter.footnotes.length > 0 && (

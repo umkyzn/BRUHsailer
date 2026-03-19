@@ -1,6 +1,5 @@
 import { useState, memo } from 'react';
-import type { StepWithId } from '../../types/guide';
-import type { GuideSection } from '../../types/guide';
+import type { StepWithId, GuideSection } from '../../types/guide';
 import Step from './Step';
 
 interface SectionProps {
@@ -8,10 +7,11 @@ interface SectionProps {
   steps: StepWithId[];
   sectionId: string;
   isFootnotes?: boolean;
+  initiallyOpen?: boolean;
 }
 
-function Section({ section, steps, sectionId, isFootnotes = false }: SectionProps) {
-  const [isOpen, setIsOpen] = useState(false);
+function Section({ section, steps, sectionId, isFootnotes = false, initiallyOpen = false }: SectionProps) {
+  const [isOpen, setIsOpen] = useState(initiallyOpen);
 
   return (
     <div

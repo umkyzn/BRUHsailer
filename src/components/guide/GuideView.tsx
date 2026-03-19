@@ -1,4 +1,4 @@
-import { useRef, useEffect, useMemo, useCallback } from 'react';
+import { useRef, useEffect, useMemo, useCallback, useState } from 'react';
 import type { GuideData, ChapterWithSections, HighlightEntry } from '../../types/guide';
 import { useGuide } from '../../context/GuideContext';
 import Chapter from './Chapter';
@@ -182,6 +182,23 @@ function useDebounce(fn: (term: string) => void, delay: number) {
   );
 }
 
+// ─── Initial open location ───────────────────────────────────────────────────
+
+export function findInitialOpenLocation(
+  chapters: ChapterWithSections[],
+  lastStepId: string | null
+): { chapterIndex: number; sectionIndex: number } {
+  if (!lastStepId) return { chapterIndex: 0, sectionIndex: 0 };
+  for (const { chapterIndex, sections } of chapters) {
+    for (let si = 0; si < sections.length; si++) {
+      if (sections[si].steps.some(({ stepId }) => stepId === lastStepId)) {
+        return { chapterIndex, sectionIndex: si };
+      }
+    }
+  }
+  return { chapterIndex: 0, sectionIndex: 0 };
+}
+
 // ─── GuideView ────────────────────────────────────────────────────────────────
 
 interface GuideViewProps {
@@ -201,6 +218,13 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
     }
     return null;
   }, [allStepIds, state.progress]);
+
+  // ── Initial open location (computed once at mount from initial progress) ──
+  // useState lazy initializer runs only on first render, capturing the starting
+  // lastCompletedStepId — subsequent progress changes don't move the open chapter.
+  const [initialOpenLocation] = useState(() =>
+    findInitialOpenLocation(chapters, lastCompletedStepId)
+  );
 
   // ── Effect: apply filter whenever filter/progress changes ────────────────
   useEffect(() => {
@@ -429,7 +453,15 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
       />
       <div id="guideContent" ref={contentRef}>
         {chapters.map((chapterData) => (
-          <Chapter key={chapterData.chapterIndex} chapterData={chapterData} />
+          <Chapter
+            key={chapterData.chapterIndex}
+            chapterData={chapterData}
+            initialOpenSectionIndex={
+              chapterData.chapterIndex === initialOpenLocation.chapterIndex
+                ? initialOpenLocation.sectionIndex
+                : null
+            }
+          />
         ))}
       </div>
       {/* Unused — kept for CSS targeting compatibility */}

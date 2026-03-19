@@ -222,11 +222,6 @@ const GuideDataLoader = {
     }
   },
 
-  /**
-   * Renders formatted content from the guide data
-   * @param {Array} contentArray - Array of content items
-   * @returns {HTMLElement} - Container with formatted content
-   */
   renderFormattedContent(contentArray) {
     const container = document.createElement("div");
 
@@ -293,11 +288,6 @@ const GuideDataLoader = {
     return container;
   },
 
-  /**
-   * Applies formatting to HTML elements
-   * @param {HTMLElement} element - Element to apply formatting to
-   * @param {Object} formatting - Formatting options
-   */
   applyFormatting(element, formatting) {
     if (!formatting) return;
 
