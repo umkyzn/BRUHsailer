@@ -32,11 +32,17 @@ jobs:
       - name: Transform and merge JSON to final data.json
         run: node conversion-script.js
 
+      - name: Copy data to public/data for Vite build
+        run: |
+          mkdir -p public/data
+          cp data/guide_data.json public/data/guide_data.json
+          cp data/guide_data_landlubber.json public/data/guide_data_landlubber.json 2>/dev/null || true
+
       - name: Commit and push
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          git add data/guide_data.json
+          git add data/guide_data.json public/data/guide_data.json public/data/guide_data_landlubber.json
           git commit -m "Update website data" || echo "No changes to commit"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git push origin HEAD:main
