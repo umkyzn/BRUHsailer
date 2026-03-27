@@ -1,5 +1,5 @@
 {
-  "updatedOn": "2026-03-18",
+  "updatedOn": "2026-03-27",
   "title": "BRUHsailer Complete Guide",
   "chapters": [
     {
@@ -1661,7 +1661,22 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "60 woodcutting (higher is better, you will need 70 later and the rest will be trained with sulliusceps and 2t teaks outside Soul Wars). You can get this elsewhere too.\n",
+                      "text": "60 woodcutting (higher is better, you will need 70 later and the rest will be trained with sulliusceps and 2t teaks outside Soul Wars). You can get this elsewhere too. If you did not go all the way to 60 woodcutting, buy an adamant axe at Lunami",
+                      "formatting": {
+                        "color": {
+                          "r": 0,
+                          "g": 0,
+                          "b": 0
+                        },
+                        "fontSize": 12
+                      }
+                    },
+                    {
+                      "text": "’s Axe Shop in Auburnvale at your convenience later for speeding up the training.",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "\n",
                       "formatting": {
                         "color": {
                           "r": 0,
@@ -7198,7 +7213,7 @@
                   "formatting": {}
                 },
                 {
-                  "text": "), 4 oak logs, saw, hammer and an iron bar. Use a digsite pendant, speak with the Lead Navigator for Bone ",
+                  "text": "), 4 oak logs, hammer and an iron bar. Use a digsite pendant, speak with the Lead Navigator for Bone ",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -7254,7 +7269,7 @@
                   }
                 },
                 {
-                  "text": "Teleport to Varrock (chronicle), speak with the Apothecary for Bone Voyage and Romeo & Juliet and give him the Diary of Herbi Flax, show The Lost Tribe brooch to Reldo. Pay the estate agent to move your POH to Kourend. Grab a saw, hammer, 2 oak planks, 5 steel nails, 1 iron bar.",
+                  "text": "Teleport to Varrock (chronicle), speak with the Apothecary for Bone Voyage and Romeo & Juliet and give him the Diary of Herbi Flax, show The Lost Tribe brooch to Reldo. Pay the estate agent to move your POH to Kourend. Grab a hammer, 2 oak planks, 5 steel nails, 1 iron bar.",
                   "formatting": {}
                 },
                 {
@@ -7301,7 +7316,7 @@
               ],
               "metadata": {
                 "gp_stack": "445506 gp",
-                "items_needed": "10500 gp, Chronicle, barley seeds, 4 compost (from Step 21), rake, seed dibber, rune pickaxe, brooch, diary, digsite pendant, axe, tinderbox, 4 oak logs, saw, hammer, iron bar, Rag and Bone Man I bones, jugs of vinegar, marrentill potion(unf), 2 vodkas, cadava berries",
+                "items_needed": "10500 gp, Chronicle, barley seeds, 4 compost (from Step 21), rake, seed dibber, rune pickaxe, brooch, diary, digsite pendant, axe, tinderbox, 4 oak logs, hammer, iron bar, Rag and Bone Man I bones, jugs of vinegar, marrentill potion(unf), 2 vodkas, cadava berries",
                 "skills_quests_met": "yes",
                 "total_time": "5d19h"
               }
@@ -7944,7 +7959,22 @@
                   "formatting": {}
                 },
                 {
-                  "text": "ALS (McGrubor’s Wood, diary step, run out and plant jute seeds for the diary, return to the fairy ring), BIS (Ardougne zoo, diary step), AIR (diary step), DIS (diary step), AJP",
+                  "text": "ALS (McGrubor’s Wood, diary step, run out and plant jute seeds for the diary, return to the fairy ring), BIS (Ardougne zoo, diary step), AIR (diary step), optional AIR to Auburnvale to purchase an addy axe (only if you do ",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "not have 60 woodcutting yet), ",
+                  "formatting": {}
+                },
+                {
+                  "text": "DIS (diary step), AJP",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -11302,7 +11332,7 @@
                       }
                     },
                     {
-                      "text": "20220622FarmingGuide",
+                      "text": "20260327FarmingGuide",
                       "url": "https://docs.google.com/document/d/1rAnKmezSQmnqFOCti4RWze-kvMoW8i4Kyk5xswJ-9Qc/edit#",
                       "isLink": true,
                       "formatting": {
@@ -12821,7 +12851,7 @@
               "formatting": {}
             },
             {
-              "text": "20260318Chapter1",
+              "text": "20260327Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -12844,7 +12874,7 @@
               "formatting": {}
             },
             {
-              "text": "20260318Chapter2",
+              "text": "20260327Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -12865,7 +12895,7 @@
               "formatting": {}
             },
             {
-              "text": "20260318Chapter3",
+              "text": "20260327Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -12886,7 +12916,7 @@
               "formatting": {}
             },
             {
-              "text": "20260318DetailedStepsGuide",
+              "text": "20260327DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -13349,7 +13379,38 @@
         {
           "content": [
             {
-              "text": "20260310: Moved Zogre Flesh Eaters for early inoculation station, finished Shrouded Ocean\n",
+              "text": "20260310: Moved Zogre Flesh Eaters for early inoculation station, finished Shrouded Ocean",
+              "formatting": {
+                "italic": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "fontFamily": "Arial"
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260327BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/16LdgtZVcg81vRr2-RZ-0J9tQW8kJG-sh/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
               "formatting": {
                 "italic": true
               }
@@ -14951,7 +15012,7 @@
                       "formatting": {}
                     },
                     {
-                      "text": "20220622FarmingGuide",
+                      "text": "20260327FarmingGuide",
                       "url": "https://docs.google.com/document/d/1rAnKmezSQmnqFOCti4RWze-kvMoW8i4Kyk5xswJ-9Qc/edit?usp=sharing",
                       "isLink": true,
                       "formatting": {
@@ -15894,7 +15955,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Spyglass to admire Charin’ Charles McAtless in the cave on the Pandemonium, also mine 22 lead ore in the cave.\n",
+                      "text": "Spyglass to admire Charin’ Charles McAtless in the cave on the Pandemonium, also mine 22 lead ore in the cave. Superheat 10 of them into 5 bars.\n",
                       "formatting": {}
                     }
                   ]
@@ -16038,7 +16099,7 @@
                   }
                 },
                 {
-                  "text": "(starting at the Tempor Tantrum), chart a good portion of the Unquiet Ocean. Once you reach the end of this trek, make sure your ship is stationary before drinking the bottle of alone at sea (a 75 second cutscene will play while your ship keeps moving if it’s not stationary!), then drink the bottle of the way home (which will teleport you to your POH and your ship to Port Sarim), then minigame teleport to Port Khazard, recover your skiff, build an inoculation station and complete the mermaid diving charts in the Strait of Khazard and Gu’tanoth Bay. This completes the charting for the Ardent Ocean. Teleport to your POH and charter a ship to the Pandemonium, then collect the Ardent Ocean xp reward and the kraken ink stout (buy 25 of them) from Chartin’ Charles McAtless. Buy 48 whirlpool surprises from the Pandemonium pub. Build a keg on your skiff and fill it with whirlpool surprise.\n",
+                  "text": "(starting at the Tempor Tantrum), chart a good portion of the Unquiet Ocean. Once you reach the end of this trek, make sure your ship is stationary before drinking the bottle of alone at sea (a 75 second cutscene will play while your ship keeps moving if it’s not stationary!), then teleport out, minigame teleport to Port Khazard, recover your skiff, build an inoculation station and complete the mermaid diving charts in the Strait of Khazard and Gu’tanoth Bay. This completes the charting for the Ardent Ocean. Teleport to your POH and charter a ship to the Pandemonium, then collect the Ardent Ocean xp reward and the kraken ink stout (buy 25 of them) from Chartin’ Charles McAtless. Buy 48 whirlpool surprises from the Pandemonium pub. Build a keg on your skiff and fill it with whirlpool surprise.\n",
                   "formatting": {}
                 }
               ],
@@ -19364,6 +19425,15 @@
                   "level": 1,
                   "content": [
                     {
+                      "text": "Make sure to only drink the bottle of the way home (which will teleport you to your POH and your ship to Port Sarim) when it’s convenient - you can use this to set up a courier task more easily.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
                       "text": "Coral farming starts here. This is a worthwhile activity, creating super hunter potions and/or armadyl brews for herblore xp. From here on include coral in your farm runs, but only with attas active and 99 farming! Paying for protection is allegedly not worth it. You can visit the location by chartering to The Summer Shore, then taking the small boat to the northeast side of the island, then diving down. The first time you are down there search the coral on the west side to find a medallion fragment.\n",
                       "formatting": {}
                     }
@@ -19513,8 +19583,8 @@
                       "formatting": {}
                     },
                     {
-                      "text": "OSRS Pure Chinning Guide (Maximizing XP rates)",
-                      "url": "https://www.youtube.com/watch?v=0kUYAVc4QVg",
+                      "text": "Chinning Guide MM1 OSRS (600k XP P/H)",
+                      "url": "https://www.youtube.com/watch?v=bOa3WDea8lQ",
                       "isLink": true,
                       "formatting": {
                         "underline": true
@@ -20749,10 +20819,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "2.5m gp",
+                "gp_stack": "tbd",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
-                "total_time": "25d22h"
+                "total_time": "tbd"
               }
             },
             {
@@ -22235,7 +22305,7 @@
               "formatting": {}
             },
             {
-              "text": "20260318Chapter1",
+              "text": "20260327Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -22258,7 +22328,7 @@
               "formatting": {}
             },
             {
-              "text": "20260318Chapter2",
+              "text": "20260327Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -22279,7 +22349,7 @@
               "formatting": {}
             },
             {
-              "text": "20260318Chapter3",
+              "text": "20260327Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -22300,7 +22370,7 @@
               "formatting": {}
             },
             {
-              "text": "20260318DetailedStepsGuide",
+              "text": "20260327DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -22768,7 +22838,34 @@
             },
             {
               "text": "\n",
-              "formatting": {}
+              "formatting": {
+                "fontFamily": "Arial"
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260327BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/16LdgtZVcg81vRr2-RZ-0J9tQW8kJG-sh/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "italic": true
+              }
             }
           ],
           "type": "chapter_footnote"
@@ -24799,7 +24896,7 @@
                   "level": 3,
                   "content": [
                     {
-                      "text": "Albatross - 5 swift albatross feathers for a gale catcher on your skiff. Kill them southeast of Etceteria, make sure to collect tasks for both beaks and feathers (which are different from swift feathers). Watch out, these require repair kits to stave off the damage.\n",
+                      "text": "Albatross - 5 (or 10) swift albatross feathers for a gale catcher on your skiff (optional: and sloop). Kill them southeast of Etceteria, make sure to collect tasks for both beaks and feathers (which are different from swift feathers). Watch out, these require repair kits to stave off the damage.\n",
                       "formatting": {}
                     }
                   ]
@@ -25397,7 +25494,7 @@
                   "level": 2,
                   "content": [
                     {
-                      "text": "Still open chests starting at level 51 room.\n",
+                      "text": "Still open sarcophagi starting at the level 51 room.\n",
                       "formatting": {}
                     }
                   ]
@@ -26629,7 +26726,7 @@
               "formatting": {}
             },
             {
-              "text": "20260318Chapter1",
+              "text": "20260327Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -26652,7 +26749,7 @@
               "formatting": {}
             },
             {
-              "text": "20260318Chapter2",
+              "text": "20260327Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -26673,7 +26770,7 @@
               "formatting": {}
             },
             {
-              "text": "20260318Chapter3",
+              "text": "20260327Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -26694,7 +26791,7 @@
               "formatting": {}
             },
             {
-              "text": "20260318DetailedStepsGuide",
+              "text": "20260327DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -27168,8 +27265,32 @@
             {
               "text": "\n",
               "formatting": {
+                "fontFamily": "Arial"
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260327BRUHsailerChangelog.txt",
+              "formatting": {
                 "underline": true,
-                "fontSize": 15
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/16LdgtZVcg81vRr2-RZ-0J9tQW8kJG-sh/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "fontSize": 13
               }
             }
           ],
