@@ -1,5 +1,5 @@
 {
-  "updatedOn": "2026-03-27",
+  "updatedOn": "2026-04-10",
   "title": "BRUHsailer Complete Guide",
   "chapters": [
     {
@@ -7330,7 +7330,7 @@
                   }
                 },
                 {
-                  "text": " the camp on Fossil Island (then rebank to get new items), unlock the mushtree system, mine 1,000 volcanic ash while in the area, set up your first bird run.",
+                  "text": " the camp on Fossil Island (then rebank to get new items), unlock the mushtree system including the teleport to the house on the hill by using a digsite pendant on the strange machine in said house, mine 1,000 volcanic ash while in the area, set up your first bird run.",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -10363,7 +10363,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "230380 gp (don’t bother wasting inv slots on GP at dragons)",
+                "gp_stack": "238594 gp (don’t bother wasting inv slots on GP at dragons)",
                 "items_needed": "rune pickaxe, dueling ring, 1 pure essence, air runes, earth staff, water staff, chaos runes, mind runes, amulet of magic, fire staff, law runes, anti-dragon shield, salmon",
                 "skills_quests_met": "yes",
                 "total_time": "7d8h"
@@ -10424,7 +10424,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "230880 gp",
+                "gp_stack": "239094 gp",
                 "items_needed": "magic secateurs, 3 papyrus, 1 ball of wool, 1 sack of 10 potatoes, 8 empty sacks, black candle (from Step 38), tinderbox, 10 silk, 10 logs, 12 willow branches",
                 "skills_quests_met": "yes",
                 "total_time": "7d11h"
@@ -10549,7 +10549,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "230880 gp",
+                "gp_stack": "239094 gp",
                 "items_needed": "Kharedst’s memoirs, lockpick,",
                 "skills_quests_met": "yes",
                 "total_time": "7d13h"
@@ -10703,7 +10703,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "235737 gp",
+                "gp_stack": "243951 gp",
                 "items_needed": "143 gp, games necklace, amulet of accuracy, fire staff, rune sword, fire staff, chaos runes (buy more?), gold bar, dragon bones, pickaxe, 2 ropes, guam leaf, vial of water, light source, tinderbox, pestle and mortar, 8 supercompost (note that ultra doesn’t work), spade, rake, seed dibber, plant cure (buy it in Trollheim), 3 Ugthanki dung, empty bucket, jangerberry",
                 "skills_quests_met": "yes",
                 "total_time": "7d15h"
@@ -11277,6 +11277,17 @@
                   "level": 1,
                   "content": [
                     {
+                      "text": "Once you hit level 76 farming it is recommended to plant an Attas anima seed and begin growing giant seaweed (not before then). It is best to teleport to house on the hill and zipline down. Even if you just finished a bird run, it is better to teleport than to run across the island.\n",
+                      "formatting": {
+                        "italic": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
                       "text": "The best method to do Tithe farming at this level is ",
                       "formatting": {}
                     },
@@ -11369,7 +11380,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "235737 gp",
+                "gp_stack": "243951 gp",
                 "items_needed": "seed dibber, spade, 15 watering cans, dramen staff, glassblowing pipe, molten glass, rune axe, ultracompost",
                 "skills_quests_met": "yes",
                 "total_time": "8d6h"
@@ -11437,7 +11448,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "233737 gp",
+                "gp_stack": "241951 gp",
                 "items_needed": "2000 gp, 1 hammer, 90 steel nails, 3 planks, 2 logs, 11 yew logs, 10 willow logs, staff of air, mind runes, law runes",
                 "skills_quests_met": "yes",
                 "total_time": "8d6h"
@@ -11713,7 +11724,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "227287 gp",
+                "gp_stack": "235501 gp",
                 "items_needed": "650 gp, dramen staff, butterfly net, several impling jars, rune pickaxe, swordfish, karambwans, knife, 20 limpwurt roots, candle (or FM cape/bruma torch), lockpick, air runes, law runes, fire runes, boots of lightness, many Shantay passes, 12 magic logs, 6 steel bars, 6 molten glass, 1 ashes, charcoal, 1 blood rune, 1 bones, 1 silver bar, garlic, pestle/mortar, spice, small fishing net, rope, sled, chocolate cake, spiked climbing boots, facemask, tinderbox, many lockpicks, prayer potions, fire staff, death runes (use blast spells except for Kamil)",
                 "skills_quests_met": "yes",
                 "total_time": "8d13h"
@@ -11914,7 +11925,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "227987 gp",
+                "gp_stack": "236201 gp",
                 "items_needed": "108 soft clay, 108 air runes, 216 law runes, fire staff",
                 "skills_quests_met": "yes",
                 "total_time": "8d14h"
@@ -12150,7 +12161,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "5987 gp",
+                "gp_stack": "14201 gp",
                 "items_needed": "Wind strikes, rune sword, food, 247500 gp (to buy 4400 cosmics), knife, 1590 unpowered orbs, many Wizard Mind Bombs, 33 Paddewwa tabs (66 if HCIM), 7 games necklaces (0 if HCIM), 5 rings of dueling, earth staff, 4770 cosmic runes",
                 "skills_quests_met": "yes",
                 "total_time": "8d17h"
@@ -12172,7 +12183,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "5837 gp",
+                "gp_stack": "14051 gp",
                 "items_needed": "150 gp, 2 empty vials, redberries, white berries, lantern lens (blow from molten glass), 5 earth runes, bucket",
                 "skills_quests_met": "yes",
                 "total_time": "8d18h"
@@ -12851,7 +12862,7 @@
               "formatting": {}
             },
             {
-              "text": "20260327Chapter1",
+              "text": "20260410Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -12874,7 +12885,7 @@
               "formatting": {}
             },
             {
-              "text": "20260327Chapter2",
+              "text": "20260410Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -12895,7 +12906,7 @@
               "formatting": {}
             },
             {
-              "text": "20260327Chapter3",
+              "text": "20260410Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -12916,7 +12927,7 @@
               "formatting": {}
             },
             {
-              "text": "20260327DetailedStepsGuide",
+              "text": "20260410DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -13421,6 +13432,30 @@
         {
           "content": [
             {
+              "text": "20260410BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://drive.google.com/file/d/1Vgsc6cbQkVZq0zK_1N8kiITWsTdirKJl/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "italic": true
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
               "text": "\n",
               "formatting": {}
             }
@@ -13545,9 +13580,9 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "162k gp",
+                "gp_stack": "150k gp",
                 "items_needed": "cash stack, 100 earth orbs,",
-                "total_time": "9d10h",
+                "total_time": "8d19h",
                 "skills_quests_met": "yes"
               }
             },
@@ -13577,10 +13612,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "3m gp",
+                "gp_stack": "3.0m gp",
                 "items_needed": "Kharedst’s memoirs, 300k gp (obtained during the step), rings of dueling, earth orbs, battlestaves (obtained during the step), rope, antipoison, barcrawl card, 15 oak logs, digsite pendant, games necklace",
                 "skills_quests_met": "yes",
-                "total_time": "9d17h"
+                "total_time": "9d2h"
               }
             },
             {
@@ -13676,10 +13711,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "2.66m gp",
+                "gp_stack": "2.65m gp",
                 "items_needed": "cash stack, knife, teak log, rune axe, saw, hammer, forestry kit",
                 "skills_quests_met": "yes",
-                "total_time": "9d17h"
+                "total_time": "9d12h"
               }
             },
             {
@@ -13782,10 +13817,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "2.05m gp",
+                "gp_stack": "2.0m gp",
                 "items_needed": "cash stack, knife, teak log, rune axe, saw, hammer",
                 "skills_quests_met": "yes",
-                "total_time": "9d20h"
+                "total_time": "9d15h"
               }
             },
             {
@@ -13797,10 +13832,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "2.01m gp",
+                "gp_stack": "2.0m gp",
                 "items_needed": "cash stack, Crandor map, rune sword, anti-dragon shield, swordfish, prayer potions (make at bank if you haven’t already), ring of recoil (optional), teak logs + knife (optional)",
                 "skills_quests_met": "yes",
-                "total_time": "9d21h"
+                "total_time": "9d6h"
               }
             },
             {
@@ -13819,7 +13854,7 @@
                 "gp_stack": "2.0m gp",
                 "items_needed": "pickaxe",
                 "skills_quests_met": "yes",
-                "total_time": "9d23h"
+                "total_time": "9d8h"
               }
             },
             {
@@ -13841,10 +13876,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "1.8m gp",
+                "gp_stack": "1.7m gp",
                 "items_needed": "200k gp, 2 ropes, yew longbow, 10 steel arrows, spade, food (swordfish?), rune sword, energy pots if you have them, wind strike/bolt runes, prayer potion",
                 "skills_quests_met": "yes",
-                "total_time": "10d1h"
+                "total_time": "9d10h"
               }
             },
             {
@@ -13856,10 +13891,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "1.7m gp",
+                "gp_stack": "1.6m gp",
                 "items_needed": "law rune, earth rune, air rune, coins",
                 "skills_quests_met": "yes",
-                "total_time": "10d1h"
+                "total_time": "9d10h"
               }
             },
             {
@@ -13890,10 +13925,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "1.7m gp",
+                "gp_stack": "1.6m gp",
                 "items_needed": "pickaxe, chronicle, ring of dueling, bracelets of clay, law runes, earth runes, air runes, crystal saw, 2 mahogany planks, gold leaf, coins",
                 "skills_quests_met": "yes",
-                "total_time": "10d1h"
+                "total_time": "9d10h"
               }
             },
             {
@@ -14010,10 +14045,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "1.7m gp",
+                "gp_stack": "1.6m gp",
                 "items_needed": "cash stack, chaos runes, air staff, law runes, trollweis, rune sword, rune pickaxe, Paddewwa tabled/water runes, law runes, swordfish, prayer potions",
                 "skills_quests_met": "yes",
-                "total_time": "10d1h"
+                "total_time": "9d10h"
               }
             },
             {
@@ -14078,10 +14113,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "1.7m gp",
+                "gp_stack": "1.6m gp",
                 "items_needed": "chaos runes, air runes, water staff, law runes, swordfish, prayer potions, games necklace",
                 "skills_quests_met": "yes",
-                "total_time": "10d2h"
+                "total_time": "9d11h"
               }
             },
             {
@@ -14119,7 +14154,7 @@
                 "gp_stack": "1.6m gp",
                 "items_needed": "cash stack, air runes, water staff, law runes, 2k stardust, full initiate, 1 molten glass, 1 enchanted gem",
                 "skills_quests_met": "yes",
-                "total_time": "10d2h"
+                "total_time": "9d11h"
               }
             },
             {
@@ -14183,7 +14218,7 @@
                 "gp_stack": "1.6m gp",
                 "items_needed": "spade, lit candle, rope, bronze wire, chisel, rune sword, swordfish, prayer potions, energy potions, dramen staff, Crumble Undead runes, 4 rogue kits (optional), rune pickaxe, gout tuber",
                 "skills_quests_met": "yes",
-                "total_time": "10d3h"
+                "total_time": "9d12h"
               }
             },
             {
@@ -14204,7 +14239,7 @@
                 "gp_stack": "1.6m gp",
                 "items_needed": "1330 gp, ice gloves, blunt axe",
                 "skills_quests_met": "yes",
-                "total_time": "10d3h"
+                "total_time": "9d12h"
               }
             },
             {
@@ -14295,7 +14330,7 @@
                 "gp_stack": "1.6m gp",
                 "items_needed": "blamish snail slime, harralander, vial of water, fishing rod, lockpick, jade, necklace mould, silver bar, air runes, cosmic rune, swordfish/cake/wines, pure essence, empty sack",
                 "skills_quests_met": "yes",
-                "total_time": "10d4h"
+                "total_time": "9d13h"
               }
             },
             {
@@ -14384,7 +14419,7 @@
                 "gp_stack": "1.6m gp",
                 "items_needed": "both HAM robe sets, games necklace, lockpick, light source, rune sword, swordfish, tinderbox, mining helmet",
                 "skills_quests_met": "yes",
-                "total_time": "10d5h"
+                "total_time": "9d14h"
               }
             },
             {
@@ -14455,7 +14490,7 @@
                 "gp_stack": "1.6m gp",
                 "items_needed": "cash stack, bullseye lantern, lantern lens, cut sapphire, chisel, tinderbox, rune pickaxe, wind bolt spells (wind staff, chaos runes), molten glass, law runes, gold bar, swordfish, energy potions, prayer potions, dueling ring, dwarven lore",
                 "skills_quests_met": "yes",
-                "total_time": "10d5h"
+                "total_time": "9d14h"
               }
             },
             {
@@ -14692,7 +14727,7 @@
                 "gp_stack": "1.5m gp",
                 "items_needed": "cash stack, gold bar, ammo mould, rune sword, swordfish, waterskins, rune pickaxe, chisel, bread/cake, tinderbox, candle, regular log, oak log, willow log, maple log, soft clay, coal, Crumble Undead runes, air staff, fire runes, chaos runes, energy potions, bucket of water, celestial ring, varrock body 2, Efaritay’s aid",
                 "skills_quests_met": "yes",
-                "total_time": "10d9h"
+                "total_time": "9d18h"
               }
             },
             {
@@ -14802,10 +14837,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "1.5m gp",
+                "gp_stack": "1.4m gp",
                 "items_needed": "cash stack, rune sword, swordfish, waterskins, yew logs, grimy harralander, vial of water, pestle+mortar, necklace of passage, small fishing net, rope, law runes, air staff, light source, knife, rune pickaxe, yew longbow, steel arrows, regular needle, 2 thread, desert clothing, prayer potions",
                 "skills_quests_met": "yes",
-                "total_time": "10d10h"
+                "total_time": "9d19h"
               }
             },
             {
@@ -14885,10 +14920,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "1.5m gp",
+                "gp_stack": "1.4m gp",
                 "items_needed": "cash stack, kitten/cat, light source, tinderbox, bag of salt, willow log, bucket of sap, waterskins, energy potions, prayer potions, rune sword, swordfish, games necklace, antipoison, digsite pendant, barcrawl card, 10 oak logs, digsite teleport, 3500 gp.",
                 "skills_quests_met": "yes",
-                "total_time": "10d11h"
+                "total_time": "9d20h"
               }
             },
             {
@@ -15031,7 +15066,7 @@
                 "gp_stack": "1.5m gp",
                 "items_needed": "kitten/cat, full initiate, catspeak amulet, 5 death runes, oily fishing rod, fishing bait, ice gloves, scorpion cage, rune sword, anti-dragon shield, swordfish, energy potions, prayer potions, Commorb, Kharedst’s memoirs, dramen staff, necklace of passage, damaged soulbearer",
                 "skills_quests_met": "yes",
-                "total_time": "10d12h"
+                "total_time": "9d21h"
               }
             },
             {
@@ -15071,16 +15106,14 @@
                 {
                   "text": "\n",
                   "formatting": {}
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "1.5m gp",
                 "items_needed": "cat, catspeak amulet, rune axe, tinderbox, rune sword",
-                "skills_quests_met": "yes"
+                "skills_quests_met": "yes",
+                "total_time": "9d21h"
               }
             },
             {
@@ -15128,7 +15161,7 @@
                 "gp_stack": "1.5m gp",
                 "items_needed": "16 steel bars, hammer, Commorb, 20 pure essence, catspeak amulet, cat",
                 "skills_quests_met": "yes",
-                "total_time": "10d13h"
+                "total_time": "9d22h"
               }
             },
             {
@@ -15175,7 +15208,7 @@
                 "gp_stack": "1.5m gp",
                 "items_needed": "cash stack, law runes, soul runes, earth runes, water runes, chronicle, commorb, Dorgesh-Kaan spheres, green dhide leather, rune sword, earmuffs, light source",
                 "skills_quests_met": "yes",
-                "total_time": "10d14h"
+                "total_time": "9d23h"
               }
             },
             {
@@ -15254,7 +15287,7 @@
                 "gp_stack": "1.5m gp",
                 "items_needed": "law runes, soul runes, earth staff, ghostspeak amulet, 8 empty pots, 8 buckets of slime, 8 bones, silver bar, ice coolers, dramen staff, plank sack",
                 "skills_quests_met": "yes",
-                "total_time": "10d15h"
+                "total_time": "10d0h"
               }
             },
             {
@@ -15375,7 +15408,7 @@
                 "gp_stack": "1.5m gp",
                 "items_needed": "cash stack, all steel items from Step 20 and steel platelegs from Step 15, 263 steel nails, druid pouch, hammer, 17 planks, ring of charos(a), blessed silver sickle, rune sword, wolfsbane, swordfish, prayer potions, law runes, soul runes, bucket, spade, rune pickaxe, swamp paste, 10 bronze axes, 4 tinderboxes, 2 steel bars, coal, 15 salmon, dramen staff, garlic, silver dust, harralander, red spider eggs, vial of water, small fishing net, rope",
                 "skills_quests_met": "yes",
-                "total_time": "10d16h"
+                "total_time": "10d1h"
               }
             },
             {
@@ -15407,7 +15440,7 @@
                 "gp_stack": "1.5m gp",
                 "items_needed": "cash stack, law runes, soul runes, earth staff, 3 of each red/blue/yellow dye, ghostspeak amulet, Ecto-tokens, nettle tea, bucket of milk, silk, needle, thread, knife, spade, swordfish, rune sword",
                 "skills_quests_met": "yes",
-                "total_time": "10d16h"
+                "total_time": "10d1h"
               }
             },
             {
@@ -15454,7 +15487,7 @@
                 "gp_stack": "1.5m gp",
                 "items_needed": "cash stack, oak longbow, ghostspeak amulet, bucket of slime, thin snail, law runes, earth staff, water runes 5 iron bars, hammer, 2 undead chickens, mithril axe, holy symbol, hard leather, polished buttons, games necklace",
                 "skills_quests_met": "yes",
-                "total_time": "10d17h"
+                "total_time": "10d2h"
               }
             },
             {
@@ -15516,7 +15549,7 @@
                 "gp_stack": "1.5m gp",
                 "items_needed": "law runes, fire runes, air staff, death runes, earth runes, water runes, 2 crest pieces, swordfish, antipoison, lava eel, dramen staff, scorpion cage",
                 "skills_quests_met": "yes",
-                "total_time": "10d18h"
+                "total_time": "10d3h"
               }
             },
             {
@@ -15612,7 +15645,7 @@
                 "gp_stack": "1.5m gp",
                 "items_needed": "swordfish, prayer potions, (4+) energy potions, antipoisons, gold bar, ball of wool, lockpick, wind staff, chaos runes, law runes, water runes, rune axe, tinderbox, knife, oak log, big fishing net, bow string",
                 "skills_quests_met": "yes",
-                "total_time": "10d21h"
+                "total_time": "10d6h"
               }
             },
             {
@@ -15653,7 +15686,7 @@
                 "gp_stack": "1.5m gp",
                 "items_needed": "Iban staff, death runes, fire runes, ball of wool, chisel, energy potions, prayer potions, swordfish, premade choc bombs, any poisoned weapon or ammunition",
                 "skills_quests_met": "yes",
-                "total_time": "10d21h"
+                "total_time": "10d6h"
               }
             },
             {
@@ -15684,7 +15717,7 @@
                 "gp_stack": "1.5m gp",
                 "items_needed": "cash stack, Iban staff, death runes, fire runes, games neck, fire feather, cooked lava eel, black platebody, black full helm, black platelegs (Black Arm Gang), chronicle",
                 "skills_quests_met": "yes",
-                "total_time": "10d22h"
+                "total_time": "10d7h"
               }
             },
             {
@@ -15874,10 +15907,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "700k gp",
+                "gp_stack": "670k gp",
                 "items_needed": "780k gp, energy potions, gold gauntlets, ring of charos (a)",
                 "skills_quests_met": "yes",
-                "total_time": "11d9h"
+                "total_time": "10d18h"
               }
             },
             {
@@ -15962,10 +15995,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "tbd",
-                "items_needed": "yes",
+                "gp_stack": "670k gp",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
-                "total_time": "tbd"
+                "total_time": "10d19h"
               }
             },
             {
@@ -15977,10 +16010,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "tbd",
-                "items_needed": "yes",
+                "gp_stack": "670k gp",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
-                "total_time": "tbd"
+                "total_time": "10d19h"
               }
             },
             {
@@ -16021,10 +16054,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "tbd",
-                "items_needed": "yes",
+                "gp_stack": "670k gp",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
-                "total_time": "tbd"
+                "total_time": "10d19h"
               }
             },
             {
@@ -16036,10 +16069,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "tbd",
-                "items_needed": "yes",
+                "gp_stack": "670k gp",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
-                "total_time": "tbd"
+                "total_time": "10d20h"
               }
             },
             {
@@ -16063,10 +16096,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "tbd",
-                "items_needed": "yes",
+                "gp_stack": "650k gp",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
-                "total_time": "tbd"
+                "total_time": "10d20h"
               }
             },
             {
@@ -16078,10 +16111,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "tbd",
-                "items_needed": "yes",
+                "gp_stack": "650k gp",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
-                "total_time": "tbd"
+                "total_time": "10d21h"
               }
             },
             {
@@ -16115,10 +16148,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "tbd",
-                "items_needed": "yes",
+                "gp_stack": "620k gp",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
-                "total_time": "tbd"
+                "total_time": "10d21h"
               }
             },
             {
@@ -16208,10 +16241,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "620k gp",
+                "gp_stack": "550k gp",
                 "items_needed": "cash stack, dramen staff, nature runes, fire runes, gold bars, rune sword, amulet of strength, berserker helm, etc.",
                 "skills_quests_met": "yes",
-                "total_time": "11d10h"
+                "total_time": "11d0h"
               }
             },
             {
@@ -16252,10 +16285,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "525k gp",
+                "gp_stack": "450k gp",
                 "items_needed": "rune sword, amulet of strength, berserker helm, etc. (henceforth ‘melee gear’)",
                 "skills_quests_met": "yes",
-                "total_time": "11d12h"
+                "total_time": "11d1h"
               }
             },
             {
@@ -16463,10 +16496,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "720k gp",
+                "gp_stack": "650k gp",
                 "items_needed": "1.1k gold bars, nature runes, granite body, rune platelegs, Iban staff, death runes, fire runes, berserker helm, amulet of magic, antipoisons, premade chocolate bombs(/other high healing food, if you have any), etc. (standard Rex gear), air staff, earth runes, water runes, fire runes, chaos runes, bronze sword, steel arrow, molten glass, tinderbox, hammer, 60 steel nails, 1 swamp tar, scorpion cage",
                 "skills_quests_met": "yes",
-                "total_time": "11d20h"
+                "total_time": "11d9h"
               }
             },
             {
@@ -16545,10 +16578,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "720k gp",
+                "gp_stack": "650k gp",
                 "items_needed": "cash stack, melee gear (incl. torso/ring now), Commorb, swamp paste, 20 pure essence, chisel, necklace of passage, law runes, water runes, air runes, ardougne cloak 1, bird snare, rune pickaxe",
                 "skills_quests_met": "yes",
-                "total_time": "12d9h"
+                "total_time": "11d22h"
               }
             },
             {
@@ -16726,10 +16759,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "150k",
+                "gp_stack": "80k",
                 "items_needed": "cash stack, dramen staff, iron bar, rune pickaxe, rune axe, gold ring (BH runs), cake or oak shortbow (your choice), energy potions, melee gear, prayer potions, swordfish",
                 "skills_quests_met": "yes",
-                "total_time": "12d10h"
+                "total_time": "11d23h"
               }
             },
             {
@@ -16788,10 +16821,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "150k",
+                "gp_stack": "80k",
                 "items_needed": "cash stack, melee gear, swordfish, prayer potions, energy potions, rune pickaxe, mine key",
                 "skills_quests_met": "yes",
-                "total_time": "12d11h"
+                "total_time": "12d0h"
               }
             }
           ],
@@ -16922,10 +16955,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "60k gp",
+                "gp_stack": "20k gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
-                "total_time": "15d10h"
+                "total_time": "14d23h"
               }
             },
             {
@@ -16984,7 +17017,7 @@
                   }
                 },
                 {
-                  "text": "Turn 5 mithril bars into 75 mithril nails at the Neitiznot anvils during the quest. ",
+                  "text": "Turn 5 mithril bars into 75 mithril nails at the Jatiszo anvils during the quest. ",
                   "formatting": {}
                 },
                 {
@@ -17032,10 +17065,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "105k gp",
+                "gp_stack": "60k gp",
                 "items_needed": "cash stack, Fremennik boots 1, 7 coal, 9 ropes, knife, rune axe, hammer, bronze nail, needle, 2 thread, melee gear, swordfish/premade choc bombs, prayer potions, cut sapphire, mithril bar, silver bar, rod mould, cosmic rune, water runes",
                 "skills_quests_met": "yes",
-                "total_time": "15d10h"
+                "total_time": "14d23h"
               }
             },
             {
@@ -17053,10 +17086,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "105k gp",
+                "gp_stack": "60k gp",
                 "items_needed": "tinderbox, bullseye lantern (might still be a sapphire lantern from Tears of Guthix, just swap it out), melee gear, swordfish, energy potions, prayer potions, clean guam, clean marrentill, pestle and mortar, dramen staff",
                 "skills_quests_met": "yes",
-                "total_time": "15d11h"
+                "total_time": "15d0h"
               }
             },
             {
@@ -17078,10 +17111,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "105k gp",
+                "gp_stack": "60k gp",
                 "items_needed": "cat, 9 stews, tiara, mind talisman, 10 pure essence, binding necklace, earth talisman, earth runes, dramen staff, blank air rune, blank water rune, blank earth rune, blank fire rune, blank mind rune",
                 "skills_quests_met": "yes",
-                "total_time": "15d12h"
+                "total_time": "15d1h"
               }
             },
             {
@@ -17123,10 +17156,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "75k gp",
+                "gp_stack": "30k gp",
                 "items_needed": "law runes, air runes, earth runes, water runes, seal of passage, cash stack, bowl of water, rune pickaxe, hammer, needle, 2 thread, 4 suqah hide, tinderbox, spade, energy potions, prayer potions, swordfish, small pouch, medium pouch, large pouch, cosmic runes, astral runes, staff of air, chisel, abyssal book.",
                 "skills_quests_met": "yes",
-                "total_time": "15d13h"
+                "total_time": "15d2h"
               }
             },
             {
@@ -17170,16 +17203,14 @@
                       "b": 0
                     }
                   }
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "75k gp",
+                "gp_stack": "30k gp",
                 "items_needed": "bowl of hot water, 1 harralander, 2 guam, 2 marrentill, energy potions, prayer potions, air staff, law runes, water runes, scorpion cage",
-                "skills_quests_met": "yes"
+                "skills_quests_met": "yes",
+                "total_time": "15d2h"
               }
             },
             {
@@ -17238,10 +17269,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "75k gp",
+                "gp_stack": "30k gp",
                 "items_needed": "cash stack, emerald lantern, lantern lens, tinderbox, 10 oak planks, 10 steel nails, hammer, spade, dramen staff, butterfly net, butterfly jar, teasing stick, knife, any log, water staff, law runes, cat, ardougne cloak 1",
                 "skills_quests_met": "yes",
-                "total_time": "15d14h"
+                "total_time": "15d3h"
               }
             },
             {
@@ -17319,10 +17350,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "75k gp",
+                "gp_stack": "30k gp",
                 "items_needed": "cash stack, rune axe, earth runes (or staff), air runes (or staff), death runes, raw karambwanji, anti-dragon shield, melee gear, swordfish, energy potions, prayer potions, antipoison, steel spear, small fishing net, 4-dose agility potion, tinderbox, necklace of passage (for two sections ahead)",
                 "skills_quests_met": "yes",
-                "total_time": "15d15h"
+                "total_time": "15d4h"
               }
             },
             {
@@ -17366,10 +17397,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "77k gp",
+                "gp_stack": "30k gp",
                 "items_needed": "cash stack, karambwan vessel, Iban staff, death runes, fire runes, 2+ logs, tinderbox, noted semi-precious gems (sell to Gabooty for trading sticks), banana-rum, seaweed, monkey skin, jogre bones, raw karambwanji, pestle and mortar, teasing stick, knife, necklace of passage (next)",
                 "skills_quests_met": "yes",
-                "total_time": "15d16h"
+                "total_time": "15d5h"
               }
             },
             {
@@ -17413,10 +17444,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "77k gp",
+                "gp_stack": "30k gp",
                 "items_needed": "necklace of passage",
                 "skills_quests_met": "yes",
-                "total_time": "15d16h"
+                "total_time": "15d5h"
               }
             },
             {
@@ -17460,10 +17491,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "77k gp",
+                "gp_stack": "30k gp",
                 "items_needed": "Dueling ring (next section)",
                 "skills_quests_met": "yes",
-                "total_time": "15d16h"
+                "total_time": "15d5h"
               }
             },
             {
@@ -17537,10 +17568,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "77k gp",
+                "gp_stack": "30k gp",
                 "items_needed": "cash stack, waterskins, dueling ring, Camulet, stone scarab, air runes (or staff), death runes, fire runes (or staff), swordfish, prayer potions, antipoison, light source, catspeak amulet",
                 "skills_quests_met": "yes",
-                "total_time": "15d17h"
+                "total_time": "15d6h"
               }
             },
             {
@@ -17588,10 +17619,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "75k gp",
+                "gp_stack": "30k gp",
                 "items_needed": "cash stack, stodgy mattress, semi-precious gems, sapphires, Ardy Cloak 1, dramen staff, teasing stick, knife, regular logs, hammer, chisel, melee gear, dueling ring, energy potions, games necklace (next)",
                 "skills_quests_met": "yes (follow wiki steps to obtain the remaining items during the quest)",
-                "total_time": "15d18h"
+                "total_time": "15d7h"
               }
             },
             {
@@ -17650,10 +17681,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "75k gp",
+                "gp_stack": "30k gp",
                 "items_needed": "stodgy mattress, games necklace, catspeak amulet, hellcat, 4 cheese, empty vial, 2 red spider’s eggs, kwuarm, marrentill, unicorn horn dust, bucket of milk, karambwanji or other fish (for cat), limpwurt root, law runes, air runes, fire runes",
                 "skills_quests_met": "yes",
-                "total_time": "15d18h"
+                "total_time": "15d7h"
               }
             },
             {
@@ -17682,10 +17713,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "75k gp",
+                "gp_stack": "30k gp",
                 "items_needed": "law runes, earth runes, air runes, two molten glass, plank, silk, steel bar, hellcat, catspeak amulet, pot, weeds, tinderbox, golden cannonball, dwarven lore book (for the third page)",
                 "skills_quests_met": "yes",
-                "total_time": "15d19h"
+                "total_time": "15d8h"
               }
             },
             {
@@ -17746,10 +17777,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "75k gp",
+                "gp_stack": "30k gp",
                 "items_needed": "doctor’s hat, desert shirt/robe, vial of water, law runes, water staff, melee gear + rune pickaxe, prayer potions, hammer, ring of charos(a), Ardy Cloak 1, penguin suit",
                 "skills_quests_met": "yes",
-                "total_time": "15d19h"
+                "total_time": "15d8h"
               }
             },
             {
@@ -17782,10 +17813,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "75k gp",
+                "gp_stack": "30k gp",
                 "items_needed": "law runes, air staff, hammer, dueling ring, melee gear, swordfish, prayer potions, energy potions, dwarven stout (on table), 2 soft clay, fire runes, herbal tincture (reclaim from Apothecary instead), 5 pigeon cages, fancy/fighter boots (to imbue the sceptre).",
                 "skills_quests_met": "yes (listen to the wiki when it tells you to pick up items to save time later)",
-                "total_time": "15d20h"
+                "total_time": "15d9h"
               }
             },
             {
@@ -17844,10 +17875,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "75k gp",
+                "gp_stack": "30k gp",
                 "items_needed": "catspeak amulet, law runes, air staff, earth runes (all for next section)",
                 "skills_quests_met": "yes",
-                "total_time": "15d20h"
+                "total_time": "15d9h"
               }
             },
             {
@@ -17908,10 +17939,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "74k gp",
+                "gp_stack": "30k gp",
                 "items_needed": "penguin suit, evil stew, air runes, water rune, law rune",
                 "skills_quests_met": "yes (listen to the wiki when it tells you to steal a bell and grab items)",
-                "total_time": "15d20h"
+                "total_time": "15d9h"
               }
             },
             {
@@ -17970,10 +18001,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "74k gp",
+                "gp_stack": "30k gp",
                 "items_needed": "cash stack, chicken cages, blunt axe, hellcat, catspeak amulet, snake charm, charos(a), bucket of milk, egg, pot of flour, cake tin",
                 "skills_quests_met": "yes",
-                "total_time": "15d20h"
+                "total_time": "15d9h"
               }
             },
             {
@@ -18027,10 +18058,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "74k gp",
+                "gp_stack": "30k gp",
                 "items_needed": "cash stack, ring of charos(a), sharpened axe, penguin suit, swamp tar, 5 feathers, mission report, mahogany plank, soft leather, cowbell (stolen in Step 57), swordfish, melee gear, prayer potions, spade, Ectophial, ghostspeak amulet, sapphire amulet, Fremennik boots 1, necklace of passage, law runes, water staff, enchanted key, dueling ring (to get to Castle Wars for the first step in Making History, but also rebank at Ferox), air runes, earth rune",
-                "skills_quests_met": "no (earlier items only)",
-                "total_time": "15d21h"
+                "skills_quests_met": "no",
+                "total_time": "15d10h"
               }
             },
             {
@@ -18085,10 +18116,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "74k gp",
+                "gp_stack": "30k gp",
                 "items_needed": "Ardy Cloak 1, dramen staff, energy pots, rope, waterskins, Camulet, hellcat, catspeak amulet",
                 "skills_quests_met": "yes",
-                "total_time": "15d21h"
+                "total_time": "15d10h"
               }
             },
             {
@@ -18121,10 +18152,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "93k gp",
+                "gp_stack": "50k gp",
                 "items_needed": "cash stack (only take 7.5k into Wildy), 3 gold bars, slash item/weapon, hammer, pickaxe (for Wildy med diary, so addy instead of rune for example), melee gear, prayer pots, swordfish",
                 "skills_quests_met": "yes",
-                "total_time": "15d21h"
+                "total_time": "15d10h"
               }
             },
             {
@@ -18194,11 +18225,11 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Similar to the barbarian fishing you can choose to spread this out over multiple steps, although this time you need at least 72 mining by step 64 ",
+                      "text": "Similar to the barbarian fishing you can choose to spread this out over multiple steps, although this time you need at least 72 mining by step 71 ",
                       "formatting": {}
                     },
                     {
-                      "text": "and you need to have completed MLM by step 73.\n",
+                      "text": "and you need to have completed MLM by step 84.\n",
                       "formatting": {}
                     }
                   ]
@@ -18429,9 +18460,9 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "280k gp",
+                "gp_stack": "240k gp",
                 "skills_quests_met": "yes",
-                "total_time": "16d22h"
+                "total_time": "16d11h"
               }
             },
             {
@@ -18573,10 +18604,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "305k gp",
+                "gp_stack": "260k gp",
                 "items_needed": "cash stack, 10 mist runes, 10 lava runes, 5 blood runes, airtight pot, rune pickaxe, rune axe, tinderbox, hammer, ring of charos(a), dramen staff, Ardy Cloak 1, melee gear, prayer pots, swordfish, yellow dye, swamp tar, necklace of passage, rope, energy pots, teasing stick, box trap, rabbit snare, law runes, soul runes",
                 "skills_quests_met": "yes",
-                "total_time": "17d1h"
+                "total_time": "16d14h"
               }
             },
             {
@@ -18734,10 +18765,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "305k gp",
+                "gp_stack": "260k gp",
                 "items_needed": "knife, teak log, barbarian rod, feathers, 2-dose potions",
                 "skills_quests_met": "yes",
-                "total_time": "22d4h"
+                "total_time": "21d17h"
               }
             },
             {
@@ -18795,10 +18826,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "180k gp",
+                "gp_stack": "130k gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
-                "total_time": "22d9h"
+                "total_time": "21d22h"
               }
             },
             {
@@ -19046,10 +19077,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "173k gp",
+                "gp_stack": "120k gp",
                 "items_needed": "cash stack, cut diamond, melee gear (now incl. dscim/DDS), mithril armour set, prayer potions, stat-boosting potions, cheese potatoes (buy in guild)",
                 "skills_quests_met": "yes",
-                "total_time": "22d17h"
+                "total_time": "22d6h"
               }
             },
             {
@@ -19133,10 +19164,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "173k gp",
+                "gp_stack": "120k gp",
                 "items_needed": "melee gear, cheese potatoes, stat-boosting potions, prayer potions, a defence potion (3 dose), volcanic sulphur, molten glass, dark essence block, an axe, fire bolt runes",
                 "skills_quests_met": "yes",
-                "total_time": "22d20h"
+                "total_time": "22d9h"
               }
             },
             {
@@ -19233,10 +19264,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "173k gp",
+                "gp_stack": "120k gp",
                 "items_needed": "melee gear (as mentioned), looting bag, cheese potatoes, stat-boosting pots, runes for thralls",
                 "skills_quests_met": "yes",
-                "total_time": "23d12h"
+                "total_time": "23d1h"
               }
             },
             {
@@ -19287,7 +19318,7 @@
                   "level": 2,
                   "content": [
                     {
-                      "text": "If you do not have enough fossils for two display cases postpone this to step 72.\n",
+                      "text": "If you do not have enough fossils for two display cases postpone this to step 79.\n",
                       "formatting": {
                         "italic": true
                       }
@@ -19296,10 +19327,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "173k gp",
+                "gp_stack": "120k gp",
                 "items_needed": "1.4k bones, melee gear (for PC)",
                 "skills_quests_met": "yes",
-                "total_time": "23d12h"
+                "total_time": "23d1h"
               }
             },
             {
@@ -19320,7 +19351,7 @@
               "metadata": {
                 "gp_stack": "1.8m gp",
                 "items_needed": "green dragonhides, coins, nature runes, staff of fire, maple logs, knife, steel nails, feathers, Kharedst’s memoirs, log basket",
-                "total_time": "23d16h"
+                "total_time": "23d5h"
               }
             },
             {
@@ -19364,16 +19395,16 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "1.8m gp",
+                "gp_stack": "1.7m gp",
                 "items_needed": "law runes, soul runes, silvthrill rod, rope, dramen staff, plank, 8 nails, hammer",
                 "skills_quests_met": "yes",
-                "total_time": "24d3h"
+                "total_time": "23d16h"
               }
             },
             {
               "content": [
                 {
-                  "text": "Explorer’s ring teleport and run to Port Sarim to recruit Jobless Jim. Charter to the Pandemonium. Take your skiff to the starting point of Troubled Tortugans and start and complete the quest in full. While on the Great Conch collect the spyglass and strange apple tree charter on the isle. Next do port courier tasks to Summer Shore until level 50 sailing (",
+                  "text": "Explorer’s ring teleport and run to Port Sarim to recruit Jobless Jim. You can set Jim to man the ship and trim the sails, reducing the xp from trimming by 50% but allowing you to multiskill (e.g. fletching headless arrows or alching) while sailing - from here on out you always have the freedom to include multiskilling during charting and port courier task activities. Charter to the Pandemonium. Take your skiff to the starting point of Troubled Tortugans and start and complete the quest in full. While on the Great Conch collect the spyglass and strange apple tree charter on the isle. Next do port courier tasks to Summer Shore until level 50 sailing (",
                   "formatting": {}
                 },
                 {
@@ -19390,7 +19421,7 @@
                   }
                 },
                 {
-                  "text": "), completing the charting of the Unquiet Ocean in the process (the Sea of Shells after level 47). You can collect the ocean completion xp bonus (6k xp) to get to level 50. You can set Jim to man the ship and trim the sails, reducing the xp from trimming by 50% but allowing you to multiskill (e.g. fletching headless arrows or alching) while sailing. Once you hit level 50 (optional: keep going to level 51/52/53 instead, to reduce or eliminate the need for boosting while salvaging), use a dueling ring and run south all the way to the desert mining camp, then run out and recruit Ex-Captain Siad (don’t forget the key to the camp). Next, book of the dead teleport to Piscarillius (or charter if you were at Pandemonium for the xp bonus), recover your skiff here and sail south to Chinchompa Island. Chart the charred remains of a table and open the lockbox to get (and read) the salvaging station schematic. Sail to Port Roberts and dock there.\n",
+                  "text": "), completing the charting of the Unquiet Ocean in the process (the Sea of Shells after level 47). You can collect the ocean completion xp bonus (6k xp) to get to level 50. Once you hit level 50 (optional: keep going to level 51/52/53 instead, to reduce or eliminate the need for boosting while salvaging), use a dueling ring and run south all the way to the desert mining camp, then run out and recruit Ex-Captain Siad (don’t forget the key to the camp). Next, book of the dead teleport to Piscarillius (or charter if you were at Pandemonium for the xp bonus), recover your skiff here and sail south to Chinchompa Island. Chart the charred remains of a table and open the lockbox to get (and read) the salvaging station schematic. Sail to Port Roberts and dock there.\n",
                   "formatting": {}
                 }
               ],
@@ -19441,10 +19472,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "tbd",
-                "items_needed": "yes",
+                "gp_stack": "1.7m gp",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
-                "total_time": "tbd"
+                "total_time": "23d18h"
               }
             },
             {
@@ -19456,10 +19487,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "tbd",
-                "items_needed": "yes",
+                "gp_stack": "1.7m gp",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
-                "total_time": "tbd"
+                "total_time": "23d20h"
               }
             },
             {
@@ -19624,10 +19655,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "tbd",
-                "items_needed": "yes",
+                "gp_stack": "1.6m gp",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
-                "total_time": "tbd"
+                "total_time": "24d2h"
               }
             },
             {
@@ -19910,10 +19941,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "3.9m gp",
+                "gp_stack": "3.8m gp",
                 "items_needed": "green/blue d’hides, box traps, knife, teak log, salve amulet(ei), whatever other ranged gear you can scrounge up, crossbow, Sara items, hammer, fire staff, nature runes, a lot of money (obtained during the step, spent during the step).",
                 "skills_quests_met": "yes",
-                "total_time": "25d4h"
+                "total_time": "24d22h"
               }
             },
             {
@@ -19967,7 +19998,7 @@
                   }
                 },
                 {
-                  "text": ") to train your smithing to level 70, getting permission from the foreman to use the blast furnace for free at level 60. Turn 5 mithril bars into 75 nails, then convert the rest into platebodies (Varrock west anvils, make 10 bars into 150 nails, make a mithril 2h sword for Devious Minds and ~5 bars into grapples along the way), then alch them (similar to before). Hybrid ore uim smelt your addy (buy coal as needed) into bars. Use UIM gold to train your smithing to (15,000 xp away from) level 74. Make sure to equip your ring of charos (a) until level 60 for reduced foreman costs.  Start and complete Defender of Varrock (there’s a free 5k xp lamp after the quest at Historian Minas in the Varrock Museum, put it on slayer if you aren’t level 58 yet and herblore otherwise). Make 4950 adamant nails (make sure to save an adamantite bar) with your bars at Varrock west anvils.\n",
+                  "text": ") to train your smithing to level 70, getting permission from the foreman to use the blast furnace for free at level 60. Go to Varrock west anvils, make 10 bars into 150 nails, make a mithril 2h sword for Devious Minds and ~5 bars into grapples. Turn the rest into mithril platebode and alch them (similar to before). Hybrid ore uim smelt your addy (buy coal as needed) into bars. Use UIM gold to train your smithing to (15,000 xp away from) level 74. Make sure to equip your ring of charos (a) until level 60 for reduced foreman costs.  Start and complete Defender of Varrock (there’s a free 5k xp lamp after the quest at Historian Minas in the Varrock Museum, put it on slayer if you aren’t level 58 yet and herblore otherwise). Make 4950 adamant nails (make sure to save an adamantite bar) with your bars at Varrock west anvils.\n",
                   "formatting": {}
                 }
               ],
@@ -20001,10 +20032,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "2.5m gp",
+                "gp_stack": "900k gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
-                "total_time": "25d22h"
+                "total_time": "25d16h"
               }
             },
             {
@@ -20525,10 +20556,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "22.5m gp",
+                "gp_stack": "21.4m gp",
                 "items_needed": "crossbow, Sara items, teak planks, addy nails, hammer, fire staff, nature runes, a lot of money (obtained during the step, spent during the step).",
                 "skills_quests_met": "yes",
-                "total_time": "34d22h"
+                "total_time": "34d16h"
               }
             }
           ],
@@ -20686,10 +20717,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "20.7m gp",
+                "gp_stack": "19.7m gp",
                 "items_needed": "crystal saw, hammer, items mentioned above",
                 "skills_quests_met": "yes",
-                "total_time": "34d23h"
+                "total_time": "34d17h"
               }
             },
             {
@@ -20720,10 +20751,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "20.7m gp",
+                "gp_stack": "19.7m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
-                "total_time": "35d1h"
+                "total_time": "34d17h"
               }
             },
             {
@@ -20735,10 +20766,10 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "20.7m gp",
+                "gp_stack": "19.7m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
-                "total_time": "35d2h"
+                "total_time": "34d20h"
               }
             },
             {
@@ -20760,16 +20791,16 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "20.7m gp",
+                "gp_stack": "19.7m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
-                "total_time": "35d6h"
+                "total_time": "35d0h"
               }
             },
             {
               "content": [
                 {
-                  "text": "Make 20 bolts of linen. Build the mahogany mast and canvas sails on your skiff using the hemp you farmed, build the mithril helm on your skiff (not sloop) and the inoculation station on your sloop. Do the Jubbly Jive barracuda trial and complete up to the shark rank. Build a wind catcher on both your skiff and your sloop, then return to the Jubbly Jive and keep training sailing to level 67 sailing using the following method for Marlin rank: ",
+                  "text": "Make 20 bolts of canvas. Build the mahogany mast and canvas sails on your skiff using the hemp you farmed, build the mithril helm on your skiff (not sloop) and the inoculation station on your sloop. Do the Jubbly Jive barracuda trial and complete up to the shark rank. Build a wind catcher on both your skiff and your sloop, then return to the Jubbly Jive and keep training sailing to level 67 sailing using the following method for Marlin rank: ",
                   "formatting": {}
                 },
                 {
@@ -20819,10 +20850,10 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "tbd",
+                "gp_stack": "19.7m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
-                "total_time": "tbd"
+                "total_time": "35d5h"
               }
             },
             {
@@ -20834,7 +20865,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "20.7m gp",
+                "gp_stack": "19.7m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "35d6h"
@@ -20849,7 +20880,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "20.7m gp",
+                "gp_stack": "19.7m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "35d6h"
@@ -20864,7 +20895,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "20.7m gp",
+                "gp_stack": "19.7m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "35d6h"
@@ -20887,7 +20918,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "20.6m gp",
+                "gp_stack": "19.7m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "35d6h"
@@ -20911,7 +20942,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "20.6m",
+                "gp_stack": "19.7m gp",
                 "items_needed": "tbd",
                 "total_time": "35d7h"
               }
@@ -20973,7 +21004,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "20.6m gp",
+                "gp_stack": "19.7m gp",
                 "items_needed": "melee gear, prayer potions, mirror shield, law runes, soul runes, dramen staff, fishing explosives",
                 "skills_quests_met": "yes",
                 "total_time": "35d7h"
@@ -21014,7 +21045,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "20.6m gp",
+                "gp_stack": "19.7m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "35d7h"
@@ -21050,7 +21081,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "20.6m gp",
+                "gp_stack": "19.7m gp",
                 "items_needed": "2 vials of water, 2 tarromins, leather gloves, rune axe, cheese potatoes, Iban staff, death runes, fire runes, water runes, air staff, law runes, dueling ring, prayer pots, energy pots",
                 "skills_quests_met": "yes",
                 "total_time": "35d8h"
@@ -21106,7 +21137,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "20.6m gp",
+                "gp_stack": "19.7m gp",
                 "items_needed": "Ectophial, melee gear, cheese potatoes, prayer pots, stat-boosting pots, energy pots, fishbowl helmet + diving apparatus, 18 planks, 10 bear fur, hammer, holy symbol, ring of charos(a), bowl, 15 chaos runes, law runes, fire runes, air staff, rune axe, fremennik boots, watermelon seeds, ultracompost, rake, seed dibber",
                 "skills_quests_met": "yes",
                 "total_time": "35d10h"
@@ -21353,7 +21384,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "20.6m gp",
+                "gp_stack": "19.7m gp",
                 "items_needed": "follow the wiki; the entire quest line is basically linear (no choice)",
                 "skills_quests_met": "yes",
                 "total_time": "35d18h"
@@ -22305,7 +22336,7 @@
               "formatting": {}
             },
             {
-              "text": "20260327Chapter1",
+              "text": "20260410Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -22328,7 +22359,7 @@
               "formatting": {}
             },
             {
-              "text": "20260327Chapter2",
+              "text": "20260410Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -22349,7 +22380,7 @@
               "formatting": {}
             },
             {
-              "text": "20260327Chapter3",
+              "text": "20260410Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -22370,7 +22401,7 @@
               "formatting": {}
             },
             {
-              "text": "20260327DetailedStepsGuide",
+              "text": "20260410DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -22869,6 +22900,30 @@
             }
           ],
           "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260410BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://drive.google.com/file/d/1Vgsc6cbQkVZq0zK_1N8kiITWsTdirKJl/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "italic": true
+              }
+            }
+          ],
+          "type": "chapter_footnote"
         }
       ],
       "titleFormatted": [
@@ -22908,7 +22963,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "21m",
+                "gp_stack": "20m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -22923,7 +22978,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "21m",
+                "gp_stack": "20m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -23028,7 +23083,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "16m",
+                "gp_stack": "15m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -23083,7 +23138,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "16m",
+                "gp_stack": "15m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -23134,7 +23189,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "16m",
+                "gp_stack": "15m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -23208,7 +23263,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "16m",
+                "gp_stack": "15m gp",
                 "items_needed": "Superantipoison potions, any food",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -23540,7 +23595,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "13m",
+                "gp_stack": "12m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -23559,7 +23614,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "500k",
+                "gp_stack": "500k gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -23584,7 +23639,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "500k",
+                "gp_stack": "500k gp",
                 "items_needed": "tons and tons of items (these are linear quests so just follow the wiki)",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -23895,7 +23950,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "500k",
+                "gp_stack": "500k gp",
                 "items_needed": "red/black chins, elite void ranged, ranging pots, glory, shayzien boots 5, red dragonhide shield optional.",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -23944,7 +23999,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "500k",
+                "gp_stack": "500k gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -24036,8 +24091,8 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "tbd",
-                "items_needed": "yes",
+                "gp_stack": "35k gp",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
               }
@@ -24221,7 +24276,7 @@
                       }
                     },
                     {
-                      "text": ". Dock at Ynysdail to collect the small key, then dock at Lledrith to collect the dragon salvaging hook schematic. Drinking the bottle of delicate elven wine will knock you out and put you at Isafdar (with your boat at Port Tyras), so dock at Port Tyras before drinking it.",
+                      "text": ". Drinking the bottle of delicate elven wine will knock you out and put you at Isafdar (with your boat at Port Tyras), so dock at Port Tyras before drinking it.",
                       "formatting": {}
                     },
                     {
@@ -24232,8 +24287,8 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "tbd",
-                "items_needed": "yes",
+                "gp_stack": "35k gp",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
               }
@@ -24259,8 +24314,8 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "tbd",
-                "items_needed": "yes",
+                "gp_stack": "35k gp",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
               }
@@ -24320,7 +24375,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "500k",
+                "gp_stack": "35k gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -24649,7 +24704,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "44m",
+                "gp_stack": "44m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -24668,7 +24723,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "47m",
+                "gp_stack": "47m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -24729,7 +24784,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "49m",
+                "gp_stack": "49m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -24778,7 +24833,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "77m",
+                "gp_stack": "64m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -24815,7 +24870,7 @@
                   }
                 },
                 {
-                  "text": " for more info. Once you have completed the bounty tasks, or gotten enough xp for level 72 through other means, take your skiff to the Gwenith Glide and complete at least up to the shark rank, unlocking the Heart of ithell, and to 1,225,000 xp (level 75) - whichever comes later, you need both. Boost to smith 3 runite bars into 45 rune nails (if you did not go to 86 smithing earlier this step is out of reach). Buy 4 magic stones at the Keldagrim stonemason. Build a crystal extractor on your sloop and on your skiff - make sure to put the skiff extractor next to the helm, but the sloop extractor on the port side next to your front facility hotspot. Boost to build an eternal brazier on your sloop and on your skiff. Boosting where necessary, chart the Northern ocean in full. This completes your charting, go to Chartin’ Charles McAtless to collect your XP bonuses and the Horizon’s lure - buy 50 of the drink and put it in a keg on both ships. If you did ship combat earlier you have the resources to build the gale catcher on your skiff, and the key ingredients (but not the level) to build a chum spreader and two cotton trawling nets for your sloop later.\n",
+                  "text": " for more info. Once you have completed the bounty tasks, or gotten enough xp for level 72 through other means, take your skiff to the Gwenith Glide and complete at least up to the shark rank, unlocking the Heart of ithell, and to 1,225,000 xp (level 75) - whichever comes later, you need both. While in the area, dock at Ynysdail to collect the small key, then dock at Lledrith to collect the dragon salvaging hook schematic. Boost to smith 3 runite bars into 45 rune nails (if you did not go to 86 smithing earlier this step is out of reach). Buy 4 magic stones at the Keldagrim stonemason. Build a crystal extractor on your sloop and on your skiff - make sure to put the skiff extractor next to the helm, but the sloop extractor on the port side next to your front facility hotspot. Boost to build an eternal brazier on your sloop and on your skiff. Boosting where necessary, chart the Northern ocean in full. This completes your charting, go to Chartin’ Charles McAtless to collect your XP bonuses and the Horizon’s lure - buy 50 of the drink and put it in a keg on both ships. If you did ship combat earlier you have the resources to build the gale catcher on your skiff, and the key ingredients (but not the level) to build a chum spreader and two cotton trawling nets for your sloop later.\n",
                   "formatting": {}
                 }
               ],
@@ -24824,7 +24879,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Bounty tasks. Currently the main method of doing bounty tasks is just shooting the creatures with your bowfa, assigning your crew to deal a rounding error of support damage with your cannons.\n",
+                      "text": "Bounty tasks. Currently the main method of doing bounty tasks is just shooting the creatures with your bowfa, assigning your crew to deal a little bit of support damage with your cannons.\n",
                       "formatting": {}
                     }
                   ]
@@ -24914,7 +24969,7 @@
                   "level": 3,
                   "content": [
                     {
-                      "text": "The bottled storm (dropped by vampyre krakens) and some high tier dragon upgrades are currently not included in the guide. Likely these will be higher level content. If you want to go for these it is likely best to do so after finishing the charting.\n",
+                      "text": "The bottled storm (dropped by vampyre krakens) and some high tier dragon upgrades are not included in the guide. Likely these will be higher level content. If you want to go for these it is likely best to do so after finishing the charting.\n",
                       "formatting": {}
                     }
                   ]
@@ -25050,8 +25105,8 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "tbd",
-                "items_needed": "yes",
+                "gp_stack": "60m gp",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
               }
@@ -25158,7 +25213,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "77m",
+                "gp_stack": "60m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -25196,7 +25251,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "77m",
+                "gp_stack": "60m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -25328,7 +25383,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "77m",
+                "gp_stack": "60m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -25343,7 +25398,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "77m",
+                "gp_stack": "60m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -25370,7 +25425,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "77m",
+                "gp_stack": "58m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -25421,7 +25476,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "58m",
+                "gp_stack": "25m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -25501,7 +25556,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "58m",
+                "gp_stack": "25m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -25602,7 +25657,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "39m",
+                "gp_stack": "6m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "1200 hours (rough estimate)"
@@ -26726,7 +26781,7 @@
               "formatting": {}
             },
             {
-              "text": "20260327Chapter1",
+              "text": "20260410Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -26749,7 +26804,7 @@
               "formatting": {}
             },
             {
-              "text": "20260327Chapter2",
+              "text": "20260410Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -26770,7 +26825,7 @@
               "formatting": {}
             },
             {
-              "text": "20260327Chapter3",
+              "text": "20260410Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -26791,7 +26846,7 @@
               "formatting": {}
             },
             {
-              "text": "20260327DetailedStepsGuide",
+              "text": "20260410DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -27292,6 +27347,28 @@
               "formatting": {
                 "fontSize": 13
               }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260410BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://drive.google.com/file/d/1Vgsc6cbQkVZq0zK_1N8kiITWsTdirKJl/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
             }
           ],
           "type": "chapter_footnote"
