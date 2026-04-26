@@ -102,9 +102,24 @@ const GuideDataLoader = {
             description.className = "step-description";
 
             if (step.content && Array.isArray(step.content)) {
-              description.appendChild(
-                this.renderFormattedContent(step.content)
+              const sentenceGroups = this.splitContentBySentences(
+                step.content
               );
+
+              if (sentenceGroups.length <= 1) {
+                description.appendChild(
+                  this.renderFormattedContent(step.content)
+                );
+              } else {
+                const taskList = document.createElement("ul");
+                taskList.className = "step-task-list";
+                sentenceGroups.forEach((group) => {
+                  const li = document.createElement("li");
+                  li.appendChild(this.renderFormattedContent(group));
+                  taskList.appendChild(li);
+                });
+                description.appendChild(taskList);
+              }
 
               if (step.nestedContent && step.nestedContent.length > 0) {
                 step.nestedContent.forEach((nested) => {
@@ -112,9 +127,24 @@ const GuideDataLoader = {
                   nestedElement.className = `nested-content level-${nested.level}`;
 
                   if (nested.content && Array.isArray(nested.content)) {
-                    nestedElement.appendChild(
-                      this.renderFormattedContent(nested.content)
+                    const nestedGroups = this.splitContentBySentences(
+                      nested.content
                     );
+
+                    if (nestedGroups.length <= 1) {
+                      nestedElement.appendChild(
+                        this.renderFormattedContent(nested.content)
+                      );
+                    } else {
+                      const nestedList = document.createElement("ul");
+                      nestedList.className = "step-task-list";
+                      nestedGroups.forEach((group) => {
+                        const li = document.createElement("li");
+                        li.appendChild(this.renderFormattedContent(group));
+                        nestedList.appendChild(li);
+                      });
+                      nestedElement.appendChild(nestedList);
+                    }
                   }
 
                   description.appendChild(nestedElement);
@@ -220,6 +250,146 @@ const GuideDataLoader = {
         </div>
       `;
     }
+  },
+
+  /**
+   * Splits a content array into per-sentence groups so each sentence can
+   * render as its own bullet. Preserves per-segment formatting; never
+   * splits inside a link segment. Returns Array<Array<segment>>.
+   */
+  splitContentBySentences(contentArray) {
+    const ABBREVIATIONS = new Set([
+      "e.g",
+      "i.e",
+      "etc",
+      "vs",
+      "mr",
+      "mrs",
+      "ms",
+      "dr",
+      "st",
+      "no",
+      "approx",
+      "ca",
+      "cf",
+      "ft",
+    ]);
+
+    const isLinkSegment = (item) =>
+      (item.isLink && item.url) ||
+      (item.formatting && item.formatting.isLink && item.formatting.url);
+
+    const isAbbreviationBefore = (text, periodIdx) => {
+      let start = periodIdx - 1;
+      while (start >= 0 && /[A-Za-z.]/.test(text[start])) start--;
+      const token = text.slice(start + 1, periodIdx).toLowerCase();
+      return ABBREVIATIONS.has(token);
+    };
+
+    // Flatten contentArray into one string with segment offset map.
+    const segments = [];
+    let flat = "";
+    for (const item of contentArray) {
+      if (!item || typeof item.text !== "string" || item.text.length === 0) continue;
+      const start = flat.length;
+      flat += item.text;
+      segments.push({
+        item,
+        start,
+        end: flat.length,
+        atomic: isLinkSegment(item),
+      });
+    }
+
+    const segmentAt = (offset) => {
+      for (const seg of segments) {
+        if (offset >= seg.start && offset < seg.end) return seg;
+      }
+      return null;
+    };
+
+    // Detect sentence boundaries: absolute offsets in `flat` where a new
+    // sentence starts. Offset b means split before position b.
+    const boundarySet = new Set();
+    for (let i = 0; i < flat.length; i++) {
+      const ch = flat[i];
+
+      if (ch === "\n") {
+        const seg = segmentAt(i);
+        if (seg && seg.atomic) continue;
+        boundarySet.add(i + 1);
+        continue;
+      }
+
+      if (ch !== "." && ch !== "!" && ch !== "?") continue;
+
+      const seg = segmentAt(i);
+      if (seg && seg.atomic) continue;
+
+      let j = i;
+      while (j + 1 < flat.length && /[.!?]/.test(flat[j + 1])) j++;
+
+      if (j + 1 >= flat.length) break;
+      if (!/\s/.test(flat[j + 1])) {
+        i = j;
+        continue;
+      }
+
+      let k = j + 1;
+      while (k < flat.length && /\s/.test(flat[k])) k++;
+      if (k >= flat.length) break;
+
+      if (ch === "." && isAbbreviationBefore(flat, i)) {
+        i = j;
+        continue;
+      }
+
+      boundarySet.add(k);
+      i = k - 1;
+    }
+
+    const boundaries = [...boundarySet].sort((a, b) => a - b);
+
+    // Walk segments, splitting at boundaries that fall inside or at edges.
+    const groups = [[]];
+    const pushPiece = (item, text) => {
+      if (text.length === 0) return;
+      groups[groups.length - 1].push({ ...item, text });
+    };
+    const closeGroup = () => {
+      if (groups[groups.length - 1].length > 0) groups.push([]);
+    };
+
+    for (const seg of segments) {
+      const inner = boundaries.filter((b) => b > seg.start && b < seg.end);
+      let cursor = seg.start;
+      for (const b of inner) {
+        pushPiece(seg.item, flat.slice(cursor, b));
+        closeGroup();
+        cursor = b;
+      }
+      pushPiece(seg.item, flat.slice(cursor, seg.end));
+      if (boundarySet.has(seg.end)) closeGroup();
+    }
+
+    // Trim leading whitespace on each group's first segment and trailing
+    // on each group's last segment; drop segments that become empty and
+    // groups that end up empty.
+    const cleaned = [];
+    for (const group of groups) {
+      const trimmed = group.map((seg, idx) => {
+        let text = seg.text;
+        if (idx === 0) text = text.replace(/^\s+/, "");
+        if (idx === group.length - 1) text = text.replace(/\s+$/, "");
+        return { ...seg, text };
+      }).filter((seg) => seg.text.length > 0);
+
+      if (trimmed.some((seg) => seg.text.trim().length > 0)) {
+        cleaned.push(trimmed);
+      }
+    }
+
+    return cleaned;
   },
 
   /**
