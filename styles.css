@@ -443,6 +443,21 @@ nav div {
   display: inline;
 }
 
+.step-task-list {
+  list-style: disc;
+  padding-left: 1.5em;
+  margin: 0.25em 0;
+}
+
+.step-task-list > li {
+  margin: 0.35em 0;
+  line-height: 1.4;
+}
+
+.step-task-list > li > div {
+  display: inline;
+}
+
 .step-meta {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
