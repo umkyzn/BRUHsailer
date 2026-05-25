@@ -1,5 +1,5 @@
 {
-  "updatedOn": "2026-04-10",
+  "updatedOn": "2026-05-25",
   "title": "BRUHsailer Complete Guide",
   "chapters": [
     {
@@ -2770,7 +2770,7 @@
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "20248 gp",
-                "items_needed": "7500 gp, bronze pickaxe, POH tab, ghostspeak amulet, ghost skull, two iron bars",
+                "items_needed": "7500 gp, bronze pickaxe, POH tab, two iron bars",
                 "skills_quests_met": "yes",
                 "total_time": "2d15h"
               }
@@ -3175,7 +3175,22 @@
                   }
                 },
                 {
-                  "text": "h and 10 buckets of slime, 10/world at a time. If y",
+                  "text": "h",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": ", 10/world at a time. Also at some point buy",
+                  "formatting": {}
+                },
+                {
+                  "text": " 10 buckets of slime (only 10 total). If y",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -6241,7 +6256,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "You need to carry some waterskins for the mining, refilling them at Unkah as necessary. Previously there was a gravestone method, but currently it does not work.",
+                      "text": "You need to carry some waterskins for the mining, buying new ones at Unkah as necessary. Previously there was a gravestone method, but currently it does not work.",
                       "formatting": {}
                     },
                     {
@@ -11343,7 +11358,7 @@
                       }
                     },
                     {
-                      "text": "20260327FarmingGuide",
+                      "text": "20260525FarmingGuide",
                       "url": "https://docs.google.com/document/d/1rAnKmezSQmnqFOCti4RWze-kvMoW8i4Kyk5xswJ-9Qc/edit#",
                       "isLink": true,
                       "formatting": {
@@ -11753,7 +11768,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Ring of dueling, complete Prince Ali Rescue and start Temple of the Eye (get the eye amulet, bank it) along the way, boat to Unkah (Tempoross)\n",
+                      "text": "Ring of dueling, complete Prince Ali Rescue and start Temple of the Eye to get the eye amulet (the quest item, not the similarly-named “Amulet of the eye” rare drop from Guardians of the Rift) and bank it. Take the boat to Unkah (Tempoross)\n",
                       "formatting": {}
                     }
                   ]
@@ -12862,7 +12877,7 @@
               "formatting": {}
             },
             {
-              "text": "20260410Chapter1",
+              "text": "20260525Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -12885,7 +12900,7 @@
               "formatting": {}
             },
             {
-              "text": "20260410Chapter2",
+              "text": "20260525Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -12906,7 +12921,7 @@
               "formatting": {}
             },
             {
-              "text": "20260410Chapter3",
+              "text": "20260525Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -12927,7 +12942,7 @@
               "formatting": {}
             },
             {
-              "text": "20260410DetailedStepsGuide",
+              "text": "20260525DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -13447,6 +13462,31 @@
             {
               "text": "\n",
               "formatting": {
+                "fontFamily": "Arial"
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260525BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/1heQH8NuLiDIc7S9MwRoW-Y7uoRlgm-5-/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
                 "italic": true
               }
             }
@@ -13934,7 +13974,7 @@
             {
               "content": [
                 {
-                  "text": "Take a wind spell (staff + runes, wind bolt works great)",
+                  "text": "Take an earth spell (staff + runes, earth bolt works great)",
                   "formatting": {}
                 },
                 {
@@ -14046,7 +14086,7 @@
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "1.6m gp",
-                "items_needed": "cash stack, chaos runes, air staff, law runes, trollweis, rune sword, rune pickaxe, Paddewwa tabled/water runes, law runes, swordfish, prayer potions",
+                "items_needed": "cash stack, chaos runes, earth staff, air runes, law runes, trollweis, rune sword, rune pickaxe, Paddewwa tabled/water runes, law runes, swordfish, prayer potions",
                 "skills_quests_met": "yes",
                 "total_time": "9d10h"
               }
@@ -14570,7 +14610,7 @@
                   }
                 },
                 {
-                  "text": " at this south spot shown by Binxy, until you are 10k xp away from level 60 mining (you don’t have to buy any sand for this. Feel free to get the level instead, if you want). Buy the ancient staff from Eblis. Once done, head south (rebank at the Ruins of Unkah if needed),",
+                  "text": " at this south spot shown by Binxy, until you are 10k xp away from level 60 mining (you don’t have to buy any sand for this. Feel free to get the level instead, if you want). Mine and bank one piece of granite (any size) before leaving. Buy the ancient staff from Eblis. Once done, head south (rebank at the Ruins of Unkah if needed),",
                   "formatting": {}
                 },
                 {
@@ -14616,7 +14656,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "You need to carry some waterskins for the mining, refilling them at Unkah as necessary. Previously there was a gravestone method, but currently it does not work.\n",
+                      "text": "You need to carry some waterskins for the mining, buying new ones at Unkah as necessary. Previously there was a gravestone method, but currently it does not work.\n",
                       "formatting": {}
                     }
                   ]
@@ -14921,7 +14961,7 @@
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "1.4m gp",
-                "items_needed": "cash stack, kitten/cat, light source, tinderbox, bag of salt, willow log, bucket of sap, waterskins, energy potions, prayer potions, rune sword, swordfish, games necklace, antipoison, digsite pendant, barcrawl card, 10 oak logs, digsite teleport, 3500 gp.",
+                "items_needed": "cash stack, kitten/cat, light source, tinderbox, bag of salt, willow log, bucket of sap, waterskins, energy potions, prayer potions, rune sword, swordfish, games necklace, antipoison, digsite pendant, 10 oak logs, digsite teleport, 3500 gp.",
                 "skills_quests_met": "yes",
                 "total_time": "9d20h"
               }
@@ -15651,17 +15691,7 @@
             {
               "content": [
                 {
-                  "text": "Minigame teleport to Shades of Mort’ton, buy a limestone (if you already have this from wintertodt skip it), a plank and 8 limestone bricks from Razmire (or do this after the quest), do Haunted Mine. If you have any poisoned weapon (or ammunition), use that to inflict poison on Treus Dayth to speed up the fight and make it much easier.",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": " ",
-                  "formatting": {}
-                },
-                {
-                  "text": "Collect ",
+                  "text": "Minigame teleport to Shades of Mort’ton, buy a limestone (if you already have this from wintertodt skip it), a plank and 8 limestone bricks from Razmire (or do this after the quest), do Haunted Mine. Collect ",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -15916,7 +15946,7 @@
             {
               "content": [
                 {
-                  "text": "Keep wearing your ring of charos (a). Teleport to Falador. Run south to Port Sarim. Start and complete the Pandemonium quest. Whenever sailing you get some XP and a speed boost for trimming sails, so try to consistently click the sail when there’s a burst of wind. Do port courier tasks (between Pandemonium and Port Sarim) until level 13 sailing, aiming to finish the level at Port Sarim. Complete the following charting tasks along the way:\n",
+                  "text": "Keep wearing your ring of charos (a). Teleport to Falador. Run south to Port Sarim. Start and complete the Pandemonium quest. Whenever sailing you get some XP and a speed boost for trimming sails, so try to consistently click the sail when there’s a burst of wind. You need the sail trimming xp to hit level 22 later. Do port courier tasks (between Pandemonium and Port Sarim) until level 14 sailing, aiming to finish the level at Port Sarim. You can multiskill alch or fletch while sailing as desired. Complete the following charting tasks along the way:\n",
                   "formatting": {}
                 }
               ],
@@ -16242,7 +16272,7 @@
               ],
               "metadata": {
                 "gp_stack": "550k gp",
-                "items_needed": "cash stack, dramen staff, nature runes, fire runes, gold bars, rune sword, amulet of strength, berserker helm, etc.",
+                "items_needed": "cash stack, dramen staff, rune sword, amulet of strength, berserker helm, etc.",
                 "skills_quests_met": "yes",
                 "total_time": "11d0h"
               }
@@ -16926,7 +16956,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "If you prefer to do this as a low effort/afk activity you may instead choose to weave the fishing in during other steps (instead of grinding this all at once). The levels are not needed until step 64 of this chapter",
+                      "text": "If you prefer to do this as a low effort/afk activity you may instead choose to weave the fishing in during other steps (instead of grinding this all at once). The levels are not needed until step 83 of this chapter",
                       "formatting": {}
                     },
                     {
@@ -18792,7 +18822,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "(redirected) POH tab to Brimhaven, take the travel cart to Shilo village. Resume Legends’ Quest all the way to the final step (have obtained the totem pole). While in the jungle chop a teak and mahogany log, collect a palm leaf (chop a palm tree) five times (drop and pick up), make and eat an oomlie wrap (kill an oomlie for food, use palm leaf, cook and eat), collect a vanilla pod along the way for RFD/Sir Amik Varze and kill a deathwing inside the Viyeldi caves for the diary. Head to the northwest of Tai Bwo Wannai village and light a fire on the coast for RFD/Skrach, take the boat back to Rantz and prepare a cooked jubbly.\n",
+                      "text": "Ardy teleport, boat to to Brimhaven, take the travel cart to Shilo village. Resume Legends’ Quest all the way to the final step (have obtained the totem pole). While in the jungle chop a teak and mahogany log, collect a palm leaf (chop a palm tree) five times (drop and pick up), make and eat an oomlie wrap (kill an oomlie for food, use palm leaf, cook and eat), collect a vanilla pod along the way for RFD/Sir Amik Varze and kill a deathwing inside the Viyeldi caves for the diary. Head to the northwest of Tai Bwo Wannai village and light a fire on the coast for RFD/Skrach, take the boat back to Rantz and prepare a cooked jubbly.\n",
                       "formatting": {}
                     }
                   ]
@@ -18871,7 +18901,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "If you haven’t already, go to either the PVP Arena or to NMZ and imbue your berserker ring and salve amulet.\n",
+                      "text": "If you haven’t already, go to either the PVP Arena or to NMZ and imbue your berserker ring and salve amulet. Below are some general resources, but at these stats there’s a better method outlined below.\n",
                       "formatting": {}
                     }
                   ]
@@ -19070,7 +19100,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Go to NMZ and collect enough points (using the above guide) for redirection scrolls. From here on you have redirected POH tabs for herb runs, tree runs and general use.\n",
+                      "text": "Go to NMZ and collect 200k extra points, using all to buy redirection scrolls. Disable Desert Treasure (and, if you want a more AFK experience, also Family Crest). If you need other imbues, stay for longer to get those as well. From here on you have redirected POH tabs for herb runs, tree runs and general use. When you run out, come back and get more.\n",
                       "formatting": {}
                     }
                   ]
@@ -19404,7 +19434,7 @@
             {
               "content": [
                 {
-                  "text": "Explorer’s ring teleport and run to Port Sarim to recruit Jobless Jim. You can set Jim to man the ship and trim the sails, reducing the xp from trimming by 50% but allowing you to multiskill (e.g. fletching headless arrows or alching) while sailing - from here on out you always have the freedom to include multiskilling during charting and port courier task activities. Charter to the Pandemonium. Take your skiff to the starting point of Troubled Tortugans and start and complete the quest in full. While on the Great Conch collect the spyglass and strange apple tree charter on the isle. Next do port courier tasks to Summer Shore until level 50 sailing (",
+                  "text": "Explorer’s ring teleport and run to Port Sarim to recruit Jobless Jim. You can set Jim to man the ship and trim the sails, reducing the xp from trimming by 50% but making sailing more convenient. Charter to the Pandemonium. Take your skiff to the starting point of Troubled Tortugans and start and complete the quest in full. While on the Great Conch collect the spyglass and strange apple tree charter on the isle. Next do port courier tasks to Summer Shore until level 50 sailing (",
                   "formatting": {}
                 },
                 {
@@ -19481,7 +19511,7 @@
             {
               "content": [
                 {
-                  "text": "Buy 62 lead ore. Steal from the silver stall to get a medallion fragment. Buy a sloop and build two kegs (fill one with whirlpool surprise and one with kraken ink stout), a salvaging station and two mithril salvaging hooks. Assign your two crewmembers to your boat. Sail your sloop to the large shipwrecks far south - do not go out of your way for charting with your slow sloop - north of the Isle of Serpents. Bring four empty beer glasses, a log basket and seed box (if you have them), and optionally methods to 1.5t the salvaging. Salvage until level 55 sailing, boosting sailing where necessary (it’s technically good to boost even if you have level 53 already). Your goal is to collect several hemp and cotton seeds for farming. Plant the hemp at your earliest convenience, making sure to have Attas up and using ultracompost to harvest at least 40 hemp in total.\n",
+                  "text": "Buy 80 lead ore. Steal from the silver stall to get a medallion fragment. Buy a sloop and build two kegs (fill one with whirlpool surprise and one with kraken ink stout), a salvaging station and two mithril salvaging hooks. Assign your two crewmembers to your boat. Sail your sloop to the large shipwrecks far south - do not go out of your way for charting with your slow sloop - north of the Isle of Serpents. Bring four empty beer glasses, a log basket and seed box (if you have them), and optionally methods to 1.5t the salvaging. Salvage until level 55 sailing, boosting sailing where necessary (it’s technically good to boost even if you have level 53 already). Your goal is to collect several hemp and cotton seeds for farming. Plant the hemp at your earliest convenience, making sure to have Attas up and using ultracompost to harvest at least 40 hemp in total.\n",
                   "formatting": {}
                 }
               ],
@@ -19584,7 +19614,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Buy an upgraded device from Ava at level 50 (worth leaving for).\n",
+                      "text": "Buy an upgraded device from Ava at level 50 (worth leaving for) and collect and read the Ballistic attractor schematic.\n",
                       "formatting": {}
                     }
                   ]
@@ -20775,7 +20805,7 @@
             {
               "content": [
                 {
-                  "text": "Make a composite ogre bow (comp ogre bow) and 150 mithril brutal nails, kill 125 chompies for the diary. Speak with Rantz to collect a (handful of) Chompy bird hat(s).\n",
+                  "text": "Make a composite ogre bow (comp ogre bow) and 150 mithril brutal arrows, kill 125 chompies for the diary. Speak with Rantz to collect a (handful of) Chompy bird hat(s).\n",
                   "formatting": {}
                 }
               ],
@@ -20922,29 +20952,6 @@
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "35d6h"
-              }
-            },
-            {
-              "content": [
-                {
-                  "text": "Complete the Kourend Medium diary and cash in the reward (lamp on herblore).",
-                  "formatting": {}
-                },
-                {
-                  "text": "\n",
-                  "formatting": {
-                    "italic": true
-                  }
-                },
-                {
-                  "text": "Skills/quests met?:"
-                }
-              ],
-              "nestedContent": [],
-              "metadata": {
-                "gp_stack": "19.7m gp",
-                "items_needed": "tbd",
-                "total_time": "35d7h"
               }
             },
             {
@@ -22336,7 +22343,7 @@
               "formatting": {}
             },
             {
-              "text": "20260410Chapter1",
+              "text": "20260525Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -22359,7 +22366,7 @@
               "formatting": {}
             },
             {
-              "text": "20260410Chapter2",
+              "text": "20260525Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -22380,7 +22387,7 @@
               "formatting": {}
             },
             {
-              "text": "20260410Chapter3",
+              "text": "20260525Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -22401,7 +22408,7 @@
               "formatting": {}
             },
             {
-              "text": "20260410DetailedStepsGuide",
+              "text": "20260525DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -22919,6 +22926,31 @@
             {
               "text": "\n",
               "formatting": {
+                "fontFamily": "Arial"
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260525BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/1heQH8NuLiDIc7S9MwRoW-Y7uoRlgm-5-/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
                 "italic": true
               }
             }
@@ -22987,7 +23019,7 @@
             {
               "content": [
                 {
-                  "text": "Using your mahogany logs from Miscellania, train construction to level 75 (do not go higher for now). Build the following in your POH, boosting when necessary:\n",
+                  "text": "Using your mahogany logs from Miscellania, train construction to level 75 (do not go higher for now and keep 20 mahogany planks for sailing). Build the following in your POH, boosting when necessary:\n",
                   "formatting": {}
                 }
               ],
@@ -23272,7 +23304,7 @@
             {
               "content": [
                 {
-                  "text": "Train slayer to get to 100cb. Your target stats are 78 Attack, 85 Strength, 75(+) Defence and 72(+) prayer, which should probably give you 78(+)Hitpoints and ~75 Slayer around the time you hit 100cb.\n",
+                  "text": "Collect buckets of sand and giant seaweed to train your crafting level to 80 (or 75, boosting after) using SGM and arteglass. Make an amulet of glory. Train slayer to get to 100cb. Your target stats are 78 Attack, 85 Strength, 75(+) Defence and 72(+) prayer, which should probably give you 78(+)Hitpoints and ~75 Slayer around the time you hit 100cb.\n",
                   "formatting": {}
                 }
               ],
@@ -23321,7 +23353,7 @@
                       "formatting": {}
                     },
                     {
-                      "text": "20251019SlayerGuide",
+                      "text": "20260525SlayerGuide",
                       "url": "https://docs.google.com/document/d/1kBMW2uRI8b4NBcYn9PmsedTnZ3yW7fuGwdzsRQSCNkk/edit?usp=sharing",
                       "isLink": true,
                       "formatting": {
@@ -23338,7 +23370,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "If you (somehow) do not have runes for thralls or barrage, buy them.\n",
+                      "text": "If you (somehow) do not have runes for thralls or barrage, buy them. If you intend to do ship combat (recommended), buy 5k water runes and 1k law runes (if you happen to already have these, just use those instead) as well.\n",
                       "formatting": {}
                     }
                   ]
@@ -23493,7 +23525,7 @@
                       }
                     },
                     {
-                      "text": ". Do the Kourend & Kebos Hard diary (lamp on RC), then cook the karambwans at your convenience (1t cooking at the Hosidius range is best, cooking gauntlets do not work on karambwans).\n",
+                      "text": ". Do the Kourend & Kebos Hard diary (lamp on herblore), then cook the karambwans at your convenience (1t cooking at the Hosidius range is best, cooking gauntlets do not work on karambwans).\n",
                       "formatting": {}
                     }
                   ]
@@ -23604,7 +23636,7 @@
             {
               "content": [
                 {
-                  "text": "Optional but recommended: collect buckets of sand and giant seaweed to train your crafting level to 80 (or 75, boosting after) using SGM and arteglass. Make an amulet of glory. Regardless of whether you include the above: buy broad arrowhead packs with most of your money (leave ~500k in reserve, buy the broad arrowtip packs at any slayer master, if you are opening fast enough the stock will slowly deplete. Hop worlds if the stock ever hits 700 or lower). Do Pest Control, veteran i.e. 100+ cb boat, for enough points for full elite void range (other two helmets optional) while fletching – 1250 points for just ranging, 1650 points for a full set, fletching during the games and only contributing as much as necessary to get points. You can optionally get the other two helmets as well, or ignore them(/consider getting them later).",
+                  "text": "Buy broad arrowhead packs with most of your money, leaving 1250k in reserve. Buy the broad arrowtip packs at any slayer master, if you are opening fast enough the stock will slowly deplete. Hop worlds if the stock ever hits 700 or lower. Do Pest Control, veteran i.e. 100+ cb boat, for enough points for full elite void range (other two helmets optional) while fletching – 1250 points for just ranging, 1650 points for a full set, fletching during the games and only contributing as much as necessary to get points. You can optionally get the other two helmets as well, or ignore them(/consider getting them later).",
                   "formatting": {}
                 },
                 {
@@ -23614,7 +23646,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "500k gp",
+                "gp_stack": "1250k gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -23639,7 +23671,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "500k gp",
+                "gp_stack": "1250k gp",
                 "items_needed": "tons and tons of items (these are linear quests so just follow the wiki)",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -23672,7 +23704,7 @@
                   }
                 },
                 {
-                  "text": ". If you want to catch red chinchompas but the Varlamore spot is too competitive, e.g. with bots, the second best option is catching them northeast of Prifddinas. Throw the chins in the cave to get to 70 ranging, complete the Western Provinces Hard Diary (this involves getting one Zulrah kill), upgrade your void to Elite, (optionally: grab an offtask fire cape at some point along the way), return and throw the chins to get to level 92 ranging.\n",
+                  "text": ". If you want to catch red chinchompas but the Varlamore spot is too competitive, e.g. with bots, the second best option is catching them northeast of Prifddinas. Throw the chins in the cave to get to 70 ranging, complete the Western Provinces Hard Diary (this involves getting one Zulrah kill), upgrade your void to Elite, (optionally: grab an offtask fire cape at some point along the way), buy a crystal halberd, return and throw the chins to get to level 92 ranging.\n",
                   "formatting": {}
                 }
               ],
@@ -24008,7 +24040,7 @@
             {
               "content": [
                 {
-                  "text": "Make sure you have at least 75 mining (if not, do some gem mining first). Sail to Deepfin Point, mine 24 nickel ore. Do blast mining (as before) to obtain 551 addy ore - you may have to convert some of the gems into alchs (cut sapphires, emeralds and even rubies are fine, or make ruby and diamond bracelets) for dynamite. Make sure you get at least 15 runite ore along the way. Smelt all the addy into bars, all the nickel into cupronickel bars, then convert 71 addy bars into 1065 addy nails. Teleport to The Great Conch (fairy ring CJQ) and chop and bank up to 498 camphor logs. The fastest method is using a log basket and teleporting out to a bank, then using the fairy ring to get back. If you have (or plan to get) sawmill vouchers you can reduce the number of logs needed by 1 for each voucher for up to 233 vouchers (and 265 logs), saving 2,500 gp each (582,500 gp total). Make 466 camphor planks. Build the following ship upgrades:\n",
+                  "text": "Make sure you have at least 75 mining (if not, do some gem mining first). Take a charter ship to The Great Conch (Summer Shore) start The Red Reef and complete the steps until you are sent to the Red Rock. Charter to Deepfin Point, mine 24 nickel ore. Do blast mining (as before) to obtain 551 addy ore - you may have to convert some of the gems into alchs (cut sapphires, emeralds and even rubies are fine, or make ruby and diamond bracelets) for dynamite. Make sure you get at least 15 runite ore along the way. Smelt all the addy into bars, all the nickel into cupronickel bars, then convert 71 addy bars into 1065 addy nails. Teleport to The Great Conch (fairy ring CJQ) and chop and bank up to 505 camphor logs. The fastest method is using a log basket and teleporting out to a bank, then using the fairy ring to get back. If you have (or plan to get) sawmill vouchers you can reduce the number of logs needed by 1 for each voucher for up to 236 vouchers (and 269 logs), saving 2,500 gp each (590k gp total). Make 473 camphor planks. Build the following ship upgrades:\n",
                   "formatting": {}
                 }
               ],
@@ -24080,7 +24112,7 @@
                       }
                     },
                     {
-                      "text": " at 75k gp each to swap your facilities around.",
+                      "text": " at 75k gp each to swap your facilities around. Also build a ballistic attractor.",
                       "formatting": {}
                     },
                     {
@@ -24137,7 +24169,7 @@
                       }
                     },
                     {
-                      "text": ", starting at Corsair Cove (teleport there and recover your boat). Make sure to visit the Isle of Bones to collect the small key (",
+                      "text": ", starting at Corsair Cove (teleport there and recover your boat). While in the Simian sea, head to Red Rock and continue the Red Reef quest (collect the Sailor’s Marker on the dock too!) until you’ve completed all steps there except reporting back to Floopa. Use protect from ranged in the ship combat - you can just use your bowfa to shoot the pirates instead of using your cannons, your choice. Make sure to visit the Isle of Bones to collect the small key (",
                       "formatting": {}
                     },
                     {
@@ -24276,7 +24308,16 @@
                       }
                     },
                     {
-                      "text": ". Drinking the bottle of delicate elven wine will knock you out and put you at Isafdar (with your boat at Port Tyras), so dock at Port Tyras before drinking it.",
+                      "text": ". Drinking the bottle of delicate elven wine will knock you out and put you at Isafdar (with your boat at Port Tyras), so dock at Port Tyras before drinking it.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "At your convenience, complete the Red Reef quest by chartering to the Great Conch and speaking with Floopa.",
                       "formatting": {}
                     },
                     {
@@ -24296,7 +24337,7 @@
             {
               "content": [
                 {
-                  "text": "If you have at least 825,000 sailing XP, boost to build an adamant helm on both your sloop and your skiff, then complete charting the Shrouded Ocean (if you do not, choose a training method between Jubbly Jive, courier tasks, bounty tasks or salvaging and get enough xp) by charting to Deepfin Point and following the following route ",
+                  "text": "Boost to build an adamant helm on both your sloop and your skiff, then complete charting the Shrouded Ocean by charting to Deepfin Point and following the following route ",
                   "formatting": {}
                 },
                 {
@@ -24308,7 +24349,7 @@
                   }
                 },
                 {
-                  "text": ". Train your woodcutting to level 80 (e.g. at teaks or sulliusceps), then travel (back) to Sunbleak Island, collect the dragon helm schematic and build the bank chest there if you want to (if you intend to afk woodcut, ironwood trees are a very good option - take lunar Plank Make to produce 4 planks on the island) and chop enough logs for 20 ironwood planks, taking into account plank vouchers if you have them.\n",
+                  "text": ".\n",
                   "formatting": {}
                 }
               ],
@@ -24692,15 +24733,6 @@
                       "formatting": {}
                     }
                   ]
-                },
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "After completing the full outfit and the colossal pouch, consider going for full bloodbark to help with future slayer. It is the most convenient to obtain +1% magic damage gear.\n",
-                      "formatting": {}
-                    }
-                  ]
                 }
               ],
               "metadata": {
@@ -25071,6 +25103,15 @@
                   "level": 1,
                   "content": [
                     {
+                      "text": "Train your woodcutting to level 80 (e.g. at teaks or sulliusceps), then travel (back) to Sunbleak Island, collect the dragon helm schematic and build the bank chest there if you want to (if you intend to afk woodcut, ironwood trees are a very good option - take lunar Plank Make to produce 4 planks on the island). Chop enough logs for 20 ironwood planks, taking into account plank vouchers if you have them. Optional but recommended: chop another 100 or so ironwood logs for Shades of Mort’ton, use this and your magic logs from While Guthix Sleeps to collect the bloodbark outfit for future slayer.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
                       "text": "The crystal extractor(s) will give you a significant amount of crystal shards while going for 99 sailing. They are always worth using during your sailing activities.\n",
                       "formatting": {}
                     }
@@ -25099,6 +25140,33 @@
                   "content": [
                     {
                       "text": "If you want the Sailor’s Amulet and haven’t gotten one yet, it is worth considering building rune salvaging hooks and salvaging for a bit. You can store the hooks in facility bottles after.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "At a future point you may decide to go for 87 slayer, unlocking Grimstone. This island is notable for two things:\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "The Frost dragons are a decent slayer task and have good rates of dropping dragon metal sheets.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "You can take the NPC ‘Isles’ with you from Port Robberts to Grimstone, after which he will unnote metal bars for you to use on the cannonball furnace. This lets you smelt up to 8.2k cballs per hour using the double cball mould. It is currently unclear whether this shifts the slayer meta, but it is the fastest and best way to make cannonballs if you want them anyway.\n",
                       "formatting": {}
                     }
                   ]
@@ -25703,7 +25771,7 @@
         {
           "content": [
             {
-              "text": "20260105SlayerGuide",
+              "text": "20260525SlayerGuide",
               "url": "https://docs.google.com/document/d/1kBMW2uRI8b4NBcYn9PmsedTnZ3yW7fuGwdzsRQSCNkk/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -26781,7 +26849,7 @@
               "formatting": {}
             },
             {
-              "text": "20260410Chapter1",
+              "text": "20260525Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -26804,7 +26872,7 @@
               "formatting": {}
             },
             {
-              "text": "20260410Chapter2",
+              "text": "20260525Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -26825,7 +26893,7 @@
               "formatting": {}
             },
             {
-              "text": "20260410Chapter3",
+              "text": "20260525Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -26846,7 +26914,7 @@
               "formatting": {}
             },
             {
-              "text": "20260410DetailedStepsGuide",
+              "text": "20260525DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -27368,7 +27436,34 @@
             },
             {
               "text": "\n",
-              "formatting": {}
+              "formatting": {
+                "fontFamily": "Arial"
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260525BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/1heQH8NuLiDIc7S9MwRoW-Y7uoRlgm-5-/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "fontSize": 13
+              }
             }
           ],
           "type": "chapter_footnote"
@@ -28472,7 +28567,7 @@
         {
           "content": [
             {
-              "text": "\t97+\t\tEfficient lance Slayer with aggressive skip list",
+              "text": "\t97+\t\t",
               "formatting": {
                 "color": {
                   "r": 0.7882353,
@@ -28480,6 +28575,16 @@
                   "b": 0.11764706
                 },
                 "fontSize": 12
+              }
+            },
+            {
+              "text": "Turael for imbued heart",
+              "formatting": {
+                "color": {
+                  "r": 0.7882353,
+                  "g": 0.12941177,
+                  "b": 0.11764706
+                }
               }
             },
             {
