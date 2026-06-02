@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import { screen } from '@testing-library/react';
 import { findInitialOpenLocation } from '../../components/guide/GuideView';
 import { buildChapters } from '../fixtures/guideData';
 
