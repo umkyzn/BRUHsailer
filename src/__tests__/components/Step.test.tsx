@@ -41,6 +41,15 @@ describe('Step', () => {
     expect(checkbox).toBeChecked();
   });
 
+  it('migrates legacy `check-` prefixed progress from the old site', () => {
+    // Pre-React site keyed progress by the checkbox id (`check-1-1`).
+    localStorage.setItem('guideProgress:test', JSON.stringify({ 'check-1-1': true }));
+    renderWithGuide(<Step step={makeStep('Done step')} stepId="1-1" stepNumber={1} />);
+    expect(screen.getByRole('checkbox')).toBeChecked();
+    // Storage should be rewritten to the new, prefix-free format.
+    expect(JSON.parse(localStorage.getItem('guideProgress:test') || '{}')).toEqual({ '1-1': true });
+  });
+
   it('adds "completed" class after clicking the checkbox', async () => {
     const user = userEvent.setup();
     const { container } = renderWithGuide(
