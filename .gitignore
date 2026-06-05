@@ -1,4 +1,5 @@
 /node_modules/
 /testing/
-/package-lock.json
-/package.json
+/dist/
+/.vite/
+/.claude/
