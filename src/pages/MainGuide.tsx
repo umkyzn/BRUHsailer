@@ -4,8 +4,9 @@ import { useGuideData } from '../hooks/useGuideData';
 import type { ChapterWithSections } from '../types/guide';
 import Header from '../components/layout/Header';
 import Nav from '../components/layout/Nav';
-import Controls from '../components/layout/Controls';
+import Footer from '../components/layout/Footer';
 import GuideView from '../components/guide/GuideView';
+import SideNav from '../components/guide/SideNav';
 import Toast from '../components/ui/Toast';
 
 function MainGuideContent() {
@@ -48,10 +49,13 @@ function MainGuideContent() {
     <>
       <Header />
       <Nav updatedOn={data.updatedOn} />
-      <Controls />
-      <div className="container">
-        <GuideView guideData={data} chapters={chapters} allStepIds={allStepIds} />
+      <div className="page-layout">
+        <SideNav chapters={chapters} totalSteps={allStepIds.length} />
+        <div className="guide-main">
+          <GuideView guideData={data} chapters={chapters} allStepIds={allStepIds} />
+        </div>
       </div>
+      <Footer />
       <Toast />
     </>
   );

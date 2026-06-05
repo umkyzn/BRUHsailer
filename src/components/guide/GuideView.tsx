@@ -2,10 +2,7 @@ import { useRef, useEffect, useMemo, useCallback, useState } from 'react';
 import type { GuideData, ChapterWithSections, HighlightEntry } from '../../types/guide';
 import { useGuide } from '../../context/GuideContext';
 import Chapter from './Chapter';
-import ProgressBar from './ProgressBar';
 import FilterBar from './FilterBar';
-
-// ─── Search helpers (DOM-based, mirrors the original implementation) ──────────
 
 function clearSearchHighlights(root: HTMLElement) {
   root.querySelectorAll('.search-highlight').forEach((span) => {
@@ -54,8 +51,6 @@ function highlightSearchTerm(element: HTMLElement, term: string): number {
   return count;
 }
 
-// ─── Filter helpers ───────────────────────────────────────────────────────────
-
 function applyFilter(
   root: HTMLElement,
   filter: string,
@@ -91,8 +86,6 @@ function applyFilter(
     chapter.classList.toggle('hidden-by-filter', !hasVisible);
   });
 }
-
-// ─── Highlight helpers ────────────────────────────────────────────────────────
 
 function applyHighlightsToDOM(root: HTMLElement, highlights: HighlightEntry[]) {
   // Remove existing highlight spans first to avoid duplication
@@ -169,8 +162,6 @@ function mergeAdjacentHighlights(root: HTMLElement) {
   }
 }
 
-// ─── Debounce ─────────────────────────────────────────────────────────────────
-
 function useDebounce(fn: (term: string) => void, delay: number) {
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   return useCallback(
@@ -181,8 +172,6 @@ function useDebounce(fn: (term: string) => void, delay: number) {
     [fn, delay]
   );
 }
-
-// ─── Initial open location ───────────────────────────────────────────────────
 
 export function findInitialOpenLocation(
   chapters: ChapterWithSections[],
@@ -199,8 +188,6 @@ export function findInitialOpenLocation(
   return { chapterIndex: 0, sectionIndex: 0 };
 }
 
-// ─── GuideView ────────────────────────────────────────────────────────────────
-
 interface GuideViewProps {
   guideData: GuideData;
   chapters: ChapterWithSections[];
@@ -211,7 +198,6 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
   const { state, dispatch, showToast } = useGuide();
   const contentRef = useRef<HTMLDivElement>(null);
 
-  // ── Derived: last completed step ─────────────────────────────────────────
   const lastCompletedStepId = useMemo(() => {
     for (let i = allStepIds.length - 1; i >= 0; i--) {
       if (state.progress[allStepIds[i]]) return allStepIds[i];
@@ -219,21 +205,16 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
     return null;
   }, [allStepIds, state.progress]);
 
-  // ── Initial open location (computed once at mount from initial progress) ──
-  // useState lazy initializer runs only on first render, capturing the starting
-  // lastCompletedStepId — subsequent progress changes don't move the open chapter.
   const [initialOpenLocation] = useState(() =>
     findInitialOpenLocation(chapters, lastCompletedStepId)
   );
 
-  // ── Effect: apply filter whenever filter/progress changes ────────────────
   useEffect(() => {
     const root = contentRef.current;
     if (!root) return;
     applyFilter(root, state.filter, state.progress, lastCompletedStepId);
   }, [state.filter, state.progress, lastCompletedStepId]);
 
-  // ── Effect: apply search highlighting ────────────────────────────────────
   const runSearch = useCallback(
     (term: string) => {
       const root = contentRef.current;
@@ -298,14 +279,12 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
     [dispatch, debouncedSearch]
   );
 
-  // ── Effect: apply/restore highlights after guide renders ─────────────────
   useEffect(() => {
     const root = contentRef.current;
     if (!root || state.highlights.length === 0) return;
     applyHighlightsToDOM(root, state.highlights);
   }, [state.highlights]);
 
-  // ── Highlight selection handler ───────────────────────────────────────────
   useEffect(() => {
     const root = contentRef.current;
     if (!root) return;
@@ -319,7 +298,6 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
       const range = selection.getRangeAt(0);
       if (!root!.contains(range.commonAncestorContainer)) return;
 
-      // Must be inside a .step-content element
       let node: Node | null = range.startContainer;
       let stepContent: HTMLElement | null = null;
       while (node && node !== root) {
@@ -385,7 +363,6 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
     return () => root.removeEventListener('mouseup', onMouseUp);
   }, [state.highlightModeActive, state.highlightColor, dispatch]);
 
-  // ── Remove highlight on click ─────────────────────────────────────────────
   useEffect(() => {
     const root = contentRef.current;
     if (!root) return;
@@ -409,7 +386,6 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
     return () => root.removeEventListener('click', onClick);
   }, [state.highlightModeActive, dispatch]);
 
-  // ── Jump to last completed step ───────────────────────────────────────────
   const jumpToLast = useCallback(() => {
     if (!lastCompletedStepId) return;
     const stepEl = document.getElementById(`step-${lastCompletedStepId}`);
@@ -425,7 +401,6 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
     setTimeout(() => stepEl.scrollIntoView({ behavior: 'smooth' }), 100);
   }, [lastCompletedStepId]);
 
-  // ── Remove all highlights ─────────────────────────────────────────────────
   const removeAllHighlights = useCallback(() => {
     if (!window.confirm('Remove all highlights?')) return;
     const root = contentRef.current;
@@ -445,7 +420,6 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
 
   return (
     <>
-      <ProgressBar totalSteps={allStepIds.length} />
       <FilterBar
         onJumpToLast={jumpToLast}
         onRemoveHighlights={removeAllHighlights}
@@ -464,7 +438,6 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
           />
         ))}
       </div>
-      {/* Unused — kept for CSS targeting compatibility */}
       <div id="lastUpdated" style={{ display: 'none' }}>{guideData.updatedOn}</div>
     </>
   );

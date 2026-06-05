@@ -21,13 +21,13 @@ describe('GuideView filter integration', () => {
     expect(steps.length).toBe(8); // 2 chapters × 2 sections × 2 steps
   });
 
-  it('"Completed Steps" filter: incomplete steps get hidden-by-filter class', async () => {
+  it('"Completed" filter: incomplete steps get hidden-by-filter class', async () => {
     const user = userEvent.setup();
     // Pre-complete step 1-1
     localStorage.setItem('guideProgress:test', JSON.stringify({ '1-1': true }));
     renderGuideView();
 
-    await user.click(screen.getByText('Completed Steps'));
+    await user.click(screen.getByText('Completed'));
 
     await waitFor(() => {
       const step11 = document.getElementById('step-1-1');
@@ -37,14 +37,14 @@ describe('GuideView filter integration', () => {
     });
   });
 
-  it('"Incomplete Steps" filter: completed steps get hidden-by-filter class', async () => {
+  it('"Incomplete" filter: completed steps get hidden-by-filter class', async () => {
     const user = userEvent.setup();
     // Complete both 1-1 and 1-2 so that 1-1 is NOT the last completed step
     // (last = 1-2, which stays visible; 1-1 should be hidden by the incomplete filter)
     localStorage.setItem('guideProgress:test', JSON.stringify({ '1-1': true, '1-2': true }));
     renderGuideView();
 
-    await user.click(screen.getByText('Incomplete Steps'));
+    await user.click(screen.getByText('Incomplete'));
 
     await waitFor(() => {
       const step11 = document.getElementById('step-1-1');
@@ -56,34 +56,18 @@ describe('GuideView filter integration', () => {
     });
   });
 
-  it('switching back to "All Steps" removes hidden-by-filter from all steps', async () => {
+  it('switching back to "All" removes hidden-by-filter from all steps', async () => {
     const user = userEvent.setup();
     localStorage.setItem('guideProgress:test', JSON.stringify({ '1-1': true }));
     renderGuideView();
 
-    await user.click(screen.getByText('Completed Steps'));
-    await user.click(screen.getByText('All Steps'));
+    await user.click(screen.getByText('Completed'));
+    await user.click(screen.getByText('All'));
 
     await waitFor(() => {
       document.querySelectorAll('.step').forEach((step) => {
         expect(step).not.toHaveClass('hidden-by-filter');
       });
-    });
-  });
-
-  it('progress bar width increases after checking a step', async () => {
-    const user = userEvent.setup();
-    renderGuideView();
-
-    const progressBar = document.querySelector('.progress') as HTMLElement;
-    expect(progressBar.style.width).toBe('0%');
-
-    // Check step 1-1 checkbox
-    const checkbox = document.getElementById('check-1-1') as HTMLInputElement;
-    await user.click(checkbox);
-
-    await waitFor(() => {
-      expect(progressBar.style.width).toBe('13%'); // 1/8 = 12.5% → rounds to 13%
     });
   });
 
@@ -101,13 +85,13 @@ describe('GuideView filter integration', () => {
     });
   });
 
-  it('"Incomplete Steps" filter: last completed step is kept visible', async () => {
+  it('"Incomplete" filter: last completed step is kept visible', async () => {
     const user = userEvent.setup();
     // Only step 1-2 completed (last completed = 1-2)
     localStorage.setItem('guideProgress:test', JSON.stringify({ '1-2': true }));
     renderGuideView();
 
-    await user.click(screen.getByText('Incomplete Steps'));
+    await user.click(screen.getByText('Incomplete'));
 
     await waitFor(() => {
       // Last completed step is always kept visible in incomplete filter

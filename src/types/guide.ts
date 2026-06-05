@@ -63,7 +63,7 @@ export interface GuideData {
   chapters: Chapter[];
 }
 
-export type HighlightColor = 'green' | 'yellow' | 'blue' | 'pink';
+export type HighlightColor = 'green' | 'yellow' | 'blue' | 'pink' | 'red' | 'purple';
 export type FilterType = 'all' | 'completed' | 'incomplete';
 
 export interface HighlightEntry {
