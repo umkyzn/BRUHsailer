@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { screen, within } from '@testing-library/react';
+import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import Step from '../../components/guide/Step';
 import { makeStep } from '../fixtures/guideData';
@@ -64,7 +64,6 @@ describe('Step', () => {
 
   it('step-content gets hidden-by-completion class when minimizeCompleted is active', async () => {
     localStorage.setItem('guideProgress:test', JSON.stringify({ '1-1': true }));
-    const user = userEvent.setup();
     const { container } = renderWithGuide(
       <Step step={makeStep('Minimizable')} stepId="1-1" stepNumber={1} />
     );
