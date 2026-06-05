@@ -3,76 +3,70 @@
 }
 
 :root {
-  /* OSRS Wiki — light (parchment) theme */
-  --primary: #4d4131;
-  --primary-dark: #3a3024;
-  --secondary: #5e503b;
-  --secondary-dark: #9a5b1d;     /* content links / accents */
-  --bg-color: #ddd1b6;
-  --text-color: #2a251d;
-  --text-light: #f3ecdb;         /* text on dark panels */
-  --text-lighter: #d9c9a2;
-  --completed-bg: #d3c9ac;
-  --completed-text: #756a54;
-  --section-border: #9b8b66;
-  --card-bg: #f4efe1;
-  --meta-bg: #ebe3cd;
-  --meta-border: #b6a87f;
-  --substep-border: #9b8b66;
-  --active-btn: #7c6126;
-  --step-header-bg: #4d4131;
-  --bevel-light: #bb9c57;
-  --bevel-dark: #3a2f1d;
-  --gold: #e6b23a;
+  /* OSRS Wiki — light (slate + blue) theme */
+  --primary: #3a4048;            /* panel / button base */
+  --primary-dark: #2c3138;
+  --secondary: #4a5560;
+  --secondary-dark: #2f5bcc;     /* content links / accents */
+  --bg-color: #f5f6f7;           /* clean off-white */
+  --text-color: #202122;         /* near-black body text */
+  --text-light: #f0f2f4;         /* text on dark panels */
+  --text-lighter: #c2c8d0;       /* muted text on dark panels */
+  --completed-bg: #e7e9ec;
+  --completed-text: #6b7178;
+  --section-border: #ccd0d5;
+  --card-bg: #ffffff;
+  --meta-bg: #eef1f4;
+  --meta-border: #d6dbe0;
+  --substep-border: #ccd0d5;
+  --active-btn: #2f5bb0;
+  --step-header-bg: #3a4048;
+  --bevel-light: #cfd4da;
+  --bevel-dark: #2c3138;
+  --gold: #7fb0ff;               /* accent on dark panels (headings, nav) */
 
   /* Panel gradients — header / nav / rails / chapter strips */
-  --hdr-grad: linear-gradient(180deg, #574734 0%, #443824 100%);
-  --nav-grad: linear-gradient(180deg, #69583f 0%, #54442f 100%);
-  --rail-grad: linear-gradient(180deg, #443824 0%, #362c1c 100%);
-  --chapter-grad: linear-gradient(180deg, #69583f 0%, #443824 100%);
+  --hdr-grad: linear-gradient(180deg, #434a52 0%, #353b42 100%);
+  --nav-grad: linear-gradient(180deg, #4a525b 0%, #3a4149 100%);
+  --rail-grad: linear-gradient(180deg, #353b42 0%, #2a2f35 100%);
+  --chapter-grad: linear-gradient(180deg, #4a525b 0%, #353b42 100%);
 
-  /* Faint paper grain for parchment cards */
-  --paper-texture:
-    repeating-linear-gradient(96deg, rgba(120, 90, 45, 0.04) 0 2px, transparent 2px 5px),
-    radial-gradient(circle at 30% 20%, rgba(160, 130, 80, 0.06) 0, transparent 60%);
-  /* Riveted metal stud (corner decoration on stone panels) */
-  --rivet: radial-gradient(circle at 38% 32%, #d8b24c 0 0.8px, #8a6a2e 1px 2px, #3a2a14 2.1px 3.1px, rgba(20, 14, 6, 0.4) 3.2px 3.8px, transparent 3.9px);
+  /* Flat, clean surfaces — no parchment grain or metal studs */
+  --paper-texture: none;
+  --rivet: none;
 }
 
 body.dark-mode {
-  /* OSRS Wiki — dark theme */
-  --primary: #2b2620;
-  --primary-dark: #211d17;
-  --secondary: #393229;
-  --secondary-dark: #e0b257;     /* content links / accents */
-  --bg-color: #1b1813;
-  --text-color: #d8d3c8;
-  --text-light: #ece5d4;
-  --text-lighter: #c7bd9b;
-  --completed-bg: #242019;
-  --completed-text: #8b8169;
-  --section-border: #4a4234;
-  --card-bg: #2a2620;
-  --meta-bg: #2f2a22;
-  --meta-border: #4a4234;
-  --substep-border: #4a4234;
-  --active-btn: #7c6126;
-  --step-header-bg: #2b2620;
-  --bevel-light: #6a5f47;
-  --bevel-dark: #14110b;
-  --gold: #e8c34a;
+  /* OSRS Wiki — dark (charcoal + blue) theme */
+  --primary: #26282c;
+  --primary-dark: #1b1d21;
+  --secondary: #32363c;
+  --secondary-dark: #6aa0ff;     /* content links / accents */
+  --bg-color: #1e2024;           /* neutral charcoal */
+  --text-color: #d4d6d8;         /* light grey body text */
+  --text-light: #e8eaec;
+  --text-lighter: #a8aeb6;
+  --completed-bg: #24262a;
+  --completed-text: #7c828a;
+  --section-border: #3a3e44;
+  --card-bg: #26282c;
+  --meta-bg: #2a2d32;
+  --meta-border: #3a3e44;
+  --substep-border: #3a3e44;
+  --active-btn: #2f5bb0;
+  --step-header-bg: #26282c;
+  --bevel-light: #41454c;
+  --bevel-dark: #141619;
+  --gold: #7fb0ff;               /* accent on dark panels (headings, nav) */
 
-  /* Panel gradients — warmer, deeper greys for the dark theme */
-  --hdr-grad: linear-gradient(180deg, #2f2a23 0%, #241f19 100%);
-  --nav-grad: linear-gradient(180deg, #393229 0%, #2c271f 100%);
-  --rail-grad: linear-gradient(180deg, #241f19 0%, #1a1610 100%);
-  --chapter-grad: linear-gradient(180deg, #393229 0%, #241f19 100%);
+  /* Panel gradients — charcoal strips */
+  --hdr-grad: linear-gradient(180deg, #2a2d32 0%, #212429 100%);
+  --nav-grad: linear-gradient(180deg, #32363c 0%, #282b30 100%);
+  --rail-grad: linear-gradient(180deg, #212429 0%, #191c20 100%);
+  --chapter-grad: linear-gradient(180deg, #32363c 0%, #212429 100%);
 
-  /* Faint grain for dark stone cards */
-  --paper-texture:
-    repeating-linear-gradient(96deg, rgba(0, 0, 0, 0.05) 0 2px, transparent 2px 5px),
-    radial-gradient(circle at 30% 20%, rgba(90, 68, 38, 0.08) 0, transparent 60%);
-  --rivet: radial-gradient(circle at 38% 32%, #c8a030 0 0.8px, #7a5c2e 1px 2px, #2a1a0a 2.1px 3.1px, rgba(0, 0, 0, 0.45) 3.2px 3.8px, transparent 3.9px);
+  --paper-texture: none;
+  --rivet: none;
 }
 
 body {
