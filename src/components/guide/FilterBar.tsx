@@ -31,6 +31,7 @@ export default function FilterBar({
   const { state, dispatch } = useGuide();
   const searchRef = useRef<HTMLInputElement>(null);
   const sentinelRef = useRef<HTMLDivElement>(null);
+  const utilsRef = useRef<HTMLDivElement>(null);
   const [minimized, setMinimized] = useState(false);
   const [pickerVisible, setPickerVisible] = useState(false);
   // `stuck` = the panel has scrolled up to its sticky position and is now
@@ -38,6 +39,9 @@ export default function FilterBar({
   const [stuck, setStuck] = useState(false);
   // While stuck, the secondary "tools" row is tucked away behind a toggle.
   const [toolsOpen, setToolsOpen] = useState(false);
+  // Measured height of the utilities row, reserved when it collapses so the
+  // page doesn't reflow (which would bounce the scroll position).
+  const [reservedHeight, setReservedHeight] = useState(0);
   const leaveTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const handleSearchInput = useCallback(() => {
@@ -61,6 +65,20 @@ export default function FilterBar({
   useEffect(() => {
     if (!stuck) setToolsOpen(false);
   }, [stuck]);
+
+  // Measure the utilities row while it's visible (i.e. not stuck) so we know
+  // how much space to reserve when it collapses. Keep the last value while
+  // stuck (the row is display:none then and would measure as 0).
+  useEffect(() => {
+    if (stuck || toolsOpen) return;
+    function measure() {
+      const el = utilsRef.current;
+      if (el) setReservedHeight(el.offsetHeight);
+    }
+    measure();
+    window.addEventListener('resize', measure);
+    return () => window.removeEventListener('resize', measure);
+  }, [stuck, toolsOpen]);
 
   function showPicker() {
     if (leaveTimer.current) clearTimeout(leaveTimer.current);
@@ -112,7 +130,10 @@ export default function FilterBar({
   return (
     <>
       <div ref={sentinelRef} className="control-sentinel" aria-hidden="true" />
-      <div className={panelClass}>
+      <div
+        className={panelClass}
+        style={stuck && !toolsOpen ? { marginBottom: reservedHeight + 15 } : undefined}
+      >
         <div className="control-row">
           <div className="control-section">
             <span className="control-label">Show:</span>
@@ -165,7 +186,7 @@ export default function FilterBar({
           </div>
         </div>
 
-        <div className="control-row control-row--utilities">
+        <div className="control-row control-row--utilities" ref={utilsRef}>
           <button className="utility-btn" onClick={onJumpToLast}>
             Jump to Last
           </button>
