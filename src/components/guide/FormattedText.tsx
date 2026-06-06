@@ -75,12 +75,17 @@ function renderItem(item: ContentItem, index: number): React.ReactNode {
   return <span key={index} style={style}>{item.text}</span>;
 }
 
+/** Render a content array as inline nodes (no wrapping block element). */
+export function renderFormattedItems(content: ContentItem[]): React.ReactNode[] {
+  return content.map(renderItem);
+}
+
 interface FormattedTextProps {
   content: ContentItem[];
 }
 
 const FormattedText = memo(function FormattedText({ content }: FormattedTextProps) {
-  return <div>{content.map(renderItem)}</div>;
+  return <div>{renderFormattedItems(content)}</div>;
 });
 
 export default FormattedText;
