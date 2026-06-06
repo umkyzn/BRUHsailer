@@ -31,6 +31,9 @@
   --rail-grad: linear-gradient(180deg, #353b42 0%, #2a2f35 100%);
   --chapter-grad: linear-gradient(180deg, #4a525b 0%, #353b42 100%);
 
+  /* Page background vignette — lighter center, darker edges */
+  --bg-gradient: radial-gradient(ellipse 120% 90% at 50% 28%, #f8f9fa 0%, #e6eaee 55%, #d2d8de 100%);
+
   /* Flat, clean surfaces — no parchment grain or metal studs */
   --paper-texture: none;
   --rivet: none;
@@ -65,6 +68,9 @@ body.dark-mode {
   --rail-grad: linear-gradient(180deg, #212429 0%, #191c20 100%);
   --chapter-grad: linear-gradient(180deg, #32363c 0%, #212429 100%);
 
+  /* Page background vignette — charcoal center fading to near-black edges */
+  --bg-gradient: radial-gradient(ellipse 120% 90% at 50% 28%, #1e2125 0%, #14161a 55%, #050608 100%);
+
   --paper-texture: none;
   --rivet: none;
 }
@@ -74,7 +80,11 @@ body {
   line-height: 1.2;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
   background-color: var(--bg-color);
+  background-image: var(--bg-gradient);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: var(--text-color);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -1086,7 +1096,7 @@ body.highlight-cursor-active {
 .chapter-content {
   display: none;
   padding: 10px;
-  background-color: var(--bg-color);
+  background-color: transparent;
 }
 
 .chapter-content.active {
