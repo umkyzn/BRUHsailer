@@ -33,6 +33,8 @@
 
   /* Page background vignette — lighter center, darker edges */
   --bg-gradient: radial-gradient(ellipse 115% 85% at 50% 28%, #fafbfc 0%, #e2e7ec 48%, #c8d0d8 100%);
+  /* Translucent panel fill for the frosted "stuck" filter toolbar */
+  --panel-glass: rgba(60, 67, 75, 0.76);
 
   /* Flat, clean surfaces — no parchment grain or metal studs */
   --paper-texture: none;
@@ -70,6 +72,8 @@ body.dark-mode {
 
   /* Page background vignette — charcoal center fading to near-black edges */
   --bg-gradient: radial-gradient(ellipse 115% 85% at 50% 28%, #22262c 0%, #121419 48%, #040506 100%);
+  /* Translucent panel fill for the frosted "stuck" filter toolbar */
+  --panel-glass: rgba(36, 40, 46, 0.76);
 
   --paper-texture: none;
   --rivet: none;
@@ -329,6 +333,55 @@ nav a:hover {
   position: sticky;
   top: 8px;
   z-index: 50;
+  transition: width 0.2s ease, margin 0.2s ease, border-radius 0.2s ease,
+    box-shadow 0.2s ease, background-color 0.2s ease, backdrop-filter 0.2s ease;
+}
+
+/* Zero-height marker used to detect when the panel becomes stuck */
+.control-sentinel {
+  height: 0;
+}
+
+/* Once stuck, condense into a narrower, frosted, elevated floating toolbar */
+.control-panel.is-stuck {
+  width: 86%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  background: var(--panel-glass);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.5);
+}
+
+.control-panel.is-stuck .control-row {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+/* The "⋯ tools" toggle only exists in the stuck/condensed state; the manual
+   Hide button only exists when expanded at the top. */
+.tools-toggle {
+  display: none;
+}
+
+.control-panel.is-stuck .tools-toggle {
+  display: inline-flex;
+}
+
+.control-panel.is-stuck .minimize-btn {
+  display: none;
+}
+
+/* Tuck the utilities row away while stuck until the tools toggle opens it */
+.control-panel.is-stuck:not(.tools-open) .control-row--utilities {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .control-panel.is-stuck {
+    width: 100%;
+  }
 }
 
 /* ── Side navigation ── */
@@ -485,7 +538,7 @@ nav a:hover {
 }
 
 .control-row--utilities {
-  border-top: 1px solid rgba(122, 92, 46, 0.4);
+  border-top: 1px solid rgba(180, 192, 208, 0.18);
   padding-top: 7px;
   padding-bottom: 7px;
   justify-content: flex-start;
