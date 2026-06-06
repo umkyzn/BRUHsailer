@@ -1244,11 +1244,64 @@ body.highlight-cursor-active {
   height: 0.7em;
 }
 
-/* Links inside the notes follow the theme accent and stay readable in dark */
+/* Links inside the notes use the content-surface accent (theme-aware: a
+   darker blue on the light card, lighter blue on the dark card). */
 .chapter-notes-body a,
 .chapter-notes-body a.drive-link {
-  color: var(--gold) !important;
+  color: var(--secondary-dark) !important;
   text-decoration: underline;
+}
+
+/* Stats grid — skill/level cells, mirroring the reference site's layout */
+.eoc-stats {
+  margin: 2px 0 4px;
+}
+
+.eoc-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(116px, 1fr));
+  gap: 6px;
+  margin: 8px 0;
+}
+
+.eoc-stats-grid > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 0;
+  padding: 5px 9px;
+  background-color: var(--meta-bg);
+  border: 1px solid var(--meta-border);
+  border-radius: 4px;
+  font-size: 0.84rem;
+}
+
+.eoc-stat-skill {
+  opacity: 0.8;
+}
+
+.eoc-stat-level {
+  font-weight: 700;
+  color: var(--secondary-dark);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Caveats pulled out of the grid as bullets below it */
+.eoc-stats-notes {
+  margin: 8px 0 2px;
+  padding-left: 20px;
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.eoc-stats-notes li {
+  margin: 3px 0;
+}
+
+.eoc-stats-notes strong {
+  color: var(--secondary-dark);
+  font-weight: 700;
 }
 
 /* ── Jump-to pulse animation ── */
