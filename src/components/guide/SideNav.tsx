@@ -54,6 +54,14 @@ export default function SideNav({ chapters, totalSteps }: SideNavProps) {
     expandAndScroll(sectionEl, 100);
   }, []);
 
+  const goToNotes = useCallback((chapterIndex: number) => {
+    const chapterEl = document.querySelector(`[data-chapter="${chapterIndex}"]`);
+    if (!chapterEl) return;
+    chapterEl.querySelector('.chapter-content')?.classList.add('active');
+    chapterEl.querySelector('.chapter-title')?.classList.add('active');
+    expandAndScroll(chapterEl.querySelector('.chapter-notes'), 100);
+  }, []);
+
   return (
     <aside className="side-nav">
       <div className="side-nav-title">Contents</div>
@@ -87,6 +95,14 @@ export default function SideNav({ chapters, totalSteps }: SideNavProps) {
                       </div>
                     );
                   })}
+                  {chapter.footnotes && chapter.footnotes.length > 0 && (
+                    <div
+                      className="side-nav-section side-nav-notes"
+                      onClick={() => goToNotes(chapterIndex)}
+                    >
+                      End of Chapter Notes
+                    </div>
+                  )}
                 </div>
               )}
             </div>

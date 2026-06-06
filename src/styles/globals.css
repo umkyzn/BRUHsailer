@@ -477,6 +477,14 @@ nav a:hover {
   border-left-color: var(--bevel-light);
 }
 
+/* "End of Chapter Notes" entry — set apart from the section list */
+.side-nav-notes {
+  font-style: italic;
+  color: var(--text-lighter);
+  margin-top: 2px;
+  border-top: 1px solid rgba(127, 176, 255, 0.12);
+}
+
 /* ── Sidebar progress bar ── */
 
 .side-nav-footer {
@@ -1169,6 +1177,139 @@ body.highlight-cursor-active {
   border-radius: 2px;
   overflow: hidden;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* ── End-of-chapter notes ── */
+
+.chapter-notes {
+  margin: 16px 0 4px;
+  border: 1px solid var(--section-border);
+  border-left: 3px solid var(--gold);
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: var(--card-bg);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.chapter-content .chapter-notes:last-child {
+  margin-bottom: 0;
+}
+
+.chapter-notes-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 0;
+  padding: 10px 14px;
+  cursor: pointer;
+  user-select: none;
+  background: var(--hdr-grad);
+  border-bottom: 1px solid var(--bevel-dark);
+}
+
+.chapter-notes-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gold);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.chapter-notes-chevron {
+  display: inline-block;
+  color: var(--gold);
+  font-size: 0.8rem;
+  transition: transform 0.2s ease;
+}
+
+.chapter-notes:not(.open) .chapter-notes-chevron {
+  transform: rotate(-90deg);
+}
+
+.chapter-notes:not(.open) .chapter-notes-header {
+  border-bottom: none;
+}
+
+.chapter-notes-body {
+  margin: 0;
+  padding: 12px 16px 14px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--text-color);
+  white-space: normal;
+}
+
+.chapter-notes-line {
+  margin: 0;
+}
+
+/* Blank footnote entries become small gaps between groups */
+.chapter-notes-gap {
+  margin: 0;
+  height: 0.7em;
+}
+
+/* Links inside the notes use the content-surface accent (theme-aware: a
+   darker blue on the light card, lighter blue on the dark card). */
+.chapter-notes-body a,
+.chapter-notes-body a.drive-link {
+  color: var(--secondary-dark) !important;
+  text-decoration: underline;
+}
+
+/* Stats grid — skill/level cells, mirroring the reference site's layout */
+.eoc-stats {
+  margin: 2px 0 4px;
+}
+
+.eoc-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(116px, 1fr));
+  gap: 6px;
+  margin: 8px 0;
+}
+
+.eoc-stats-grid > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 0;
+  padding: 5px 9px;
+  background-color: var(--meta-bg);
+  border: 1px solid var(--meta-border);
+  border-radius: 4px;
+  font-size: 0.84rem;
+}
+
+.eoc-stat-skill {
+  opacity: 0.8;
+}
+
+.eoc-stat-level {
+  font-weight: 700;
+  color: var(--secondary-dark);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Caveats pulled out of the grid as bullets below it */
+.eoc-stats-notes {
+  margin: 8px 0 2px;
+  padding-left: 20px;
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.eoc-stats-notes li {
+  margin: 3px 0;
+}
+
+.eoc-stats-notes strong {
+  color: var(--secondary-dark);
+  font-weight: 700;
 }
 
 /* ── Jump-to pulse animation ── */

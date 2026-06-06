@@ -2,6 +2,7 @@ import { useState, memo } from 'react';
 import type { ChapterWithSections } from '../../types/guide';
 import Section from './Section';
 import FormattedText from './FormattedText';
+import ChapterNotes from './ChapterNotes';
 
 interface ChapterProps {
   chapterData: ChapterWithSections;
@@ -36,19 +37,7 @@ function Chapter({ chapterData, initialOpenSectionIndex }: ChapterProps) {
           />
         ))}
         {chapter.footnotes && chapter.footnotes.length > 0 && (
-          <div className="guide-section footnotes-section">
-            <div
-              className="section-header footnotes-header"
-              style={{ cursor: 'default' }}
-            >
-              <h2 className="section-title">End of chapter notes</h2>
-            </div>
-            <div className="section-content active">
-              {chapter.footnotes.map((footnote, fi) => (
-                <FormattedText key={fi} content={footnote.content} />
-              ))}
-            </div>
-          </div>
+          <ChapterNotes footnotes={chapter.footnotes} />
         )}
       </div>
     </div>
