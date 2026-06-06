@@ -38,6 +38,25 @@ function loadFromStorage<T>(key: string, fallback: T): T {
   }
 }
 
+// The original (pre-React) site stored progress keyed by the checkbox id,
+// e.g. `check-1-2`, while this version keys by the bare step id `1-2`. Both use
+// the same storage key (`guideProgress:<namespace>`) and the same step
+// numbering, so existing users already have their progress — it's just under
+// the old `check-` prefix. Strip the prefix on load so their checkboxes light
+// up again. Newer (already-bare) keys win if both happen to be present.
+function loadProgress(key: string): Record<string, boolean> {
+  const raw = loadFromStorage<Record<string, boolean>>(key, {});
+  const legacy = Object.keys(raw).filter((k) => k.startsWith('check-'));
+  if (legacy.length === 0) return raw;
+
+  const migrated: Record<string, boolean> = {};
+  for (const k of legacy) migrated[k.slice('check-'.length)] = raw[k];
+  for (const [k, v] of Object.entries(raw)) {
+    if (!k.startsWith('check-')) migrated[k] = v;
+  }
+  return migrated;
+}
+
 // ─── Provider ────────────────────────────────────────────────────────────────
 
 interface GuideProviderProps {
@@ -48,7 +67,7 @@ interface GuideProviderProps {
 export function GuideProvider({ namespace, children }: GuideProviderProps) {
   const initialState: GuideState = {
     namespace,
-    progress: loadFromStorage(storageKey('guideProgress', namespace), {}),
+    progress: loadProgress(storageKey('guideProgress', namespace)),
     filter: loadFromStorage<{ filter: 'all' | 'completed' | 'incomplete' }>(
       storageKey('guideFilter', namespace),
       { filter: 'all' }
