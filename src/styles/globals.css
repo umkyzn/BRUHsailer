@@ -477,6 +477,14 @@ nav a:hover {
   border-left-color: var(--bevel-light);
 }
 
+/* "End of Chapter Notes" entry — set apart from the section list */
+.side-nav-notes {
+  font-style: italic;
+  color: var(--text-lighter);
+  margin-top: 2px;
+  border-top: 1px solid rgba(127, 176, 255, 0.12);
+}
+
 /* ── Sidebar progress bar ── */
 
 .side-nav-footer {
