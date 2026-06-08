@@ -3,6 +3,10 @@ name: Update Website
 on:
   repository_dispatch:
     types: [google-docs-update]
+  # Manual "Run workflow" button. Uses the DRIVE_FOLDER_ID secret for the
+  # folder, so the same pipeline can be run from the Actions tab without the
+  # Google-Docs button (recovery/testing) and without exposing the ID.
+  workflow_dispatch:
 
 jobs:
   build:
@@ -27,7 +31,7 @@ jobs:
         run: node .github/scripts/download-files.cjs
         env:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
-          FOLDER_ID: ${{ github.event.client_payload.folder_id }}
+          FOLDER_ID: ${{ github.event.client_payload.folder_id || secrets.DRIVE_FOLDER_ID }}
 
       - name: Transform and merge JSON to final data.json
         run: node conversion-script.cjs
