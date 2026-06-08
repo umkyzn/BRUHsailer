@@ -24,13 +24,13 @@ jobs:
         run: npm install googleapis fs-extra
 
       - name: Download source JSON files from Drive
-        run: node .github/scripts/download-files.js
+        run: node .github/scripts/download-files.cjs
         env:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
           FOLDER_ID: ${{ github.event.client_payload.folder_id }}
 
       - name: Transform and merge JSON to final data.json
-        run: node conversion-script.js
+        run: node conversion-script.cjs
 
       - name: Copy data to public/data for Vite build
         run: |
