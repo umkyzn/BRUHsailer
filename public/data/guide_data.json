@@ -1,5 +1,5 @@
 {
-  "updatedOn": "2026-05-25",
+  "updatedOn": "2026-06-08",
   "title": "BRUHsailer Complete Guide",
   "chapters": [
     {
@@ -388,7 +388,17 @@
                       "formatting": {}
                     },
                     {
-                      "text": "un North and turn Valve 1 RIGHT, Valve 2 RIGHT, go to the basement of Carnilleans house and use the bottle of poison on the cooking range. Go upstairs and talk to Ceril. Return to Clivet. Turn Valve 3 LEFT, place the white cog in the clocktower (to",
+                      "text": "un North and turn Valve 1 RIGHT, Valve 2 RIGHT, go to the basement of Carnillean",
+                      "formatting": {
+                        "fontSize": 12
+                      }
+                    },
+                    {
+                      "text": "’",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "s house and use the bottle of poison on the cooking range. Go upstairs and talk to Ceril. Return to Clivet. Turn Valve 3 LEFT, place the white cog in the clocktower (to",
                       "formatting": {
                         "fontSize": 12
                       }
@@ -564,7 +574,17 @@
             {
               "content": [
                 {
-                  "text": "Take your gp, a small fishing net, knife and more logs (if you are running low: make sure to ",
+                  "text": "Take your gp, a small fishing net, knife and ",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "5 ",
+                  "formatting": {}
+                },
+                {
+                  "text": "more logs (if you are running low: make sure to ",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -597,7 +617,17 @@
                   }
                 },
                 {
-                  "text": "Return to Witchhaven and do the Sea Slug quest. Fish a shrimp after the quest for Ardy diary. Buy a raw sardine, two fishing rods, a fly fishing rod, a harpoon, 10 fishing bait and a lobster pot from Lovecraft’s Tackle (Witchhaven). Continue Tribal Totem to the point where you collect the tote",
+                  "text": "Return to Witchhaven and do the Sea Slug quest. Fish an a",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "nchovy or",
+                  "formatting": {}
+                },
+                {
+                  "text": " shrimp after the quest for Ardy diary. Buy a raw sardine, two fishing rods, a fly fishing rod, a harpoon, 10 fishing bait and a lobster pot from Lovecraft’s Tackle (Witchhaven). Continue Tribal Totem to the point where you collect the tote",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -655,17 +685,47 @@
                   "formatting": {}
                 },
                 {
-                  "text": " onions. Run to Draynor and progress X Marks the Spot (twice). Buy a Chronicle and ",
+                  "text": " onions. Run to Draynor and progress X Marks the Spot (twice). Buy a Chronicle",
                   "formatting": {
                     "fontSize": 12
                   }
                 },
                 {
-                  "text": "three",
+                  "text": ", three",
                   "formatting": {}
                 },
                 {
-                  "text": " teleport cards from Diango. Go to the Wizards’ Tower with the air talisman, talk to Wizard Sedridor and trade the air talisman for a research package. Grab the ghost’s skull from the altar for Restless Ghost.",
+                  "text": " teleport cards and a rainbow scarf from Diango",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": ". Put the cards in the chronicle",
+                  "formatting": {}
+                },
+                {
+                  "text": ". Grab ",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "the air talisman, a knife and ",
+                  "formatting": {}
+                },
+                {
+                  "text": "logs (as before",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": ", make sure to leave 10 in the bank). Fletching as you move, head",
+                  "formatting": {}
+                },
+                {
+                  "text": " to the Wizards’ Tower with the air talisman, talk to Wizard Sedridor and trade the air talisman for a research package. Grab the ghost’s skull from the altar for Restless Ghost.",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -686,7 +746,7 @@
             {
               "content": [
                 {
-                  "text": "Go back to Draynor bank. Buy the rainbow scarf from Diango. Read the notice board to start a Porcine of Interest, talk to Morgan to start Vampyre Slayer and take three garlic. G",
+                  "text": "Go back to Draynor bank. Read the notice board to start a Porcine of Interest, talk to Morgan to start Vampyre Slayer and take three garlic. G",
                   "formatting": {}
                 },
                 {
@@ -760,7 +820,22 @@
                   }
                 },
                 {
-                  "text": ". Open the packs while running north to the range. Use your incredible skill to burn",
+                  "text": ". Open the packs while running north to the range. Use your incredible skill to leave one beef raw (",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "no action needed), ",
+                  "formatting": {}
+                },
+                {
+                  "text": "cook one beef and burn",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -806,7 +881,22 @@
                   }
                 },
                 {
-                  "text": "beef on the range (cook twice if needed), cook one and leave the last one raw. Buy an",
+                  "text": "beef on the range (cook twice if needed)",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": ".",
+                  "formatting": {}
+                },
+                {
+                  "text": " Buy an",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -909,7 +999,47 @@
                   "formatting": {}
                 },
                 {
-                  "text": " Sir Prysin downstairs to progress Demon Slayer (and again), King Roald to start Priests in Peril, Reldo to progress The Knight's Sword and start Shield of Arrav (then check the book and speak with Reldo again), Captain Rovin to progress Demon Slayer, grab the pie dish in the kitchen, go upstairs and grab a bucket, go back downstairs and fill the bucket with water, use the bucket of water on the drain outside the kitchen to flush the Demon Slayer key, head east down the manhole and collect the key, go back out and north to the estate agent and collect a saw, start Daddy’s Home.",
+                  "text": " Sir Prysin downstairs to progress Demon Slayer (and again), ",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "Captain Rovin to progress Demon Slayer, ",
+                  "formatting": {}
+                },
+                {
+                  "text": "Reldo to progress The Knight's Sword and start Shield of Arrav (then check the book and speak with Reldo again), grab the pie dish in the kitchen, fill ",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "your",
+                  "formatting": {}
+                },
+                {
+                  "text": " bucket with water",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": " and",
+                  "formatting": {}
+                },
+                {
+                  "text": " use the bucket of water on the drain outside the kitchen to flush the Demon Slayer key, speak with ",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "King Roald to start Priest in Peril, ",
+                  "formatting": {}
+                },
+                {
+                  "text": "head east down the manhole and collect the key, go back out and north to the estate agent and collect a saw, start Daddy’s Home.",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -922,7 +1052,7 @@
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "5187 gp",
-                "items_needed": "101 gp, Chronicle",
+                "items_needed": "101 gp, Chronicle, bucket",
                 "skills_quests_met": "yes",
                 "total_time": "6h52m"
               }
@@ -1006,7 +1136,37 @@
                   }
                 },
                 {
-                  "text": " Go to Aubury, give him the research notes and buy 100 mind, 100 air, 50 water, 50 earth, 20 fire runes ",
+                  "text": " Go to Aubury, give him the research notes and continue the dialogue to get offered a cup of tea - this res",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "tores your run energy. B",
+                  "formatting": {}
+                },
+                {
+                  "text": "uy 100 mind, 100 air, 50 water, 50 earth",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": " and",
+                  "formatting": {}
+                },
+                {
+                  "text": " 20 fire runes ",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -1150,7 +1310,7 @@
                   }
                 },
                 {
-                  "text": "Go back to Straven, give him the report to get the Weapon store key. Grab half of the Shield of Arrav. From now on every time you are in Varrock you may complete Shield of Arrav with a partner, at your own convenience (sooner is better). ",
+                  "text": "Go back to Straven, give him the report to get the Weapon store key. Grab half of the Shield of Arrav. Fro",
                   "formatting": {
                     "italic": true,
                     "color": {
@@ -1162,8 +1322,14 @@
                   }
                 },
                 {
-                  "text": "Use clan chat “osrs soa” to find a partner.",
+                  "text": "m now on every time you are in Varrock you may complete Shield of Arrav with a partner, at your own convenience (sooner is better). Use clan chat “osrs soa” to find a partner.",
                   "formatting": {
+                    "italic": true,
+                    "color": {
+                      "r": 1,
+                      "g": 0.6,
+                      "b": 0
+                    },
                     "fontSize": 12
                   }
                 },
@@ -1337,7 +1503,22 @@
                   "formatting": {}
                 },
                 {
-                  "text": " and burn them to level 50 firemaking ",
+                  "text": " - world 444",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": " is recommended as it is usually the most popular - ",
+                  "formatting": {}
+                },
+                {
+                  "text": "and burn them to level 50 firemaking ",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -1397,7 +1578,17 @@
             {
               "content": [
                 {
-                  "text": "Minigame teleport to Fishing Trawler, grab your leather gloves, spade, hammer, saw, one beer, a house teleport, 1500 a",
+                  "text": "Minigame teleport to Fishing Trawler, grab your",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": " gp,",
+                  "formatting": {}
+                },
+                {
+                  "text": " leather gloves, spade, hammer, saw, one beer, a house teleport, 1500 a",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -1431,7 +1622,17 @@
                   }
                 },
                 {
-                  "text": "Adding feathers to arrow shafts as you move, break another POH tab, walk to Port Sarim and talk to Veos to go to Zeah. Do the Client of Kourend quest up to and including the point where you activate the orb at the Dark Altar (use the mine cart system to move around). ",
+                  "text": "Adding feathers to arrow shafts as you move, break another POH tab, walk to Port Sarim and talk to Veos to go to Zeah. ",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "Destroy",
+                  "formatting": {}
+                },
+                {
+                  "text": " the XP lamp again. Do the Client of Kourend quest up to and including the point where you activate the orb at the Dark Altar (use the mine cart system to move around). ",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -1451,7 +1652,7 @@
                   "formatting": {}
                 },
                 {
-                  "text": "https://oldschool.runescape.wiki/w/Clue_hunter_garb#/media/File:Crack_the_Clue!_-_Week_2_map.png",
+                  "text": "Clue hunter garb - OSRS Wiki",
                   "formatting": {
                     "underline": true,
                     "color": {
@@ -1478,7 +1679,17 @@
                   "formatting": {}
                 },
                 {
-                  "text": ", then head to Wintertodt (again, mine card to Northern Tundras).",
+                  "text": ", then head to Wintertodt (again, mine car",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "t",
+                  "formatting": {}
+                },
+                {
+                  "text": " to Northern Tundras).",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -10557,7 +10768,52 @@
                       }
                     },
                     {
-                      "text": "\n",
+                      "text": ".\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "The east guard lure method in these videos does not work anymore. The correct (new) method works as follows:\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "Step under the guard.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "Teleport to Fisher's Flute with your Kharedst’s memoirs.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "Run to the south side of the guard so they face you (still aggro’d on you).\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "Teleport far away to reset aggro.\n",
                       "formatting": {}
                     }
                   ]
@@ -12214,6 +12470,18 @@
                 }
               ],
               "type": "section_footnote"
+            },
+            {
+              "content": [
+                {
+                  "text": "==END OF CHAPTER 1==\n",
+                  "formatting": {
+                    "bold": true,
+                    "fontSize": 18
+                  }
+                }
+              ],
+              "type": "section_footnote"
             }
           ]
         }
@@ -12248,7 +12516,7 @@
         {
           "content": [
             {
-              "text": "Atk: 46, Str: 50, Def: 3",
+              "text": "Atk: 46",
               "formatting": {
                 "color": {
                   "r": 0.023529412,
@@ -12259,7 +12527,7 @@
               }
             },
             {
-              "text": "4",
+              "text": "\n",
               "formatting": {
                 "color": {
                   "r": 0.023529412,
@@ -12267,9 +12535,144 @@
                   "b": 0.18039216
                 }
               }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Str: 50",
+              "formatting": {
+                "color": {
+                  "r": 0.023529412,
+                  "g": 0.6039216,
+                  "b": 0.18039216
+                },
+                "fontSize": 12
+              }
             },
             {
-              "text": ", HP: 37, Range: 45, Pray: 43, Magic: 63",
+              "text": "\n",
+              "formatting": {
+                "color": {
+                  "r": 0.023529412,
+                  "g": 0.6039216,
+                  "b": 0.18039216
+                }
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Def: 3",
+              "formatting": {
+                "color": {
+                  "r": 0.023529412,
+                  "g": 0.6039216,
+                  "b": 0.18039216
+                },
+                "fontSize": 12
+              }
+            },
+            {
+              "text": "4\n",
+              "formatting": {
+                "color": {
+                  "r": 0.023529412,
+                  "g": 0.6039216,
+                  "b": 0.18039216
+                }
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "HP: 37",
+              "formatting": {
+                "color": {
+                  "r": 0.023529412,
+                  "g": 0.6039216,
+                  "b": 0.18039216
+                },
+                "fontSize": 12
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "color": {
+                  "r": 0.023529412,
+                  "g": 0.6039216,
+                  "b": 0.18039216
+                }
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Ranged: 45",
+              "formatting": {
+                "color": {
+                  "r": 0.023529412,
+                  "g": 0.6039216,
+                  "b": 0.18039216
+                },
+                "fontSize": 12
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "color": {
+                  "r": 0.023529412,
+                  "g": 0.6039216,
+                  "b": 0.18039216
+                }
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Pray: 43",
+              "formatting": {
+                "color": {
+                  "r": 0.023529412,
+                  "g": 0.6039216,
+                  "b": 0.18039216
+                },
+                "fontSize": 12
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "color": {
+                  "r": 0.023529412,
+                  "g": 0.6039216,
+                  "b": 0.18039216
+                }
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Magic: 63",
               "formatting": {
                 "color": {
                   "r": 0.023529412,
@@ -12877,7 +13280,7 @@
               "formatting": {}
             },
             {
-              "text": "20260525Chapter1",
+              "text": "20260607Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -12900,7 +13303,7 @@
               "formatting": {}
             },
             {
-              "text": "20260525Chapter2",
+              "text": "20260607Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -12921,7 +13324,7 @@
               "formatting": {}
             },
             {
-              "text": "20260525Chapter3",
+              "text": "20260607Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -12942,7 +13345,7 @@
               "formatting": {}
             },
             {
-              "text": "20260525DetailedStepsGuide",
+              "text": "20260607DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -12987,7 +13390,7 @@
         {
           "content": [
             {
-              "text": "Tool for comparing Landlubber to current: ",
+              "text": "Tool for comparing Landlubber and immediately-after-sailing: ",
               "formatting": {
                 "fontFamily": "Arial"
               }
@@ -13486,9 +13889,29 @@
             },
             {
               "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260607BRUHsailerChangelog.txt",
               "formatting": {
-                "italic": true
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://drive.google.com/file/d/1uF3iZD4GtxvEhEME0VzMmzkTYuJzFnV-/view?usp=sharing",
+                "isLink": true
               }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
             }
           ],
           "type": "chapter_footnote"
@@ -15946,7 +16369,7 @@
             {
               "content": [
                 {
-                  "text": "Keep wearing your ring of charos (a). Teleport to Falador. Run south to Port Sarim. Start and complete the Pandemonium quest. Whenever sailing you get some XP and a speed boost for trimming sails, so try to consistently click the sail when there’s a burst of wind. You need the sail trimming xp to hit level 22 later. Do port courier tasks (between Pandemonium and Port Sarim) until level 14 sailing, aiming to finish the level at Port Sarim. You can multiskill alch or fletch while sailing as desired. Complete the following charting tasks along the way:\n",
+                  "text": "Keep wearing your ring of charos (a). Teleport to Falador. Run south to Port Sarim. Start and complete the Pandemonium quest. Whenever sailing you get some XP and a speed boost for trimming sails, so try to consistently click the sail when there’s a burst of wind. You need the sail trimming xp to hit level 22 later. Do port courier tasks (between Pandemonium and Port Sarim) until level 14 sailing, aiming to finish the level at Port Sarim. Best is to pick up all tasks between these two destinations, regardless of start and end points, stringing them together as much as possible. You can multiskill alch or fletch while sailing as desired. Complete the following charting tasks along the way:\n",
                   "formatting": {}
                 }
               ],
@@ -16018,7 +16441,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Spyglass to admire Charin’ Charles McAtless in the cave on the Pandemonium, also mine 22 lead ore in the cave. Superheat 10 of them into 5 bars.\n",
+                      "text": "Spyglass to admire Charin’ Charles McAtless in the cave on the Pandemonium, also mine 32 lead ore in the cave. Superheat 10 of them into 5 bars.\n",
                       "formatting": {}
                     }
                   ]
@@ -16539,8 +16962,8 @@
                   "formatting": {}
                 },
                 {
-                  "text": "imbue scroll via pvp arena - losing method",
-                  "url": "https://www.youtube.com/watch?v=OORAXLhdZAg",
+                  "text": "Imbue Any Item in Just 10 Minutes with This Amazing Method",
+                  "url": "https://www.youtube.com/watch?v=eDaAFEwqzqE",
                   "isLink": true,
                   "formatting": {
                     "underline": true
@@ -19387,7 +19810,7 @@
             {
               "content": [
                 {
-                  "text": "You should be level 51 (or higher) slayer. Make sure you have finished the Curse of the Empty Lord miniquest (if you haven’t, do it now, putting the lamp on slayer). Teleport to Varrock, make sure to grab the Dragon’hai history book from the Varrock Palace library if you don’t already have it, pray at the altar in the palace with smite active. Buy 20,000 air runes (if you already have these you can ignore this), then run through  the east gate to the quetzal to go to Varlamore and do At First Light (note: the hunter rumours are currently not efficient, but if you want the rewards you can go for them at any time after this quest). During At First Light catch a Sunlight antelope (east end of the island, requires level 72 hunter, a teasing stick, knife and logs - grab a Trapper’s tipple or two at the hunter’s guild for a +2 boost if needed) and kill a jaguar for their fur. At the hunter’s guild buy two mixed hide bases, and either pay Pellem to have the furs made into mixed hide boots (your best ranged boots for now) and a mixed hide cape (your best melee cape for now) or boost your crafting level if you have a spare mushroom pie to do it yourself. After this start and complete Perilous Moons (for the fights your dragon scimitar is fine, even for ice. Use the moss lizards and moonlight potions for supplies) and The Heart of Darkness. At the end of the quest travel to Tal Teklan (e.g. with the quetzal system). Buy four willow longbows at Arcuani’s Archery Supplies. If you haven’t done Scrambled! yet, do it now. Travel to Auburnvale (e.g. using the boat system). Start and complete Shadows of Custodia. Teleport out. Slay a Brine rat to complete the Fremennik medium diary, putting the lamp on herblore. Grab a rope, salve teleport, dip your enchanted silvthrill rod in the well to make the Rod of Ivandis and complete In Aid of the Myreque, Darkness of Hallowvale, A Taste of Hope and Sins of the Father (all lamps on herblore). Use the Efaritay’s aid during the Vanstrom Klause fight in Sins of the Father - you should only need one ring, the second is spare in case you die or run out of charges.\n",
+                  "text": "You should be level 51 (or higher) slayer. Make sure you have finished the Curse of the Empty Lord miniquest (if you haven’t, do it now, putting the lamp on slayer). Teleport to Varrock, make sure to grab the Dragon’hai history book from the Varrock Palace library if you don’t already have it, pray at the altar in the palace with smite active. Buy 20,000 air runes (if you already have these you can ignore this), then run through  the east gate to the quetzal to go to Varlamore and do At First Light (note: the hunter rumours are currently not efficient, but if you want the rewards you can go for them at any time after this quest). During At First Light catch a Sunlight antelope (east end of the island, requires level 72 hunter, a teasing stick, knife and logs - grab a Trapper’s tipple or two at the hunter’s guild for a +2 boost if needed) and kill a jaguar for their fur. At the hunter’s guild buy two mixed hide bases, and either pay Pellem to have the furs made into mixed hide boots (your best ranged boots for now) and a mixed hide cape (your best melee cape for now) or boost your crafting level if you have a spare mushroom pie to do it yourself. After this start and complete Perilous Moons (for the fights your dragon scimitar is fine, even for ice. Use the moss lizards and moonlight potions for supplies) and The Heart of Darkness. At the end of the quest travel to Tal Teklan (e.g. with the quetzal system). Buy four willow longbows at Arcuani’s Archery Supplies. If you haven’t done Scrambled! yet, do it now. Travel to Auburnvale (e.g. using the boat system). Do the Vale Totems miniquest. Start and complete Shadows of Custodia. Teleport out. Slay a Brine rat to complete the Fremennik medium diary, putting the lamp on herblore. Grab a rope, salve teleport, dip your enchanted silvthrill rod in the well to make the Rod of Ivandis and complete In Aid of the Myreque, Darkness of Hallowvale, A Taste of Hope and Sins of the Father (all lamps on herblore). Use the Efaritay’s aid during the Vanstrom Klause fight in Sins of the Father - you should only need one ring, the second is spare in case you die or run out of charges.\n",
                   "formatting": {}
                 }
               ],
@@ -21395,216 +21818,24 @@
                 "items_needed": "follow the wiki; the entire quest line is basically linear (no choice)",
                 "skills_quests_met": "yes",
                 "total_time": "35d18h"
-              }
+              },
+              "additionalContent": [
+                [
+                  {
+                    "text": "==END OF CHAPTER 2==\n",
+                    "formatting": {
+                      "bold": true,
+                      "fontSize": 18
+                    }
+                  }
+                ]
+              ]
             }
           ],
           "footnotes": []
         }
       ],
       "footnotes": [
-        {
-          "content": [
-            {
-              "text": "Quests missing for quest cape:",
-              "formatting": {
-                "underline": true,
-                "fontSize": 12
-              }
-            },
-            {
-              "text": " ",
-              "formatting": {
-                "fontSize": 12
-              }
-            },
-            {
-              "text": "\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "Dragon Slayer II \n",
-              "formatting": {
-                "fontSize": 12
-              }
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "Monkey Madness II \n",
-              "formatting": {
-                "fontSize": 12
-              }
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "The Fremennik Exiles\n",
-              "formatting": {
-                "fontSize": 12
-              }
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "A Night at the Theatre\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "Beneath Cursed Sands\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "Devious Minds\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "Secrets of the North\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "Desert Treasure II\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "While Guthix Sleeps\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "Miniquests missing:\n",
-              "formatting": {
-                "underline": true
-              }
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "The Enchanted Key\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "Family Pest\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "The Frozen Door\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "In Search of Knowledge\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "Into the Tombs\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "His Faithful Servants\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "Hopespear’s Will\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "\n",
-              "formatting": {
-                "fontSize": 12
-              }
-            }
-          ],
-          "type": "chapter_footnote"
-        },
         {
           "content": [
             {
@@ -21635,7 +21866,7 @@
               }
             },
             {
-              "text": "0",
+              "text": "0\n",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -21643,9 +21874,14 @@
                   "b": 0.2
                 }
               }
-            },
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
             {
-              "text": ", Str: 7",
+              "text": "Str: 7",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -21656,7 +21892,7 @@
               }
             },
             {
-              "text": "7",
+              "text": "7\n",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -21664,9 +21900,14 @@
                   "b": 0.2
                 }
               }
-            },
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
             {
-              "text": " Def: 70, HP: 6",
+              "text": "Def: 70",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -21677,7 +21918,7 @@
               }
             },
             {
-              "text": "0",
+              "text": "\n",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -21685,9 +21926,14 @@
                   "b": 0.2
                 }
               }
-            },
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
             {
-              "text": ", Ranged: 6",
+              "text": "HP: 6",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -21698,7 +21944,7 @@
               }
             },
             {
-              "text": "2",
+              "text": "0\n",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -21706,9 +21952,66 @@
                   "b": 0.2
                 }
               }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Ranged: 6",
+              "formatting": {
+                "color": {
+                  "r": 0,
+                  "g": 0.6627451,
+                  "b": 0.2
+                },
+                "fontSize": 12
+              }
             },
             {
-              "text": ", Prayer: 70, Magic: ",
+              "text": "2\n",
+              "formatting": {
+                "color": {
+                  "r": 0,
+                  "g": 0.6627451,
+                  "b": 0.2
+                }
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Prayer: 70",
+              "formatting": {
+                "color": {
+                  "r": 0,
+                  "g": 0.6627451,
+                  "b": 0.2
+                },
+                "fontSize": 12
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "color": {
+                  "r": 0,
+                  "g": 0.6627451,
+                  "b": 0.2
+                }
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Magic: ",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -22279,6 +22582,228 @@
             {
               "text": "\n",
               "formatting": {
+                "underline": true
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Quests missing for quest cape:",
+              "formatting": {
+                "underline": true
+              }
+            },
+            {
+              "text": " \n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "While Guthix Sleeps\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "The Fremennik Exiles\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "A Night at the Theatre\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "The Red Rock\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Dragon Slayer II \n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Monkey Madness II \n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Devious Minds\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Secrets of the North\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Beneath Cursed Sands\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Desert Treasure II\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Miniquests missing:",
+              "formatting": {
+                "underline": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Hopespear’s Will\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Bear Your Soul\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "The Enchanted Key\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Family Pest\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "The Frozen Door\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "His Faithful Servants\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "In Search of Knowledge\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Into the Tombs",
+              "formatting": {}
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "color": {
+                  "r": 0,
+                  "g": 0.6627451,
+                  "b": 0.2
+                }
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "\n",
+              "formatting": {
                 "color": {
                   "r": 0,
                   "g": 0.6627451,
@@ -22343,7 +22868,7 @@
               "formatting": {}
             },
             {
-              "text": "20260525Chapter1",
+              "text": "20260607Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -22366,7 +22891,7 @@
               "formatting": {}
             },
             {
-              "text": "20260525Chapter2",
+              "text": "20260607Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -22387,7 +22912,7 @@
               "formatting": {}
             },
             {
-              "text": "20260525Chapter3",
+              "text": "20260607Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -22408,7 +22933,7 @@
               "formatting": {}
             },
             {
-              "text": "20260525DetailedStepsGuide",
+              "text": "20260607DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -22453,7 +22978,7 @@
         {
           "content": [
             {
-              "text": "Tool for comparing Landlubber to current: ",
+              "text": "Tool for comparing Landlubber and immediately-after-sailing: ",
               "formatting": {
                 "fontFamily": "Arial"
               }
@@ -22475,6 +23000,17 @@
             {
               "text": "\n",
               "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "\n",
+              "formatting": {
+                "fontFamily": "Arial"
+              }
             }
           ],
           "type": "chapter_footnote"
@@ -22945,6 +23481,28 @@
                 },
                 "fontFamily": "Arial",
                 "url": "https://drive.google.com/file/d/1heQH8NuLiDIc7S9MwRoW-Y7uoRlgm-5-/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260607BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://drive.google.com/file/d/1uF3iZD4GtxvEhEME0VzMmzkTYuJzFnV-/view?usp=sharing",
                 "isLink": true
               }
             },
@@ -23754,20 +24312,23 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Example setup for throwing chins.",
+                      "text": "Example setup for throwing chins: ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "chin-gear-with-chally.png",
+                      "url": "https://drive.google.com/file/d/1SzvDQXq-UxkEJTDUh5oTINh9Ph9bFsg9/view?usp=sharing",
+                      "isLink": true,
                       "formatting": {
-                        "underline": true,
-                        "color": {
-                          "r": 0.06666667,
-                          "g": 0.33333334,
-                          "b": 0.8
-                        },
-                        "url": "https://drive.google.com/file/d/12onDZXy9AJmGMmDAim0ttQ_bizlFR8Yo/view?usp=drive_link",
-                        "isLink": true
+                        "underline": true
                       }
                     },
                     {
-                      "text": " However, this gear is outdated - use mixed hide boots, a berserker ring (i), an amulet of strength, a crystal halberd for speccing, a mixed hide cape and carry death charge runes.\n",
+                      "text": ". The rune pouch has runes for death charge (Death, Blood, Soul). You may want to take fewer pots to have more room for picking up 1-dose prayer potions from the monkeys, leading to shorter trips.",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "\n",
                       "formatting": {}
                     }
                   ]
@@ -24825,14 +25386,8 @@
             {
               "content": [
                 {
-                  "text": "Use the money from CG to train smithing to level 86 with UIM gold. You’ll need to buy around 42.3k gold ores to get 86 Smithing for all diaries. Smelt at least 15 runite bars. Convert your cut diamonds and rubies into bracelets (optionally also enchant them, this is technically only worth it if you find a way to ‘0time’ it though) and charge enough unpowered orbs to match your battlestaves, then alch those/cash those in (e.g. at artefacts). Optional: also include ruby bracelets.",
+                  "text": "Use the money from CG to train smithing to level 86 with UIM gold. You’ll need to buy around 42.3k gold ores to get 86 Smithing for all diaries. Smelt at least 15 runite bars. Complete the Lumbridge Elite diary at your convenience. Convert your cut diamonds and rubies into bracelets (optionally also enchant them, this is technically only worth it if you find a way to ‘0time’ it though) and charge enough unpowered orbs to match your battlestaves, then alch those/cash those in (e.g. at artefacts). Optional: also include ruby bracelets.\n",
                   "formatting": {}
-                },
-                {
-                  "text": "\n",
-                  "formatting": {
-                    "bold": true
-                  }
                 }
               ],
               "nestedContent": [
@@ -24911,7 +25466,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Bounty tasks. Currently the main method of doing bounty tasks is just shooting the creatures with your bowfa, assigning your crew to deal a little bit of support damage with your cannons.\n",
+                      "text": "Bounty tasks. Currently the main method of doing bounty tasks is just shooting the creatures with your bowfa, assigning your crew to deal a little bit of support damage with your cannons and mithril cannonballs. If you have access to at least adamant cannonballs a worthwhile alternative is to shoot a cannon yourself while wearing full elite void, ignoring the bowfa.\n",
                       "formatting": {}
                     }
                   ]
@@ -24929,7 +25484,7 @@
                   "level": 3,
                   "content": [
                     {
-                      "text": "Travel (teleport/charter) around all places the tasks for one creature might be offered\n",
+                      "text": "Travel (teleport/charter) around all places the tasks for one creature might be offered. You want a double task for your creature (two different items) to double dip on the XP. One of the two is always guaranteed at the right port (though a different port for the same item might be better - shorter task or easier to get to!), the other requires luck.\n",
                       "formatting": {}
                     }
                   ]
@@ -24947,7 +25502,7 @@
                   "level": 3,
                   "content": [
                     {
-                      "text": "Kill it until you complete one (or both, if it's close) of your two tasks\n",
+                      "text": "Kill it until you complete one (or both, if you’re almost done) of your two tasks\n",
                       "formatting": {}
                     }
                   ]
@@ -24974,7 +25529,7 @@
                   "level": 3,
                   "content": [
                     {
-                      "text": "Stingray - 16 ray barbs for 2x cotton trawling net (best net for deepsea trawling). Kill them east off the coast of Aldarin, make sure to collect tasks for both fins and skins.\n",
+                      "text": "Stingray - 16 ray barbs for 2x cotton trawling net (best net for deepsea trawling). Kill them east off the coast of Aldarin, make sure to collect tasks for both fins and skins. Fin tasks are guaranteed at Corsair Cove.\n",
                       "formatting": {}
                     }
                   ]
@@ -24983,7 +25538,7 @@
                   "level": 3,
                   "content": [
                     {
-                      "text": "Albatross - 5 (or 10) swift albatross feathers for a gale catcher on your skiff (optional: and sloop). Kill them southeast of Etceteria, make sure to collect tasks for both beaks and feathers (which are different from swift feathers). Watch out, these require repair kits to stave off the damage.\n",
+                      "text": "Albatross - 5 (or 10) swift albatross feathers for a gale catcher on your skiff (optional: and sloop). Kill them southeast of Etceteria, make sure to collect tasks for both beaks and feathers (which are different from swift feathers). Watch out, these require repair kits to stave off the damage. Beak tasks are guaranteed at the Summer Shore.\n",
                       "formatting": {}
                     }
                   ]
@@ -25001,7 +25556,7 @@
                   "level": 3,
                   "content": [
                     {
-                      "text": "The bottled storm (dropped by vampyre krakens) and some high tier dragon upgrades are not included in the guide. Likely these will be higher level content. If you want to go for these it is likely best to do so after finishing the charting.\n",
+                      "text": "The bottled storm and some high tier dragon upgrades are not included in the guide. These are currently extremely promising for ship combat, and it is recommended to go for them shortly after completing the guide by targeting Veiled Krakens, Vampyre Krakens, Great White Sharks and Armoured Kraken tasks.\n",
                       "formatting": {}
                     }
                   ]
@@ -26031,14 +26586,33 @@
               }
             },
             {
-              "text": ": see next pages.",
+              "text": ": see next pages.\n",
               "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "==END OF CHAPTER 3==",
+              "formatting": {
+                "bold": true,
+                "fontSize": 18
+              }
             },
             {
               "text": "\n",
-              "formatting": {
-                "fontSize": 12
-              }
+              "formatting": {}
             }
           ],
           "type": "chapter_footnote"
@@ -26086,7 +26660,7 @@
               }
             },
             {
-              "text": "8",
+              "text": "8\n",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -26094,9 +26668,14 @@
                   "b": 0.2
                 }
               }
-            },
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
             {
-              "text": ", Str: 8",
+              "text": "Str: 8",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -26108,7 +26687,7 @@
               }
             },
             {
-              "text": "8",
+              "text": "8\n",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -26116,9 +26695,95 @@
                   "b": 0.2
                 }
               }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Def: 7",
+              "formatting": {
+                "color": {
+                  "r": 0,
+                  "g": 0.6627451,
+                  "b": 0.2
+                },
+                "fontSize": 12,
+                "fontFamily": "Liberation Serif"
+              }
             },
             {
-              "text": " Def: 7",
+              "text": "6\n",
+              "formatting": {
+                "color": {
+                  "r": 0,
+                  "g": 0.6627451,
+                  "b": 0.2
+                }
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "HP: 8",
+              "formatting": {
+                "color": {
+                  "r": 0,
+                  "g": 0.6627451,
+                  "b": 0.2
+                },
+                "fontSize": 12,
+                "fontFamily": "Liberation Serif"
+              }
+            },
+            {
+              "text": "7\n",
+              "formatting": {
+                "color": {
+                  "r": 0,
+                  "g": 0.6627451,
+                  "b": 0.2
+                }
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Ranged: 93",
+              "formatting": {
+                "color": {
+                  "r": 0,
+                  "g": 0.6627451,
+                  "b": 0.2
+                },
+                "fontSize": 12,
+                "fontFamily": "Liberation Serif"
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "color": {
+                  "r": 0,
+                  "g": 0.6627451,
+                  "b": 0.2
+                }
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Prayer: 7",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -26140,7 +26805,7 @@
               }
             },
             {
-              "text": ", HP: 8",
+              "text": " (probably higher)",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -26152,7 +26817,7 @@
               }
             },
             {
-              "text": "7",
+              "text": "\n",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -26160,31 +26825,14 @@
                   "b": 0.2
                 }
               }
-            },
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
             {
-              "text": ", Ranged: 93, Prayer: 7",
-              "formatting": {
-                "color": {
-                  "r": 0,
-                  "g": 0.6627451,
-                  "b": 0.2
-                },
-                "fontSize": 12,
-                "fontFamily": "Liberation Serif"
-              }
-            },
-            {
-              "text": "6",
-              "formatting": {
-                "color": {
-                  "r": 0,
-                  "g": 0.6627451,
-                  "b": 0.2
-                }
-              }
-            },
-            {
-              "text": " (probably higher), Magic: 9",
+              "text": "Magic: 9",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -26849,7 +27497,7 @@
               "formatting": {}
             },
             {
-              "text": "20260525Chapter1",
+              "text": "20260607Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -26872,7 +27520,7 @@
               "formatting": {}
             },
             {
-              "text": "20260525Chapter2",
+              "text": "20260607Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -26893,7 +27541,7 @@
               "formatting": {}
             },
             {
-              "text": "20260525Chapter3",
+              "text": "20260607Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -26914,7 +27562,7 @@
               "formatting": {}
             },
             {
-              "text": "20260525DetailedStepsGuide",
+              "text": "20260607DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -26959,7 +27607,7 @@
         {
           "content": [
             {
-              "text": "Tool for comparing Landlubber to current: ",
+              "text": "Tool for comparing Landlubber and immediately-after-sailing: ",
               "formatting": {
                 "fontFamily": "Arial"
               }
@@ -26981,6 +27629,17 @@
             {
               "text": "\n",
               "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "\n",
+              "formatting": {
+                "fontFamily": "Arial"
+              }
             }
           ],
           "type": "chapter_footnote"
@@ -27456,6 +28115,28 @@
                 },
                 "fontFamily": "Arial",
                 "url": "https://drive.google.com/file/d/1heQH8NuLiDIc7S9MwRoW-Y7uoRlgm-5-/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260607BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://drive.google.com/file/d/1uF3iZD4GtxvEhEME0VzMmzkTYuJzFnV-/view?usp=sharing",
                 "isLink": true
               }
             },
@@ -29166,25 +29847,7 @@
         {
           "content": [
             {
-              "text": "78-99\t\tGwenith Glide is fastest, but several alternatives are attractive as well. Salvaging is low effort and quite high XP, and ship combat might prove promising in the future. Deepsea trawling gives lots of fish and so-so fishing xp but bad sailing xp (",
-              "formatting": {
-                "color": {
-                  "r": 0.7882353,
-                  "g": 0.12941177,
-                  "b": 0.11764706
-                }
-              }
-            },
-            {
-              "text": "marlin trawling | 60k fishing, 28k sailing",
-              "url": "https://www.youtube.com/watch?v=Hhl4kBCdZF0",
-              "isLink": true,
-              "formatting": {
-                "underline": true
-              }
-            },
-            {
-              "text": "), and courier tasks continue to be reasonable xp and good opportunities to multiskill",
+              "text": "78-99\t\tGwenith Ship combat is really solid for rewards while offering good xp, higher than Gwenyth Glide if done well. Salvaging is low effort and quite high XP, and ship combat might prove promising in the future. Deepsea trawling gives lots of fish and so-so fishing xp and sailing xp. Courier tasks continue to be reasonabe xp and good opportunities to multiskill",
               "formatting": {
                 "color": {
                   "r": 0.7882353,
