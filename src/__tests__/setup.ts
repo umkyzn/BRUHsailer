@@ -19,6 +19,17 @@ beforeAll(() => {
 
   // jsdom does not implement scrollIntoView
   window.HTMLElement.prototype.scrollIntoView = vi.fn();
+
+  // jsdom does not implement innerText; the search uses it for matching, so
+  // fall back to textContent (good enough for the visible-text comparison).
+  if (!Object.getOwnPropertyDescriptor(window.HTMLElement.prototype, 'innerText')) {
+    Object.defineProperty(window.HTMLElement.prototype, 'innerText', {
+      configurable: true,
+      get(this: HTMLElement) {
+        return this.textContent ?? '';
+      },
+    });
+  }
 });
 
 afterEach(() => {

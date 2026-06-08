@@ -234,7 +234,6 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
       steps.forEach((stepEl) => {
         const matches = stepEl.innerText.toLowerCase().includes(term.toLowerCase());
         stepEl.classList.toggle('hidden-by-search', !matches);
-        stepEl.style.display = matches ? '' : 'none';
 
         if (matches) {
           const desc = stepEl.querySelector<HTMLElement>('.step-description');
@@ -246,7 +245,7 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
 
       root.querySelectorAll<HTMLElement>('.guide-section').forEach((section) => {
         const hasVisible = Array.from(section.querySelectorAll('.step')).some(
-          (s) => (s as HTMLElement).style.display !== 'none'
+          (s) => !(s as HTMLElement).classList.contains('hidden-by-search')
         );
         section.classList.toggle('hidden-by-search', !hasVisible);
         if (hasVisible) {

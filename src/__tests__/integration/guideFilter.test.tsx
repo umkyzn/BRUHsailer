@@ -85,6 +85,37 @@ describe('GuideView filter integration', () => {
     });
   });
 
+  it('search hides non-matching steps, and clearing it restores them', async () => {
+    const user = userEvent.setup();
+    renderGuideView();
+
+    const searchInput = screen.getByPlaceholderText('Search steps...');
+    await user.type(searchInput, 'first');
+
+    // Only the step whose text contains "first" stays visible.
+    await waitFor(
+      () => {
+        expect(document.getElementById('step-1-1')).not.toHaveClass('hidden-by-search');
+        expect(document.getElementById('step-1-2')).toHaveClass('hidden-by-search');
+      },
+      { timeout: 2000 }
+    );
+
+    await user.clear(searchInput);
+
+    // Emptying the search must bring every step back — regression test for the
+    // filter getting stuck because non-matching steps kept an inline display:none.
+    await waitFor(
+      () => {
+        document.querySelectorAll('.step').forEach((step) => {
+          expect(step).not.toHaveClass('hidden-by-search');
+          expect((step as HTMLElement).style.display).not.toBe('none');
+        });
+      },
+      { timeout: 2000 }
+    );
+  });
+
   it('"Incomplete" filter: last completed step is kept visible', async () => {
     const user = userEvent.setup();
     // Only step 1-2 completed (last completed = 1-2)
