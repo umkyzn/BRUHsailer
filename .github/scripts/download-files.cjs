@@ -2,7 +2,25 @@ const { google } = require("googleapis");
 const fs = require("fs-extra");
 const path = require("path");
 
-const credentials = JSON.parse(process.env.GOOGLE_CREDENTIALS);
+if (!process.env.GOOGLE_CREDENTIALS) {
+  console.error(
+    "ERROR: GOOGLE_CREDENTIALS is not set. Add the service-account JSON key " +
+      "as a repository secret named GOOGLE_CREDENTIALS."
+  );
+  process.exit(1);
+}
+
+let credentials;
+try {
+  credentials = JSON.parse(process.env.GOOGLE_CREDENTIALS);
+} catch (err) {
+  console.error(
+    `ERROR: GOOGLE_CREDENTIALS is not valid JSON (${err.message}). ` +
+      "Paste the full service-account key file contents, unmodified."
+  );
+  process.exit(1);
+}
+
 const auth = new google.auth.GoogleAuth({
   credentials,
   scopes: ["https://www.googleapis.com/auth/drive"],
@@ -11,6 +29,12 @@ const auth = new google.auth.GoogleAuth({
 async function downloadFiles() {
   const drive = google.drive({ version: "v3", auth: await auth.getClient() });
   const folderId = process.env.FOLDER_ID;
+  if (!folderId) {
+    throw new Error(
+      "FOLDER_ID is not set (expected from the repository_dispatch " +
+        "client_payload.folder_id)."
+    );
+  }
 
   const response = await drive.files.list({
     q: `'${folderId}' in parents and mimeType='application/json' and trashed = false`,
@@ -20,10 +44,11 @@ async function downloadFiles() {
   const files = response.data.files;
 
   if (!files || files.length === 0) {
-    console.log(
-      "No JSON files found in the specified folder. They need to be exported first."
+    throw new Error(
+      `No JSON files found in Drive folder ${folderId}. Either the export ` +
+        "step in the Google Doc produced no files, or the service account " +
+        `(${credentials.client_email || "unknown"}) cannot see them.`
     );
-    return;
   }
 
   const dataDir = path.join(process.cwd(), "data");
@@ -96,4 +121,7 @@ async function downloadFiles() {
   console.log("All JSON files downloaded successfully.");
 }
 
-downloadFiles().catch(console.error);
+downloadFiles().catch((err) => {
+  console.error(`ERROR downloading source files from Drive: ${err.message}`);
+  process.exit(1);
+});
