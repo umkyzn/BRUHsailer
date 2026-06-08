@@ -3,16 +3,26 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  # The data-update workflow pushes to main with GITHUB_TOKEN, and GitHub does
+  # not start workflow runs from GITHUB_TOKEN pushes. Trigger off its completion
+  # instead so a Google-Docs data update redeploys the site automatically.
+  workflow_run:
+    workflows: ["Update Website"]
+    types: [completed]
   workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # Skip when the upstream data-update run failed; still run for push/dispatch.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     permissions:
       contents: write
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
