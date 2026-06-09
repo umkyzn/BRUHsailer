@@ -18,7 +18,7 @@ import type { GuideState, GuideAction } from './guideReducer';
 interface GuideContextValue {
   state: GuideState;
   dispatch: React.Dispatch<GuideAction>;
-  showToast: (message: string) => void;
+  showToast: (message: string, options?: { undoable?: boolean }) => void;
 }
 
 const GuideContext = createContext<GuideContextValue | null>(null);
@@ -68,6 +68,7 @@ export function GuideProvider({ namespace, children }: GuideProviderProps) {
   const initialState: GuideState = {
     namespace,
     progress: loadProgress(storageKey('guideProgress', namespace)),
+    undoProgress: null,
     filter: loadFromStorage<{ filter: 'all' | 'completed' | 'incomplete' }>(
       storageKey('guideFilter', namespace),
       { filter: 'all' }
@@ -126,15 +127,16 @@ export function GuideProvider({ namespace, children }: GuideProviderProps) {
     document.body.classList.toggle('highlight-cursor-active', state.highlightModeActive);
   }, [state.highlightModeActive]);
 
-  // Auto-dismiss toast
+  // Auto-dismiss toast (undoable toasts linger longer so Undo is reachable)
   useEffect(() => {
     if (!state.toast) return;
-    const id = setTimeout(() => dispatch({ type: 'HIDE_TOAST' }), 2000);
+    const delay = state.toast.undoable ? 5000 : 2000;
+    const id = setTimeout(() => dispatch({ type: 'HIDE_TOAST' }), delay);
     return () => clearTimeout(id);
   }, [state.toast]);
 
-  const showToast = useCallback((message: string) => {
-    dispatch({ type: 'SHOW_TOAST', message });
+  const showToast = useCallback((message: string, options?: { undoable?: boolean }) => {
+    dispatch({ type: 'SHOW_TOAST', message, undoable: options?.undoable });
   }, []);
 
   return (

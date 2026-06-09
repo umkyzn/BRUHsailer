@@ -1,6 +1,6 @@
 import { useRef, useCallback, useState, useEffect } from 'react';
 import { useGuide } from '../../context/GuideContext';
-import type { FilterType, HighlightColor } from '../../types/guide';
+import type { FilterType, HighlightColor, HighlightEntry } from '../../types/guide';
 
 const FILTERS: { label: string; value: FilterType }[] = [
   { label: 'All', value: 'all' },
@@ -17,21 +17,72 @@ const HIGHLIGHT_COLORS: { color: HighlightColor; bg: string }[] = [
   { color: 'purple', bg: 'plum' },
 ];
 
+const HIGHLIGHT_COLOR_SET = new Set<string>(HIGHLIGHT_COLORS.map((c) => c.color));
+
+interface ExportPayload {
+  version: 1;
+  namespace: string;
+  exportedAt: string;
+  progress: Record<string, boolean>;
+  highlights: HighlightEntry[];
+}
+
+function parseImportPayload(raw: string): Pick<ExportPayload, 'progress' | 'highlights'> | null {
+  let data: unknown;
+  try {
+    data = JSON.parse(raw);
+  } catch {
+    return null;
+  }
+  if (typeof data !== 'object' || data === null) return null;
+  const obj = data as Record<string, unknown>;
+
+  const progress = obj.progress;
+  if (typeof progress !== 'object' || progress === null || Array.isArray(progress)) return null;
+  for (const v of Object.values(progress as Record<string, unknown>)) {
+    if (typeof v !== 'boolean') return null;
+  }
+
+  const highlights: HighlightEntry[] = [];
+  if (Array.isArray(obj.highlights)) {
+    for (const h of obj.highlights) {
+      if (
+        typeof h === 'object' &&
+        h !== null &&
+        typeof (h as HighlightEntry).parentId === 'string' &&
+        typeof (h as HighlightEntry).htmlContent === 'string' &&
+        HIGHLIGHT_COLOR_SET.has((h as HighlightEntry).color)
+      ) {
+        highlights.push(h as HighlightEntry);
+      }
+    }
+  }
+
+  return { progress: progress as Record<string, boolean>, highlights };
+}
+
 interface FilterBarProps {
   onJumpToLast: () => void;
+  onJumpToNext: () => void;
   onRemoveHighlights: () => void;
   onSearchChange: (term: string) => void;
+  /** Steps matching the active search, or null when no search is active. */
+  matchCount: number | null;
 }
 
 export default function FilterBar({
   onJumpToLast,
+  onJumpToNext,
   onRemoveHighlights,
   onSearchChange,
+  matchCount,
 }: FilterBarProps) {
-  const { state, dispatch } = useGuide();
+  const { state, dispatch, showToast } = useGuide();
   const searchRef = useRef<HTMLInputElement>(null);
   const sentinelRef = useRef<HTMLDivElement>(null);
   const utilsRef = useRef<HTMLDivElement>(null);
+  const importInputRef = useRef<HTMLInputElement>(null);
+  const pickerWrapperRef = useRef<HTMLDivElement>(null);
   const [minimized, setMinimized] = useState(false);
   const [pickerVisible, setPickerVisible] = useState(false);
   // `stuck` = the panel has scrolled up to its sticky position and is now
@@ -46,6 +97,31 @@ export default function FilterBar({
 
   const handleSearchInput = useCallback(() => {
     onSearchChange(searchRef.current?.value ?? '');
+  }, [onSearchChange]);
+
+  // Keyboard shortcuts: "/" focuses search, Esc clears it. Cheap wins for a
+  // tool that's alt-tabbed to mid-game.
+  useEffect(() => {
+    function onKeyDown(e: KeyboardEvent) {
+      const target = e.target as HTMLElement;
+      const typing =
+        target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable;
+
+      if (e.key === '/' && !typing) {
+        e.preventDefault();
+        searchRef.current?.focus();
+      } else if (e.key === 'Escape') {
+        const input = searchRef.current;
+        if (!input) return;
+        if (input.value) {
+          input.value = '';
+          onSearchChange('');
+        }
+        input.blur();
+      }
+    }
+    document.addEventListener('keydown', onKeyDown);
+    return () => document.removeEventListener('keydown', onKeyDown);
   }, [onSearchChange]);
 
   // Detect when the panel becomes stuck via a zero-height sentinel just above
@@ -80,6 +156,18 @@ export default function FilterBar({
     return () => window.removeEventListener('resize', measure);
   }, [stuck, toolsOpen]);
 
+  // Close the color picker on any outside tap/click (hover never fires on touch).
+  useEffect(() => {
+    if (!pickerVisible) return;
+    function onPointerDown(e: PointerEvent) {
+      if (!pickerWrapperRef.current?.contains(e.target as Node)) {
+        setPickerVisible(false);
+      }
+    }
+    document.addEventListener('pointerdown', onPointerDown);
+    return () => document.removeEventListener('pointerdown', onPointerDown);
+  }, [pickerVisible]);
+
   function showPicker() {
     if (leaveTimer.current) clearTimeout(leaveTimer.current);
     setPickerVisible(true);
@@ -88,6 +176,50 @@ export default function FilterBar({
   function hidePicker() {
     leaveTimer.current = setTimeout(() => setPickerVisible(false), 350);
   }
+
+  const handleExport = useCallback(() => {
+    const payload: ExportPayload = {
+      version: 1,
+      namespace: state.namespace,
+      exportedAt: new Date().toISOString(),
+      progress: state.progress,
+      highlights: state.highlights,
+    };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `bruhsailer-progress-${state.namespace}-${new Date().toISOString().slice(0, 10)}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+    showToast('Progress exported');
+  }, [state.namespace, state.progress, state.highlights, showToast]);
+
+  const handleImportFile = useCallback(
+    async (e: React.ChangeEvent<HTMLInputElement>) => {
+      const file = e.target.files?.[0];
+      e.target.value = ''; // allow re-importing the same file
+      if (!file) return;
+
+      const parsed = parseImportPayload(await file.text());
+      if (!parsed) {
+        showToast('Import failed: not a valid progress file');
+        return;
+      }
+      dispatch({ type: 'SET_PROGRESS', progress: parsed.progress });
+      if (parsed.highlights.length > 0) {
+        dispatch({ type: 'SET_HIGHLIGHTS', highlights: parsed.highlights });
+      }
+      showToast('Progress imported', { undoable: true });
+    },
+    [dispatch, showToast]
+  );
+
+  const handleReset = useCallback(() => {
+    if (!window.confirm('Reset all progress?')) return;
+    dispatch({ type: 'RESET_PROGRESS' });
+    showToast('Progress reset', { undoable: true });
+  }, [dispatch, showToast]);
 
   const panelClass = ['control-panel', stuck && 'is-stuck', toolsOpen && 'tools-open']
     .filter(Boolean)
@@ -156,11 +288,18 @@ export default function FilterBar({
                 ref={searchRef}
                 type="text"
                 id="searchInput"
-                placeholder="Search steps..."
+                placeholder="Search steps...  ( / )"
                 onInput={handleSearchInput}
                 onPaste={handleSearchInput}
                 onCut={handleSearchInput}
               />
+              {matchCount !== null && (
+                <span className="search-match-count" role="status">
+                  {matchCount === 0
+                    ? 'No matches'
+                    : `${matchCount} step${matchCount === 1 ? '' : 's'} match`}
+                </span>
+              )}
             </div>
           </div>
           <div className="control-section control-section--panel">
@@ -187,7 +326,10 @@ export default function FilterBar({
         </div>
 
         <div className="control-row control-row--utilities" ref={utilsRef}>
-          <button className="utility-btn" onClick={onJumpToLast}>
+          <button className="utility-btn" onClick={onJumpToNext} title="Scroll to the next unchecked step">
+            Jump to Next
+          </button>
+          <button className="utility-btn" onClick={onJumpToLast} title="Scroll to the last completed step">
             Jump to Last
           </button>
           <button
@@ -201,6 +343,7 @@ export default function FilterBar({
           </button>
           <div
             className="highlight-control-wrapper"
+            ref={pickerWrapperRef}
             onMouseEnter={showPicker}
             onMouseLeave={hidePicker}
           >
@@ -208,8 +351,20 @@ export default function FilterBar({
               className={`utility-btn${state.highlightModeActive ? ' active' : ''}`}
               onClick={() => dispatch({ type: 'TOGGLE_HIGHLIGHT_MODE' })}
               title="Toggle highlight mode"
+              aria-pressed={state.highlightModeActive}
             >
               🖍️ Highlight
+            </button>
+            {/* Tap target for touch devices, where hover never fires */}
+            <button
+              className="utility-btn picker-toggle"
+              onClick={() => setPickerVisible((v) => !v)}
+              title="Choose highlight color"
+              aria-label="Choose highlight color"
+              aria-expanded={pickerVisible}
+              aria-haspopup="true"
+            >
+              ▾
             </button>
             <div
               className={`highlight-color-picker${pickerVisible ? ' visible' : ''}`}
@@ -223,9 +378,47 @@ export default function FilterBar({
                   style={{ backgroundColor: bg }}
                   onClick={() => dispatch({ type: 'SET_HIGHLIGHT_COLOR', color })}
                   title={color}
+                  aria-label={`Highlight color: ${color}`}
+                  aria-pressed={state.highlightColor === color}
                 />
               ))}
             </div>
+          </div>
+
+          {/* Progress data tools — export/import live here (not localStorage-only),
+              and Reset moved out of the nav so a destructive action no longer
+              masquerades as navigation. */}
+          <div className="progress-tools">
+            <button
+              className="utility-btn"
+              onClick={handleExport}
+              title="Download your progress and highlights as a JSON file"
+            >
+              ⬇ Export
+            </button>
+            <button
+              className="utility-btn"
+              onClick={() => importInputRef.current?.click()}
+              title="Restore progress from an exported JSON file"
+            >
+              ⬆ Import
+            </button>
+            <input
+              ref={importInputRef}
+              type="file"
+              accept=".json,application/json"
+              style={{ display: 'none' }}
+              onChange={handleImportFile}
+              aria-hidden="true"
+              tabIndex={-1}
+            />
+            <button
+              className="utility-btn utility-btn--danger"
+              onClick={handleReset}
+              title="Clear all progress (undoable for a few seconds)"
+            >
+              Reset Progress
+            </button>
           </div>
         </div>
       </div>

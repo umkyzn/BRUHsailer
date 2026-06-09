@@ -1,8 +1,10 @@
 import { useRef, useEffect, useMemo, useCallback, useState } from 'react';
 import type { GuideData, ChapterWithSections, HighlightEntry } from '../../types/guide';
 import { useGuide } from '../../context/GuideContext';
+import { revealStep } from '../../utils/revealStep';
 import Chapter from './Chapter';
 import FilterBar from './FilterBar';
+import CurrentStepCard from './CurrentStepCard';
 
 function clearSearchHighlights(root: HTMLElement) {
   root.querySelectorAll('.search-highlight').forEach((span) => {
@@ -175,12 +177,12 @@ function useDebounce(fn: (term: string) => void, delay: number) {
 
 export function findInitialOpenLocation(
   chapters: ChapterWithSections[],
-  lastStepId: string | null
+  targetStepId: string | null
 ): { chapterIndex: number; sectionIndex: number } {
-  if (!lastStepId) return { chapterIndex: 0, sectionIndex: 0 };
+  if (!targetStepId) return { chapterIndex: 0, sectionIndex: 0 };
   for (const { chapterIndex, sections } of chapters) {
     for (let si = 0; si < sections.length; si++) {
-      if (sections[si].steps.some(({ stepId }) => stepId === lastStepId)) {
+      if (sections[si].steps.some(({ stepId }) => stepId === targetStepId)) {
         return { chapterIndex, sectionIndex: si };
       }
     }
@@ -205,15 +207,35 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
     return null;
   }, [allStepIds, state.progress]);
 
-  const [initialOpenLocation] = useState(() =>
-    findInitialOpenLocation(chapters, lastCompletedStepId)
+  const firstIncompleteStepId = useMemo(
+    () => allStepIds.find((id) => !state.progress[id]) ?? null,
+    [allStepIds, state.progress]
   );
+
+  // Open where the user picks up: the section holding the next unchecked step.
+  const [initialOpenLocation] = useState(() =>
+    findInitialOpenLocation(chapters, firstIncompleteStepId)
+  );
+
+  // Resume on load: returning users land on their next step, not the page top.
+  // Fresh users (no progress yet) start at the top as usual.
+  useEffect(() => {
+    if (!lastCompletedStepId || !firstIncompleteStepId) return;
+    revealStep(firstIncompleteStepId, { pulse: true });
+    // Run once on mount only — progress changes afterwards must not re-scroll.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   useEffect(() => {
     const root = contentRef.current;
     if (!root) return;
     applyFilter(root, state.filter, state.progress, lastCompletedStepId);
   }, [state.filter, state.progress, lastCompletedStepId]);
+
+  // Number of steps matching the active search, or null when no search is on.
+  // Surfaced in the FilterBar so zero-hit searches read as "no matches" rather
+  // than a broken page.
+  const [matchCount, setMatchCount] = useState<number | null>(null);
 
   const runSearch = useCallback(
     (term: string) => {
@@ -228,21 +250,25 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
         root.querySelectorAll('.guide-section, .guide-chapter').forEach((el) =>
           el.classList.remove('hidden-by-search')
         );
+        setMatchCount(null);
         return;
       }
 
+      let matchedSteps = 0;
       steps.forEach((stepEl) => {
         const matches = stepEl.innerText.toLowerCase().includes(term.toLowerCase());
         stepEl.classList.toggle('hidden-by-search', !matches);
         stepEl.style.display = matches ? '' : 'none';
 
         if (matches) {
+          matchedSteps++;
           const desc = stepEl.querySelector<HTMLElement>('.step-description');
           const meta = stepEl.querySelector<HTMLElement>('.step-meta');
           if (desc) highlightSearchTerm(desc, term);
           if (meta) highlightSearchTerm(meta, term);
         }
       });
+      setMatchCount(matchedSteps);
 
       root.querySelectorAll<HTMLElement>('.guide-section').forEach((section) => {
         const hasVisible = Array.from(section.querySelectorAll('.step')).some(
@@ -269,7 +295,8 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
     []
   );
 
-  const debouncedSearch = useDebounce(runSearch, 750);
+  // Search is fully client-side, so a short debounce keeps it feeling instant.
+  const debouncedSearch = useDebounce(runSearch, 250);
 
   const handleSearchChange = useCallback(
     (term: string) => {
@@ -388,18 +415,13 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
 
   const jumpToLast = useCallback(() => {
     if (!lastCompletedStepId) return;
-    const stepEl = document.getElementById(`step-${lastCompletedStepId}`);
-    if (!stepEl) return;
-
-    // Expand chapter
-    stepEl.closest('.chapter-content')?.classList.add('active');
-    stepEl.closest('.guide-chapter')?.querySelector('.chapter-title')?.classList.add('active');
-    // Expand section
-    stepEl.closest('.section-content')?.classList.add('active');
-    stepEl.closest('.guide-section')?.querySelector('.section-header')?.classList.add('active');
-
-    setTimeout(() => stepEl.scrollIntoView({ behavior: 'smooth' }), 100);
+    revealStep(lastCompletedStepId);
   }, [lastCompletedStepId]);
+
+  const jumpToNext = useCallback(() => {
+    if (!firstIncompleteStepId) return;
+    revealStep(firstIncompleteStepId, { pulse: true });
+  }, [firstIncompleteStepId]);
 
   const removeAllHighlights = useCallback(() => {
     if (!window.confirm('Remove all highlights?')) return;
@@ -422,8 +444,10 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
     <>
       <FilterBar
         onJumpToLast={jumpToLast}
+        onJumpToNext={jumpToNext}
         onRemoveHighlights={removeAllHighlights}
         onSearchChange={handleSearchChange}
+        matchCount={matchCount}
       />
       <div id="guideContent" ref={contentRef}>
         {chapters.map((chapterData) => (
@@ -439,6 +463,7 @@ export default function GuideView({ guideData, chapters, allStepIds }: GuideView
         ))}
       </div>
       <div id="lastUpdated" style={{ display: 'none' }}>{guideData.updatedOn}</div>
+      <CurrentStepCard chapters={chapters} allStepIds={allStepIds} />
     </>
   );
 }

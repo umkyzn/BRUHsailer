@@ -1,20 +1,10 @@
-import { useGuide } from '../../context/GuideContext';
-
 interface NavProps {
   updatedOn: string;
 }
 
+// Reset Progress used to live here styled like a nav link; it moved into the
+// FilterBar tools row so a destructive action no longer looks like navigation.
 export default function Nav({ updatedOn }: NavProps) {
-  const { dispatch, showToast } = useGuide();
-
-  function handleReset(e: React.MouseEvent) {
-    e.preventDefault();
-    if (window.confirm('Reset all progress? This cannot be undone.')) {
-      dispatch({ type: 'RESET_PROGRESS' });
-      showToast('Progress reset');
-    }
-  }
-
   return (
     <nav>
       <div className="nav-content">
@@ -31,9 +21,6 @@ export default function Nav({ updatedOn }: NavProps) {
             Guide Docs
           </a>
           {updatedOn && <div className="nav-updated">Last updated: {updatedOn}</div>}
-          <a href="#" onClick={handleReset}>
-            Reset Progress
-          </a>
         </div>
       </div>
     </nav>
