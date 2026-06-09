@@ -56,13 +56,20 @@ export default function CurrentStepCard({ chapters, allStepIds }: CurrentStepCar
     );
   }
 
+  const jumpToStep = () => revealStep(next.stepId, { pulse: true });
+
+  // The whole card jumps to the step; the checkbox and collapse button stop
+  // propagation so completing/minimizing doesn't also scroll the page.
   return (
-    <div className="current-step-card">
+    <div className="current-step-card" onClick={jumpToStep} title="Jump to this step">
       <div className="current-step-header">
         <span className="current-step-label">Next step</span>
         <button
           className="current-step-collapse"
-          onClick={() => setCollapsed(true)}
+          onClick={(e) => {
+            e.stopPropagation();
+            setCollapsed(true);
+          }}
           title="Minimize"
           aria-label="Minimize next-step card"
         >
@@ -70,7 +77,7 @@ export default function CurrentStepCard({ chapters, allStepIds }: CurrentStepCar
         </button>
       </div>
       <div className="current-step-body">
-        <label className="current-step-check">
+        <label className="current-step-check" onClick={(e) => e.stopPropagation()}>
           <input
             type="checkbox"
             className="checkbox"
@@ -80,10 +87,14 @@ export default function CurrentStepCard({ chapters, allStepIds }: CurrentStepCar
           />
           <span className="current-step-number">Step {next.stepNumber}</span>
         </label>
+        {/* Keyboard-focusable jump target; stops propagation so the card's
+            own click handler doesn't fire the jump a second time. */}
         <button
           className="current-step-text"
-          onClick={() => revealStep(next.stepId, { pulse: true })}
-          title="Jump to this step"
+          onClick={(e) => {
+            e.stopPropagation();
+            jumpToStep();
+          }}
         >
           {next.text}
         </button>

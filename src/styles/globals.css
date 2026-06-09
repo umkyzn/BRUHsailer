@@ -1164,6 +1164,7 @@ nav a:hover {
   right: 20px;
   z-index: 990;
   width: 250px;
+  cursor: pointer;
   background: var(--hdr-grad);
   border: 2px solid;
   border-color: var(--bevel-light) var(--bevel-dark) var(--bevel-dark) var(--bevel-light);
