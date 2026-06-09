@@ -427,6 +427,17 @@ nav a:hover {
   border-bottom: 1px solid rgba(122, 92, 46, 0.3);
 }
 
+/* Chapter/section rows are real <button>s (keyboard + screen-reader
+   reachable); reset the native button chrome. */
+.side-nav-chapter-title,
+.side-nav-section {
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  display: block;
+}
+
 .side-nav-chapter-title {
   font-family: 'Cinzel', serif;
   font-size: 0.72rem;
@@ -439,6 +450,28 @@ nav a:hover {
   line-height: 1.4;
   transition: color 0.15s ease, background-color 0.15s ease;
   user-select: none;
+}
+
+.side-nav-chapter-text {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Per-chapter completed/total badge; turns into a green check when done */
+.side-nav-count {
+  flex-shrink: 0;
+  font-family: 'Cinzel', serif;
+  font-size: 0.62rem;
+  color: var(--text-lighter);
+  opacity: 0.8;
+  font-variant-numeric: tabular-nums;
+  margin-top: 1px;
+}
+
+.side-nav-count.done {
+  color: #6fcc4a;
+  opacity: 1;
+  font-size: 0.72rem;
 }
 
 .side-nav-chapter-title:hover,
@@ -525,9 +558,83 @@ nav a:hover {
 }
 
 
+/* ── Mobile contents drawer ── */
+
+/* Floating toggle only exists below 900px, where the rail leaves the layout */
+.side-nav-drawer-toggle {
+  display: none;
+}
+
+.side-nav-backdrop {
+  display: none;
+}
+
 @media (max-width: 900px) {
+  /* The rail becomes a slide-in drawer (phone-as-second-monitor use case) */
   .side-nav {
-    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 264px;
+    max-width: 82vw;
+    z-index: 1200;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-108%);
+    transition: transform 0.25s ease;
+    box-shadow: 4px 0 18px rgba(0, 0, 0, 0.5);
+  }
+
+  .side-nav.drawer-open {
+    transform: translateX(0);
+  }
+
+  .side-nav .side-nav-scroll {
+    max-height: none;
+    flex: 1;
+  }
+
+  .side-nav-drawer-toggle {
+    display: block;
+    position: fixed;
+    bottom: 16px;
+    left: 16px;
+    z-index: 1150;
+    min-height: 44px;
+    padding: 10px 16px;
+    background: var(--hdr-grad);
+    color: var(--gold);
+    border: 2px solid;
+    border-color: var(--bevel-light) var(--bevel-dark) var(--bevel-dark) var(--bevel-light);
+    border-radius: 4px;
+    font-family: 'Cinzel', serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+  }
+
+  .side-nav-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 1190;
+    background: rgba(0, 0, 0, 0.45);
+  }
+
+  /* Comfortable section tap targets inside the drawer */
+  .side-nav-section {
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+
+  .side-nav-chapter-title {
+    padding-top: 11px;
+    padding-bottom: 11px;
   }
 }
 
@@ -618,6 +725,34 @@ nav a:hover {
   height: 2px;
   background-color: var(--gold);
   border-radius: 0;
+}
+
+/* Destructive action — visually set apart from the other tools */
+.utility-btn--danger {
+  color: #ff9a85;
+}
+
+.utility-btn--danger:hover {
+  background-color: #5a2a1e;
+  border-color: #ff9a85 var(--primary-dark) var(--primary-dark) #ff9a85;
+}
+
+/* Export / Import / Reset cluster pushed to the right of the tools row */
+.progress-tools {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Narrow caret that opens the highlight color picker on tap (hover never
+   fires on touch devices) */
+.picker-toggle {
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-left: -2px;
 }
 
 /* ── Progress Bar ── */
@@ -770,7 +905,6 @@ nav a:hover {
   justify-content: space-between;
   align-items: center;
   padding: 8px 12px;
-  cursor: pointer;
   border-bottom: 1px solid var(--section-border);
   min-height: 30px;
   border-top-left-radius: 2px;
@@ -780,10 +914,17 @@ nav a:hover {
   transition: background-color 0.3s ease;
 }
 
+/* The label is the only completion click-target in the header (mis-clicks on
+   the rest of the header must not flip progress). Padding + negative margin
+   keep a comfortable hit area without changing the layout. */
 .checkbox-container {
   display: flex;
   align-items: center;
   color: var(--gold);
+  cursor: pointer;
+  padding: 6px 10px 6px 6px;
+  margin: -6px 0 -6px -6px;
+  user-select: none;
 }
 
 .checkbox {
@@ -923,6 +1064,23 @@ nav a:hover {
   opacity: 0.85;
 }
 
+/* Confirms a search actually ran — zero hits otherwise looks like a broken page */
+.search-match-count {
+  position: absolute;
+  top: 100%;
+  left: 2px;
+  margin-top: 3px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.62rem;
+  letter-spacing: 0.03em;
+  color: var(--text-lighter);
+  background: var(--panel-glass);
+  padding: 2px 7px;
+  border-radius: 2px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
 /* ── Substeps ── */
 
 .substep {
@@ -949,10 +1107,16 @@ nav a:hover {
 
 /* ── Toast ── */
 
+/* Bottom-center, clear of the pinned next-step card in the bottom-right */
 .save-toast {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  pointer-events: none;
   background: var(--hdr-grad);
   color: var(--gold);
   padding: 10px 20px;
@@ -971,6 +1135,148 @@ nav a:hover {
 
 .save-toast.show {
   opacity: 1;
+  pointer-events: auto;
+}
+
+.toast-undo-btn {
+  background: none;
+  border: 1px solid var(--gold);
+  border-radius: 2px;
+  color: var(--gold);
+  font-family: 'Cinzel', serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 3px 10px;
+  cursor: pointer;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+}
+
+.toast-undo-btn:hover {
+  background-color: rgba(127, 176, 255, 0.18);
+}
+
+/* ── Pinned current-step card ── */
+
+.current-step-card {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 990;
+  width: 250px;
+  cursor: pointer;
+  background: var(--hdr-grad);
+  border: 2px solid;
+  border-color: var(--bevel-light) var(--bevel-dark) var(--bevel-dark) var(--bevel-light);
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+  font-family: "Liberation Serif", Georgia, serif;
+}
+
+.current-step-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 6px 8px 5px 10px;
+  border-bottom: 1px solid rgba(180, 192, 208, 0.25);
+}
+
+.current-step-label {
+  font-family: 'Cinzel', serif;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-lighter);
+  margin: 0;
+}
+
+.current-step-collapse {
+  background: none;
+  border: none;
+  color: var(--text-lighter);
+  font-size: 0.7rem;
+  cursor: pointer;
+  padding: 2px 4px;
+  margin: 0;
+  line-height: 1;
+}
+
+.current-step-collapse:hover {
+  color: var(--gold);
+}
+
+.current-step-body {
+  padding: 8px 10px 9px;
+}
+
+.current-step-check {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 0 4px;
+  user-select: none;
+}
+
+.current-step-number {
+  font-family: 'Cinzel', serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin: 0;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+}
+
+.current-step-text {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 0;
+  margin: 0 0 4px;
+  color: var(--text-light);
+  font-family: "Liberation Serif", Georgia, serif;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  cursor: pointer;
+}
+
+.current-step-text:hover {
+  text-decoration: underline;
+  color: #a9c8ff;
+}
+
+.current-step-chapter {
+  margin: 0;
+  font-size: 0.68rem;
+  color: var(--text-lighter);
+  opacity: 0.85;
+  font-style: italic;
+}
+
+.current-step-pin {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 990;
+  width: 44px;
+  height: 44px;
+  font-size: 1.1rem;
+  background: var(--hdr-grad);
+  border: 2px solid;
+  border-color: var(--bevel-light) var(--bevel-dark) var(--bevel-dark) var(--bevel-light);
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 700px) {
+  .current-step-card {
+    width: calc(100vw - 110px);
+    max-width: 250px;
+  }
 }
 
 /* ── Top-right controls ── */
@@ -1398,6 +1704,26 @@ body.dark-mode .search-highlight {
 }
 
 /* ── Responsive ── */
+
+/* Comfortable ≥44px touch targets for progress toggles on phones/tablets */
+@media (max-width: 700px) {
+  .checkbox {
+    width: 22px;
+    height: 22px;
+  }
+
+  .checkbox-container {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-top: -11px;
+    margin-bottom: -11px;
+  }
+
+  .current-step-check .checkbox {
+    width: 22px;
+    height: 22px;
+  }
+}
 
 @media (max-width: 600px) {
   .control-row {

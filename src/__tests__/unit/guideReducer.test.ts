@@ -5,6 +5,7 @@ import type { GuideState } from '../../context/guideReducer';
 const base: GuideState = {
   namespace: 'test',
   progress: {},
+  undoProgress: null,
   filter: 'all',
   minimizeCompleted: false,
   highlightModeActive: false,
@@ -90,6 +91,43 @@ describe('guideReducer', () => {
     expect(next.progress).toEqual({});
   });
 
+  it('RESET_PROGRESS stashes the previous progress for undo', () => {
+    const state = { ...base, progress: { '1-1': true, '2-3': true } };
+    const next = reducer(state, { type: 'RESET_PROGRESS' });
+    expect(next.undoProgress).toEqual({ '1-1': true, '2-3': true });
+  });
+
+  it('TOGGLE_STEP stashes the previous progress for undo', () => {
+    const state = { ...base, progress: { '1-1': true } };
+    const next = reducer(state, { type: 'TOGGLE_STEP', stepId: '1-2' });
+    expect(next.undoProgress).toEqual({ '1-1': true });
+  });
+
+  it('SET_PROGRESS replaces progress and stashes the previous one', () => {
+    const state = { ...base, progress: { '1-1': true } };
+    const next = reducer(state, { type: 'SET_PROGRESS', progress: { '2-1': true, '2-2': true } });
+    expect(next.progress).toEqual({ '2-1': true, '2-2': true });
+    expect(next.undoProgress).toEqual({ '1-1': true });
+  });
+
+  it('UNDO_PROGRESS restores the stashed progress and clears the stash', () => {
+    const state = {
+      ...base,
+      progress: {},
+      undoProgress: { '1-1': true },
+      toast: { message: 'Progress reset', undoable: true },
+    };
+    const next = reducer(state, { type: 'UNDO_PROGRESS' });
+    expect(next.progress).toEqual({ '1-1': true });
+    expect(next.undoProgress).toBeNull();
+    expect(next.toast).toBeNull();
+  });
+
+  it('UNDO_PROGRESS is a no-op when there is nothing to undo', () => {
+    const next = reducer(base, { type: 'UNDO_PROGRESS' });
+    expect(next).toBe(base);
+  });
+
   it('TOGGLE_DARK_MODE flips darkMode', () => {
     const dark = reducer(base, { type: 'TOGGLE_DARK_MODE' });
     expect(dark.darkMode).toBe(true);
@@ -104,11 +142,16 @@ describe('guideReducer', () => {
 
   it('SHOW_TOAST sets the toast message', () => {
     const next = reducer(base, { type: 'SHOW_TOAST', message: 'Saved!' });
-    expect(next.toast).toBe('Saved!');
+    expect(next.toast).toEqual({ message: 'Saved!', undoable: undefined });
+  });
+
+  it('SHOW_TOAST carries the undoable flag', () => {
+    const next = reducer(base, { type: 'SHOW_TOAST', message: 'Step 3 completed', undoable: true });
+    expect(next.toast).toEqual({ message: 'Step 3 completed', undoable: true });
   });
 
   it('HIDE_TOAST clears the toast message', () => {
-    const state = { ...base, toast: 'Saved!' };
+    const state: GuideState = { ...base, toast: { message: 'Saved!' } };
     const next = reducer(state, { type: 'HIDE_TOAST' });
     expect(next.toast).toBeNull();
   });

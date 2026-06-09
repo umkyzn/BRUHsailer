@@ -36,16 +36,11 @@ function Step({ step, stepId, stepNumber }: StepProps) {
 
   const toggle = useCallback(() => {
     dispatch({ type: 'TOGGLE_STEP', stepId });
-    showToast('Progress saved');
-  }, [dispatch, stepId, showToast]);
-
-  const handleHeaderClick = useCallback(
-    (e: React.MouseEvent<HTMLDivElement>) => {
-      if ((e.target as HTMLElement).tagName === 'INPUT') return;
-      toggle();
-    },
-    [toggle]
-  );
+    showToast(
+      isCompleted ? `Step ${stepNumber} marked incomplete` : `Step ${stepNumber} completed`,
+      { undoable: true }
+    );
+  }, [dispatch, stepId, showToast, isCompleted, stepNumber]);
 
   const timeDisplay = step.metadata?.total_time ?? '';
 
@@ -54,8 +49,10 @@ function Step({ step, stepId, stepNumber }: StepProps) {
       className={`step${isCompleted ? ' completed' : ''}`}
       id={`step-${stepId}`}
     >
-      <div className="step-header" onClick={handleHeaderClick}>
-        <div className="checkbox-container">
+      {/* Only the checkbox + label toggle completion — the rest of the header
+          is inert so scroll/selection mis-clicks can't silently flip progress. */}
+      <div className="step-header">
+        <label className="checkbox-container" htmlFor={`check-${stepId}`}>
           <input
             type="checkbox"
             className="checkbox"
@@ -64,7 +61,7 @@ function Step({ step, stepId, stepNumber }: StepProps) {
             onChange={toggle}
           />
           <span className="step-number">Step {stepNumber}</span>
-        </div>
+        </label>
         <span className="step-time">{timeDisplay ? `Time: ${timeDisplay}` : ''}</span>
       </div>
       {/* step-content wrapper lives here (outside memo) so minimize class updates reactively.
