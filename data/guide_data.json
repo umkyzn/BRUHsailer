@@ -1,5 +1,5 @@
 {
-  "updatedOn": "2026-06-08",
+  "updatedOn": "2026-07-17",
   "title": "BRUHsailer Complete Guide",
   "chapters": [
     {
@@ -1756,7 +1756,7 @@
                   }
                 },
                 {
-                  "text": "it is a goal to get to level 46 fletching, if you do hoptodt (instead of no-fletch single world or multiskilling in the bank between games) you will get most of this fletching xp from todt but if not you will need more gp for fletching supplies. ",
+                  "text": "it is a goal to get to level 46 fletching, if you do hoptodt (instead of no-fletch single world or multiskilling in the bank between games) you will get way higher fletching from todt (hitting the mid 60’s fletching if you go all the way to 99 firemaking). If you do not get at least 46 fletching from wintertodt, get some extra gp (explained below) for steel arrowtips to train fletching after. ",
                   "formatting": {}
                 },
                 {
@@ -2235,16 +2235,11 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Some silver and gold ore (~50 silver, ~100 gold is sufficient, more is better. If you don’t get enough you may have to buy some at the blast furnace later).\n",
+                      "text": "Some silver and gold ore (~50 silver, ~100 gold is sufficient, more is better. If you don’t get enough you may have to buy some at the blast furnace later).",
                       "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 1,
-                  "content": [
+                    },
                     {
-                      "text": "Some fletching levels along the way (the guide will assume level 31, 15,500 xp, after this step, if you are over/under you can adjust your future plans for making steel arrows to 46 fletching accordingly).\n",
+                      "text": "\n",
                       "formatting": {
                         "color": {
                           "r": 0,
@@ -2342,7 +2337,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "After opening all of the rewards, we assume that you have exactly 128k GP as a baseline, as well as the money for 46 fletching. HCIM will need a bit more (get 200k to be safe).",
+                      "text": "After opening all of the rewards, we assume that you have exactly 128k GP as a baseline, as well as 46 fletching. In actuality you will likely have a (much) higher fletching level - that is fine. HCIM will need a bit more gp - get 200k to be safe.",
                       "formatting": {
                         "color": {
                           "r": 1,
@@ -3776,7 +3771,7 @@
             {
               "content": [
                 {
-                  "text": "Fishing trawler teleport, do the fishing trawler minigame for a complete Angler’s outfit (48 games average, you can use an axe+hammer instead of needing swamp paste, bailing bucket optional for more activity. Chopping at tentacles/repairing railings is usually competitive so stay close to the railing and spam click). Make sure to collect a rusty sword along the way, and have the Tindel Marchant identify it. Also save polished buttons (if you get them). Note that once you hit 50 activity inside the minigame it will not go back down, so you can afk for the rest of the game and you will get the reward rolls. Buy two swamp paste, a hammer and four tinderboxes at the general store. Soul",
+                  "text": "Fishing trawler teleport, do the fishing trawler minigame for a complete Angler’s outfit (48 games average, you can use an axe+hammer instead of needing swamp paste, bailing bucket optional for more activity. Chopping at tentacles/repairing railings is usually competitive so stay close to the railing and spam click). Make sure to collect a rusty sword along the way, and have the Tindel Marchant identify it. Also save polished buttons (if you get them). Note that once you hit 50 activity inside the minigame it will not go back down, so you can afk for the rest of the game and you will get the reward rolls, or bring logs, a tinderbox and raw fish to cook this instead of afking. Buy two swamp paste, a hammer and four tinderboxes at the general store. Soul",
                   "formatting": {}
                 },
                 {
@@ -8185,7 +8180,7 @@
                   "formatting": {}
                 },
                 {
-                  "text": "ALS (McGrubor’s Wood, diary step, run out and plant jute seeds for the diary, return to the fairy ring), BIS (Ardougne zoo, diary step), AIR (diary step), optional AIR to Auburnvale to purchase an addy axe (only if you do ",
+                  "text": "ALS (McGrubor’s Wood, diary step, run out and plant jute seeds for the diary, return to the fairy ring), BIS (Ardougne zoo, diary step), AIR (diary step), optional AI",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -8196,7 +8191,22 @@
                   }
                 },
                 {
-                  "text": "not have 60 woodcutting yet), ",
+                  "text": "S",
+                  "formatting": {}
+                },
+                {
+                  "text": " to Auburnvale to purchase an addy axe (only if you do ",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "not have 60 woodcutting yet), optional to Zanaris to buy more slayer gems from Chaeldar, ",
                   "formatting": {}
                 },
                 {
@@ -8304,7 +8314,7 @@
             {
               "content": [
                 {
-                  "text": "Chronicle teleport and harvest your barley, cook it along the way in the Tree Gnome Stronghold steps below. Run south and craft a coif in the Lumbridge cow pen for the diary. Continue The Grand Tree (Varrock teleport for spirit tree)",
+                  "text": "Chronicle teleport and harvest your barley, cook it along the way in the Tree Gnome Stronghold steps below. Run south and craft a coif in the Lumbridge cow pen for the diary. Teleport to Varrock, take the spi",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -8315,11 +8325,26 @@
                   }
                 },
                 {
-                  "text": ", then go up the stairs and buy 4 inventories of food from the Gnome Waiter (each inventory consists of 3x Premade veg batta, 3x Premade w’m batta, 3x Premade t’d batta, 3x Premade fr’t batta, 3x Premade c+t batta, 3x Premade worm hole, 3x Premade ttl, 3x Premade veg ball, 3x Premade choc bomb). ",
+                  "text": "rit tree to the Grand Tree. ",
                   "formatting": {}
                 },
                 {
-                  "text": "At the Karamja Shipyard step of this quest charter to Port Sarim, speak with Veos and go to Kourend, then take the shi",
+                  "text": "Continue The Grand Tree qu",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "est by speaking with King Shareen, then go up the stairs and buy 4 inventories of food from the Gnome Waiter (each inventory consists of 3x Premade veg batta, 3x Premade w’m batta, 3x Premade t’d batta, 3x Premade fr’t batta, 3x Premade c+t batta, 3x Premade worm hole, 3x Premade ttl, 3x Premade veg ball, 3x Premade choc bomb). Resume The Grand Tree quest until you get the lumber order from the Foreman. Then",
+                  "formatting": {}
+                },
+                {
+                  "text": " charter to Port Sarim, speak with Veos and go to Kourend, then take the shi",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -8433,7 +8458,7 @@
                       }
                     },
                     {
-                      "text": "Buy 20 Lizardkickers in the Cloak and Stagger and bank them. Start the Tale",
+                      "text": "Buy 45 Lizardkickers in the Cloak and Stagger and bank them. Start the Tale",
                       "formatting": {}
                     },
                     {
@@ -9056,7 +9081,7 @@
             {
               "content": [
                 {
-                  "text": "Complete The Grand Tree (Varrock teleport again for the spirit tree), speak with King Narnode Shareen again to start Monkey Madness I. Mine a gold ore in the mine under the Grand Tree for the diary. Leave and right click teleport with Brimstail to load the scrying orb (third scrying orb charge) and start The Eyes of Glouphrie to the step where you need to speak with Hazelmere. ",
+                  "text": "Complete The Grand Tree quest (Varrock teleport again for the spirit tree) using water strike, speak with King Narnode Shareen again to start Monkey Madness I. Mine a gold ore in the mine under the Grand Tree for the diary. Leave and right click teleport with Brimstail to load the scrying orb (third scrying orb charge) and start The Eyes of Glouphrie to the step where you need to speak with Hazelmere. ",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -9103,7 +9128,7 @@
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "305290 gp",
-                "items_needed": "lumber order, rune sword, scrying orb, kharedst’s memoirs, rune pickaxe, chisel, (rune axe), wind strike runes",
+                "items_needed": "lumber order, water staff, air runes, mind runes, rune sword, scrying orb, kharedst’s memoirs, rune pickaxe, chisel, (rune axe), wind strike runes",
                 "skills_quests_met": "yes",
                 "total_time": "6d14h"
               }
@@ -9274,7 +9299,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Run back to the Catherby docks, c",
+                      "text": "Run back to the bank, grab a raw swordfish and raw chicken. Go to the Catherby docks, c",
                       "formatting": {}
                     },
                     {
@@ -9289,7 +9314,7 @@
                       }
                     },
                     {
-                      "text": "n and grab a raw swordfish and raw chicken.",
+                      "text": "n.",
                       "formatting": {}
                     },
                     {
@@ -10375,7 +10400,19 @@
             {
               "content": [
                 {
-                  "text": "Equip your best ranging gear, a ring of dueling, and your knives. Grab your lizardkickers and food. Go to the Tower of Life (Fishing Trawler minigame teleport) and kill imps outside there to collect all required beads for Imp Catcher. After killing the imps use the fairy ring to Zanaris to buy jars from Elnock if you haven’t yet, then fairy ring DIS to start and complete Imp Catcher. Minigame teleport to Shades of Mort’ton. Kill Loar Shades until at least 51,012 ranged xp (level 43). You can safespot them on obstacles in the village itself. Make sure to pick up your knives to throw them multiple times. Prioritise using the steel knives first, then iron, then bronze. \n",
+                  "text": "Equip your best ranging gear, a ring of dueling, and your knives. Grab your lizardkickers and food. Go to the Tower of Life (Fishing Trawler minigame teleport) and kill imps outside there to collect all required beads for Imp Catcher. After killing the imps use the fairy ring to Zanaris to buy jars from Elnock if you haven’t yet, then fairy ring DIS to start and complete Imp Catcher. Minigame teleport to Shades of Mort’ton. Kill Loar Shades until at least 51,012 ranged xp (level 43). You can safespot them on obstacles in the village itself, such as here ",
+                  "formatting": {}
+                },
+                {
+                  "text": "SafespotLoarShades.png",
+                  "url": "https://drive.google.com/file/d/1mSEXyoWUVuIiAZE8D8XRZN7oSPgI0Rpt/view?usp=sharing",
+                  "isLink": true,
+                  "formatting": {
+                    "underline": true
+                  }
+                },
+                {
+                  "text": ". Make sure to pick up your knives to throw them multiple times. Prioritise using the steel knives first, then iron, then bronze. \n",
                   "formatting": {}
                 }
               ],
@@ -10880,7 +10917,7 @@
                   "formatting": {}
                 },
                 {
-                  "text": ". Complete My Arm’s Big Adventure.",
+                  "text": ". Bring wind bolt for the Giant Roc. Complete My Arm’s Big Adventure.",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -10975,7 +11012,7 @@
               ],
               "metadata": {
                 "gp_stack": "243951 gp",
-                "items_needed": "143 gp, games necklace, amulet of accuracy, fire staff, rune sword, fire staff, chaos runes (buy more?), gold bar, dragon bones, pickaxe, 2 ropes, guam leaf, vial of water, light source, tinderbox, pestle and mortar, 8 supercompost (note that ultra doesn’t work), spade, rake, seed dibber, plant cure (buy it in Trollheim), 3 Ugthanki dung, empty bucket, jangerberry",
+                "items_needed": "143 gp, dramen staff, soul runes, law runes, games necklace, amulet of accuracy, fire staff, rune sword, air staff, chaos runes, climbing bars, gold bar, dragon bones, pickaxe, 2 ropes, guam leaf, vial of water, light source, tinderbox, pestle and mortar, 8 supercompost (note that ultra doesn’t work), spade + rake + seed dibbe + plant cure (buy these four in Trollheim), 3 Ugthanki dung, empty bucket, jangerberry",
                 "skills_quests_met": "yes",
                 "total_time": "7d15h"
               }
@@ -11614,7 +11651,7 @@
                       }
                     },
                     {
-                      "text": "20260525FarmingGuide",
+                      "text": "20260717FarmingGuide",
                       "url": "https://docs.google.com/document/d/1rAnKmezSQmnqFOCti4RWze-kvMoW8i4Kyk5xswJ-9Qc/edit#",
                       "isLink": true,
                       "formatting": {
@@ -12594,7 +12631,7 @@
         {
           "content": [
             {
-              "text": "HP: 37",
+              "text": "HP: 3",
               "formatting": {
                 "color": {
                   "r": 0.023529412,
@@ -12605,7 +12642,7 @@
               }
             },
             {
-              "text": "\n",
+              "text": "9\n",
               "formatting": {
                 "color": {
                   "r": 0.023529412,
@@ -12740,7 +12777,7 @@
               }
             },
             {
-              "text": "8",
+              "text": "9",
               "formatting": {
                 "color": {
                   "r": 0.023529412,
@@ -12830,7 +12867,7 @@
               }
             },
             {
-              "text": "78",
+              "text": "77",
               "formatting": {
                 "color": {
                   "r": 0.023529412,
@@ -12877,7 +12914,7 @@
         {
           "content": [
             {
-              "text": "Craft: 55",
+              "text": "Craft: 5",
               "formatting": {
                 "color": {
                   "r": 0.023529412,
@@ -12888,7 +12925,7 @@
               }
             },
             {
-              "text": "\n",
+              "text": "6\n",
               "formatting": {
                 "color": {
                   "r": 0.023529412,
@@ -13041,7 +13078,7 @@
               }
             },
             {
-              "text": "41",
+              "text": "42",
               "formatting": {
                 "color": {
                   "r": 0.023529412,
@@ -13280,7 +13317,7 @@
               "formatting": {}
             },
             {
-              "text": "20260607Chapter1",
+              "text": "20260717Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -13303,7 +13340,7 @@
               "formatting": {}
             },
             {
-              "text": "20260607Chapter2",
+              "text": "20260717Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -13324,7 +13361,7 @@
               "formatting": {}
             },
             {
-              "text": "20260607Chapter3",
+              "text": "20260717Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -13345,7 +13382,7 @@
               "formatting": {}
             },
             {
-              "text": "20260607DetailedStepsGuide",
+              "text": "20260717DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -13906,6 +13943,29 @@
                   "b": 0.8
                 },
                 "url": "https://drive.google.com/file/d/1uF3iZD4GtxvEhEME0VzMmzkTYuJzFnV-/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260717BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/1zgVBLJlv_U7M_1FgJQSzbaH4qrahe2v3/view?usp=sharing",
                 "isLink": true
               }
             },
@@ -17275,7 +17335,7 @@
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "80k",
-                "items_needed": "cash stack, melee gear, swordfish, prayer potions, energy potions, rune pickaxe, mine key",
+                "items_needed": "cash stack, melee gear, swordfish, prayer potions, energy potions, rune pickaxe, crystal-mine key",
                 "skills_quests_met": "yes",
                 "total_time": "12d0h"
               }
@@ -21866,7 +21926,7 @@
               }
             },
             {
-              "text": "0\n",
+              "text": "2\n",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -21944,7 +22004,7 @@
               }
             },
             {
-              "text": "0\n",
+              "text": "4\n",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -22059,7 +22119,7 @@
               }
             },
             {
-              "text": "38",
+              "text": "40",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -22170,7 +22230,7 @@
               }
             },
             {
-              "text": "4",
+              "text": "3",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -22297,7 +22357,7 @@
               }
             },
             {
-              "text": "7",
+              "text": "9",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -22371,7 +22431,7 @@
               }
             },
             {
-              "text": "75",
+              "text": "73",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -22633,7 +22693,7 @@
         {
           "content": [
             {
-              "text": "The Red Rock\n",
+              "text": "The Red Reef\n",
               "formatting": {}
             }
           ],
@@ -22688,6 +22748,15 @@
           "content": [
             {
               "text": "Desert Treasure II\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Blood Moon Rises\n",
               "formatting": {}
             }
           ],
@@ -22868,7 +22937,7 @@
               "formatting": {}
             },
             {
-              "text": "20260607Chapter1",
+              "text": "20260717Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -22891,7 +22960,7 @@
               "formatting": {}
             },
             {
-              "text": "20260607Chapter2",
+              "text": "20260717Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -22912,7 +22981,7 @@
               "formatting": {}
             },
             {
-              "text": "20260607Chapter3",
+              "text": "20260717Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -22933,7 +23002,7 @@
               "formatting": {}
             },
             {
-              "text": "20260607DetailedStepsGuide",
+              "text": "20260717DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -23503,6 +23572,31 @@
                   "b": 0.8
                 },
                 "url": "https://drive.google.com/file/d/1uF3iZD4GtxvEhEME0VzMmzkTYuJzFnV-/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "italic": true
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260717BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/1zgVBLJlv_U7M_1FgJQSzbaH4qrahe2v3/view?usp=sharing",
                 "isLink": true
               }
             },
@@ -24601,7 +24695,7 @@
             {
               "content": [
                 {
-                  "text": "Make sure you have at least 75 mining (if not, do some gem mining first). Take a charter ship to The Great Conch (Summer Shore) start The Red Reef and complete the steps until you are sent to the Red Rock. Charter to Deepfin Point, mine 24 nickel ore. Do blast mining (as before) to obtain 551 addy ore - you may have to convert some of the gems into alchs (cut sapphires, emeralds and even rubies are fine, or make ruby and diamond bracelets) for dynamite. Make sure you get at least 15 runite ore along the way. Smelt all the addy into bars, all the nickel into cupronickel bars, then convert 71 addy bars into 1065 addy nails. Teleport to The Great Conch (fairy ring CJQ) and chop and bank up to 505 camphor logs. The fastest method is using a log basket and teleporting out to a bank, then using the fairy ring to get back. If you have (or plan to get) sawmill vouchers you can reduce the number of logs needed by 1 for each voucher for up to 236 vouchers (and 269 logs), saving 2,500 gp each (590k gp total). Make 473 camphor planks. Build the following ship upgrades:\n",
+                  "text": "Make sure you have at least 75 mining (if not, do some gem mining first). Take a charter ship to The Great Conch (Summer Shore) start The Red Reef and complete the steps until you are sent to the Red Rock. Charter to Deepfin Point, mine 24 nickel ore. Do blast mining (as before) to obtain 551 addy ore - you may have to convert some of the gems into alchs (cut sapphires, emeralds and even rubies are fine, or make ruby and diamond bracelets) for dynamite. Make sure you get at least 15 runite ore along the way. Smelt all the addy into bars, all the nickel into cupronickel bars, then convert 71 addy bars into 1065 addy nails. Teleport to The Great Conch (fairy ring CJQ) and chop and bank up to 82 camphor logs. The fastest method is using a log basket and teleporting out to a bank, then using the fairy ring to get back. If you have (or plan to get) sawmill vouchers you can reduce the number of logs needed by 1 for each voucher for up to 32 vouchers (and 50 logs), saving 2,500 gp each. Make 64 camphor planks. Build the following ship upgrades:\n",
                   "formatting": {}
                 }
               ],
@@ -24610,7 +24704,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Camphor cargo hold (sloop)\n",
+                      "text": "Adamant keel (skiff)\n",
                       "formatting": {}
                     }
                   ]
@@ -24619,7 +24713,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Adamant keel (skiff + sloop)\n",
+                      "text": "Camphor hull (skiff)\n",
                       "formatting": {}
                     }
                   ]
@@ -24628,16 +24722,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Camphor hull (skiff + sloop)\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "Camphor mast and canvas sails (skiff + sloop) - this requires a boost to build\n",
+                      "text": "Camphor mast and canvas sails (skiff) - this requires a boost to build\n",
                       "formatting": {}
                     }
                   ]
@@ -24709,7 +24794,7 @@
                   "formatting": {}
                 },
                 {
-                  "text": "annonballs at Port Roberts. Collect your charting xp bonuses from Chartin’ Charles McAtless. Optional and recommended, if you care for the rewards below from ship combat: also buy 25 Perildance bitters. Recruit Oarswoman Olga and Jittery Jim (boost to recruit him) and assign them to your sloop.\n",
+                  "text": "annonballs at Port Roberts. Collect your charting xp bonuses from Chartin’ Charles McAtless. Optional and recommended, if you care for the rewards below from ship combat: also buy 25 Perildance bitters. Recruit Oarswoman Olga and Jittery Jim (boost to recruit him) and assign them to your crew.\n",
                   "formatting": {}
                 }
               ],
@@ -24878,7 +24963,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "At your convenience, complete the Red Reef quest by chartering to the Great Conch and speaking with Floopa.",
+                      "text": "Complete the Red Reef quest by chartering to the Great Conch and speaking with Floopa.",
                       "formatting": {}
                     },
                     {
@@ -24898,7 +24983,7 @@
             {
               "content": [
                 {
-                  "text": "Boost to build an adamant helm on both your sloop and your skiff, then complete charting the Shrouded Ocean by charting to Deepfin Point and following the following route ",
+                  "text": "Chop another 423 camphor logs in the Sacred Grove (or only 219 if using sawmill vouchers - at your convenience). Make 408 camphor planks. Build the following upgrades on your ships, then complete charting the Shrouded Ocean by charting to Deepfin Point and following the following route ",
                   "formatting": {}
                 },
                 {
@@ -24914,7 +24999,53 @@
                   "formatting": {}
                 }
               ],
-              "nestedContent": [],
+              "nestedContent": [
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Camphor cargo hold (sloop)\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Adamant keel (sloop)\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Camphor hull (sloop)\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Camphor mast and canvas sails (sloop)\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Adamant help (sloop + skiff), requires boosting\n",
+                      "formatting": {}
+                    }
+                  ]
+                }
+              ],
               "metadata": {
                 "gp_stack": "35k gp",
                 "items_needed": "tbd",
@@ -24995,17 +25126,17 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "2,960 crystal shards (it costs 2,300 shards to make a full set of crystal armour and a corrupted Bow of Faerdhinen ",
+                      "text": "4,540 crystal shards (it costs 2,300 shards to make a full set of crystal armour and a corrupted Bow of Faerdhinen ",
                       "formatting": {}
                     },
                     {
-                      "text": "- train smithing as necessary using GP from CG, see step 17 below - ",
+                      "text": "- train smithing as necessary using GP from CG, see step 20 below - ",
                       "formatting": {
                         "italic": true
                       }
                     },
                     {
-                      "text": " plus the armour needs charges). On droprate you will get another 580 shards (on top of the 2,800) from trading in excess armour and (regular) weapon seeds (into acorns, grown and chopped down for 14-16 shards each with ultracompost).\n",
+                      "text": " plus the armour needs charges). Trade in excess armour seeds in for shards (250 each) and trade in regular weapon seeds for acorns, which can be grown and chopped down for 28-32 shards each with ultracompost.\n",
                       "formatting": {}
                     }
                   ]
@@ -25014,7 +25145,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "51.5m gp profit in gp and assorted alchs (500 battlestaves for which you need to charge orbs, 500 diamonds that need crafting first) - it is recommended to make diamond and ruby bracelets but only cut (and then ignore) lower tier gems.\n",
+                      "text": "50.7m gp profit in gp and assorted alchs (500 battlestaves for which you need to charge orbs, 500 diamonds that need crafting first) - it is recommended to make diamond and ruby bracelets but only cut (and then ignore) lower tier gems.\n",
                       "formatting": {}
                     }
                   ]
@@ -25030,6 +25161,15 @@
                     },
                     {
                       "text": "\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "In preparation for The Fractured Archive, specifically the Ascension Crossbows, it might be wise to hold on to your diamonds for now instead.\n",
                       "formatting": {}
                     }
                   ]
@@ -25325,7 +25465,7 @@
             {
               "content": [
                 {
-                  "text": "Do Devious Minds, then Secrets of the North (a bowfa is pretty strong against, well, everything). Do Beneath Cursed Sands (did you know the bowfa works very well against these enemies) and Into the Tombs (don’t make me say it). The best use for the lamp is on strength. Optional but recommended: kill the Phantom Muspah(/Grumbler) for an ancient icon to upgrade your ancient staff (make some mithril sapphire bolts (e) and a rune crossbow for the smite phase). Start and complete Desert Treasure II, putting the xp on prayer. Collect a quest cape.\n",
+                  "text": "Do Devious Minds, then Secrets of the North (a bowfa is pretty strong against, well, everything). Do Beneath Cursed Sands (did you know the bowfa works very well against these enemies) and Into the Tombs (don’t make me say it). The best use for the lamp is on strength. Optional but recommended: kill the Phantom Muspah(/Grumbler) for an ancient icon to upgrade your ancient staff (make some mithril sapphire bolts (e) and a rune crossbow for the smite phase). Start and complete Desert Treasure II, putting the xp on prayer.\n",
                   "formatting": {}
                 }
               ],
@@ -25386,7 +25526,7 @@
             {
               "content": [
                 {
-                  "text": "Use the money from CG to train smithing to level 86 with UIM gold. You’ll need to buy around 42.3k gold ores to get 86 Smithing for all diaries. Smelt at least 15 runite bars. Complete the Lumbridge Elite diary at your convenience. Convert your cut diamonds and rubies into bracelets (optionally also enchant them, this is technically only worth it if you find a way to ‘0time’ it though) and charge enough unpowered orbs to match your battlestaves, then alch those/cash those in (e.g. at artefacts). Optional: also include ruby bracelets.\n",
+                  "text": "Start and complete The Blood Moon Rises, putting the XP on Herblore. This is a challenging quest, but the boss fight has infinite resets with free overpowered supplies. Collect a quest cape. Use the money from CG to train smithing to level 86 with UIM gold. You’ll need to buy around 42.3k gold ores to get 86 Smithing for all diaries. Smelt at least 15 runite bars. Complete the Lumbridge Elite diary at your convenience. Convert your cut diamonds and rubies into bracelets (optionally also enchant them, this is technically only worth it if you find a way to ‘0time’ it though) - though you may wish to preserve your diamonds for The Fractured Archive’s Ascencion Crossbows, as previously mentioned -  and charge enough unpowered orbs to match your battlestaves, then alch those/cash those in (e.g. at artefacts). Optional: also include ruby bracelets.\n",
                   "formatting": {}
                 }
               ],
@@ -25440,7 +25580,7 @@
                   }
                 },
                 {
-                  "text": " bound to a specific location - you should teleport around to check all boards that can assign your desired target, regardless of where you want to do the task. Also most creatures drop two different bounty task items, so you can double dip on the xp by collecting both. See ",
+                  "text": " bound to a specific location - you can teleport around to check all boards that can assign your desired target, regardless of where you want to do the task. Also all creatures drop two different bounty task items, so you can (basically) double trip length by collecting both, should you so desire. This does not impact xp/hr. See ",
                   "formatting": {}
                 },
                 {
@@ -25484,7 +25624,7 @@
                   "level": 3,
                   "content": [
                     {
-                      "text": "Travel (teleport/charter) around all places the tasks for one creature might be offered. You want a double task for your creature (two different items) to double dip on the XP. One of the two is always guaranteed at the right port (though a different port for the same item might be better - shorter task or easier to get to!), the other requires luck.\n",
+                      "text": "Travel (teleport/charter) around all places the tasks for one creature might be offered. You want two tasks (two different items) for the same creature to double trip length. One of the two is always guaranteed at the right port (though a different port for the same item might be better - shorter task or easier to get to!), the other requires luck.\n",
                       "formatting": {}
                     }
                   ]
@@ -25493,7 +25633,7 @@
                   "level": 3,
                   "content": [
                     {
-                      "text": "Travel (teleport/charter) to a dock closest to the creature and sail there\n",
+                      "text": "Travel (teleport/charter) to a dock closest to the creature and sail to the spawn location.\n",
                       "formatting": {}
                     }
                   ]
@@ -25502,7 +25642,7 @@
                   "level": 3,
                   "content": [
                     {
-                      "text": "Kill it until you complete one (or both, if you’re almost done) of your two tasks\n",
+                      "text": "Kill it until you complete both of your asks.\n",
                       "formatting": {}
                     }
                   ]
@@ -25556,7 +25696,7 @@
                   "level": 3,
                   "content": [
                     {
-                      "text": "The bottled storm and some high tier dragon upgrades are not included in the guide. These are currently extremely promising for ship combat, and it is recommended to go for them shortly after completing the guide by targeting Veiled Krakens, Vampyre Krakens, Great White Sharks and Armoured Kraken tasks.\n",
+                      "text": "The bottled storm and some high tier dragon upgrades are not included in the guide. These are currently extremely promising for ship combat, and it is recommended to go for them shortly after completing the guide by targeting Veiled Krakens, Vampyre Krakens and Great White Sharks. Make sure to use rune cannons for these, as well as some methods (incendiary cannonballs, manning the cannon) not covered in this guide.\n",
                       "formatting": {}
                     }
                   ]
@@ -25570,7 +25710,7 @@
                     },
                     {
                       "text": "Northern Ocean.png",
-                      "url": "https://drive.google.com/file/d/1WnYENWBNvxHZNplULc2ubvXVOdzLDHvG/view?usp=sharing",
+                      "url": "https://drive.google.com/file/d/1UrRXZDJU8zvcRWx2myiIxPH6Z8yqa73y/view?usp=sharing",
                       "isLink": true,
                       "formatting": {
                         "underline": true
@@ -25658,7 +25798,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Train your woodcutting to level 80 (e.g. at teaks or sulliusceps), then travel (back) to Sunbleak Island, collect the dragon helm schematic and build the bank chest there if you want to (if you intend to afk woodcut, ironwood trees are a very good option - take lunar Plank Make to produce 4 planks on the island). Chop enough logs for 20 ironwood planks, taking into account plank vouchers if you have them. Optional but recommended: chop another 100 or so ironwood logs for Shades of Mort’ton, use this and your magic logs from While Guthix Sleeps to collect the bloodbark outfit for future slayer.\n",
+                      "text": "Train your woodcutting to level 80 (e.g. at bloodwoods, teaks or sulliusceps), then travel (back) to Sunbleak Island, collect the dragon helm schematic and build the bank chest there if you want to (if you intend to afk woodcut, ironwood trees are a very good option - take lunar Plank Make to produce 4 planks on the island). Chop enough logs for 20 ironwood planks, taking into account plank vouchers if you have them. Optional but recommended: chop another 100 or so ironwood logs for Shades of Mort’ton, use this and your magic logs from While Guthix Sleeps to collect the bloodbark outfit for future slayer.\n",
                       "formatting": {}
                     }
                   ]
@@ -26284,350 +26424,28 @@
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "1200 hours (rough estimate)"
-              }
+              },
+              "additionalContent": [
+                [
+                  {
+                    "text": "==END OF CHAPTER 3==",
+                    "formatting": {
+                      "bold": true,
+                      "fontSize": 18
+                    }
+                  },
+                  {
+                    "text": "\n",
+                    "formatting": {}
+                  }
+                ]
+              ]
             }
           ],
           "footnotes": []
         }
       ],
       "footnotes": [
-        {
-          "content": [
-            {
-              "text": "3.3: Beyond BRUHsailer\n",
-              "formatting": {
-                "bold": true,
-                "fontSize": 14
-              }
-            }
-          ],
-          "type": "chapter_footnote_title"
-        },
-        {
-          "content": [
-            {
-              "text": "This is the end of this guide. At this point your stats are high enough it is no longer important to do activities in any particular order, you can do them in whatever sequence you like without losing significant time. Below we include the following as suggestions:\n",
-              "formatting": {
-                "fontSize": 12
-              }
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "20260525SlayerGuide",
-              "url": "https://docs.google.com/document/d/1kBMW2uRI8b4NBcYn9PmsedTnZ3yW7fuGwdzsRQSCNkk/edit?usp=sharing",
-              "isLink": true,
-              "formatting": {
-                "underline": true
-              }
-            },
-            {
-              "text": "\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "A Block/Skip/Do list for slayer tasks at several different slayer levels, intending to show macroefficient slayer progression. \n",
-              "formatting": {
-                "fontSize": 12
-              }
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "An example of how to do every single slayer task that we recommend (location, method, gear etc).\n",
-              "formatting": {
-                "fontSize": 12
-              }
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "20240131CombatAchievementPointReworkCA",
-              "url": "https://docs.google.com/spreadsheets/d/1DYmWr1ka-BLWccgFy6C4zhpDmpuZh_rbCBBmiQq3F9k/edit?usp=sharing",
-              "isLink": true,
-              "formatting": {
-                "underline": true
-              }
-            },
-            {
-              "text": "\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "Contains a guideline for when to complete Combat Achievement tasks, sorted by difficulty (but also by points). Following this document should let you complete the Elite tier of the Combat Achievements around the time you get to level 80 slayer, so that you gain full benefits of the increased superior rate for most of the slayer grind.\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "There are spare points compared to the required milestones, so feel free to skip a number of tasks you do not enjoy.\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "Ladlor's Interactive Progression Chart",
-              "formatting": {
-                "underline": true,
-                "color": {
-                  "r": 0.06666667,
-                  "g": 0.33333334,
-                  "b": 0.8
-                },
-                "url": "https://madssb.github.io/InteractiveGearProg/index.html",
-                "isLink": true
-              }
-            },
-            {
-              "text": "\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "(along with the older version: ",
-              "formatting": {
-                "italic": true
-              }
-            },
-            {
-              "text": "Ladlor's gear progression V4, showing a recommended route of gear progression for irons.",
-              "formatting": {
-                "italic": true,
-                "underline": true,
-                "color": {
-                  "r": 0.06666667,
-                  "g": 0.33333334,
-                  "b": 0.8
-                },
-                "url": "https://drive.google.com/file/d/1fsYH4bdIMU1zYJQEQUciBeJZ0w6qQ5HE/view?usp=sharing",
-                "isLink": true
-              }
-            },
-            {
-              "text": " accompanied with a ",
-              "formatting": {
-                "italic": true
-              }
-            },
-            {
-              "text": "list of the item names",
-              "formatting": {
-                "italic": true,
-                "underline": true,
-                "color": {
-                  "r": 0.06666667,
-                  "g": 0.33333334,
-                  "b": 0.8
-                },
-                "url": "https://drive.google.com/file/d/1xsz1qOy-cI4vYx4LpK9TaJnc0aFVEfoq/view?usp=sharing",
-                "isLink": true
-              }
-            },
-            {
-              "text": ").\n",
-              "formatting": {
-                "italic": true
-              }
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "For an even older and outdated version see ",
-              "formatting": {
-                "italic": true
-              }
-            },
-            {
-              "text": "https://i.imgur.com/hGNzQia.png",
-              "formatting": {
-                "italic": true,
-                "underline": true,
-                "color": {
-                  "r": 0.06666667,
-                  "g": 0.33333334,
-                  "b": 0.8
-                },
-                "url": "https://i.imgur.com/hGNzQia.png",
-                "isLink": true
-              }
-            },
-            {
-              "text": " for the original PVM Progression Chart. ",
-              "formatting": {
-                "italic": true
-              }
-            },
-            {
-              "text": "\n",
-              "formatting": {
-                "bold": true,
-                "italic": true
-              }
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "\n",
-              "formatting": {
-                "bold": true
-              }
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "bruhsailer",
-              "formatting": {
-                "underline": true,
-                "color": {
-                  "r": 0.06666667,
-                  "g": 0.33333334,
-                  "b": 0.8
-                },
-                "url": "https://drive.google.com/drive/u/0/folders/10cbEILEE9l5FSRi1WaepjmtyB3eF9d8u",
-                "isLink": true
-              }
-            },
-            {
-              "text": " The Images Drive, containing setups and locations for most combat.\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "A short overview of the best way to train each skill to level 99 (which can then be done in any order)",
-              "formatting": {
-                "fontSize": 12
-              }
-            },
-            {
-              "text": ": see next pages.\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "==END OF CHAPTER 3==",
-              "formatting": {
-                "bold": true,
-                "fontSize": 18
-              }
-            },
-            {
-              "text": "\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "\n",
-              "formatting": {
-                "fontSize": 12
-              }
-            }
-          ],
-          "type": "chapter_footnote"
-        },
         {
           "content": [
             {
@@ -26844,7 +26662,7 @@
               }
             },
             {
-              "text": "3",
+              "text": "4",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -26978,7 +26796,7 @@
               }
             },
             {
-              "text": "83",
+              "text": "84 ",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -26988,7 +26806,7 @@
               }
             },
             {
-              "text": " (probably higher)\n",
+              "text": "(probably higher)\n",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -27095,7 +26913,7 @@
               }
             },
             {
-              "text": "97",
+              "text": "96",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -27422,7 +27240,7 @@
               }
             },
             {
-              "text": "2115\n",
+              "text": "2116\n",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -27430,6 +27248,292 @@
                   "b": 0.2
                 }
               }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "This is the end of this guide. At this point your stats are high enough it is no longer important to do activities in any particular order, you can do them in whatever sequence you like without losing significant time. Below we include the following as suggestions:\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260525SlayerGuide",
+              "url": "https://docs.google.com/document/d/1kBMW2uRI8b4NBcYn9PmsedTnZ3yW7fuGwdzsRQSCNkk/edit?usp=sharing",
+              "isLink": true,
+              "formatting": {
+                "underline": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "A Block/Skip/Do list for slayer tasks at several different slayer levels, intending to show macroefficient slayer progression. \n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "An example of how to do every single slayer task that we recommend (location, method, gear etc).\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20240131CombatAchievementPointReworkCA",
+              "url": "https://docs.google.com/spreadsheets/d/1DYmWr1ka-BLWccgFy6C4zhpDmpuZh_rbCBBmiQq3F9k/edit?usp=sharing",
+              "isLink": true,
+              "formatting": {
+                "underline": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Contains a guideline for when to complete Combat Achievement tasks, sorted by difficulty (but also by points). Following this document should let you complete the Elite tier of the Combat Achievements around the time you get to level 80 slayer, so that you gain full benefits of the increased superior rate for most of the slayer grind.\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "There are spare points compared to the required milestones, so feel free to skip a number of tasks you do not enjoy.\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Ladlor's Interactive Progression Chart",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://madssb.github.io/InteractiveGearProg/index.html",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "(along with the older version: ",
+              "formatting": {
+                "italic": true
+              }
+            },
+            {
+              "text": "Ladlor's gear progression V4, showing a recommended route of gear progression for irons.",
+              "formatting": {
+                "italic": true,
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://drive.google.com/file/d/1fsYH4bdIMU1zYJQEQUciBeJZ0w6qQ5HE/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": " accompanied with a ",
+              "formatting": {
+                "italic": true
+              }
+            },
+            {
+              "text": "list of the item names",
+              "formatting": {
+                "italic": true,
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://drive.google.com/file/d/1xsz1qOy-cI4vYx4LpK9TaJnc0aFVEfoq/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": ").\n",
+              "formatting": {
+                "italic": true
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "For an even older and outdated version see ",
+              "formatting": {
+                "italic": true
+              }
+            },
+            {
+              "text": "https://i.imgur.com/hGNzQia.png",
+              "formatting": {
+                "italic": true,
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://i.imgur.com/hGNzQia.png",
+                "isLink": true
+              }
+            },
+            {
+              "text": " for the original PVM Progression Chart. ",
+              "formatting": {
+                "italic": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "bold": true,
+                "italic": true
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "\n",
+              "formatting": {
+                "bold": true
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "bruhsailer",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://drive.google.com/drive/u/0/folders/10cbEILEE9l5FSRi1WaepjmtyB3eF9d8u",
+                "isLink": true
+              }
+            },
+            {
+              "text": " The Images Drive, containing setups and locations for most combat.\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "A short overview of the best way to train each skill to level 99 (which can then be done in any order): see next pages.\n",
+              "formatting": {}
             }
           ],
           "type": "chapter_footnote"
@@ -27497,7 +27601,7 @@
               "formatting": {}
             },
             {
-              "text": "20260607Chapter1",
+              "text": "20260717Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -27520,7 +27624,7 @@
               "formatting": {}
             },
             {
-              "text": "20260607Chapter2",
+              "text": "20260717Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -27541,7 +27645,7 @@
               "formatting": {}
             },
             {
-              "text": "20260607Chapter3",
+              "text": "20260717Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -27562,7 +27666,7 @@
               "formatting": {}
             },
             {
-              "text": "20260607DetailedStepsGuide",
+              "text": "20260717DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -28143,7 +28247,34 @@
             {
               "text": "\n",
               "formatting": {
-                "fontSize": 13
+                "italic": true,
+                "fontSize": 9,
+                "fontFamily": "Arial"
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260717BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/1zgVBLJlv_U7M_1FgJQSzbaH4qrahe2v3/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "fontSize": 14
               }
             }
           ],
@@ -29824,6 +29955,21 @@
                   "b": 0.11764706
                 },
                 "fontSize": 12
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "\n",
+              "formatting": {
+                "color": {
+                  "r": 0.7882353,
+                  "g": 0.12941177,
+                  "b": 0.11764706
+                }
               }
             }
           ],
