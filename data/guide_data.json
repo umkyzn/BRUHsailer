@@ -1,5 +1,5 @@
 {
-  "updatedOn": "2026-08-16",
+  "updatedOn": "2026-08-30",
   "title": "BRUHsailer Complete Guide",
   "chapters": [
     {
@@ -2037,13 +2037,43 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "The following logs for bird runs: 13 oak, 24 willow, 52 teak, 44 maple.",
+                      "text": "The following logs for bird runs: 11 regular, ",
                       "formatting": {
                         "fontSize": 12
                       }
                     },
                     {
-                      "text": "\n",
+                      "text": "33",
+                      "formatting": {}
+                    },
+                    {
+                      "text": " oak, ",
+                      "formatting": {
+                        "fontSize": 12
+                      }
+                    },
+                    {
+                      "text": "60",
+                      "formatting": {}
+                    },
+                    {
+                      "text": " willow, ",
+                      "formatting": {
+                        "fontSize": 12
+                      }
+                    },
+                    {
+                      "text": "92",
+                      "formatting": {}
+                    },
+                    {
+                      "text": " teak. If you do not get enough of these logs, chop them ",
+                      "formatting": {
+                        "fontSize": 12
+                      }
+                    },
+                    {
+                      "text": "at your convenience later (e.g. after getting the rune axe).\n",
                       "formatting": {}
                     }
                   ]
@@ -4178,7 +4208,7 @@
                   }
                 },
                 {
-                  "text": " Death on the Isle. Collect the costume needle and the icon after the quest, using the icon to unlock the teleport on the pendant of ates. ",
+                  "text": " Death on the Isle. Collect the costume needle and the icon after the quest, using the icon to unlock the teleport on the pendant of ates. Buy 12 Blackbird red at the Moonrise Wines (the winery, not the pub). ",
                   "formatting": {}
                 },
                 {
@@ -4892,7 +4922,22 @@
                   "formatting": {}
                 },
                 {
-                  "text": " the barcrawl card from the bank. Charter a ship to Brimhaven, visit Dead Man’s Chest for the barcrawl, run south and pick up a seaweed and drop it 5 times (west of Jiminua’s shop) for the diary, keep it for later. Do Jungle Potion. During the quest collect 3 extra snake weed, 3 extra ardrigal, 1 extra volencia moss and 1 extra rogue’s purse.",
+                  "text": " the barcrawl card from the bank. Charter a ship to Brimhaven, visit Dead Man’s Chest for the barcrawl, run south and pick up a seaweed and drop it 5 times (west of Jiminua’s shop) for the diary, keep it for later. Do Jungle Potion. During the quest collect 3 extra snake weed, ",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "1",
+                  "formatting": {}
+                },
+                {
+                  "text": " extra ardrigal, 1 extra volencia moss and 1 extra rogue’s purse.",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -5385,7 +5430,22 @@
             {
               "content": [
                 {
-                  "text": "Teleport to Varrock and move your POH to Rellekka at the estate agent. Grab chisel, GP, earth runes from the bank along the way. Show your Level 3 certificate to the museum curator and claim ‘something to drink’ (make sure to go through the dialogue carefully!), take the museum quiz. Do ",
+                  "text": "Teleport to Varrock and move your POH to Rellekka at the estate agent. Do not drop the certificat",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "es.",
+                  "formatting": {}
+                },
+                {
+                  "text": " Grab chisel, GP, earth runes from the bank along the way. Show your Level 3 certificate to the museum curator and claim ‘something to drink’ (make sure to go through the dialogue carefully!), take the museum quiz. Do ",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -7592,6 +7652,15 @@
                     },
                     {
                       "text": "\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Use the Blackbird red to boost to the next tier of logs at levels 14, 24, 34. Your goal is level 42 hunter from bird runs.\n",
                       "formatting": {}
                     }
                   ]
@@ -11767,7 +11836,7 @@
             {
               "content": [
                 {
-                  "text": "You should be at least level 42 hunter by now. ",
+                  "text": "You should be level 42 hunter by now. ",
                   "formatting": {
                     "italic": true,
                     "color": {
@@ -11779,7 +11848,22 @@
                   }
                 },
                 {
-                  "text": "Go to Puro Puro, camp a Young impling spawn for a yew longbow (keep a bow string) and catch an essence or eclectic impling for the diary. ",
+                  "text": "Bri",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "nging all remaining Blackbird reds (at least 5) and at least 500gp, take fairy ring AKQ to the Piscatoris Hunter area. Boost to 43 and catch spotted kebbits to level 46 hunter. Take the fairy ring",
+                  "formatting": {}
+                },
+                {
+                  "text": " to Zanaris and Puro Puro, camp a Young impling spawn for a yew longbow (keep a bow string) and catch an essence or eclectic impling for the diary. ",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -12995,7 +13079,7 @@
         {
           "content": [
             {
-              "text": "Hunt: 49",
+              "text": "Hunt: ",
               "formatting": {
                 "color": {
                   "r": 0.023529412,
@@ -13006,7 +13090,7 @@
               }
             },
             {
-              "text": " (depends on the amount of bird runs you need, lower is fine)",
+              "text": "46",
               "formatting": {
                 "color": {
                   "r": 0.023529412,
@@ -13319,7 +13403,7 @@
               "formatting": {}
             },
             {
-              "text": "20260816Chapter1",
+              "text": "20260830Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -13342,7 +13426,7 @@
               "formatting": {}
             },
             {
-              "text": "20260816Chapter2",
+              "text": "20260830Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -13363,7 +13447,7 @@
               "formatting": {}
             },
             {
-              "text": "20260816Chapter3",
+              "text": "20260830Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -13384,7 +13468,7 @@
               "formatting": {}
             },
             {
-              "text": "20260816DetailedStepsGuide",
+              "text": "20260830DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -13998,6 +14082,30 @@
             },
             {
               "text": "\n",
+              "formatting": {
+                "fontSize": 15
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260830BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://drive.google.com/file/d/1-aYP0I1kLltjSAhYYj5W95a-GtQexmGN/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
               "formatting": {}
             }
           ],
@@ -14391,7 +14499,7 @@
             {
               "content": [
                 {
-                  "text": "Teleport to Falador, pay the estate agent to move your POH to Hosidius. Use Teak Homes (Mahogany Homes with Teak planks, Adept tier contracts only) for 352 carpenter points (88 completed contracts) while on the regular spellbook for transportation. Accept the cups of tea after contracts to restore run energy as necessary. Buy the plank sack. If you have excess logs (from wintertodt) cut them into arrow shafts as you run and make headless arrows (purchase feathers as necessary, you should have plenty from bird runs). ",
+                  "text": "Teleport to Falador, pay the estate agent to move your POH to Hosidius. Use Teak Homes (Mahogany Homes with Teak planks, Adept tier contracts only) for 352 carpenter points (88 completed contracts) while on the regular spellbook for transportation. Accept the cups of tea after contracts to restore run energy as necessary. Buy the plank sack. If you have excess logs (from wintertodt) cut them into arrow shafts as you run and make headless arrows (purchase feathers as necessary, you should have some from bird runs, buy more as needed). ",
                   "formatting": {}
                 },
                 {
@@ -15565,17 +15673,11 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "While on the Arceuus spellbook make sure to maintain contracts, also grow cats if convenient. Also maintain bird runs, if you haven’t run out of decent logs yet. Only use ",
+                      "text": "While on the Arceuus spellbook make sure to maintain contracts, also grow cats if convenient.",
                       "formatting": {}
                     },
                     {
-                      "text": "maple+",
-                      "formatting": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "text": " logs for bird runs (if you have the level, of course)\n",
+                      "text": "\n",
                       "formatting": {}
                     }
                   ]
@@ -17163,7 +17265,7 @@
             {
               "content": [
                 {
-                  "text": "Do Throne of Miscellania and Royal Trouble (fairy ring CIP to get there), obtain 100% support (buying flowers from ",
+                  "text": "Do Throne of Miscellania and Royal Trouble (fairy ring CIP to get there), kill Rabbits for Rag and Bone Man II, ",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -17174,168 +17276,13 @@
                   }
                 },
                 {
-                  "text": "the flower girl",
-                  "formatting": {
-                    "underline": true,
-                    "color": {
-                      "r": 0.06666667,
-                      "g": 0.33333334,
-                      "b": 0.8
-                    },
-                    "fontSize": 12,
-                    "url": "https://oldschool.runescape.wiki/w/Flower_Girl",
-                    "isLink": true
-                  }
-                },
-                {
-                  "text": " or chopping Etceteria teak logs), kill Rabbits for Rag and Bone Man II, deposit ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "600k",
-                  "formatting": {}
-                },
-                {
-                  "text": " gp (or: ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "your entire cash stack)",
-                  "formatting": {}
-                },
-                {
-                  "text": " in Misc and set it to 10 ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "mahogany",
-                  "formatting": {}
-                },
-                {
-                  "text": " 5 maple. The ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "mahogany",
-                  "formatting": {}
-                },
-                {
-                  "text": " logs are for",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": " bird runs (levels 49-80)",
-                  "formatting": {}
-                },
-                {
-                  "text": ", the maples for arrow shafts for fletching.",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": " Also visit at least once/twice a week to restore the support to 100% (buying flowers from ",
-                  "formatting": {}
-                },
-                {
-                  "text": "the flower girl",
-                  "formatting": {
-                    "underline": true,
-                    "color": {
-                      "r": 0.06666667,
-                      "g": 0.33333334,
-                      "b": 0.8
-                    },
-                    "url": "https://oldschool.runescape.wiki/w/Flower_Girl",
-                    "isLink": true
-                  }
-                },
-                {
-                  "text": " or raking the herb patch).\n",
+                  "text": "\n",
                   "formatting": {}
                 }
               ],
-              "nestedContent": [
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "The gp will sit below 675k constantly, so your kingdom will not produce the maximum amount of resources possible per day. This is fine since we have enough time, we are only interested in getting the maximum amount of resources for our money. We will leave Misc running for up to 11 days and then collect the money that remains (you may choose to leave it running for shorter, once the gp stack gets low it really doesn’t matter much. ",
-                      "formatting": {}
-                    },
-                    {
-                      "text": "Make sure not to exceed 11 days though!",
-                      "formatting": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "text": ").\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "Level 49-80 hunter is 1974 mahogany logs, so that is your target from misc. Likely your hunter level is already a bit higher, in which case you need fewer logs (960 xp each).\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "If you are running low on digsite pendants buy 80 rubies in Ardougne and make new digsites. Make sure to keep doing bird runs always. If your hunter is at least level 65 always chase magpie implings, along with the Taverley crystal chest they are the best way to get a runite bar for Song of the Elves.\n",
-                      "formatting": {}
-                    }
-                  ]
-                }
-              ],
+              "nestedContent": [],
               "metadata": {
-                "gp_stack": "80k",
+                "gp_stack": "680k",
                 "items_needed": "cash stack, dramen staff, iron bar, rune pickaxe, rune axe, gold ring (BH runs), cake or oak shortbow (your choice), energy potions, melee gear, prayer potions, swordfish",
                 "skills_quests_met": "yes",
                 "total_time": "11d23h"
@@ -17397,7 +17344,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "80k",
+                "gp_stack": "680k",
                 "items_needed": "cash stack, melee gear, swordfish, prayer potions, energy potions, rune pickaxe, crystal-mine key",
                 "skills_quests_met": "yes",
                 "total_time": "12d0h"
@@ -17461,10 +17408,14 @@
                       "formatting": {}
                     },
                     {
-                      "text": "If you decide not to, then you’ll have to do Mess Hall, which is slower.\n",
+                      "text": "If you decide not to, then you’ll have to do Mess Hall, which is slower.",
                       "formatting": {
                         "italic": true
                       }
+                    },
+                    {
+                      "text": " Save and bank at least 1700 fish offcuts for crab trapping later.\n",
+                      "formatting": {}
                     }
                   ]
                 },
@@ -17493,7 +17444,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Maintain cats, bird runs, contracts and (hardwood and fruit) tree runs, and optionally also include herb runs. Collect misc for mahogany logs for bird runs whenever necessary. If you run out of/low on digsite pendants go buy ~80 more rubies in a gem shop (Ardougne/Kourend pre completing Moons of Peril, Cam Torum after as it is cheaper and closer to a bank).\n",
+                      "text": "Maintain cats, contracts and (hardwood and fruit) tree runs, and optionally also include herb runs. If you run out of/low on digsite pendants go buy ~80 more rubies in a gem shop (Ardougne/Kourend pre completing Moons of Peril, Cam Torum after as it is cheaper and closer to a bank).\n",
                       "formatting": {}
                     }
                   ]
@@ -17531,7 +17482,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "20k gp",
+                "gp_stack": "620k gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "14d23h"
@@ -17622,7 +17573,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "60k gp",
+                "gp_stack": "660k gp",
                 "items_needed": "cash stack, Fremennik boots 1, bronze nail, 6 mithril ore, 9 ropes, knife, rune axe, hammer, bronze nail, needle, 2 thread, melee gear, swordfish/premade choc bombs, prayer potions, cut sapphire, mithril bar, silver bar, rod mould, cosmic rune, water runes",
                 "skills_quests_met": "yes",
                 "total_time": "14d23h"
@@ -17643,7 +17594,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "60k gp",
+                "gp_stack": "660k gp",
                 "items_needed": "tinderbox, bullseye lantern (might still be a sapphire lantern from Tears of Guthix, just swap it out), melee gear, swordfish, energy potions, prayer potions, clean guam, clean marrentill, pestle and mortar, dramen staff",
                 "skills_quests_met": "yes",
                 "total_time": "15d0h"
@@ -17668,7 +17619,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "60k gp",
+                "gp_stack": "660k gp",
                 "items_needed": "cat, 9 stews, tiara, mind talisman, 10 pure essence, binding necklace, earth talisman, earth runes, dramen staff, blank air rune, blank water rune, blank earth rune, blank fire rune, blank mind rune",
                 "skills_quests_met": "yes",
                 "total_time": "15d1h"
@@ -17713,7 +17664,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "30k gp",
+                "gp_stack": "630k gp",
                 "items_needed": "law runes, air runes, earth runes, water runes, dramen staff, teasing stick, knife, multiple logs or one axe, seal of passage, cash stack, bowl of water, rune pickaxe, hammer, needle, 2 thread, 4 suqah hide, tinderbox, spade, energy potions, prayer potions, swordfish, small pouch, medium pouch, large pouch, cosmic runes, astral runes, staff of air, chisel, abyssal book.",
                 "skills_quests_met": "yes",
                 "total_time": "15d2h"
@@ -17764,7 +17715,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "30k gp",
+                "gp_stack": "630k gp",
                 "items_needed": "bowl of hot water, 1 harralander, 2 guam, 2 marrentill, energy potions, prayer potions, air staff, law runes, water runes, scorpion cage",
                 "skills_quests_met": "yes",
                 "total_time": "15d2h"
@@ -17818,7 +17769,7 @@
                   "formatting": {}
                 },
                 {
-                  "text": " Snowy knight and ",
+                  "text": " Snowy knight ",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -17829,11 +17780,11 @@
                   }
                 },
                 {
-                  "text": "three",
+                  "text": "along the way for ",
                   "formatting": {}
                 },
                 {
-                  "text": " Sabre-toothed kyatts along the way for their furs (tatty is fine) and the diary. ",
+                  "text": "the diary. ",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -17856,7 +17807,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "30k gp",
+                "gp_stack": "630k gp",
                 "items_needed": "cash stack, emerald lantern, lantern lens, tinderbox, 10 oak planks, 10 steel nails, hammer, spade, dramen staff, butterfly net, butterfly jar, teasing stick, knife, any log, water staff, law runes, cat, ardougne cloak 1",
                 "skills_quests_met": "yes",
                 "total_time": "15d3h"
@@ -17937,7 +17888,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "30k gp",
+                "gp_stack": "630k gp",
                 "items_needed": "cash stack, rune axe, earth runes (or staff), air runes (or staff), death runes, raw karambwanji, anti-dragon shield, melee gear, swordfish, energy potions, prayer potions, antipoison, steel spear, small fishing net, 4-dose agility potion, tinderbox, necklace of passage (for two sections ahead)",
                 "skills_quests_met": "yes",
                 "total_time": "15d4h"
@@ -17999,7 +17950,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "30k gp",
+                "gp_stack": "630k gp",
                 "items_needed": "cash stack, karambwan vessel, Iban staff, death runes, fire runes, 2+ logs, tinderbox, noted semi-precious gems (sell to Gabooty for trading sticks), banana-rum, seaweed, monkey skin, jogre bones, raw karambwanji, pestle and mortar, teasing stick, knife, necklace of passage (next)",
                 "skills_quests_met": "yes",
                 "total_time": "15d5h"
@@ -18046,7 +17997,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "30k gp",
+                "gp_stack": "630k gp",
                 "items_needed": "Dueling ring (next section)",
                 "skills_quests_met": "yes",
                 "total_time": "15d5h"
@@ -18204,7 +18155,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "30k gp",
+                "gp_stack": "630k gp",
                 "items_needed": "cash stack, stodgy mattress, semi-precious gems, sapphires, Ardy Cloak 1, dramen staff, teasing stick, knife, regular logs, hammer, chisel, melee gear, dueling ring, energy potions, games necklace",
                 "skills_quests_met": "yes",
                 "total_time": "15d7h"
@@ -18298,7 +18249,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "30k gp",
+                "gp_stack": "630k gp",
                 "items_needed": "law runes, earth runes, air runes, two molten glass, plank, silk, steel bar, hellcat, catspeak amulet, pot, weeds, tinderbox, golden cannonball, dwarven lore book (for the third page)",
                 "skills_quests_met": "yes",
                 "total_time": "15d8h"
@@ -18362,7 +18313,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "30k gp",
+                "gp_stack": "630k gp",
                 "items_needed": "doctor’s hat, desert shirt/robe, vial of water, law runes, water staff, melee gear + rune pickaxe, prayer potions, hammer, ring of charos(a), Ardy Cloak 1, penguin suit",
                 "skills_quests_met": "yes",
                 "total_time": "15d8h"
@@ -18398,7 +18349,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "30k gp",
+                "gp_stack": "630k gp",
                 "items_needed": "law runes, air staff, hammer, dueling ring, melee gear, swordfish, prayer potions, energy potions, dwarven stout (on table), 2 soft clay, fire runes, herbal tincture (reclaim from Apothecary instead), 5 pigeon cages, fancy/fighter boots (to imbue the sceptre).",
                 "skills_quests_met": "yes (listen to the wiki when it tells you to pick up items to save time later)",
                 "total_time": "15d9h"
@@ -18460,7 +18411,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "30k gp",
+                "gp_stack": "630k gp",
                 "items_needed": "catspeak amulet, law runes, air staff, earth runes (all for next section)",
                 "skills_quests_met": "yes",
                 "total_time": "15d9h"
@@ -18524,7 +18475,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "30k gp",
+                "gp_stack": "630k gp",
                 "items_needed": "penguin suit, evil stew, air runes, water rune, law rune",
                 "skills_quests_met": "yes (listen to the wiki when it tells you to steal a bell and grab items)",
                 "total_time": "15d9h"
@@ -18586,7 +18537,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "30k gp",
+                "gp_stack": "630k gp",
                 "items_needed": "cash stack, chicken cages, hellcat, catspeak amulet, snake charm, charos(a), bucket of milk, egg, pot of flour, cake tin",
                 "skills_quests_met": "yes",
                 "total_time": "15d9h"
@@ -18643,7 +18594,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "30k gp",
+                "gp_stack": "630k gp",
                 "items_needed": "cash stack, ring of charos(a), sharpened axe, penguin suit, swamp tar, 5 feathers, mission report, mahogany plank, soft leather, cowbell (stolen in Step 57), swordfish, melee gear, prayer potions, spade, Ectophial, ghostspeak amulet, sapphire amulet, Fremennik boots 1, necklace of passage, law runes, water staff, enchanted key, dueling ring (to get to Castle Wars for the first step in Making History, but also rebank at Ferox), air runes, earth rune",
                 "skills_quests_met": "no",
                 "total_time": "15d10h"
@@ -18701,7 +18652,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "30k gp",
+                "gp_stack": "630k gp",
                 "items_needed": "Ardy Cloak 1, dramen staff, energy pots, rope, waterskins, Camulet, hellcat, catspeak amulet",
                 "skills_quests_met": "yes",
                 "total_time": "15d10h"
@@ -18737,7 +18688,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "50k gp",
+                "gp_stack": "650k gp",
                 "items_needed": "cash stack (only take 7.5k into Wildy), 3 gold bars, slash item/weapon, hammer, pickaxe (for Wildy med diary, so addy instead of rune for example), melee gear, prayer pots, swordfish",
                 "skills_quests_met": "yes",
                 "total_time": "15d10h"
@@ -19045,7 +18996,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "240k gp",
+                "gp_stack": "650k gp",
                 "skills_quests_met": "yes",
                 "total_time": "16d11h"
               }
@@ -19198,7 +19149,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "260k gp",
+                "gp_stack": "670k gp",
                 "items_needed": "eagle cape, fake beak, cash stack, 10 mist runes, 10 lava runes, 5 blood runes, airtight pot, rune pickaxe, rune axe, tinderbox, hammer, ring of charos(a), dramen staff, Ardy Cloak 1, rune spear (kp), melee gear, prayer pots, swordfish, yellow dye, swamp tar, necklace of passage, rope, energy pots, teasing stick, box trap, rabbit snare, law runes, soul runes",
                 "skills_quests_met": "yes",
                 "total_time": "16d14h"
@@ -19316,7 +19267,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Maintain hourlies (contracts, bird runs, hardwood and fruit tree runs, herb runs, optionally seaweed - you will never need more than 12.5k seaweed). You can stop growing cats if you want though it’s still good to continue, after all you’re fishing for cat food nonstop.\n",
+                      "text": "Maintain hourlies (contracts, hardwood and fruit tree runs, herb runs, optionally seaweed - you will never need more than 12.5k seaweed). You can stop growing cats if you want though it’s still good to continue, after all you’re fishing for cat food nonstop.\n",
                       "formatting": {}
                     }
                   ]
@@ -19359,7 +19310,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "260k gp",
+                "gp_stack": "670k gp",
                 "items_needed": "knife, teak log, barbarian rod, feathers, 2-dose potions",
                 "skills_quests_met": "yes",
                 "total_time": "21d17h"
@@ -19429,7 +19380,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "130k gp",
+                "gp_stack": "540k gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "21d22h"
@@ -19680,7 +19631,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "120k gp",
+                "gp_stack": "530k gp",
                 "items_needed": "cash stack, cut diamond, melee gear (now incl. dscim/DDS), mithril armour set, prayer potions, stat-boosting potions, cheese potatoes (buy in guild)",
                 "skills_quests_met": "yes",
                 "total_time": "22d6h"
@@ -19767,7 +19718,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "120k gp",
+                "gp_stack": "530k gp",
                 "items_needed": "melee gear, cheese potatoes, stat-boosting potions, prayer potions, a defence potion (3 dose), volcanic sulphur, molten glass, dark essence block, an axe, fire bolt runes",
                 "skills_quests_met": "yes",
                 "total_time": "22d9h"
@@ -19785,7 +19736,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "The standard setup (with or without dragonfire potions) is: Helm of Neitiznot (risked), Dragon Scimitar, Dragon Defender, Amulet of Strength, Barrows gloves (+1), Proselyte top + bottom, Berserker Ring (i), Ardougne Cloak 1, Climbing Boots, Rada’s Blessing 1, Resurrect Superior Skeletal/Ghostly thrall runes (unless you have access to the Greater spell at level 76, boostable from 73 with a Wizard’s Mind Bomb. If so, use that instead) and book. Use a games necklace to Corporeal Beast then run east to get to the dragons (1250 or 1500 total level worlds are usually empty), and dueling rings back to Ferox to bank and restore.",
+                      "text": "The standard setup (with or without dragonfire potions) is: Helm of Neitiznot (risked), Dragon Scimitar, Dragon Defender, Amulet of Strength, Barrows gloves (+1), Proselyte top + bottom, Berserker Ring (i), Ardougne Cloak 1, Climbing Boots, Rada’s Blessing 2, Resurrect Superior Skeletal/Ghostly thrall runes (unless you have access to the Greater spell at level 76, boostable from 73 with a Wizard’s Mind Bomb. If so, use that instead) and book. Use a games necklace to Corporeal Beast then run east to get to the dragons (1250 or 1500 total level worlds are usually empty), and dueling rings back to Ferox to bank and restore.",
                       "formatting": {}
                     },
                     {
@@ -19897,7 +19848,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "120k gp",
+                "gp_stack": "530k gp",
                 "items_needed": "melee gear (as mentioned), looting bag, cheese potatoes, stat-boosting pots, runes for thralls",
                 "skills_quests_met": "yes",
                 "total_time": "23d1h"
@@ -19960,7 +19911,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "120k gp",
+                "gp_stack": "530k gp",
                 "items_needed": "1.4k bones, melee gear (for PC)",
                 "skills_quests_met": "yes",
                 "total_time": "23d1h"
@@ -19973,7 +19924,7 @@
                   "formatting": {}
                 },
                 {
-                  "text": "ut your maple logs into arrow shafts (more artefacts), turning one into a maple shortbow for the diary while bankstanding at Seers. Also make a superantipoison potion there. Buy feathers (if you don’t have plenty of those already from bird runs) to get to level 60 and make all into headless arrows, ideally while afking underwater to get more seaweed spores.\n",
+                  "text": "ut your maple logs into arrow shafts (more artefacts), turning one into a maple shortbow for the diary while bankstanding at Seers. Also make a superantipoison potion there. Buy feathers (if you don’t have plenty of those) to get to level 60 and make all into headless arrows, ideally while afking underwater to get more seaweed spores.\n",
                   "formatting": {}
                 },
                 {
@@ -19982,7 +19933,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "1.8m gp",
+                "gp_stack": "2.2m gp",
                 "items_needed": "green dragonhides, coins, nature runes, staff of fire, maple logs, knife, steel nails, feathers, Kharedst’s memoirs, log basket",
                 "total_time": "23d5h"
               }
@@ -19990,7 +19941,7 @@
             {
               "content": [
                 {
-                  "text": "You should be level 51 (or higher) slayer. Make sure you have finished the Curse of the Empty Lord miniquest (if you haven’t, do it now, putting the lamp on slayer). Teleport to Varrock, make sure to grab the Dragon’hai history book from the Varrock Palace library if you don’t already have it, pray at the altar in the palace with smite active. Buy 20,000 air runes (if you already have these you can ignore this), then run through  the east gate to the quetzal to go to Varlamore and do At First Light (note: the hunter rumours are currently not efficient, but if you want the rewards you can go for them at any time after this quest). During At First Light catch a Sunlight antelope (east end of the island, requires level 72 hunter, a teasing stick, knife and logs - grab a Trapper’s tipple or two at the hunter’s guild for a +2 boost if needed) and kill a jaguar for their fur. At the hunter’s guild buy two mixed hide bases, and either pay Pellem to have the furs made into mixed hide boots (your best ranged boots for now) and a mixed hide cape (your best melee cape for now) or boost your crafting level if you have a spare mushroom pie to do it yourself. After this start and complete Perilous Moons (for the fights your dragon scimitar is fine, even for ice. Use the moss lizards and moonlight potions for supplies) and The Heart of Darkness. At the end of the quest travel to Tal Teklan (e.g. with the quetzal system). Buy four willow longbows at Arcuani’s Archery Supplies. If you haven’t done Scrambled! yet, do it now. Travel to Auburnvale (e.g. using the boat system). Do the Vale Totems miniquest. Start and complete Shadows of Custodia. Teleport out. Slay a Brine rat to complete the Fremennik medium diary, putting the lamp on herblore. Grab a rope, salve teleport, dip your enchanted silvthrill rod in the well to make the Rod of Ivandis and complete In Aid of the Myreque, Darkness of Hallowvale, A Taste of Hope and Sins of the Father (all lamps on herblore). Use the Efaritay’s aid during the Vanstrom Klause fight in Sins of the Father - you should only need one ring, the second is spare in case you die or run out of charges.\n",
+                  "text": "You should be level 51 (or higher) slayer. Make sure you have finished the Curse of the Empty Lord miniquest (if you haven’t, do it now, putting the lamp on slayer). Teleport to Varrock, make sure to grab the Dragon’hai history book from the Varrock Palace library if you don’t already have it, pray at the altar in the palace with smite active. Buy 20,000 air runes (if you already have these you can ignore this), then run through the east gate to the quetzal to go to Varlamore and do At First Light (note: the hunter rumours are currently not efficient, but if you want the rewards you can go for them at any time after this quest). During At First Light kill a jaguar for their fur. At the hunter’s guild collect (or buy from Huntmaster Gilman, but it’s from dialogue only) 27 Trapper’s tipple in The Burrow, buy two mixed hide bases, and either pay Pellem to have the furs made into mixed hide boots (your best ranged boots for now) and a mixed hide cape (your best melee cape for now) or boost your crafting level if you have a spare mushroom pie to do it yourself. After this start and complete Perilous Moons (for the fights your dragon scimitar is fine, even for ice. Use the moss lizards and moonlight potions for supplies) and The Heart of Darkness. At the end of the quest travel to Tal Teklan (e.g. with the quetzal system). Buy four willow longbows at Arcuani’s Archery Supplies. If you haven’t done Scrambled! yet, do it now. Travel to Auburnvale (e.g. using the boat system). Do the Vale Totems miniquest. Start and complete Shadows of Custodia. Teleport out. Slay a Brine rat to complete the Fremennik medium diary, putting the lamp on herblore. Grab a rope, salve teleport, dip your enchanted silvthrill rod in the well to make the Rod of Ivandis and complete In Aid of the Myreque, Darkness of Hallowvale, A Taste of Hope and Sins of the Father (all lamps on herblore). Use the Efaritay’s aid during the Vanstrom Klause fight in Sins of the Father - you should only need one ring, the second is spare in case you die or run out of charges.\n",
                   "formatting": {}
                 }
               ],
@@ -20028,7 +19979,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "1.7m gp",
+                "gp_stack": "2.1m gp",
                 "items_needed": "law runes, soul runes, silvthrill rod, rope, dramen staff, plank, 8 nails, hammer",
                 "skills_quests_met": "yes",
                 "total_time": "23d16h"
@@ -20037,7 +19988,7 @@
             {
               "content": [
                 {
-                  "text": "Explorer’s ring teleport and run to Port Sarim to recruit Jobless Jim. You can set Jim to man the ship and trim the sails, reducing the xp from trimming by 50% but making sailing more convenient. Charter to the Pandemonium. Take your skiff to the starting point of Troubled Tortugans and start and complete the quest in full. While on the Great Conch collect the spyglass and strange apple tree charter on the isle. Next do port courier tasks to Summer Shore until level 50 sailing (",
+                  "text": "Pest control minigame teleport, take the boat to Port Sarim to recruit Jobless Jim. You can set Jim to man the ship and trim the sails, reducing the xp from trimming by 50% but making sailing more convenient. Charter to the Pandemonium. Take your skiff to the starting point of Troubled Tortugans and start and complete the quest in full. While on the Great Conch collect the spyglass and strange apple tree charter on the isle. Next do port courier tasks to Summer Shore until level 50 sailing (",
                   "formatting": {}
                 },
                 {
@@ -20054,7 +20005,33 @@
                   }
                 },
                 {
-                  "text": "), completing the charting of the Unquiet Ocean in the process (the Sea of Shells after level 47). You can collect the ocean completion xp bonus (6k xp) to get to level 50. Once you hit level 50 (optional: keep going to level 51/52/53 instead, to reduce or eliminate the need for boosting while salvaging), use a dueling ring and run south all the way to the desert mining camp, then run out and recruit Ex-Captain Siad (don’t forget the key to the camp). Next, book of the dead teleport to Piscarillius (or charter if you were at Pandemonium for the xp bonus), recover your skiff here and sail south to Chinchompa Island. Chart the charred remains of a table and open the lockbox to get (and read) the salvaging station schematic. Sail to Port Roberts and dock there. Buy 80 lead ore. Steal from the silver stall to get a medallion fragment.\n",
+                  "text": "), completing the charting of the Unquiet Ocean in the process (the Sea of Shells after level 47). You can collect the ocean completion xp bonus (6k xp) to get to level 50. Once you hit level 50 (optional: keep going to level 51/52/53 instead, to reduce or eliminate the need for boosting while salvaging), use a dueling ring and run south all the way to the desert mining camp, then run out and recruit Ex-Captain Siad (don’t forget the key to the camp). Next, book of the dead teleport to Piscarillius (or charter if you were at Pandemonium for the xp bonus), recover your skiff here and sail south to Chinchompa Island. Chart the charred remains of a table and open the lockbox to get (and read) the salvaging station schematic. Sail to Port Roberts and dock there. Buy 80 lead ore. Steal from the silver stall to get a medallion fragment. Grab a lockpick, charter a ship to Aldarin, sail to the Shimmering Atoll and pickpocket the tarnished chest for 50 pilar fragments. Minigame teleport to Pest control/Port Khazard and charter to the Great Conch, then catch blue crabs until 61 hunter (300k xp, level 60, is actually fine) using your banked fish offcuts (boosting using Trapper’s tipple for the first two levels as necessary), crushing them into crab paste as you catch them. This is a good opportunity to multiskill if you have any fletching or alching to do. ",
+                  "formatting": {}
+                },
+                {
+                  "text": "Important note: grow pilar coral as well and make super hunter potions as soon as you have the herblore level (67) available, boosting constantly for all future hunter (repotting at +4 is fine). You ",
+                  "formatting": {
+                    "bold": true,
+                    "italic": true
+                  }
+                },
+                {
+                  "text": "CAN",
+                  "formatting": {
+                    "bold": true,
+                    "italic": true,
+                    "underline": true
+                  }
+                },
+                {
+                  "text": " boost to unlock the ability to set an extra trap!",
+                  "formatting": {
+                    "bold": true,
+                    "italic": true
+                  }
+                },
+                {
+                  "text": " \n",
                   "formatting": {}
                 }
               ],
@@ -20098,15 +20075,15 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Coral farming starts here. This is a worthwhile activity, creating super hunter potions and/or armadyl brews for herblore xp. From here on include coral in your farm runs, but only with attas active and 99 farming! Paying for protection is allegedly not worth it. You can visit the location by chartering to The Summer Shore, then taking the small boat to the northeast side of the island, then diving down. The first time you are down there search the coral on the west side to find a medallion fragment.\n",
+                      "text": "Coral farming starts here. This is a worthwhile activity, creating super hunter potions and/or armadyl brews for herblore xp. From here on include coral in your farm runs. Paying for protection is not worth it. You can visit the location by chartering to The Summer Shore, then taking the small boat to the northeast side of the island, then diving down. The first time you are down there search the coral on the west side to find a medallion fragment. The yield is much better with attas up and at 99 farming, but the earlier access to super hunter pots make pilar already worth farming.\n",
                       "formatting": {}
                     }
                   ]
                 }
               ],
               "metadata": {
-                "gp_stack": "1.7m gp",
-                "items_needed": "tbd",
+                "gp_stack": "2.1m gp",
+                "items_needed": "tbd + 4 buckets, 4 planks, 8 nails, saw, hammer",
                 "skills_quests_met": "yes",
                 "total_time": "23d18h"
               }
@@ -20150,7 +20127,7 @@
                   "formatting": {}
                 },
                 {
-                  "text": ". Follow this guide for catching chins: ",
+                  "text": ". Use any boosts you have remaining to increase your catch rate. Follow this guide for catching chins: ",
                   "formatting": {}
                 },
                 {
@@ -20270,10 +20247,19 @@
                       "formatting": {}
                     }
                   ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "At your convenience, catch three sabre-toothed kyatts for their furs and the diary north of fairy ring DKS and one sunlight antelope for its fur (east of fairy ring AJP).\n",
+                      "formatting": {}
+                    }
+                  ]
                 }
               ],
               "metadata": {
-                "gp_stack": "1.6m gp",
+                "gp_stack": "2.0m gp",
                 "items_needed": "green/blue d’hides, box traps, knife, teak log, salve amulet(ei), whatever other ranged gear you can scrounge up, crossbow, Sara items, hammer, fire staff, nature runes, a lot of money (obtained during the step, spent during the step).",
                 "skills_quests_met": "yes",
                 "total_time": "24d2h"
@@ -20300,7 +20286,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "1.5m",
+                "gp_stack": "2.0m",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "24d2h"
@@ -20315,7 +20301,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "1.5m gp",
+                "gp_stack": "2.0m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "25d16h"
@@ -20331,6 +20317,23 @@
                 }
               ],
               "nestedContent": [
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Four paths for sepulchre",
+                      "url": "https://docs.google.com/document/d/160IGDZLXdQ2jUfB6IevMWfItLI0g91kHhycMae8dDTU/edit?usp=sharing",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": " explains that there are some interesting options for players here. Below ‘option 1’ is assumed, which is recommended.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
                 {
                   "level": 1,
                   "content": [
@@ -20669,7 +20672,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "3.6m",
+                "gp_stack": "4.0m",
                 "items_needed": "crossbow, Sara items, agility potions, oak planks, mithril nails, hammer, fire staff, nature runes, a lot of money (obtained during the step, spent during the step).",
                 "skills_quests_met": "yes",
                 "total_time": "24d22h"
@@ -20792,7 +20795,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "850k gp",
+                "gp_stack": "1.3m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "25d16h"
@@ -20968,7 +20971,24 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Once you have a little bit of cash (over a million) restart misc to get teak logs for planks for building bridges (2400 total, 8 days). 10 teak 5 herb(/other) at Misc, along with 10 mahog 5 herb(/other) for future bird runs if you run low/out. Keep in mind that changing the Miscellania allocation works retroactively.\n",
+                      "text": "Once you have a little bit of cash (over a million) obtain 100% kingdom of Miscellania support (buying flowers from ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "the flower girl",
+                      "formatting": {
+                        "underline": true,
+                        "color": {
+                          "r": 0.06666667,
+                          "g": 0.33333334,
+                          "b": 0.8
+                        },
+                        "url": "https://oldschool.runescape.wiki/w/Flower_Girl",
+                        "isLink": true
+                      }
+                    },
+                    {
+                      "text": " or chopping Etceteria teak logs). Restart misc to get teak logs for planks for building bridges (2400 total, 8 days). Put the workers on 10 teak 5 maples(/herb) at Misc until you have enough teak planks, then swamp to 10 mahog 5 maple(/herb) for future construction. From here on visit at least once/twice a week to restore the support to 100%. Keep in mind that changing the Miscellania allocation works retroactively.\n",
                       "formatting": {}
                     }
                   ]
@@ -21312,7 +21332,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "37.0m",
+                "gp_stack": "37.4m",
                 "items_needed": "crossbow, Sara items, agility potions, teak planks, addy nails, hammer, fire staff, nature runes, a lot of money (obtained during the step, spent during the step).",
                 "skills_quests_met": "yes",
                 "total_time": "34d16h"
@@ -21473,7 +21493,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "35.4m gp",
+                "gp_stack": "35.8m gp",
                 "items_needed": "crystal saw, hammer, items mentioned above",
                 "skills_quests_met": "yes",
                 "total_time": "34d17h"
@@ -21507,7 +21527,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "35.4m gp",
+                "gp_stack": "35.8m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "34d17h"
@@ -21522,7 +21542,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "35.4m gp",
+                "gp_stack": "35.8m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "34d20h"
@@ -21547,7 +21567,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "35.4m gp",
+                "gp_stack": "35.8m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "35d0h"
@@ -21606,7 +21626,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "35.4m gp",
+                "gp_stack": "35.8m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "35d5h"
@@ -21621,7 +21641,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "35.4m gp",
+                "gp_stack": "35.8m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "35d6h"
@@ -21636,7 +21656,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "35.4m gp",
+                "gp_stack": "35.8m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "35d6h"
@@ -21651,7 +21671,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "35.4m gp",
+                "gp_stack": "35.8m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "35d6h"
@@ -21674,7 +21694,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "35.4m gp",
+                "gp_stack": "35.8m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "35d6h"
@@ -21737,7 +21757,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "35.4m gp",
+                "gp_stack": "35.8m gp",
                 "items_needed": "melee gear, prayer potions, mirror shield, law runes, soul runes, dramen staff, fishing explosives",
                 "skills_quests_met": "yes",
                 "total_time": "35d7h"
@@ -21778,7 +21798,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "35.4m gp",
+                "gp_stack": "35.8m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "35d7h"
@@ -21814,7 +21834,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "35.4m gp",
+                "gp_stack": "35.8m gp",
                 "items_needed": "2 vials of water, 2 tarromins, leather gloves, rune axe, cheese potatoes, Iban staff, death runes, fire runes, water runes, air staff, law runes, dueling ring, prayer pots, energy pots",
                 "skills_quests_met": "yes",
                 "total_time": "35d8h"
@@ -21870,7 +21890,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "35.4m gp",
+                "gp_stack": "35.8m gp",
                 "items_needed": "Ectophial, melee gear, cheese potatoes, prayer pots, stat-boosting pots, energy pots, fishbowl helmet + diving apparatus, 18 planks, 10 bear fur, hammer, holy symbol, ring of charos(a), bowl, 15 chaos runes, law runes, fire runes, air staff, rune axe, fremennik boots, watermelon seeds, ultracompost, rake, seed dibber",
                 "skills_quests_met": "yes",
                 "total_time": "35d10h"
@@ -22117,7 +22137,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "35.4m gp",
+                "gp_stack": "35.8m gp",
                 "items_needed": "follow the wiki; the entire quest line is basically linear (no choice)",
                 "skills_quests_met": "yes",
                 "total_time": "35d18h"
@@ -22510,7 +22530,7 @@
               }
             },
             {
-              "text": "4",
+              "text": "6",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -22547,7 +22567,7 @@
               }
             },
             {
-              "text": "65",
+              "text": "68",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -22573,7 +22593,28 @@
         {
           "content": [
             {
-              "text": "Fletching: 69\n",
+              "text": "Fletching: 6",
+              "formatting": {
+                "color": {
+                  "r": 0,
+                  "g": 0.6627451,
+                  "b": 0.2
+                },
+                "fontSize": 12
+              }
+            },
+            {
+              "text": "9",
+              "formatting": {
+                "color": {
+                  "r": 0,
+                  "g": 0.6627451,
+                  "b": 0.2
+                }
+              }
+            },
+            {
+              "text": "\n",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -22626,7 +22667,7 @@
         {
           "content": [
             {
-              "text": "Hunter: 8",
+              "text": "Hunter: ",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -22637,7 +22678,7 @@
               }
             },
             {
-              "text": "2",
+              "text": "73",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -23189,7 +23230,7 @@
               "formatting": {}
             },
             {
-              "text": "20260816Chapter1",
+              "text": "20260830Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -23212,7 +23253,7 @@
               "formatting": {}
             },
             {
-              "text": "20260816Chapter2",
+              "text": "20260830Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -23233,7 +23274,7 @@
               "formatting": {}
             },
             {
-              "text": "20260816Chapter3",
+              "text": "20260830Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -23254,7 +23295,7 @@
               "formatting": {}
             },
             {
-              "text": "20260816DetailedStepsGuide",
+              "text": "20260830DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -23874,6 +23915,30 @@
                 },
                 "fontFamily": "Arial",
                 "url": "https://drive.google.com/file/d/1id29kuyeWzOp5-G3vLiuv2eFgYXneyqP/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "fontSize": 15
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260830BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://drive.google.com/file/d/1-aYP0I1kLltjSAhYYj5W95a-GtQexmGN/view?usp=sharing",
                 "isLink": true
               }
             },
@@ -24612,7 +24677,7 @@
                   }
                 },
                 {
-                  "text": " or 16k black chinchompas (for 92 ranged, if you have extras then can consider throwing for more Ranged XP or using them for your first fire cape if you’re good at speed strats) in the wilderness. Follow this guide for catching chins: ",
+                  "text": " or 16k black chinchompas (for 92 ranged, if you have extras then can consider throwing for more Ranged XP or using them for your first fire cape if you’re good at speed strats) in the wilderness. Boost your hunter using super hunter potions. You should be at 80+ hunter at all times, and may otherwise decide to repot a little less often (every two minutes is fine, but every minute is slightly better). Follow this guide for catching chins: ",
                   "formatting": {}
                 },
                 {
@@ -25519,7 +25584,22 @@
                       }
                     },
                     {
-                      "text": " shows an easier approach to t1 prep including prescouting (it is highly recommended to prescout regardless of what else you choose to go for), sacrificing a bit of time per prep to gain lots of consistency. There are also older (pre-update) video guides for reference, although these are somewhat outdated:\n",
+                      "text": " shows an easier approach to t1 prep including prescouting (it is highly recommended to prescout regardless of what else you choose to go for), sacrificing a bit of time per prep to gain lots of consistency. More advanced strategies are explained in ",
+                      "formatting": {
+                        "fontFamily": "Arial"
+                      }
+                    },
+                    {
+                      "text": "Advanced CG prep guide after update",
+                      "url": "https://docs.google.com/document/d/1j1ZRn1rKEvXtM4PKI__YGXTJbNSy5WULYgamwYlv9tQ/edit?usp=sharing",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true,
+                        "fontFamily": "Arial"
+                      }
+                    },
+                    {
+                      "text": ". There are also older (pre-update) video guides for reference, although these are somewhat outdated:\n",
                       "formatting": {
                         "fontFamily": "Arial"
                       }
@@ -26493,7 +26573,7 @@
                   }
                 },
                 {
-                  "text": " unlocked and the full raiments of the eye set, there is almost nothing holding you back from training runecrafting, e.g. with spellbook swap Vile Vigour fletching (multiskill) ZMI runecrafting (or non-spellbook swap stamina potions). It is macroefficient to complete level 90 or 95 runecrafting sooner rather than later, to have access to ample wrath runes for offering spells during slayer. Weave in the runecrafting grind at your own convenience, immediately is recommended. Blow glass while ZMI crafting, then when out of glass swap over to fletching instead (buy broad arrowhead packs and arrow shafts as needed).\n",
+                  "text": " unlocked and the full raiments of the eye set, there is almost nothing holding you back from training runecrafting, e.g. with spellbook swap Vile Vigour fletching (multiskill) ZMI runecrafting (or non-spellbook swap stamina potions). Fight at the Tombs of Amascut - any raid level is fine but 50-150 is a good range for learning some initial mechanics - to obtain the thread of Elidinis before starting ZMI. It is macroefficient to complete level 90 or 95 runecrafting sooner rather than later, to have access to ample wrath runes for offering spells during slayer. Weave in the runecrafting grind at your own convenience, immediately is recommended. Blow glass while ZMI crafting, then when out of glass swap over to fletching instead (buy broad arrowhead packs and arrow shafts as needed).\n",
                   "formatting": {}
                 }
               ],
@@ -27114,7 +27194,7 @@
               }
             },
             {
-              "text": "8",
+              "text": "9",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -27270,7 +27350,7 @@
               }
             },
             {
-              "text": "5",
+              "text": "1",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -27519,7 +27599,7 @@
               }
             },
             {
-              "text": "2121\n",
+              "text": "2118\n",
               "formatting": {
                 "color": {
                   "r": 0,
@@ -27880,7 +27960,7 @@
               "formatting": {}
             },
             {
-              "text": "20260816Chapter1",
+              "text": "20260830Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -27903,7 +27983,7 @@
               "formatting": {}
             },
             {
-              "text": "20260816Chapter2",
+              "text": "20260830Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -27924,7 +28004,7 @@
               "formatting": {}
             },
             {
-              "text": "20260816Chapter3",
+              "text": "20260830Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -27945,7 +28025,7 @@
               "formatting": {}
             },
             {
-              "text": "20260816DetailedStepsGuide",
+              "text": "20260830DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -28580,6 +28660,28 @@
               "formatting": {
                 "fontSize": 15
               }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20260830BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://drive.google.com/file/d/1-aYP0I1kLltjSAhYYj5W95a-GtQexmGN/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
             }
           ],
           "type": "chapter_footnote"
@@ -30188,7 +30290,7 @@
         {
           "content": [
             {
-              "text": "\t90-99\t\tInfernal axe redwoods as a possible downgrade (really not that strong, but very popular)\n",
+              "text": "\t90-99\t\tInfernal axe redwoods as a possible downgrade (also unlocking redwood bird house runs, giving good herblore xp in the form of bird nests)\n",
               "formatting": {
                 "color": {
                   "r": 0.7882353,
