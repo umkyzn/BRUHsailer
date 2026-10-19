@@ -1,5 +1,5 @@
 {
-  "updatedOn": "2026-08-30",
+  "updatedOn": "2026-10-19",
   "title": "BRUHsailer Complete Guide",
   "chapters": [
     {
@@ -362,10 +362,16 @@
             {
               "content": [
                 {
-                  "text": "TL;DR: do Clock Tower, Monk’s Friend, Hazeel Cult and get level 35 woodcutting, burning the logs and swapping to oaks at 15. Eat your food if you take damage.",
+                  "text": "TL;DR: do Clock Tower, Monk’s Friend, Hazeel Cult and get level 35 woodcutting, burning the logs and swapping to oaks at 15. Eat your food if you take damage. ",
                   "formatting": {
                     "italic": true,
                     "fontSize": 12
+                  }
+                },
+                {
+                  "text": "You can optimise this even further by cutting oak logs while you have run energy, and burning them when out of run energy.",
+                  "formatting": {
+                    "italic": true
                   }
                 },
                 {
@@ -463,43 +469,24 @@
             {
               "content": [
                 {
-                  "text": "Head to Ardougne general store (Aemad’s Adventuring Supplies), buy 3 ropes, 1 water-filled vial pack, 30 balls of wool, 7 papyrus. Restore your prayer at the East Ardougne church, check your insured pets at Probita, buy two silver bars from the Silver Merchant (hop worlds once). Steal cakes until you have at least 98 cakes and 14 bread ",
+                  "text": "Head to Ardougne general store (Aemad’s Adventuring Supplies), buy 3 ropes, 1 water-filled vial pack, 30 balls of wool, 7 papyrus. Restore your prayer at the East Ardougne church, check your insured pets at Probita, buy two silver bars from the Silver Merchant (hop worlds once). Steal ",
                   "formatting": {
                     "fontSize": 12
                   }
                 },
                 {
-                  "text": "(more cakes optional - this will get you to ",
+                  "text": "food to bank at least",
+                  "formatting": {}
+                },
+                {
+                  "text": " 14 bread and as many cakes as you",
                   "formatting": {
-                    "italic": true,
                     "fontSize": 12
                   }
                 },
                 {
-                  "text": "thieving thresholds and 90+",
-                  "formatting": {
-                    "italic": true
-                  }
-                },
-                {
-                  "text": " firemaking at wintertodt. If you want to go to level 99 collect ",
-                  "formatting": {
-                    "italic": true,
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "1",
-                  "formatting": {
-                    "italic": true
-                  }
-                },
-                {
-                  "text": "50 total instead)",
-                  "formatting": {
-                    "italic": true,
-                    "fontSize": 12
-                  }
+                  "text": " get until level 20 thieving",
+                  "formatting": {}
                 },
                 {
                   "text": ", then s",
@@ -793,7 +780,7 @@
                   }
                 },
                 {
-                  "text": ", depositing items (not the raw meat!) in the deposit box near the Entrana monks if you need inventory space. B",
+                  "text": ", depositing items (not the raw meat!) in the deposit box at the Musa Point sailors if you need inventory space. B",
                   "formatting": {}
                 },
                 {
@@ -1380,7 +1367,7 @@
             {
               "content": [
                 {
-                  "text": "Go to the Varrock East bank. Grab a bucket of milk, raw sardine, doogle leaves, steel axe, chronicle, 3650 gp, waxwood logs, knife and ",
+                  "text": "Go to the Varrock East bank. Grab your steel axe, forestry kit, tinderbox, knife and ",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -1406,7 +1393,44 @@
                   }
                 },
                 {
-                  "text": "east and speak with Regulus Cento to take the quetzal to Varlamore. Travel back to Varrock via quetzal and run north to the sawmill",
+                  "text": "east and speak with Regulus Cento to take the quetzal to Varlamore. Travel south, start and complete The Ribbiting Tale of a Lily Pad Labour Dispute, then chop and burn teak logs to level 50 firemaking on a forestry world (world 444 recommended).\n",
+                  "formatting": {}
+                }
+              ],
+              "nestedContent": [
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Alternatively, use 2t oak cutting to train your woodcutting, see e.g. ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Getting Rats for 2t Oaks",
+                      "url": "https://www.youtube.com/watch?v=3ysPgln5qZ4&pp=ygUMb3NycyAydCBvYWtz",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": ", though keeping the rats in cycle while burning the logs may prove difficult.\n",
+                      "formatting": {}
+                    }
+                  ]
+                }
+              ],
+              "metadata": {
+                "gp_stack": "3983 gp",
+                "items_needed": "steel axe, knife, logs, tinderbox, forestry kit",
+                "skills_quests_met": "yes",
+                "total_time": "9h20m"
+              }
+            },
+            {
+              "content": [
+                {
+                  "text": "Run north, grabbing a sweetcorn along the way. Travel back to Varrock via quetzal, run to the East bank. Grab a bucket of milk, raw sardine, doogle leaves, steel axe, chronicle, 3650 gp, and waxwood logs and run north to the sawmill",
                   "formatting": {}
                 },
                 {
@@ -1435,7 +1459,7 @@
                 "gp_stack": "333 gp",
                 "items_needed": "3650 gp, Chronicle, bucket of milk, raw sardine, doogle leaves, steel axe, wax logs",
                 "skills_quests_met": "yes",
-                "total_time": "7h21m"
+                "total_time": "9h44m"
               }
             },
             {
@@ -1473,104 +1497,8 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "333 gp",
+                "gp_stack": "283 gp",
                 "items_needed": "saw, hammer, 86 steel nails, POH tab, burnt meat, eye of newt, onion, 100 air/mind runes, 5 bolts of cloth, 5 noted planks, 50gp",
-                "skills_quests_met": "yes",
-                "total_time": "8h07m"
-              }
-            },
-            {
-              "content": [
-                {
-                  "text": "Miniga",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "me teleport to Soul Wars. Chop teak logs on a f",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "orestry world",
-                  "formatting": {}
-                },
-                {
-                  "text": " - world 444",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": " is recommended as it is usually the most popular - ",
-                  "formatting": {}
-                },
-                {
-                  "text": "and burn them to level 50 firemaking ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "(note: it would theoretically be faster to 2t, but the birds will actually just kill you at your current stats).",
-                  "formatting": {
-                    "italic": true,
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {}
-                }
-              ],
-              "nestedContent": [
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "Alternatively, use 2t oak cutting to train your woodcutting, see e.g. ",
-                      "formatting": {}
-                    },
-                    {
-                      "text": "Getting Rats for 2t Oaks",
-                      "url": "https://www.youtube.com/watch?v=3ysPgln5qZ4&pp=ygUMb3NycyAydCBvYWtz",
-                      "isLink": true,
-                      "formatting": {
-                        "underline": true
-                      }
-                    },
-                    {
-                      "text": ", though keeping the rats in cycle while burning the logs may prove difficult.\n",
-                      "formatting": {}
-                    }
-                  ]
-                }
-              ],
-              "metadata": {
-                "gp_stack": "333 gp",
-                "items_needed": "steel axe, tinderbox, forestry kit",
                 "skills_quests_met": "yes",
                 "total_time": "10h10m"
               }
@@ -1720,7 +1648,17 @@
                   "formatting": {}
                 },
                 {
-                  "text": ", using the banked cakes for food. Your four warm items are the ",
+                  "text": ", ",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "making bruma potions inside the game for warmth (do not use your banked cakes)",
+                  "formatting": {}
+                },
+                {
+                  "text": ". Your four warm items are the ",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -2723,7 +2661,7 @@
                   }
                 },
                 {
-                  "text": "east of Hosidius square to a bit over level 42 thieving (46,512 xp!)",
+                  "text": "east of Hosidius square to almost level 41 thieving (40,583 xp or higher)",
                   "formatting": {}
                 },
                 {
@@ -4704,7 +4642,17 @@
                   "formatting": {}
                 },
                 {
-                  "text": " Edgeville, bank your money. Grab a knife and go to the Mage Arena. Buy ",
+                  "text": " Edgeville, make a small detour to the Dog Shelter ",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "to the south-west and start A Ruff Situation. Return to Edgeville, b",
+                  "formatting": {}
+                },
+                {
+                  "text": "ank your money. Grab a knife and go to the Mage Arena. Buy ",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -5215,7 +5163,7 @@
                   "formatting": {}
                 },
                 {
-                  "text": " gown (bottom and top), a brown apron and a pink skirt from Thessalia, a newspaper from Benny",
+                  "text": " gown (bottom and top), a brown apron and a pink skirt from Thessalia, a newspaper from Benny, (any) fur from Baraek",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -5240,7 +5188,27 @@
                   }
                 },
                 {
-                  "text": "and a rotten tomato from the chest. Make a steak sandwich for Below Ice Mountain.",
+                  "text": "and a rotten tomato from the chest. Head west, banking to grab ",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "your costume needle,",
+                  "formatting": {}
+                },
+                {
+                  "text": " and speak with Gertrude f",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "or A Ruff Situation. Continue this quest and complete it. Teleport back to Varrock, m",
+                  "formatting": {}
+                },
+                {
+                  "text": "ake a steak sandwich for Below Ice Mountain.",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -8266,7 +8234,7 @@
                   "formatting": {}
                 },
                 {
-                  "text": "DIS (diary step), AJP",
+                  "text": "DIS (diary step), ",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -8277,11 +8245,7 @@
                   }
                 },
                 {
-                  "text": " (Varlamore) and do The Ribbiting Tale of a Lily Pad Labour Dispute in full and include this fairy ring in future hardwood tree farming runs, also grab a sweetcorn for Recipe for Disaster, ",
-                  "formatting": {}
-                },
-                {
-                  "text": "optional: also do Twilight’s Promise here, this requires some combat",
+                  "text": "optional: AJP and do Twilight’s Promise here, this requires some combat",
                   "formatting": {
                     "italic": true
                   }
@@ -9798,7 +9762,7 @@
                   }
                 },
                 {
-                  "text": ". Bank, grab combat gear (including mithril armour, your gnome amulet and an antidragon shield), an axe, a tinderbox, a knife, money, pickaxe optional, runes optional ",
+                  "text": ". Bank, grab combat gear (including mithril armour, your gnome amulet and an antidragon shield), an axe, spade, a tinderbox, a knife, money, pickaxe optional, runes optional ",
                   "formatting": {}
                 },
                 {
@@ -9830,7 +9794,7 @@
                   }
                 },
                 {
-                  "text": "), chop light jungle to get a gout tuber for the medium diary, when you get your first sticks repair the fence and speak to Murcaily then resume chopping. If you get a gout tuber before you reached 100% favour kill jungle spiders (north of the calquat farming patch) to get to 100%. Also prepare and cook a spider on a stick along the way for the diary. If you are taking too much damage, buy more bread from the general store.\n",
+                  "text": "), chop dense (not light) jungle to get a gout tuber for the medium diary, when you get your first sticks repair the fence and speak to Murcaily then resume chopping. If you get a gout tuber before you reached 100% favour kill jungle spiders (north of the calquat farming patch) to get to 100%. Also prepare and cook a spider on a stick along the way for the diary. If you are taking too much damage, buy more bread from the general store.\n",
                   "formatting": {}
                 }
               ],
@@ -11140,7 +11104,7 @@
                   "formatting": {}
                 },
                 {
-                  "text": "You will need a whiteberry soon, so make sure to grow a whiteberry bush.",
+                  "text": "You will need a whiteberry soon, so make sure to grow a whiteberry bush. This step contains a lot of farming information, that you are expected to use over a long time across many future steps.",
                   "formatting": {}
                 },
                 {
@@ -11481,7 +11445,7 @@
                   "level": 2,
                   "content": [
                     {
-                      "text": "Note: until you get to Chapter 2, Step 66 you will be stuck with ‘amateur’ herb runs as the best herb run option. It is recommended to postpone herb runs until that step, while maintaining farming contracts and other hourlies. If you find you need herblore levels, potions or want to do herb runs anyway, check the farming guide linked below and ignore patches that are difficult to reach (on the Arceuus spellbook), doing runs with fewer patches instead. This means, for example, only visiting the Falador farming patch as many times per day as you have explorer’s ring teleports. Until Chapter 2, Step 66 all mentions of herb runs refer to optional, low efficiency herb runs.\n",
+                      "text": "Note: until you get to Chapter 2, Step 70 you will be stuck with ‘amateur’ herb runs as the best herb run option. It is recommended to postpone herb runs until that step, while maintaining farming contracts and other hourlies. If you find you need herblore levels, potions or want to do herb runs anyway, check the farming guide linked below and ignore patches that are difficult to reach (on the Arceuus spellbook), doing runs with fewer patches instead. This means, for example, only visiting the Falador farming patch as many times per day as you have explorer’s ring teleports. Until Chapter 2, Step 66 all mentions of herb runs refer to optional, low efficiency herb runs.\n",
                       "formatting": {
                         "italic": true,
                         "color": {
@@ -11767,6 +11731,10 @@
             },
             {
               "content": [
+                {
+                  "text": "Make sure you are still on the standard spellbook. ",
+                  "formatting": {}
+                },
                 {
                   "text": "Tra",
                   "formatting": {
@@ -13403,7 +13371,7 @@
               "formatting": {}
             },
             {
-              "text": "20260830Chapter1",
+              "text": "20261019Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -13426,7 +13394,7 @@
               "formatting": {}
             },
             {
-              "text": "20260830Chapter2",
+              "text": "20261019Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -13447,7 +13415,7 @@
               "formatting": {}
             },
             {
-              "text": "20260830Chapter3",
+              "text": "20261019Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -13468,7 +13436,7 @@
               "formatting": {}
             },
             {
-              "text": "20260830DetailedStepsGuide",
+              "text": "20261019DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -14106,7 +14074,35 @@
             },
             {
               "text": "\n",
-              "formatting": {}
+              "formatting": {
+                "fontSize": 11,
+                "fontFamily": "Arial"
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20261018BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/1KqCT258ybz2l55Z02vdZItoULx728-X7/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "fontSize": 13
+              }
             }
           ],
           "type": "chapter_footnote"
@@ -14150,7 +14146,7 @@
       "title": "Chapter 2: Quests, so many quests",
       "sections": [
         {
-          "title": "2.1: Quests and combat, unlock Miscellania",
+          "title": "2.1: Quests and combat",
           "steps": [
             {
               "content": [
@@ -16798,7 +16794,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "When at Dognose Island, dock there and open the rusty chest to get a medallion fragment.\n",
+                      "text": "When at Dognose Island, dock there. Start and complete Crab Quest in full. Open the rusty chest to get a medallion fragment.\n",
                       "formatting": {}
                     }
                   ]
@@ -17466,15 +17462,6 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Depending on your fishing rate your 2 weeks of Misc could be over during this step, make sure to take out the remaining GP at that point (or on some future step, whenever it happens).\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 1,
-                  "content": [
-                    {
                       "text": "If you run out of soul runes go buy 200 more for teleports(/hourlies).\n",
                       "formatting": {}
                     }
@@ -17723,17 +17710,6 @@
             },
             {
               "content": [
-                {
-                  "text": "You should be at least level 55 hunter by now. ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
                 {
                   "text": "H",
                   "formatting": {}
@@ -18217,7 +18193,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "30k gp",
+                "gp_stack": "630k gp",
                 "items_needed": "stodgy mattress, games necklace, catspeak amulet, hellcat, 4 cheese, empty vial, 2 red spider’s eggs, kwuarm, marrentill, unicorn horn dust, bucket of milk, karambwanji or other fish (for cat), limpwurt root, law runes, air runes, fire runes",
                 "skills_quests_met": "yes",
                 "total_time": "15d7h"
@@ -18975,21 +18951,6 @@
                     },
                     {
                       "text": "\n",
-                      "formatting": {
-                        "fontFamily": "Arial"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "Your ~11 days of Misc should be more than over by now (they probably were a long time ago), make sure to take out the remaining GP (fill up the cash stack to at least 200k total) if you haven’t already even if the time hasn’t passed.",
-                      "formatting": {}
-                    },
-                    {
-                      "text": "\n",
                       "formatting": {}
                     }
                   ]
@@ -19177,7 +19138,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "NOTE: if you are not aiming to max in the future you can skip this step, and instead train agility to level 72 manually (at Seers rooftops).",
+                      "text": "NOTE: if you are not aiming to max in the future you can skip this step, and instead train agility to level 72 manually (at Sepulchre).",
                       "formatting": {
                         "bold": true
                       }
@@ -19777,7 +19738,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Use any runes you have for thralls here. If they run out, do not let your gp stack fall below 120k - you can buy some runes for the second tier thralls to keep using them with excess gp.\n",
+                      "text": "Use any runes you have for thralls here. If they run out, buy more runes, but do not let your gp stack fall below 70k - you can buy some runes for the second tier thralls to keep using them with excess gp.\n",
                       "formatting": {}
                     }
                   ]
@@ -19848,8 +19809,8 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "530k gp",
-                "items_needed": "melee gear (as mentioned), looting bag, cheese potatoes, stat-boosting pots, runes for thralls",
+                "gp_stack": "70k gp",
+                "items_needed": "melee gear (as mentioned), looting bag, cheese potatoes, stat-boosting pots, runes for thralls or gp to buy them",
                 "skills_quests_met": "yes",
                 "total_time": "23d1h"
               }
@@ -19911,7 +19872,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "530k gp",
+                "gp_stack": "70k gp",
                 "items_needed": "1.4k bones, melee gear (for PC)",
                 "skills_quests_met": "yes",
                 "total_time": "23d1h"
@@ -19933,7 +19894,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "2.2m gp",
+                "gp_stack": "1.7m gp",
                 "items_needed": "green dragonhides, coins, nature runes, staff of fire, maple logs, knife, steel nails, feathers, Kharedst’s memoirs, log basket",
                 "total_time": "23d5h"
               }
@@ -19941,7 +19902,7 @@
             {
               "content": [
                 {
-                  "text": "You should be level 51 (or higher) slayer. Make sure you have finished the Curse of the Empty Lord miniquest (if you haven’t, do it now, putting the lamp on slayer). Teleport to Varrock, make sure to grab the Dragon’hai history book from the Varrock Palace library if you don’t already have it, pray at the altar in the palace with smite active. Buy 20,000 air runes (if you already have these you can ignore this), then run through the east gate to the quetzal to go to Varlamore and do At First Light (note: the hunter rumours are currently not efficient, but if you want the rewards you can go for them at any time after this quest). During At First Light kill a jaguar for their fur. At the hunter’s guild collect (or buy from Huntmaster Gilman, but it’s from dialogue only) 27 Trapper’s tipple in The Burrow, buy two mixed hide bases, and either pay Pellem to have the furs made into mixed hide boots (your best ranged boots for now) and a mixed hide cape (your best melee cape for now) or boost your crafting level if you have a spare mushroom pie to do it yourself. After this start and complete Perilous Moons (for the fights your dragon scimitar is fine, even for ice. Use the moss lizards and moonlight potions for supplies) and The Heart of Darkness. At the end of the quest travel to Tal Teklan (e.g. with the quetzal system). Buy four willow longbows at Arcuani’s Archery Supplies. If you haven’t done Scrambled! yet, do it now. Travel to Auburnvale (e.g. using the boat system). Do the Vale Totems miniquest. Start and complete Shadows of Custodia. Teleport out. Slay a Brine rat to complete the Fremennik medium diary, putting the lamp on herblore. Grab a rope, salve teleport, dip your enchanted silvthrill rod in the well to make the Rod of Ivandis and complete In Aid of the Myreque, Darkness of Hallowvale, A Taste of Hope and Sins of the Father (all lamps on herblore). Use the Efaritay’s aid during the Vanstrom Klause fight in Sins of the Father - you should only need one ring, the second is spare in case you die or run out of charges.\n",
+                  "text": "You should be level 51 (or higher) slayer. Make sure you have finished the Curse of the Empty Lord miniquest (if you haven’t, do it now, putting the lamp on slayer). Teleport to Varrock, make sure to grab the Dragon’hai history book from the Varrock Palace library if you don’t already have it, pray at the altar in the palace with smite active. Buy 20,000 air runes (if you already have these you can ignore this), then run through the east gate to the quetzal to go to Varlamore and do At First Light (note: the hunter rumours are currently not efficient, but if you want the rewards you can go for them at any time after this quest). During At First Light kill a jaguar for their fur. At the hunter’s guild collect (or buy from Huntmaster Gilman, but it’s from dialogue only) 27 Trapper’s tipple in The Burrow, buy two mixed hide bases, and either pay Pellem to have the furs made into mixed hide boots (your best ranged boots for now) and a mixed hide cape (your best melee cape for now) or boost your crafting level if you have a spare mushroom pie to do it yourself. After this start and complete Perilous Moons (for the fights your dragon scimitar is fine, even for ice. Use the moss lizards and moonlight potions for supplies) and The Heart of Darkness. At the end of the quest travel to Tal Teklan (e.g. with the quetzal system). Buy four willow longbows at Arcuani’s Archery Supplies. If you haven’t done Scrambled! yet, do it now. Travel to Auburnvale (e.g. using the boat system). Do the Vale Totems miniquest. Start and complete Shadows of Custodia. Bank. Grab a rope and your enchanted silvthrill rod, take the fairy ring CKS and head to Paterdomus to dip your enchanted silvthrill rod in the well to make the Rod of Ivandis. Complete In Aid of the Myreque, then Darkness of Hallowvale, A Taste of Hope and Sins of the Father (all lamps on herblore). Use the Efaritay’s aid during the Vanstrom Klause fight in Sins of the Father - you should only need one ring, the second is spare in case you die or run out of charges.\n",
                   "formatting": {}
                 }
               ],
@@ -19968,7 +19929,16 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "You can now complete the Varrock hard diary, if you haven’t before already., Teleport to Varrock and speak with the information clerk for xp, historian Minas for the Curse of the Empty Lord xp lamp and Orlando Smith for the diary. Put the lamps on slayer or herblore as mentioned previously.",
+                      "text": "You can now complete the Varrock hard diary, if you haven’t before already., Teleport to Varrock and speak with the information clerk for xp, historian Minas for the Curse of the Empty Lord xp lamp and Orlando Smith for the diary. Put the lamps on slayer or herblore as mentioned previously.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "At any point slay a Brine rat to complete the Fremennik medium diary, putting the lamp on herblore.",
                       "formatting": {}
                     },
                     {
@@ -19979,8 +19949,8 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "2.1m gp",
-                "items_needed": "law runes, soul runes, silvthrill rod, rope, dramen staff, plank, 8 nails, hammer",
+                "gp_stack": "1.7m gp",
+                "items_needed": "law runes, soul runes, silvthrill rod, rope, dramen staff, 2 plank, 8 nails, hammer, knife, emerald, chisel, air runes, cosmic runes, pestle and mortar, vial of water, ruby, fire runes",
                 "skills_quests_met": "yes",
                 "total_time": "23d16h"
               }
@@ -20079,10 +20049,19 @@
                       "formatting": {}
                     }
                   ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "If you did not have enough banked fish offcuts, you can buy sardines in Rellekka (banking by speaking with Peer the Seer) and cut them bankstanding with a knife. At higher sailing level it is faster to instead cut them at a chum station aboard your ship, at the bank boat.\n",
+                      "formatting": {}
+                    }
+                  ]
                 }
               ],
               "metadata": {
-                "gp_stack": "2.1m gp",
+                "gp_stack": "1.6m gp",
                 "items_needed": "tbd + 4 buckets, 4 planks, 8 nails, saw, hammer",
                 "skills_quests_met": "yes",
                 "total_time": "23d18h"
@@ -20259,7 +20238,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "2.0m gp",
+                "gp_stack": "1.6m gp",
                 "items_needed": "green/blue d’hides, box traps, knife, teak log, salve amulet(ei), whatever other ranged gear you can scrounge up, crossbow, Sara items, hammer, fire staff, nature runes, a lot of money (obtained during the step, spent during the step).",
                 "skills_quests_met": "yes",
                 "total_time": "24d2h"
@@ -20286,7 +20265,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "2.0m",
+                "gp_stack": "1.5m",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "24d2h"
@@ -20295,13 +20274,13 @@
             {
               "content": [
                 {
-                  "text": "Charter to Port Khazard. Buy a sloop and build two kegs (fill one with whirlpool surprise and one with kraken ink stout), a salvaging station and two mithril salvaging hooks. Assign Ex-Captain Siad to your boat. Sail your sloop to the large shipwrecks far south - do not go out of your way for charting with your slow sloop - north of the Isle of Serpents. Bring four empty beer glasses, a log basket and seed box (if you have them), and optionally methods to 1.5t the salvaging. Salvage until level 55 sailing, boosting sailing where necessary (it’s technically good to boost even if you have level 53 already). Your goal is to collect several hemp and cotton seeds for farming. Plant the hemp at your earliest convenience, making sure to have Attas up and using ultracompost to harvest at least 40 hemp in total. If you do not get enough hemp seeds to meet your future needs (40 hemp, so ~6 seeds, the cotton is post-guide) either postpone the upgrades until after killing Albatrosses in Ch3 or go out of your way to kill them earlier for the seeds.\n",
+                  "text": "Charter to Port Khazard. Buy a sloop and build two kegs (fill one with whirlpool surprise and one with kraken ink stout), a salvaging station and two mithril salvaging hooks. Assign Ex-Captain Siad to your boat. Sail your sloop to the large shipwrecks far south - do not go out of your way for charting with your slow sloop - north of the Isle of Serpents. Bring four empty beer glasses, high alchemy runes (and be on the standard spellbook), a log basket and seed box (if you have them), and optionally methods to 1.5t the salvaging. Salvage until level 55 sailing, boosting sailing where necessary (it’s technically good to boost even if you have level 53 already) and alching diamond rings. Your goal is to collect several hemp and cotton seeds for farming. Plant the hemp at your earliest convenience, making sure to have Attas up and using ultracompost to harvest at least 40 hemp in total. If you do not get enough hemp seeds to meet your future needs (40 hemp, so ~6 seeds, the cotton is post-guide) either postpone the upgrades until after killing Albatrosses in Ch3 or go out of your way to kill them earlier for the seeds.\n",
                   "formatting": {}
                 }
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "2.0m gp",
+                "gp_stack": "1.5m gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "25d16h"
@@ -20672,7 +20651,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "4.0m",
+                "gp_stack": "3.6m",
                 "items_needed": "crossbow, Sara items, agility potions, oak planks, mithril nails, hammer, fire staff, nature runes, a lot of money (obtained during the step, spent during the step).",
                 "skills_quests_met": "yes",
                 "total_time": "24d22h"
@@ -20795,7 +20774,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "1.3m gp",
+                "gp_stack": "800k gp",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "25d16h"
@@ -23230,7 +23209,7 @@
               "formatting": {}
             },
             {
-              "text": "20260830Chapter1",
+              "text": "20261019Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -23253,7 +23232,7 @@
               "formatting": {}
             },
             {
-              "text": "20260830Chapter2",
+              "text": "20261019Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -23274,7 +23253,7 @@
               "formatting": {}
             },
             {
-              "text": "20260830Chapter3",
+              "text": "20261019Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -23295,7 +23274,7 @@
               "formatting": {}
             },
             {
-              "text": "20260830DetailedStepsGuide",
+              "text": "20261019DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -23945,6 +23924,32 @@
             {
               "text": "\n",
               "formatting": {
+                "fontSize": 11,
+                "fontFamily": "Arial"
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20261018BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/1KqCT258ybz2l55Z02vdZItoULx728-X7/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
                 "italic": true
               }
             }
@@ -24213,7 +24218,23 @@
                   "formatting": {}
                 }
               ],
-              "nestedContent": [],
+              "nestedContent": [
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Optional but recommended: do Golem Crafting until you get the Jeweller’s chisel. For furs, do falconry (dashing or dark kebbit) and carry your fur pouch.",
+                      "formatting": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "text": "\n",
+                      "formatting": {}
+                    }
+                  ]
+                }
+              ],
               "metadata": {
                 "gp_stack": "32.2m gp",
                 "items_needed": "tbd",
@@ -24374,6 +24395,15 @@
                   "content": [
                     {
                       "text": "At your own convenience, complete the quest While Guthix Sleeps along the way. Grab the 100 magic logs during the quest for Shades of Mort’ton (for bloodbark) later. Alternatively, postpone the quest until after the Corrupted Gauntlet.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Turoths drop the Necklace of Fangs, which is a better ranged amulet than a glory. If you get this necklace, use it rather than a glory ammy for ranging. However, keep in mind that for chinning a strength ammy is still better.\n",
                       "formatting": {}
                     }
                   ]
@@ -27960,7 +27990,7 @@
               "formatting": {}
             },
             {
-              "text": "20260830Chapter1",
+              "text": "20261019Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -27983,7 +28013,7 @@
               "formatting": {}
             },
             {
-              "text": "20260830Chapter2",
+              "text": "20261019Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -28004,7 +28034,7 @@
               "formatting": {}
             },
             {
-              "text": "20260830Chapter3",
+              "text": "20261019Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -28025,7 +28055,7 @@
               "formatting": {}
             },
             {
-              "text": "20260830DetailedStepsGuide",
+              "text": "20261019DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
               "formatting": {
@@ -28676,6 +28706,32 @@
                   "b": 0.8
                 },
                 "url": "https://drive.google.com/file/d/1-aYP0I1kLltjSAhYYj5W95a-GtQexmGN/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "fontSize": 11,
+                "fontFamily": "Arial"
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20261018BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/1KqCT258ybz2l55Z02vdZItoULx728-X7/view?usp=sharing",
                 "isLink": true
               }
             },
